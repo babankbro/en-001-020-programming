@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EN-001-020 การเขียนโปรแกรมและแก้ปัญหา — เว็บสื่อการสอน
 
-## Getting Started
+เว็บรายวิชา **Programming and Problem Solving** สาขาวิชาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยกาฬสินธุ์
+ออกแบบตามรูปแบบเว็บ [EN-001-019](https://en-001-019-ce.vercel.app/) และอ้างอิงพื้นฐานจาก [EN-001-002](https://en-001-002-computer-programming.vercel.app/)
 
-First, run the development server:
+## ส่วนประกอบ
+- 8 บทเรียน (`/module/01`–`/module/08`) พร้อมหัวข้อเชิงลึก 5 หัวข้อต่อบท
+- 8 ใบงาน step-by-step (`/lab/NN`)
+- 8 Review Sheet สรุป 1 หน้า พิมพ์/บันทึก PDF ได้ (`/review/NN`)
+- 8 แบบทดสอบออนไลน์ 20 ข้อ จับเวลา เฉลยพร้อมคำอธิบาย (`/exam/NN`)
+- เอกสารรายวิชา: แผนการสอน/CLO, การวัดผล, แนวทางเตรียมสอบ, ตัวอย่างโจทย์คำนวณ
+- ค้นหา Ctrl+K, โหมดมืด, รองรับมือถือ, สูตรคณิตศาสตร์ด้วย KaTeX
 
+## รันบนเครื่อง
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+เปิด http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Build / Deploy
+```bash
+npm run build
+```
+ทุกหน้าเป็น static (SSG) — deploy บน Vercel ได้ทันทีโดย import repository นี้
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## แก้ไขเนื้อหา
+เนื้อหาทั้งหมดอยู่ใน `src/content/` ไม่ต้องแก้โค้ด React
+- `src/content/modules/NN/` — `meta.json`, `module.md`, `lab.md`, `review.md`, `quiz.json`
+- `src/content/docs/` — `course-plan.md`, `assessment.md`, `exam-prep.md`, `calc-examples.md`
+- ข้อมูลรายวิชา (ชื่อ ผู้สอน ภาคการศึกษา) อยู่ใน `src/content/types.ts` ตัวแปร `COURSE`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+รูปแบบไฟล์และกติกาการเขียนดูที่ [CONTENT_GUIDE.md](CONTENT_GUIDE.md) — Markdown รองรับ GFM, LaTeX (`$…$`, `$$…$$`) และ callout แบบ Obsidian (`> [!tip]`, `> [!question]-` พับได้)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+แหล่งเนื้อหาต้นทาง: Obsidian vault `PS-Study-Vault` (สรุปจากโค้ดตัวอย่างคาบปฏิบัติการ 2–8)

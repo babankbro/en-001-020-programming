@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // เนื้อหาทั้งหมดอ่านจากไฟล์ markdown ตอน build จึง render แบบ static ทั้งเว็บ
   turbopack: {
     rules: {
       "*.css": {

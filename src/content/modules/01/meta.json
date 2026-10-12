@@ -1,0 +1,52 @@
+{
+  "id": "01",
+  "week": 1,
+  "title": "แนะนำรายวิชาและเครื่องมือเขียนโปรแกรม",
+  "titleEn": "Course Introduction & Programming Tools",
+  "summary": "รู้จักเส้นทาง 8 บทสู่เกมยิงยานอวกาศด้วย Pygame ฝึกกระบวนการแก้ปัญหาด้วยโปรแกรม (วิเคราะห์ → ออกแบบ → เขียน → ทดสอบ) ติดตั้ง Python, VS Code, Jupyter/Colab และไลบรารี แล้วรันโปรแกรมแรกพร้อมฝึกอ่าน error message",
+  "tags": ["Python 3", "VS Code", "Jupyter Notebook", "Google Colab", "pip", "pygame", "numpy", "pseudocode", "trace table", "Traceback", "SyntaxError", "NameError", "TypeError", "ทบทวนพื้นฐาน"],
+  "clo": ["CLO1", "CLO5"],
+  "prereq": [
+    { "label": "บท 01 เริ่มต้นเขียนโปรแกรม (ติดตั้ง Python, IDE, โปรแกรมแรก)", "url": "https://en-001-002-computer-programming.vercel.app/module/01" },
+    { "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์", "url": "https://en-001-002-computer-programming.vercel.app/module/02" },
+    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, for/while)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
+    { "label": "บท 04 ฟังก์ชัน", "url": "https://en-001-002-computer-programming.vercel.app/module/04" }
+  ],
+  "topics": [
+    "ภาพรวมรายวิชาและเส้นทางสร้างเกมยิงยานอวกาศ 8 บท",
+    "การแก้ปัญหาด้วยโปรแกรม: วิเคราะห์โจทย์ → ออกแบบ → เขียน → ทดสอบ",
+    "ติดตั้งและใช้เครื่องมือ: Python 3, VS Code, Jupyter/Colab และ pip",
+    "โปรแกรมแรก การรัน .py กับ .ipynb และการอ่าน error message",
+    "ทบทวนพื้นฐานจาก EN-001-002 ที่ต้องใช้ตลอดวิชา"
+  ],
+  "leadQuestion": "ลูกบอลที่ y = 100 และ vy = 0 ถ้าทุกเฟรมทำ y += vy แล้ว vy += 0.1 หลังจาก 5 เฟรม y จะเป็นเท่าใด — จะตอบได้โดยไม่รันโปรแกรมต้องใช้เครื่องมืออะไร?",
+  "outcomes": [
+    "อธิบายภาพรวมรายวิชาและบอกได้ว่าแต่ละบทสร้างส่วนใดของเกมยิงยานอวกาศ",
+    "แยกขั้นตอนการแก้ปัญหาด้วยโปรแกรม เขียน pseudocode และไล่ค่าด้วย trace table ได้",
+    "ติดตั้ง Python 3 และไลบรารี pygame, numpy, matplotlib, pandas และตรวจสอบว่าใช้งานได้",
+    "รันโปรแกรมทั้งแบบ .py และ .ipynb และอ่าน Traceback เพื่อระบุชนิดและตำแหน่งของข้อผิดพลาดได้"
+  ],
+  "keyIdeas": [
+    "รายวิชานี้สร้างเกมทีละชั้น: ไพทอนพื้นฐาน → ลิสต์/สแตก → Pygame ลูกบอลเด้ง → เวกเตอร์/เมทริกซ์/การหมุน → ศัตรู → กระสุน/การชน/กริด",
+    "แก้ปัญหา 4 ขั้น: วิเคราะห์ (input/output/ข้อจำกัด) → ออกแบบ (pseudocode) → เขียนโค้ด → ทดสอบ (trace table + รันจริง)",
+    "ModuleNotFoundError มักเกิดจากติดตั้งไลบรารีคนละตัวแปลภาษา (interpreter) กับที่ใช้รัน — ใช้ python -m pip install แทน pip install",
+    "Traceback ให้อ่านจาก บรรทัดสุดท้าย (ชนิดและข้อความของ error) ย้อนขึ้นไปหาบรรทัดโค้ดที่เกิดปัญหา"
+  ],
+  "lab": {
+    "title": "ติดตั้งเครื่องมือและรันโปรแกรมแรก",
+    "duration": "2 ชั่วโมง (ในห้องปฏิบัติการ) + เวลาศึกษาด้วยตนเอง",
+    "objectives": [
+      "ติดตั้งและตรวจสอบ Python 3, VS Code และไลบรารี pygame, numpy, matplotlib, pandas",
+      "รันโปรแกรมแรกทั้งแบบไฟล์ .py ใน VS Code และแบบ .ipynb บน Google Colab",
+      "เปิดหน้าต่าง Pygame ขนาด 800×600 ที่ปิดได้ด้วยปุ่มกากบาท",
+      "ไล่ค่าตัวแปรด้วย trace table และอ่าน error message อย่างเป็นระบบ"
+    ],
+    "tools": [
+      "Python 3.10 ขึ้นไป (ในใบงานใช้ 3.12)",
+      "VS Code + ส่วนขยาย Python และ Jupyter",
+      "Google Colab (บัญชี Google) หรือ Jupyter Notebook บนเครื่อง",
+      "กระดาษสำหรับทำ trace table"
+    ]
+  },
+  "quiz": { "minutes": 30 }
+}

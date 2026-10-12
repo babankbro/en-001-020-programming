@@ -1,26 +1,224 @@
 @import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #f8fafc;
+  --bg-card: #ffffff;
+  --fg: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-soft: #dbeafe;
+  --code-bg: #0f172a;
+}
+
+.dark {
+  --bg: #0b1220;
+  --bg-card: #111a2e;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --border: #1e293b;
+  --accent: #60a5fa;
+  --accent-soft: #1e3a8a;
+  --code-bg: #060b16;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-card: var(--bg-card);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-sarabun), "Segoe UI", Tahoma, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, Consolas, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+}
+
+/* ---------- Prose (เนื้อหา markdown) ---------- */
+.prose {
+  line-height: 1.8;
+  font-size: 1.02rem;
+}
+.prose > * + * {
+  margin-top: 1rem;
+}
+.prose h2 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 5rem;
+}
+.prose h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  scroll-margin-top: 5rem;
+}
+.prose h4 {
+  font-weight: 700;
+  margin-top: 1.25rem;
+}
+.prose a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.prose ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+.prose li + li {
+  margin-top: 0.25rem;
+}
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: color-mix(in srgb, var(--accent-soft) 55%, transparent);
+  padding: 0.1em 0.4em;
+  border-radius: 0.3rem;
+}
+.prose pre {
+  background: var(--code-bg);
+  color: #e2e8f0;
+  padding: 1rem 1.1rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.prose pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+.prose th,
+.prose td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prose th {
+  background: color-mix(in srgb, var(--accent-soft) 40%, transparent);
+  font-weight: 700;
+}
+.prose blockquote {
+  border-left: 4px solid var(--accent);
+  padding: 0.25rem 1rem;
+  color: var(--muted);
+}
+.prose hr {
+  border-color: var(--border);
+  margin: 2rem 0;
+}
+.prose img {
+  border-radius: 0.75rem;
+  max-width: 100%;
+}
+.prose .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+/* ---------- Callout ---------- */
+.callout {
+  border: 1px solid var(--c-border);
+  border-left-width: 4px;
+  background: var(--c-bg);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+.callout > * + * {
+  margin-top: 0.5rem;
+}
+.callout-title {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--c-fg);
+}
+.callout-info {
+  --c-border: #93c5fd;
+  --c-bg: color-mix(in srgb, #3b82f6 10%, var(--bg-card));
+  --c-fg: #1d4ed8;
+}
+.callout-tip {
+  --c-border: #6ee7b7;
+  --c-bg: color-mix(in srgb, #10b981 10%, var(--bg-card));
+  --c-fg: #047857;
+}
+.callout-warning {
+  --c-border: #fcd34d;
+  --c-bg: color-mix(in srgb, #f59e0b 12%, var(--bg-card));
+  --c-fg: #b45309;
+}
+.callout-danger {
+  --c-border: #fca5a5;
+  --c-bg: color-mix(in srgb, #ef4444 10%, var(--bg-card));
+  --c-fg: #b91c1c;
+}
+.callout-question {
+  --c-border: #c4b5fd;
+  --c-bg: color-mix(in srgb, #8b5cf6 10%, var(--bg-card));
+  --c-fg: #6d28d9;
+}
+.callout-success {
+  --c-border: #86efac;
+  --c-bg: color-mix(in srgb, #22c55e 10%, var(--bg-card));
+  --c-fg: #15803d;
+}
+.dark .callout-info { --c-fg: #93c5fd; }
+.dark .callout-tip { --c-fg: #6ee7b7; }
+.dark .callout-warning { --c-fg: #fcd34d; }
+.dark .callout-danger { --c-fg: #fca5a5; }
+.dark .callout-question { --c-fg: #c4b5fd; }
+.dark .callout-success { --c-fg: #86efac; }
+
+details.callout > summary {
+  cursor: pointer;
+  list-style: none;
+}
+details.callout > summary::-webkit-details-marker {
+  display: none;
+}
+details.callout > summary .chev {
+  transition: transform 0.2s;
+}
+details.callout[open] > summary .chev {
+  transform: rotate(90deg);
+}
+
+@media print {
+  header, aside, .no-print { display: none !important; }
+  main { padding: 0 !important; }
+  .prose pre { white-space: pre-wrap; }
 }
