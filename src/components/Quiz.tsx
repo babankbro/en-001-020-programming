@@ -66,6 +66,9 @@ export default function Quiz({ moduleId, week, title, titleEn, minutes, question
 
   const score = useMemo(() => answers.filter((a, i) => a === questions[i].answer).length, [answers, questions]);
   const answered = answers.filter((a) => a !== null).length;
+  // คิดคะแนนแบบข้อสอบปลายภาค: ถูกได้ 1 ผิดหัก 0.2 ไม่ตอบได้ 0
+  const penaltyScore = Math.round((score - 0.2 * (answered - score)) * 10) / 10;
+  const examCount = questions.filter((q) => q.exam).length;
   const mm = String(Math.floor(left / 60)).padStart(2, "0");
   const ss = String(left % 60).padStart(2, "0");
 
@@ -96,6 +99,11 @@ export default function Quiz({ moduleId, week, title, titleEn, minutes, question
               <ClipboardList size={16} /> คำชี้แจง
             </span>
             <p>จงเลือกคำตอบที่ถูกต้องที่สุดเพียงข้อเดียว (ข้อละ 1 คะแนน) เวลาจะเริ่มนับเมื่อกดปุ่มเริ่มทำแบบทดสอบ และระบบจะเฉลยพร้อมคำอธิบายทันทีเมื่อส่งคำตอบ</p>
+            {examCount > 0 && (
+              <p>
+                มี {examCount} ข้อที่ติดป้าย <b>แนวข้อสอบปลายภาค</b> รูปแบบเดียวกับข้อสอบปรนัยจริง และผลลัพธ์จะแสดง<b>คะแนนแบบข้อสอบจริง</b> (ผิดหักข้อละ 0.2) ให้ฝึกตัดสินใจว่าควรตอบหรือเว้น
+              </p>
+            )}
           </div>
           <button type="submit" className="w-full py-3 rounded-xl bg-accent text-white font-semibold hover:opacity-90">
             เริ่มทำแบบทดสอบ
@@ -114,6 +122,12 @@ export default function Quiz({ moduleId, week, title, titleEn, minutes, question
             <div className="text-sm text-muted">คะแนนของคุณ</div>
             <div className="text-4xl font-bold">
               {score} <span className="text-lg text-muted font-normal">/ {questions.length}</span>
+            </div>
+          </div>
+          <div>
+            <div className="text-sm text-muted">คะแนนแบบข้อสอบจริง (ผิดหัก 0.2)</div>
+            <div className="text-4xl font-bold text-violet-600 dark:text-violet-400">
+              {penaltyScore} <span className="text-lg text-muted font-normal">/ {questions.length}</span>
             </div>
           </div>
           <div className="text-sm space-y-0.5">
@@ -172,6 +186,11 @@ export default function Quiz({ moduleId, week, title, titleEn, minutes, question
               <div className="flex gap-3">
                 <span className="shrink-0 w-7 h-7 grid place-items-center rounded-full bg-accent-soft/60 text-accent text-sm font-bold">{i + 1}</span>
                 <div className="flex-1 min-w-0">
+                  {qq.exam && (
+                    <span className="inline-block mb-1.5 text-[11px] font-semibold px-2 py-0.5 rounded-full bg-violet-500/15 text-violet-700 dark:text-violet-300">
+                      แนวข้อสอบปลายภาค
+                    </span>
+                  )}
                   <p className="font-medium whitespace-pre-wrap">{qq.q}</p>
                   {qq.code && (
                     <pre className="mt-3 bg-[var(--code-bg)] text-slate-200 rounded-xl p-3 text-[13px] overflow-x-auto font-mono leading-relaxed">

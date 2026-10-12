@@ -1,81 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ผลคูณจุดของเวกเตอร์ a=(4,2) และ b=(1,3) ทีละขั้น">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 940" width="800" height="940" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ผลคูณจุดของ a = (4, 2) และ b = (1, 3) วาดตามสเกล พร้อมขั้นตอนคูณ บวก หาขนาด และหามุม 45 องศา">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>ผลคูณจุดของเวกเตอร์ a=(4,2) และ b=(1,3) ทีละขั้น</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">ผลคูณจุด (Dot Product) ทีละขั้น: a = (4, 2), b = (1, 3)</text>
-<rect x="24" y="60" width="350" height="360" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-<line x1="70" y1="380" x2="70" y2="101" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="400" font-size="14" fill="#475569" text-anchor="middle">0</text>
-<line x1="132" y1="380" x2="132" y2="101" stroke="#e2e8f0" stroke-width="1"/>
-<text x="132" y="400" font-size="14" fill="#475569" text-anchor="middle">1</text>
-<line x1="194" y1="380" x2="194" y2="101" stroke="#e2e8f0" stroke-width="1"/>
-<text x="194" y="400" font-size="14" fill="#475569" text-anchor="middle">2</text>
-<line x1="256" y1="380" x2="256" y2="101" stroke="#e2e8f0" stroke-width="1"/>
-<text x="256" y="400" font-size="14" fill="#475569" text-anchor="middle">3</text>
-<line x1="318" y1="380" x2="318" y2="101" stroke="#e2e8f0" stroke-width="1"/>
-<text x="318" y="400" font-size="14" fill="#475569" text-anchor="middle">4</text>
-<line x1="70" y1="380" x2="355.2" y2="380" stroke="#e2e8f0" stroke-width="1"/>
-<line x1="70" y1="318" x2="355.2" y2="318" stroke="#e2e8f0" stroke-width="1"/>
-<text x="58" y="323" font-size="14" fill="#475569" text-anchor="end">1</text>
-<line x1="70" y1="256" x2="355.2" y2="256" stroke="#e2e8f0" stroke-width="1"/>
-<text x="58" y="261" font-size="14" fill="#475569" text-anchor="end">2</text>
-<line x1="70" y1="194" x2="355.2" y2="194" stroke="#e2e8f0" stroke-width="1"/>
-<text x="58" y="199" font-size="14" fill="#475569" text-anchor="end">3</text>
-<line x1="70" y1="132" x2="355.2" y2="132" stroke="#e2e8f0" stroke-width="1"/>
-<text x="58" y="137" font-size="14" fill="#475569" text-anchor="end">4</text>
-<line x1="70" y1="380" x2="364.5" y2="380" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
-<line x1="70" y1="380" x2="70" y2="88.6" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
-<text x="366.5" y="400" font-size="14" fill="#475569" text-anchor="end">x</text>
-<text x="82" y="100.8" font-size="14" fill="#475569">y</text>
-<path d="M111.1,359.4 A46,46 0 0 0 84.5,336.4" stroke="#7c3aed" stroke-width="2.5" fill="none"/>
-<text x="109.381" y="337.205" font-size="15" fill="#7c3aed" font-weight="bold">θ = 45°</text>
-<line x1="70" y1="380" x2="318" y2="256" stroke="#2563eb" stroke-width="4" marker-end="url(#arrB)"/>
-<line x1="70" y1="380" x2="132" y2="194" stroke="#059669" stroke-width="4" marker-end="url(#arrG)"/>
-<text x="314" y="242" font-size="16" fill="#2563eb" font-weight="bold" text-anchor="middle">a = (4, 2)</text>
-<text x="142" y="188" font-size="16" fill="#059669" font-weight="bold">b = (1, 3)</text>
-<text x="360" y="84" font-size="14" fill="#475569" text-anchor="end">วาดตามสเกลจริง (1 หน่วย = 62 px)</text>
-<rect x="396" y="60" width="380" height="150" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-<circle cx="418" cy="84" r="13" fill="#2563eb"/>
-<text x="418" y="89" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">1</text>
-<text x="440" y="90" font-size="16" fill="#0f172a" font-weight="bold">คูณทีละตำแหน่ง (ดัชนีเดียวกัน)</text>
-<text x="516" y="122" font-size="15" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">i = 0</text>
-<text x="606" y="122" font-size="15" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">i = 1</text>
-<text x="414" y="146" font-size="15" fill="#2563eb" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a[i]</text>
-<text x="516" y="146" font-size="15" fill="#2563eb" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">4</text>
-<text x="606" y="146" font-size="15" fill="#2563eb" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">2</text>
-<text x="414" y="168" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b[i]</text>
-<text x="516" y="168" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">1</text>
-<text x="606" y="168" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">3</text>
-<text x="414" y="190" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a[i]*b[i]</text>
-<text x="516" y="190" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">4</text>
-<text x="606" y="190" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">6</text>
-<line x1="496" y1="173" x2="632" y2="173" stroke="#cbd5e1" stroke-width="1"/>
-<text x="746" y="190" font-size="14" fill="#475569" text-anchor="end">4·1, 2·3</text>
-<rect x="396" y="222" width="380" height="92" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
-<circle cx="418" cy="246" r="13" fill="#059669"/>
-<text x="418" y="251" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">2</text>
-<text x="440" y="252" font-size="16" fill="#0f172a" font-weight="bold">บวกผลคูณทั้งหมด → ได้สเกลาร์</text>
-<text x="440" y="286" font-size="19" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = 4 + 6 = 10</text>
-<text x="686" y="286" font-size="14" fill="#475569">ไม่ใช่เวกเตอร์</text>
-<rect x="396" y="326" width="380" height="130" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
-<circle cx="418" cy="350" r="13" fill="#7c3aed"/>
-<text x="418" y="355" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">3</text>
-<text x="440" y="356" font-size="16" fill="#0f172a" font-weight="bold">ตรวจด้วยเรขาคณิต a·b = |a||b| cos θ</text>
-<text x="416" y="382" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|a| = √20 ≈ 4.472</text>
-<text x="606" y="382" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|b| = √10 ≈ 3.162</text>
-<text x="416" y="408" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">cos θ = 10 / (4.472 × 3.162)</text>
-<text x="468" y="434" font-size="15" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">≈ 0.707  →  θ = 45°</text>
-<text x="400" y="486" font-size="17" fill="#0f172a" font-weight="bold" text-anchor="middle">เครื่องหมายของผลคูณจุดบอกทิศทาง</text>
-<rect x="24" y="500" width="242" height="84" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
-<text x="145" y="526" font-size="17" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">a·b &gt; 0</text>
-<text x="145" y="549" font-size="15" fill="#0f172a" text-anchor="middle">มุมน้อยกว่า 90°</text>
-<text x="145" y="571" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">(4,2)·(1,3) = 10</text>
-<rect x="278" y="500" width="242" height="84" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-<text x="399" y="526" font-size="17" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">a·b = 0</text>
-<text x="399" y="549" font-size="15" fill="#0f172a" text-anchor="middle">ตั้งฉากกัน (90°)</text>
-<text x="399" y="571" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">(3,4)·(−4,3) = 0</text>
-<rect x="532" y="500" width="242" height="84" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-<text x="653" y="526" font-size="17" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">a·b &lt; 0</text>
-<text x="653" y="549" font-size="15" fill="#0f172a" text-anchor="middle">มุมมากกว่า 90°</text>
-<text x="653" y="571" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">(3,1)·(−1,2) = −1</text>
+<title>ผลคูณจุดของ a = (4, 2) และ b = (1, 3) วาดตามสเกล พร้อมขั้นตอนคูณ บวก หาขนาด และหามุม 45 องศา</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ผลคูณจุด (Dot Product) ทีละขั้น: a = (4, 2), b = (1, 3)</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: a·b คำนวณอย่างไร ได้ตัวเลขอะไร และบอกมุมระหว่างเวกเตอร์ได้อย่างไร</text>
+<text x="24" y="98" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="94" y="85" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="120" y="98" font-size="15" fill="#0f172a" text-anchor="start">เวกเตอร์ a</text>
+<rect x="220" y="85" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="246" y="98" font-size="15" fill="#0f172a" text-anchor="start">เวกเตอร์ b</text>
+<rect x="346" y="85" width="18" height="18" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="372" y="98" font-size="15" fill="#0f172a" text-anchor="start">มุม θ</text>
+<rect x="434" y="85" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="460" y="98" font-size="15" fill="#0f172a" text-anchor="start">คำตอบ</text>
+<rect x="24" y="116" width="356" height="410" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="368" y="140" font-size="15" fill="#475569" text-anchor="end">วาดตามสเกล (1 หน่วย = 66 px)</text>
+<line x1="74" y1="470" x2="74" y2="179.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="74" y1="470" x2="364.4" y2="470" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="492" font-size="15" fill="#475569" text-anchor="middle">0</text>
+<line x1="140" y1="470" x2="140" y2="179.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="74" y1="404" x2="364.4" y2="404" stroke="#e2e8f0" stroke-width="1"/>
+<text x="140" y="492" font-size="15" fill="#475569" text-anchor="middle">1</text>
+<text x="62" y="409" font-size="15" fill="#475569" text-anchor="end">1</text>
+<line x1="206" y1="470" x2="206" y2="179.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="74" y1="338" x2="364.4" y2="338" stroke="#e2e8f0" stroke-width="1"/>
+<text x="206" y="492" font-size="15" fill="#475569" text-anchor="middle">2</text>
+<text x="62" y="343" font-size="15" fill="#475569" text-anchor="end">2</text>
+<line x1="272" y1="470" x2="272" y2="179.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="74" y1="272" x2="364.4" y2="272" stroke="#e2e8f0" stroke-width="1"/>
+<text x="272" y="492" font-size="15" fill="#475569" text-anchor="middle">3</text>
+<text x="62" y="277" font-size="15" fill="#475569" text-anchor="end">3</text>
+<line x1="338" y1="470" x2="338" y2="179.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="74" y1="206" x2="364.4" y2="206" stroke="#e2e8f0" stroke-width="1"/>
+<text x="338" y="492" font-size="15" fill="#475569" text-anchor="middle">4</text>
+<text x="62" y="211" font-size="15" fill="#475569" text-anchor="end">4</text>
+<line x1="74" y1="470" x2="371" y2="470" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<line x1="74" y1="470" x2="74" y2="173" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<text x="375" y="492" font-size="15" fill="#475569" text-anchor="start">x</text>
+<text x="84" y="177" font-size="15" fill="#475569" text-anchor="start">y</text>
+<line x1="74" y1="470" x2="338" y2="338" stroke="#2563eb" stroke-width="4" marker-end="url(#arrB)"/>
+<line x1="74" y1="470" x2="140" y2="272" stroke="#059669" stroke-width="4" marker-end="url(#arrG)"/>
+<text x="334" y="324" font-size="16" fill="#2563eb" text-anchor="end" font-weight="bold">a = (4, 2)</text>
+<text x="150" y="270" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">b = (1, 3)</text>
+<path d="M120.51,446.74 A52,52 0 0 0 90.44,420.67" fill="none" stroke="#7c3aed" stroke-width="2.4"/>
+<text x="123.795" y="417.585" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold">θ = 45°</text>
+<circle cx="409" cy="134" r="13" fill="#0f172a"/>
+<text x="409" y="139.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="430" y="140" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">คูณทีละตำแหน่ง (ดัชนีเดียวกัน)</text>
+<text x="516" y="172" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i = 0</text>
+<text x="626" y="172" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i = 1</text>
+<text x="410" y="196" font-size="15" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a[i]</text>
+<text x="516" y="196" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4</text>
+<text x="626" y="196" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2</text>
+<text x="410" y="220" font-size="15" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b[i]</text>
+<text x="516" y="220" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<text x="626" y="220" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<line x1="476" y1="228" x2="666" y2="228" stroke="#94a3b8" stroke-width="1"/>
+<text x="410" y="250" font-size="15" fill="#0f172a" text-anchor="start">คูณ</text>
+<text x="516" y="250" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4×1 = 4</text>
+<text x="626" y="250" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2×3 = 6</text>
+<circle cx="409" cy="290" r="13" fill="#0f172a"/>
+<text x="409" y="295.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="430" y="296" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">บวกผลคูณทั้งหมด → ได้ตัวเลขตัวเดียว</text>
+<text x="430" y="326" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = 4 + 6 = 10   (สเกลาร์)</text>
+<circle cx="409" cy="364" r="13" fill="#0f172a"/>
+<text x="409" y="369.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="430" y="370" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">หาขนาดของแต่ละเวกเตอร์</text>
+<text x="430" y="400" font-size="15" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|a| = √(4² + 2²) = √20 ≈ 4.472</text>
+<text x="430" y="424" font-size="15" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|b| = √(1² + 3²) = √10 ≈ 3.162</text>
+<circle cx="409" cy="462" r="13" fill="#0f172a"/>
+<text x="409" y="467.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="430" y="468" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">หามุมจาก cos θ = a·b / (|a||b|)</text>
+<text x="430" y="498" font-size="15" fill="#7c3aed" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">cos θ = 10 / (4.472 × 3.162)</text>
+<text x="430" y="522" font-size="15" fill="#7c3aed" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">      = 10/√200 ≈ 0.7071 → θ = 45°</text>
+<rect x="24" y="546" width="752" height="48" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2.4"/>
+<text x="40" y="576" font-size="16" fill="#b45309" text-anchor="start" font-weight="bold">คำตอบ</text>
+<text x="760" y="576" font-size="18" fill="#0f172a" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = 10  และ  θ = 45° (มุมแหลม)</text>
+<text x="400" y="632" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">เครื่องหมายของ a·b บอกชนิดมุมได้ทันที (ไม่ต้องหามุม)</text>
+<rect x="24" y="648" width="244" height="104" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="146" y="678" font-size="18" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b &gt; 0</text>
+<text x="146" y="704" font-size="16" fill="#0f172a" text-anchor="middle">มุมแหลม (&lt; 90°)</text>
+<text x="146" y="734" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(4,2)·(1,3) = 10</text>
+<rect x="278" y="648" width="244" height="104" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="400" y="678" font-size="18" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = 0</text>
+<text x="400" y="704" font-size="16" fill="#0f172a" text-anchor="middle">ตั้งฉาก (= 90°)</text>
+<text x="400" y="734" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3,4)·(−4,3) = 0</text>
+<rect x="532" y="648" width="244" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<text x="654" y="678" font-size="18" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b &lt; 0</text>
+<text x="654" y="704" font-size="16" fill="#0f172a" text-anchor="middle">มุมป้าน (&gt; 90°)</text>
+<text x="654" y="734" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3,1)·(−1,2) = −1</text>
+<rect x="24" y="776" width="368" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="48" cy="800" r="13" fill="#dc2626"/>
+<text x="48" y="806" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="70" y="806" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">ผิด: คูณแล้วไม่บวก</text>
+<text x="42" y="834" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(4,2)·(1,3) = (4, 6)</text>
+<text x="42" y="860" font-size="15" fill="#0f172a" text-anchor="start">ได้เวกเตอร์ — ไม่ใช่ผลคูณจุด</text>
+<rect x="408" y="776" width="368" height="104" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="432" cy="800" r="13" fill="#059669"/>
+<text x="432" y="806" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="454" y="806" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ถูก: คูณทีละตำแหน่งแล้วบวก</text>
+<text x="426" y="834" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(4,2)·(1,3) = 4 + 6 = 10</text>
+<text x="426" y="860" font-size="15" fill="#0f172a" text-anchor="start">ได้สเกลาร์ (ตัวเลขตัวเดียว)</text>
+<text x="400" y="914" font-size="15" fill="#475569" text-anchor="middle">ในเกม: ใช้เครื่องหมายของ a·b ตรวจว่าศัตรูอยู่ "ข้างหน้า" ยานหรือไม่ (บทที่ 6–7)</text>
 </svg>

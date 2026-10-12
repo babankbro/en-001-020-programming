@@ -4,13 +4,43 @@
   "title": "แนะนำรายวิชาและเครื่องมือเขียนโปรแกรม",
   "titleEn": "Course Introduction & Programming Tools",
   "summary": "รู้จักเส้นทาง 8 บทสู่เกมยิงยานอวกาศด้วย Pygame ฝึกกระบวนการแก้ปัญหาด้วยโปรแกรม (วิเคราะห์ → ออกแบบ → เขียน → ทดสอบ) ติดตั้ง Python, VS Code, Jupyter/Colab และไลบรารี แล้วรันโปรแกรมแรกพร้อมฝึกอ่าน error message",
-  "tags": ["Python 3", "VS Code", "Jupyter Notebook", "Google Colab", "pip", "pygame", "numpy", "pseudocode", "trace table", "Traceback", "SyntaxError", "NameError", "TypeError", "ทบทวนพื้นฐาน"],
-  "clo": ["CLO1", "CLO5"],
+  "tags": [
+    "Python 3",
+    "VS Code",
+    "Jupyter Notebook",
+    "Google Colab",
+    "pip",
+    "pygame",
+    "numpy",
+    "pseudocode",
+    "trace table",
+    "Traceback",
+    "SyntaxError",
+    "NameError",
+    "TypeError",
+    "ทบทวนพื้นฐาน"
+  ],
+  "clo": [
+    "CLO1",
+    "CLO5"
+  ],
   "prereq": [
-    { "label": "บท 01 เริ่มต้นเขียนโปรแกรม (ติดตั้ง Python, IDE, โปรแกรมแรก)", "url": "https://en-001-002-computer-programming.vercel.app/module/01" },
-    { "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์", "url": "https://en-001-002-computer-programming.vercel.app/module/02" },
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, for/while)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 04 ฟังก์ชัน", "url": "https://en-001-002-computer-programming.vercel.app/module/04" }
+    {
+      "label": "บท 01 เริ่มต้นเขียนโปรแกรม (ติดตั้ง Python, IDE, โปรแกรมแรก)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/01"
+    },
+    {
+      "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/02"
+    },
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, for/while)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 04 ฟังก์ชัน",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/04"
+    }
   ],
   "topics": [
     "ภาพรวมรายวิชาและเส้นทางสร้างเกมยิงยานอวกาศ 8 บท",
@@ -48,5 +78,7 @@
       "กระดาษสำหรับทำ trace table"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

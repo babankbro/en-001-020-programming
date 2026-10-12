@@ -1,144 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กราฟอัตราเร็ว 5 คูณ 0.97 ยกกำลัง n ตัดเกณฑ์ 1 ที่เฟรม 53">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<defs><marker id="a_2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="a_059669" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="a_d97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="a_dc2626" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="a_7c3aed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="a_475569" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="a_0f172a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<title>กราฟอัตราเร็ว 5 คูณ 0.97 ยกกำลัง n ตัดเกณฑ์ 1 ที่เฟรม 53</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
 <text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">แรงเสียดทาน: อัตราเร็ว vₙ = 5 × 0.97ⁿ ลดลงแบบเรขาคณิต</text>
-<text x="400" y="62" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">จุดแต่ละจุด = อัตราเร็วหลังเฟรม n (วาดตามสเกลจริง)</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า ยานเริ่มเร็ว 5 แล้วคูณ 0.97 ทุกเฟรม จะช้ากว่า 1 ที่เฟรมใด</text>
 <line x1="80" y1="420" x2="760" y2="420" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="425" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">0</text>
-<line x1="80" y1="354" x2="760" y2="354" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="359" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">1</text>
-<line x1="80" y1="288" x2="760" y2="288" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="293" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">2</text>
-<line x1="80" y1="222" x2="760" y2="222" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="227" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">3</text>
-<line x1="80" y1="156" x2="760" y2="156" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="161" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">4</text>
-<line x1="80" y1="90" x2="760" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="70" y="95" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">5</text>
-<line x1="80" y1="420" x2="80" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="80" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">0</text>
-<line x1="165" y1="420" x2="165" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="165" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">10</text>
-<line x1="250" y1="420" x2="250" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="250" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">20</text>
-<line x1="335" y1="420" x2="335" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="335" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">30</text>
-<line x1="420" y1="420" x2="420" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="420" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">40</text>
-<line x1="505" y1="420" x2="505" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="505" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">50</text>
-<line x1="590" y1="420" x2="590" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="590" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">60</text>
-<line x1="675" y1="420" x2="675" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="675" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">70</text>
-<line x1="760" y1="420" x2="760" y2="90" stroke="#e2e8f0" stroke-width="1"/>
-<text x="760" y="442" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">80</text>
-<line x1="80" y1="420" x2="770" y2="420" stroke="#0f172a" stroke-width="1.5"/>
-<line x1="80" y1="420" x2="80" y2="80" stroke="#0f172a" stroke-width="1.5"/>
-<text x="420" y="466" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">เฟรม n</text>
-<text x="28" y="255" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">อัตราเร็ว</text>
-<line x1="80" y1="90" x2="363.33" y2="420" stroke="#475569" stroke-width="1.5" stroke-dasharray="5 4"/>
-<text x="373.25" y="370.5" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">← ถ้าลดทีละ 0.15</text>
-<text x="373.25" y="388.5" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">เท่ากัน (ผิด) จะถึง 0</text>
-<text x="373.25" y="406.5" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">ที่ n ≈ 33</text>
-<line x1="80" y1="354" x2="760" y2="354" stroke="#dc2626" stroke-width="2" stroke-dasharray="8 5"/>
-<text x="760" y="346" font-size="14" fill="#dc2626" text-anchor="end" font-weight="normal">เกณฑ์หยุด |v| &lt; 1</text>
-<polyline points="80,90 88.5,99.9 97,109.5 105.5,118.82 114,127.85 122.5,136.62 131,145.12 139.5,153.37 148,161.36 156.5,169.12 165,176.65 173.5,183.95 182,191.03 190.5,197.9 199,204.56 207.5,211.03 216,217.3 224.5,223.38 233,229.28 241.5,235 250,240.55 258.5,245.93 267,251.15 275.5,256.22 284,261.13 292.5,265.9 301,270.52 309.5,275.01 318,279.36 326.5,283.57 335,287.67 343.5,291.64 352,295.49 360.5,299.22 369,302.85 377.5,306.36 386,309.77 394.5,313.08 403,316.29 411.5,319.4 420,322.41 428.5,325.34 437,328.18 445.5,330.94 454,333.61 462.5,336.2 471,338.71 479.5,341.15 488,343.52 496.5,345.81 505,348.04 513.5,350.2 522,352.29 530.5,354.32 539,356.29 547.5,358.2 556,360.06 564.5,361.86 573,363.6 581.5,365.29 590,366.93 598.5,368.53 607,370.07 615.5,371.57 624,373.02 632.5,374.43 641,375.8 649.5,377.12 658,378.41 666.5,379.66 675,380.87 683.5,382.04 692,383.18 700.5,384.29 709,385.36 717.5,386.4 726,387.4 734.5,388.38 743,389.33 751.5,390.25 760,391.14" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
-<circle cx="80" cy="90" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="88.5" cy="99.9" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="97" cy="109.5" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="105.5" cy="118.82" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="114" cy="127.85" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="122.5" cy="136.62" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="131" cy="145.12" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="139.5" cy="153.37" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="148" cy="161.36" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="156.5" cy="169.12" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="165" cy="176.65" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="173.5" cy="183.95" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="182" cy="191.03" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="190.5" cy="197.9" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="199" cy="204.56" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="207.5" cy="211.03" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="216" cy="217.3" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="224.5" cy="223.38" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="233" cy="229.28" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="241.5" cy="235" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="250" cy="240.55" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="258.5" cy="245.93" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="267" cy="251.15" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="275.5" cy="256.22" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="284" cy="261.13" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="292.5" cy="265.9" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="301" cy="270.52" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="309.5" cy="275.01" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="318" cy="279.36" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="326.5" cy="283.57" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="335" cy="287.67" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="343.5" cy="291.64" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="352" cy="295.49" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="360.5" cy="299.22" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="369" cy="302.85" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="377.5" cy="306.36" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="386" cy="309.77" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="394.5" cy="313.08" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="403" cy="316.29" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="411.5" cy="319.4" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="420" cy="322.41" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="428.5" cy="325.34" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="437" cy="328.18" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="445.5" cy="330.94" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="454" cy="333.61" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="462.5" cy="336.2" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="471" cy="338.71" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="479.5" cy="341.15" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="488" cy="343.52" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="496.5" cy="345.81" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="505" cy="348.04" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="513.5" cy="350.2" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="522" cy="352.29" r="2.6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<circle cx="530.5" cy="354.32" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="539" cy="356.29" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="547.5" cy="358.2" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="556" cy="360.06" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="564.5" cy="361.86" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="573" cy="363.6" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="581.5" cy="365.29" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="590" cy="366.93" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="598.5" cy="368.53" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="607" cy="370.07" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="615.5" cy="371.57" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="624" cy="373.02" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="632.5" cy="374.43" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="641" cy="375.8" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="649.5" cy="377.12" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="658" cy="378.41" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="666.5" cy="379.66" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="675" cy="380.87" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="683.5" cy="382.04" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="692" cy="383.18" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="700.5" cy="384.29" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="709" cy="385.36" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="717.5" cy="386.4" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="726" cy="387.4" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="734.5" cy="388.38" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="743" cy="389.33" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="751.5" cy="390.25" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="760" cy="391.14" r="2.6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<line x1="530.5" y1="420" x2="530.5" y2="354.33" stroke="#dc2626" stroke-width="1.5"/>
-<circle cx="530.5" cy="354.32" r="5" fill="#dc2626" stroke="none" stroke-width="1.5"/>
-<circle cx="522" cy="352.29" r="5" fill="#2563eb" stroke="none" stroke-width="1.5"/>
-<rect x="547.5" y="238.5" width="215" height="70" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
-<text x="559.5" y="262.5" font-size="14" fill="#0f172a" text-anchor="start" font-weight="normal">n = 52 → 1.026 (ยังไม่ต่ำกว่า 1)</text>
-<text x="559.5" y="286.5" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold">n = 53 → 0.995 → break</text>
-<line x1="573" y1="308.5" x2="533.9" y2="347.4" stroke="#dc2626" stroke-width="1.2"/>
-<text x="88" y="82" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">5.000</text>
-<text x="173" y="168.65" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">3.687</text>
-<text x="258" y="232.55" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">2.719</text>
-<text x="343" y="279.67" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">2.005</text>
-<text x="758" y="381.14" font-size="14" fill="#dc2626" text-anchor="end" font-weight="normal">0.437</text>
-<rect x="420" y="96.6" width="330" height="74" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-<text x="434" y="124.6" font-size="15" fill="#0f172a" text-anchor="start" font-weight="normal">5 × 0.97ⁿ &lt; 1  ⇔  n &gt; ln 0.2 / ln 0.97</text>
-<text x="434" y="150.6" font-size="15" fill="#0f172a" text-anchor="start" font-weight="normal">= (−1.6094) / (−0.0305) ≈ 52.84 → n = 53</text>
-<text x="400" y="505" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">เส้นโค้งเข้าใกล้ 0 แต่ไม่แตะ 0 (n = 100 ยังเหลือ 0.238) จึงต้องมีเกณฑ์หยุด</text>
+<text x="70" y="425" font-size="15" fill="#475569" text-anchor="end">0</text>
+<line x1="80" y1="363.636" x2="760" y2="363.636" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="368.636" font-size="15" fill="#475569" text-anchor="end">1</text>
+<line x1="80" y1="307.273" x2="760" y2="307.273" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="312.273" font-size="15" fill="#475569" text-anchor="end">2</text>
+<line x1="80" y1="250.909" x2="760" y2="250.909" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="255.909" font-size="15" fill="#475569" text-anchor="end">3</text>
+<line x1="80" y1="194.545" x2="760" y2="194.545" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="199.545" font-size="15" fill="#475569" text-anchor="end">4</text>
+<line x1="80" y1="138.182" x2="760" y2="138.182" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="143.182" font-size="15" fill="#475569" text-anchor="end">5</text>
+<line x1="80" y1="420" x2="80" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="80" y="442" font-size="15" fill="#475569" text-anchor="middle">0</text>
+<line x1="165" y1="420" x2="165" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="165" y="442" font-size="15" fill="#475569" text-anchor="middle">10</text>
+<line x1="250" y1="420" x2="250" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="250" y="442" font-size="15" fill="#475569" text-anchor="middle">20</text>
+<line x1="335" y1="420" x2="335" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="335" y="442" font-size="15" fill="#475569" text-anchor="middle">30</text>
+<line x1="420" y1="420" x2="420" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="420" y="442" font-size="15" fill="#475569" text-anchor="middle">40</text>
+<line x1="505" y1="420" x2="505" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="505" y="442" font-size="15" fill="#475569" text-anchor="middle">50</text>
+<line x1="590" y1="420" x2="590" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="590" y="442" font-size="15" fill="#475569" text-anchor="middle">60</text>
+<line x1="675" y1="420" x2="675" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="675" y="442" font-size="15" fill="#475569" text-anchor="middle">70</text>
+<line x1="760" y1="420" x2="760" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="760" y="442" font-size="15" fill="#475569" text-anchor="middle">80</text>
+<line x1="80" y1="420" x2="768" y2="420" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="80" y1="420" x2="80" y2="104" stroke="#0f172a" stroke-width="1.5"/>
+<text x="760" y="464" font-size="15" fill="#0f172a" text-anchor="end">เฟรม n</text>
+<text x="26" y="265.0" font-size="15" fill="#0f172a" text-anchor="middle" transform="rotate(-90 26 265.0)">อัตราเร็ว |v|</text>
+<line x1="80" y1="363.636" x2="760" y2="363.636" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="756" y="355.636" font-size="15" fill="#dc2626" text-anchor="end">เกณฑ์หยุด |v| &lt; 1</text>
+<line x1="80" y1="138.182" x2="363.333" y2="420" stroke="#94a3b8" stroke-width="2" stroke-dasharray="2 0"/>
+<text x="373.25" y="385.055" font-size="15" fill="#64748b" text-anchor="start">✗ ถ้าลดทีละ 0.15 เท่ากัน</text>
+<text x="373.25" y="407.6" font-size="15" fill="#64748b" text-anchor="start">   จะถึง 0 ที่ n ≈ 33 (ผิด)</text>
+<polyline points="80.00,138.18 88.50,146.64 97.00,154.84 105.50,162.79 114.00,170.51 122.50,177.99 131.00,185.25 139.50,192.30 148.00,199.13 156.50,205.75 165.00,212.18 173.50,218.42 182.00,224.46 190.50,230.33 199.00,236.02 207.50,241.54 216.00,246.89 224.50,252.09 233.00,257.12 241.50,262.01 250.00,266.75 258.50,271.35 267.00,275.81 275.50,280.13 284.00,284.33 292.50,288.40 301.00,292.35 309.50,296.18 318.00,299.89 326.50,303.49 335.00,306.99 343.50,310.38 352.00,313.67 360.50,316.86 369.00,319.95 377.50,322.95 386.00,325.86 394.50,328.69 403.00,331.43 411.50,334.09 420.00,336.66 428.50,339.16 437.00,341.59 445.50,343.94 454.00,346.22 462.50,348.44 471.00,350.58 479.50,352.67 488.00,354.69 496.50,356.64 505.00,358.55 513.50,360.39 522.00,362.18 530.50,363.91 539.00,365.59 547.50,367.23 556.00,368.81 564.50,370.35 573.00,371.84 581.50,373.28 590.00,374.68 598.50,376.04 607.00,377.36 615.50,378.64 624.00,379.88 632.50,381.08 641.00,382.25 649.50,383.38 658.00,384.48 666.50,385.55 675.00,386.58 683.50,387.58 692.00,388.56 700.50,389.50 709.00,390.41 717.50,391.30 726.00,392.16 734.50,393.00 743.00,393.81 751.50,394.59 760.00,395.36" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="80.00" cy="138.18" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="88.50" cy="146.64" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="97.00" cy="154.84" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="105.50" cy="162.79" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="114.00" cy="170.51" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="122.50" cy="177.99" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="131.00" cy="185.25" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="139.50" cy="192.30" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="148.00" cy="199.13" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="156.50" cy="205.75" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="165.00" cy="212.18" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="173.50" cy="218.42" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="182.00" cy="224.46" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="190.50" cy="230.33" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="199.00" cy="236.02" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="207.50" cy="241.54" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="216.00" cy="246.89" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="224.50" cy="252.09" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="233.00" cy="257.12" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="241.50" cy="262.01" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="250.00" cy="266.75" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="258.50" cy="271.35" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="267.00" cy="275.81" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="275.50" cy="280.13" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="284.00" cy="284.33" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="292.50" cy="288.40" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="301.00" cy="292.35" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="309.50" cy="296.18" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="318.00" cy="299.89" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="326.50" cy="303.49" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="335.00" cy="306.99" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="343.50" cy="310.38" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="352.00" cy="313.67" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="360.50" cy="316.86" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="369.00" cy="319.95" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="377.50" cy="322.95" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="386.00" cy="325.86" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="394.50" cy="328.69" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="403.00" cy="331.43" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="411.50" cy="334.09" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="420.00" cy="336.66" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="428.50" cy="339.16" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="437.00" cy="341.59" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="445.50" cy="343.94" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="454.00" cy="346.22" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="462.50" cy="348.44" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="471.00" cy="350.58" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="479.50" cy="352.67" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="488.00" cy="354.69" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="496.50" cy="356.64" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="505.00" cy="358.55" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="513.50" cy="360.39" r="3.2" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="522.00" cy="362.18" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="530.50" cy="363.91" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="539.00" cy="365.59" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="547.50" cy="367.23" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="556.00" cy="368.81" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="564.50" cy="370.35" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="573.00" cy="371.84" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="581.50" cy="373.28" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="590.00" cy="374.68" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="598.50" cy="376.04" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="607.00" cy="377.36" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="615.50" cy="378.64" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="624.00" cy="379.88" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="632.50" cy="381.08" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="641.00" cy="382.25" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="649.50" cy="383.38" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="658.00" cy="384.48" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="666.50" cy="385.55" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="675.00" cy="386.58" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="683.50" cy="387.58" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="692.00" cy="388.56" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="700.50" cy="389.50" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="709.00" cy="390.41" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="717.50" cy="391.30" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="726.00" cy="392.16" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="734.50" cy="393.00" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="743.00" cy="393.81" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="751.50" cy="394.59" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="760.00" cy="395.36" r="3.2" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="275.5" y1="280.132" x2="275.5" y2="420" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="275.50" cy="280.13" r="6" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="285.5" y="270.132" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">2.48</text>
+<line x1="471" y1="350.583" x2="471" y2="420" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="471.00" cy="350.58" r="6" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="481" y="340.583" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">1.23</text>
+<text x="760" y="383.356" font-size="15" fill="#dc2626" text-anchor="end">0.437</text>
+<line x1="118" y1="129.782" x2="85" y2="135.182" stroke="#0f172a" stroke-width="1.2"/>
+<circle cx="131" cy="125.782" r="13" fill="#0f172a" stroke="#ffffff" stroke-width="2"/><text x="131" y="131.282" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="151" y="130.782" font-size="15" fill="#0f172a" text-anchor="start">เริ่มที่ v₀ = 5 (เฟรม 0)</text>
+<line x1="187" y1="169.545" x2="101" y2="150.837" stroke="#2563eb" stroke-width="1.2"/>
+<circle cx="199" cy="163.545" r="13" fill="#2563eb" stroke="#ffffff" stroke-width="2"/><text x="199" y="169.045" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="219" y="168.545" font-size="15" fill="#0f172a" text-anchor="start">เฟรม 1, 2, 3 → 4.85, 4.7045, 4.5634 (เหลือ 97% ทุกครั้ง)</text>
+<line x1="316.5" y1="217.636" x2="279.5" y2="274.132" stroke="#7c3aed" stroke-width="1.2"/>
+<circle cx="326.5" cy="208.636" r="13" fill="#7c3aed" stroke="#ffffff" stroke-width="2"/><text x="326.5" y="214.136" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="346.5" y="213.636" font-size="15" fill="#0f172a" text-anchor="start">ทุก ≈ 22.76 เฟรม เหลือครึ่งหนึ่ง: 5 → 2.48 → 1.23</text>
+<rect x="547.5" y="250.909" width="250" height="62" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+<circle cx="547.5" cy="250.909" r="13" fill="#dc2626" stroke="#ffffff" stroke-width="2"/><text x="547.5" y="256.409" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="565.5" y="275.909" font-size="15" fill="#0f172a" text-anchor="start">เฟรม 52 → 1.026 (ยังไม่ &lt; 1)</text>
+<text x="565.5" y="299.909" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">เฟรม 53 → 0.995 → break</text>
+<line x1="587.5" y1="312.909" x2="533.5" y2="357.912" stroke="#dc2626" stroke-width="1.2"/>
+<text x="60" y="497" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สี:</text>
+<circle cx="98.00" cy="492.00" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="118" y="497" font-size="15" fill="#0f172a" text-anchor="start">ยัง ≥ 1</text>
+<circle cx="209.40" cy="492.00" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<text x="229.4" y="497" font-size="15" fill="#0f172a" text-anchor="start">ต่ำกว่า 1 แล้ว</text>
+<circle cx="378.20" cy="492.00" r="6" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="398.2" y="497" font-size="15" fill="#0f172a" text-anchor="start">จุดครึ่งชีวิต</text>
+<line x1="530.8" y1="492" x2="552.8" y2="492" stroke="#94a3b8" stroke-width="2.5"/>
+<text x="558.8" y="497" font-size="15" fill="#0f172a" text-anchor="start">ความเข้าใจผิด</text>
+<line x1="691.4" y1="492" x2="713.4" y2="492" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="719.4" y="497" font-size="15" fill="#0f172a" text-anchor="start">เกณฑ์หยุด</text>
+<rect x="40" y="520" width="470" height="170" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<circle cx="40" cy="520" r="13" fill="#2563eb" stroke="#ffffff" stroke-width="2"/><text x="40" y="525.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="58" y="548" font-size="16" fill="#2563eb" text-anchor="start" font-weight="bold">หาเฟรมด้วยลอการิทึม (ไม่ต้องวนนับ)</text>
+<text x="58" y="578" font-size="15" fill="#0f172a" text-anchor="start">5 × 0.97ⁿ &lt; 1   →   0.97ⁿ &lt; 0.2</text>
+<text x="58" y="605" font-size="15" fill="#0f172a" text-anchor="start">n &gt; ln 0.2 ÷ ln 0.97   (ln 0.97 &lt; 0 กลับเครื่องหมาย)</text>
+<text x="58" y="632" font-size="15" fill="#0f172a" text-anchor="start">  = (−1.6094) ÷ (−0.0305) ≈ 52.84</text>
+<text x="58" y="659" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ปัดขึ้นเป็นจำนวนเต็ม → n = 53</text>
+<rect x="530" y="520" width="230" height="170" rx="12" fill="#059669" stroke="#059669" stroke-width="2"/>
+<text x="645" y="601" font-size="15" fill="#ffffff" text-anchor="middle">คำตอบ: ยานหยุด (|v| &lt; 1) ที่</text>
+<text x="645" y="625" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="bold">เฟรม n = 53</text>
+<text x="645" y="660" font-size="15" fill="#ffffff" text-anchor="middle">ขยับไปแล้ว ≈ 133.5 px</text>
+<text x="40" y="712" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="40" y="724" width="350" height="160" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="54" y="750" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ คิดว่าลดลงทีละเท่ากัน</text>
+<text x="54" y="776" font-size="15" fill="#0f172a" text-anchor="start">ลบ 0.15 ทุกเฟรม: 5 − 0.15n = 0</text>
+<text x="54" y="800" font-size="15" fill="#0f172a" text-anchor="start">→ หยุดสนิทที่ n ≈ 33 (เส้นสีเทา)</text>
+<text x="54" y="824" font-size="15" fill="#0f172a" text-anchor="start">✗ ลืมกลับเครื่องหมายเมื่อหารด้วย ln 0.97</text>
+<text x="54" y="848" font-size="15" fill="#0f172a" text-anchor="start">  ได้ n &lt; 52.84 ซึ่งผิด</text>
+<rect x="410" y="724" width="350" height="160" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="424" y="750" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ลดลงร้อยละ 3 ของค่าปัจจุบัน</text>
+<text x="424" y="776" font-size="15" fill="#0f172a" text-anchor="start">ส่วนที่หาย: 0.15 → 0.1455 → 0.1411 …</text>
+<text x="424" y="800" font-size="15" fill="#0f172a" text-anchor="start">ยิ่งช้า ยิ่งหายน้อย กราฟจึงโค้งราบลง</text>
+<text x="424" y="824" font-size="15" fill="#0f172a" text-anchor="start">เฟรม 100 ยังเหลือ 0.238 ไม่เป็นศูนย์</text>
+<text x="424" y="848" font-size="15" fill="#0f172a" text-anchor="start">จึงต้องมีเกณฑ์หยุด เช่น &lt; 1</text>
 </svg>

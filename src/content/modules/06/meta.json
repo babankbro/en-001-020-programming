@@ -4,12 +4,38 @@
   "title": "เวกเตอร์ เมทริกซ์ และการหมุน",
   "titleEn": "Vectors, Matrices & Rotation",
   "summary": "ใช้ NumPy บวกลบเวกเตอร์ หาขนาดและเวกเตอร์หนึ่งหน่วย คูณเมทริกซ์ แล้วนำเมทริกซ์การหมุนไปหมุนจุดรอบจุดศูนย์กลางและสร้างวงโคจร ก่อนประยุกต์เวกเตอร์ atan2 และการหมุนแบบนุ่มนวลมาควบคุมยานอวกาศด้วยแป้นพิมพ์",
-  "tags": ["NumPy", "เวกเตอร์", "Vector", "เมทริกซ์", "Matrix", "เมทริกซ์การหมุน", "Rotation Matrix", "เรเดียน", "atan2", "linspace", "normalize", "ยานอวกาศ", "Lerp"],
-  "clo": ["CLO2", "CLO4"],
+  "tags": [
+    "NumPy",
+    "เวกเตอร์",
+    "Vector",
+    "เมทริกซ์",
+    "Matrix",
+    "เมทริกซ์การหมุน",
+    "Rotation Matrix",
+    "เรเดียน",
+    "atan2",
+    "linspace",
+    "normalize",
+    "ยานอวกาศ",
+    "Lerp"
+  ],
+  "clo": [
+    "CLO2",
+    "CLO4"
+  ],
   "prereq": [
-    { "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์", "url": "https://en-001-002-computer-programming.vercel.app/module/02" },
-    { "label": "บท 04 ฟังก์ชัน", "url": "https://en-001-002-computer-programming.vercel.app/module/04" },
-    { "label": "บท 06 การจัดการข้อมูลและไฟล์ (List)", "url": "https://en-001-002-computer-programming.vercel.app/module/06" }
+    {
+      "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/02"
+    },
+    {
+      "label": "บท 04 ฟังก์ชัน",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/04"
+    },
+    {
+      "label": "บท 06 การจัดการข้อมูลและไฟล์ (List)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/06"
+    }
   ],
   "topics": [
     "เวกเตอร์ด้วย NumPy: บวก ลบ ขนาด และเวกเตอร์หนึ่งหน่วย",
@@ -46,5 +72,7 @@
       "กระดาษ เครื่องคำนวณ (ต้องกดค่า sin, cos, atan ได้)"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

@@ -4,12 +4,39 @@
   "title": "Pygame และการจำลองฟิสิกส์",
   "titleEn": "Pygame & Physics Simulation",
   "summary": "สร้างหน้าต่างเกมด้วย Pygame วาดรูปทรงเรขาคณิต จำลองลูกบอลเด้งภายใต้ความโน้มถ่วงและการหน่วงทีละเฟรม แล้วพัฒนาจากพจนานุกรมไปเป็นคลาส Ball เพื่อสร้างลูกบอล 100 ลูก และสร้างสุนัขเดินกลับไปกลับมาด้วยสไปรต์",
-  "tags": ["Pygame", "Game Loop", "วงวนเกม", "FPS", "พิกัดจอภาพ", "pygame.draw", "ความโน้มถ่วง", "Gravity", "การสะท้อน", "Bounce", "Euler Method", "คลาส", "Sprite"],
-  "clo": ["CLO2", "CLO3", "CLO4"],
+  "tags": [
+    "Pygame",
+    "Game Loop",
+    "วงวนเกม",
+    "FPS",
+    "พิกัดจอภาพ",
+    "pygame.draw",
+    "ความโน้มถ่วง",
+    "Gravity",
+    "การสะท้อน",
+    "Bounce",
+    "Euler Method",
+    "คลาส",
+    "Sprite"
+  ],
+  "clo": [
+    "CLO2",
+    "CLO3",
+    "CLO4"
+  ],
   "prereq": [
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (while)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 05 การออกแบบจากบนลงล่าง (Dictionary)", "url": "https://en-001-002-computer-programming.vercel.app/module/05" },
-    { "label": "บท 08 คลาสและวัตถุ (OOP)", "url": "https://en-001-002-computer-programming.vercel.app/module/08" }
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (while)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 05 การออกแบบจากบนลงล่าง (Dictionary)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/05"
+    },
+    {
+      "label": "บท 08 คลาสและวัตถุ (OOP)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/08"
+    }
   ],
   "topics": [
     "วงวนเกมและระบบพิกัดจอภาพ",
@@ -47,5 +74,7 @@
       "กระดาษและเครื่องคำนวณสำหรับไล่ค่าทีละเฟรม"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

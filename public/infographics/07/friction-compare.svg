@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" width="800" height="880" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เปรียบเทียบอัตราเร็ว 5 คูณ f ยกกำลัง n สำหรับ f เท่ากับ 0.9 0.97 0.98 1.0 และ 1.02 พร้อมเฟรมที่ต่ำกว่า 1">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>เปรียบเทียบอัตราเร็ว 5 คูณ f ยกกำลัง n สำหรับ f เท่ากับ 0.9 0.97 0.98 1.0 และ 1.02 พร้อมเฟรมที่ต่ำกว่า 1</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">เทียบค่า friction: vₙ = 5 × fⁿ (วาดตามสเกลจริง)</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า ค่า f ต่างกันทำให้ยานหยุดเร็วช้าต่างกันอย่างไร</text>
+<line x1="80" y1="400" x2="760" y2="400" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="405" font-size="15" fill="#475569" text-anchor="end">0</text>
+<line x1="80" y1="350.833" x2="760" y2="350.833" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="355.833" font-size="15" fill="#475569" text-anchor="end">1</text>
+<line x1="80" y1="301.667" x2="760" y2="301.667" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="306.667" font-size="15" fill="#475569" text-anchor="end">2</text>
+<line x1="80" y1="252.5" x2="760" y2="252.5" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="257.5" font-size="15" fill="#475569" text-anchor="end">3</text>
+<line x1="80" y1="203.333" x2="760" y2="203.333" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="208.333" font-size="15" fill="#475569" text-anchor="end">4</text>
+<line x1="80" y1="154.167" x2="760" y2="154.167" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="159.167" font-size="15" fill="#475569" text-anchor="end">5</text>
+<line x1="80" y1="105" x2="760" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="70" y="110" font-size="15" fill="#475569" text-anchor="end">6</text>
+<line x1="80" y1="400" x2="80" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="80" y="422" font-size="15" fill="#475569" text-anchor="middle">0</text>
+<line x1="250" y1="400" x2="250" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="250" y="422" font-size="15" fill="#475569" text-anchor="middle">25</text>
+<line x1="420" y1="400" x2="420" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="420" y="422" font-size="15" fill="#475569" text-anchor="middle">50</text>
+<line x1="590" y1="400" x2="590" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="590" y="422" font-size="15" fill="#475569" text-anchor="middle">75</text>
+<line x1="760" y1="400" x2="760" y2="105" stroke="#e2e8f0" stroke-width="1"/>
+<text x="760" y="422" font-size="15" fill="#475569" text-anchor="middle">100</text>
+<line x1="80" y1="400" x2="768" y2="400" stroke="#0f172a" stroke-width="1.5"/>
+<line x1="80" y1="400" x2="80" y2="99" stroke="#0f172a" stroke-width="1.5"/>
+<text x="760" y="444" font-size="15" fill="#0f172a" text-anchor="end">เฟรม n</text>
+<text x="26" y="252.5" font-size="15" fill="#0f172a" text-anchor="middle" transform="rotate(-90 26 252.5)">อัตราเร็ว</text>
+<line x1="80" y1="350.833" x2="760" y2="350.833" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="756" y="342.833" font-size="15" fill="#dc2626" text-anchor="end">เกณฑ์หยุด |v| &lt; 1</text>
+<polyline points="80.00,154.17 86.80,178.75 93.60,200.87 100.40,220.79 107.20,238.71 114.00,254.84 120.80,269.35 127.60,282.42 134.40,294.18 141.20,304.76 148.00,314.28 154.80,322.85 161.60,330.57 168.40,337.51 175.20,343.76 182.00,349.39 188.80,354.45 195.60,359.00 202.40,363.10 209.20,366.79 216.00,370.11 222.80,373.10 229.60,375.79 236.40,378.21 243.20,380.39 250.00,382.35 256.80,384.12 263.60,385.70 270.40,387.13 277.20,388.42 284.00,389.58 290.80,390.62 297.60,391.56 304.40,392.40 311.20,393.16 318.00,393.85 324.80,394.46 331.60,395.02 338.40,395.51 345.20,395.96 352.00,396.37 358.80,396.73 365.60,397.06 372.40,397.35 379.20,397.62 386.00,397.85 392.80,398.07 399.60,398.26 406.40,398.44 413.20,398.59 420.00,398.73 426.80,398.86 433.60,398.97 440.40,399.08 447.20,399.17 454.00,399.25 460.80,399.33 467.60,399.39 474.40,399.45 481.20,399.51 488.00,399.56 494.80,399.60 501.60,399.64 508.40,399.68 515.20,399.71 522.00,399.74 528.80,399.77 535.60,399.79 542.40,399.81 549.20,399.83 556.00,399.85 562.80,399.86 569.60,399.88 576.40,399.89 583.20,399.90 590.00,399.91 596.80,399.92 603.60,399.93 610.40,399.93 617.20,399.94 624.00,399.95 630.80,399.95 637.60,399.96 644.40,399.96 651.20,399.96 658.00,399.97 664.80,399.97 671.60,399.97 678.40,399.98 685.20,399.98 692.00,399.98 698.80,399.98 705.60,399.98 712.40,399.99 719.20,399.99 726.00,399.99 732.80,399.99 739.60,399.99 746.40,399.99 753.20,399.99 760.00,399.99" fill="none" stroke="#d97706" stroke-width="2.6" stroke-linejoin="round"/>
+<polyline points="80.00,154.17 86.80,161.54 93.60,168.70 100.40,175.63 107.20,182.37 114.00,188.89 120.80,195.23 127.60,201.37 134.40,207.33 141.20,213.11 148.00,218.72 154.80,224.16 161.60,229.43 168.40,234.55 175.20,239.51 182.00,244.33 188.80,249.00 195.60,253.53 202.40,257.92 209.20,262.18 216.00,266.32 222.80,270.33 229.60,274.22 236.40,277.99 243.20,281.65 250.00,285.20 256.80,288.65 263.60,291.99 270.40,295.23 277.20,298.37 284.00,301.42 290.80,304.38 297.60,307.25 304.40,310.03 311.20,312.73 318.00,315.35 324.80,317.88 331.60,320.35 338.40,322.74 345.20,325.06 352.00,327.30 358.80,329.48 365.60,331.60 372.40,333.65 379.20,335.64 386.00,337.57 392.80,339.45 399.60,341.26 406.40,343.03 413.20,344.73 420.00,346.39 426.80,348.00 433.60,349.56 440.40,351.07 447.20,352.54 454.00,353.97 460.80,355.35 467.60,356.69 474.40,357.99 481.20,359.25 488.00,360.47 494.80,361.65 501.60,362.80 508.40,363.92 515.20,365.00 522.00,366.05 528.80,367.07 535.60,368.06 542.40,369.02 549.20,369.95 556.00,370.85 562.80,371.72 569.60,372.57 576.40,373.39 583.20,374.19 590.00,374.97 596.80,375.72 603.60,376.45 610.40,377.15 617.20,377.84 624.00,378.50 630.80,379.15 637.60,379.77 644.40,380.38 651.20,380.97 658.00,381.54 664.80,382.09 671.60,382.63 678.40,383.15 685.20,383.66 692.00,384.15 698.80,384.62 705.60,385.08 712.40,385.53 719.20,385.97 726.00,386.39 732.80,386.80 739.60,387.19 746.40,387.58 753.20,387.95 760.00,388.31" fill="none" stroke="#2563eb" stroke-width="2.6" stroke-linejoin="round"/>
+<polyline points="80.00,154.17 86.80,159.08 93.60,163.90 100.40,168.62 107.20,173.25 114.00,177.79 120.80,182.23 127.60,186.59 134.40,190.85 141.20,195.04 148.00,199.14 154.80,203.15 161.60,207.09 168.40,210.95 175.20,214.73 182.00,218.44 188.80,222.07 195.60,225.63 202.40,229.11 209.20,232.53 216.00,235.88 222.80,239.16 229.60,242.38 236.40,245.53 243.20,248.62 250.00,251.65 256.80,254.62 263.60,257.52 270.40,260.37 277.20,263.17 284.00,265.90 290.80,268.58 297.60,271.21 304.40,273.79 311.20,276.31 318.00,278.79 324.80,281.21 331.60,283.59 338.40,285.91 345.20,288.20 352.00,290.43 358.80,292.62 365.60,294.77 372.40,296.88 379.20,298.94 386.00,300.96 392.80,302.94 399.60,304.88 406.40,306.78 413.20,308.65 420.00,310.47 426.80,312.27 433.60,314.02 440.40,315.74 447.20,317.42 454.00,319.08 460.80,320.69 467.60,322.28 474.40,323.84 481.20,325.36 488.00,326.85 494.80,328.31 501.60,329.75 508.40,331.15 515.20,332.53 522.00,333.88 528.80,335.20 535.60,336.50 542.40,337.77 549.20,339.01 556.00,340.23 562.80,341.43 569.60,342.60 576.40,343.75 583.20,344.87 590.00,345.97 596.80,347.06 603.60,348.11 610.40,349.15 617.20,350.17 624.00,351.17 630.80,352.14 637.60,353.10 644.40,354.04 651.20,354.96 658.00,355.86 664.80,356.74 671.60,357.61 678.40,358.45 685.20,359.28 692.00,360.10 698.80,360.90 705.60,361.68 712.40,362.45 719.20,363.20 726.00,363.93 732.80,364.65 739.60,365.36 746.40,366.05 753.20,366.73 760.00,367.40" fill="none" stroke="#059669" stroke-width="2.6" stroke-linejoin="round"/>
+<polyline points="80.00,154.17 86.80,154.17 93.60,154.17 100.40,154.17 107.20,154.17 114.00,154.17 120.80,154.17 127.60,154.17 134.40,154.17 141.20,154.17 148.00,154.17 154.80,154.17 161.60,154.17 168.40,154.17 175.20,154.17 182.00,154.17 188.80,154.17 195.60,154.17 202.40,154.17 209.20,154.17 216.00,154.17 222.80,154.17 229.60,154.17 236.40,154.17 243.20,154.17 250.00,154.17 256.80,154.17 263.60,154.17 270.40,154.17 277.20,154.17 284.00,154.17 290.80,154.17 297.60,154.17 304.40,154.17 311.20,154.17 318.00,154.17 324.80,154.17 331.60,154.17 338.40,154.17 345.20,154.17 352.00,154.17 358.80,154.17 365.60,154.17 372.40,154.17 379.20,154.17 386.00,154.17 392.80,154.17 399.60,154.17 406.40,154.17 413.20,154.17 420.00,154.17 426.80,154.17 433.60,154.17 440.40,154.17 447.20,154.17 454.00,154.17 460.80,154.17 467.60,154.17 474.40,154.17 481.20,154.17 488.00,154.17 494.80,154.17 501.60,154.17 508.40,154.17 515.20,154.17 522.00,154.17 528.80,154.17 535.60,154.17 542.40,154.17 549.20,154.17 556.00,154.17 562.80,154.17 569.60,154.17 576.40,154.17 583.20,154.17 590.00,154.17 596.80,154.17 603.60,154.17 610.40,154.17 617.20,154.17 624.00,154.17 630.80,154.17 637.60,154.17 644.40,154.17 651.20,154.17 658.00,154.17 664.80,154.17 671.60,154.17 678.40,154.17 685.20,154.17 692.00,154.17 698.80,154.17 705.60,154.17 712.40,154.17 719.20,154.17 726.00,154.17 732.80,154.17 739.60,154.17 746.40,154.17 753.20,154.17 760.00,154.17" fill="none" stroke="#7c3aed" stroke-width="2.6" stroke-linejoin="round"/>
+<polyline points="80.00,154.17 86.80,149.25 93.60,144.24 100.40,139.12 107.20,133.90 114.00,128.58 120.80,123.15 127.60,117.61 134.40,111.97 141.20,106.21 142.61,105.00" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<line x1="188.8" y1="354.447" x2="188.8" y2="430" stroke="#d97706" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="188.80" cy="354.45" r="5.5" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="166.8" y="430" width="44" height="24" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="188.8" y="447" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">16</text>
+<line x1="440.4" y1="351.074" x2="440.4" y2="430" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="440.40" cy="351.07" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="418.4" y="430" width="44" height="24" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="440.4" y="447" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">53</text>
+<line x1="624" y1="351.165" x2="624" y2="430" stroke="#059669" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="624.00" cy="351.17" r="5.5" fill="#059669" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="602" y="430" width="44" height="24" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="624" y="447" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">80</text>
+<circle cx="102" cy="184.167" r="13" fill="#0f172a" stroke="#ffffff" stroke-width="2"/><text x="102" y="189.667" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<line x1="92" y1="175.167" x2="83" y2="157.167" stroke="#0f172a" stroke-width="1.2"/>
+<text x="122" y="204.167" font-size="15" fill="#0f172a" text-anchor="start">ทุกเส้นเริ่มที่ 5</text>
+<circle cx="212.8" cy="442" r="13" fill="#0f172a" stroke="#ffffff" stroke-width="2"/><text x="212.8" y="447.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="232.8" y="447" font-size="15" fill="#0f172a" text-anchor="start">อ่านเฟรมที่ตัดเส้นเกณฑ์ 1</text>
+<circle cx="352" cy="138.167" r="13" fill="#7c3aed" stroke="#ffffff" stroke-width="2"/><text x="352" y="143.667" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="372" y="143.167" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">f = 1.0 → คงที่ 5 ตลอด ไม่เคยต่ำกว่า 1 (ไม่หยุด)</text>
+<circle cx="164.607" cy="119" r="13" fill="#dc2626" stroke="#ffffff" stroke-width="2"/><text x="164.607" y="124.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="184.607" y="124" font-size="15" fill="#dc2626" text-anchor="start">f = 1.02 &gt; 1 → เร่งขึ้นเอง (เฟรม 10 ≈ 6.09)</text>
+<rect x="40" y="490" width="470" height="214" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="40" cy="490" r="13" fill="#0f172a" stroke="#ffffff" stroke-width="2"/><text x="40" y="495.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="58" y="516" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ไล่ตัวเลข 5 × fⁿ ของแต่ละเส้น (สี = ค่า f)</text>
+<text x="86" y="544" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">f</text>
+<text x="160" y="544" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ลดลงต่อเฟรม</text>
+<text x="330" y="544" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">เฟรม 10</text>
+<text x="496" y="544" font-size="15" fill="#475569" text-anchor="end" font-weight="bold">เฟรมที่ &lt; 1</text>
+<line x1="52" y1="552" x2="500" y2="552" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="58" y1="571" x2="80" y2="571" stroke="#d97706" stroke-width="3.2"/>
+<text x="88" y="576" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.9</text>
+<text x="160" y="576" font-size="15" fill="#0f172a" text-anchor="start">ร้อยละ 10</text>
+<text x="330" y="576" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1.7434</text>
+<text x="496" y="576" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold">16</text>
+<line x1="58" y1="597" x2="80" y2="597" stroke="#2563eb" stroke-width="3.2"/>
+<text x="88" y="602" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.97</text>
+<text x="160" y="602" font-size="15" fill="#0f172a" text-anchor="start">ร้อยละ 3</text>
+<text x="330" y="602" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3.6871</text>
+<text x="496" y="602" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold">53</text>
+<line x1="58" y1="623" x2="80" y2="623" stroke="#059669" stroke-width="3.2"/>
+<text x="88" y="628" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.98</text>
+<text x="160" y="628" font-size="15" fill="#0f172a" text-anchor="start">ร้อยละ 2</text>
+<text x="330" y="628" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4.0854</text>
+<text x="496" y="628" font-size="15" fill="#059669" text-anchor="end" font-weight="bold">80</text>
+<line x1="58" y1="649" x2="80" y2="649" stroke="#7c3aed" stroke-width="3.2"/>
+<text x="88" y="654" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1.0</text>
+<text x="160" y="654" font-size="15" fill="#0f172a" text-anchor="start">ร้อยละ 0</text>
+<text x="330" y="654" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5.0000</text>
+<text x="496" y="654" font-size="15" fill="#7c3aed" text-anchor="end" font-weight="bold">ไม่มีวัน</text>
+<line x1="58" y1="675" x2="80" y2="675" stroke="#dc2626" stroke-width="2.6" stroke-dasharray="5 3"/>
+<text x="88" y="680" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1.02</text>
+<text x="160" y="680" font-size="15" fill="#0f172a" text-anchor="start">เพิ่มร้อยละ 2</text>
+<text x="330" y="680" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6.0950</text>
+<text x="496" y="680" font-size="15" fill="#dc2626" text-anchor="end" font-weight="bold">ไม่มีวัน</text>
+<rect x="530" y="490" width="230" height="132" rx="12" fill="#059669" stroke="#059669" stroke-width="2"/>
+<text x="645" y="552" font-size="15" fill="#ffffff" text-anchor="middle">คำตอบ: ยิ่ง f ใกล้ 1 ยิ่งหยุดช้า</text>
+<text x="645" y="576" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="bold">16 → 53 → 80 → ∞</text>
+<rect x="530" y="632" width="230" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="544" y="656" font-size="15" fill="#0f172a" text-anchor="start">ตรวจ: 5 × 0.9¹⁶ ≈ 0.927</text>
+<text x="544" y="682" font-size="15" fill="#0f172a" text-anchor="start">5 × 0.98⁸⁰ ≈ 0.993 (&lt; 1)</text>
+<text x="40" y="728" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด: friction = 0.97 แปลว่าอะไร</text>
+<rect x="40" y="740" width="350" height="130" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="54" y="766" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ลดลงร้อยละ 3 ต่อเฟรม (คูณ)</text>
+<text x="54" y="792" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1 − 0.97) × 100 = 3</text>
+<text x="54" y="816" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5 → 4.85 → 4.7045 → 4.5634</text>
+<text x="54" y="840" font-size="15" fill="#0f172a" text-anchor="start">ลดช้าลงเรื่อย ๆ ต่ำกว่า 1 ที่เฟรม 53</text>
+<rect x="410" y="740" width="350" height="130" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="424" y="766" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ลดลง 0.97 หน่วยทุกเฟรม (ลบ)</text>
+<text x="424" y="792" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5 → 4.03 → 3.06 → 2.09 → 1.12</text>
+<text x="424" y="816" font-size="15" fill="#0f172a" text-anchor="start">ต่ำกว่า 1 ในเพียง 5 เฟรม (เหลือ 0.15)</text>
+<text x="424" y="840" font-size="15" fill="#0f172a" text-anchor="start">แต่โค้ด velocity *= 0.97 คือการคูณ</text>
+</svg>

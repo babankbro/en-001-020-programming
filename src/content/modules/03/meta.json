@@ -4,12 +4,40 @@
   "title": "การรับข้อมูล ลิสต์ และแผนภูมิ",
   "titleEn": "Input, Lists & Charts",
   "summary": "รับข้อมูลจากผู้ใช้ด้วย input() แล้วแปลงชนิดให้ถูกต้อง เก็บหลายค่าในลิสต์และใช้ append/insert/pop หาผลรวม ค่าเฉลี่ย ค่ามากสุด สุ่มข้อมูลแบบสม่ำเสมอและแบบปกติด้วย random/NumPy วาดแผนภาพการกระจายด้วย Matplotlib อ่าน CSV ด้วย pandas และวาดสามเหลี่ยมชิดขวาด้วย linespace()",
-  "tags": ["input", "int()", "การแปลงชนิดข้อมูล", "ลิสต์", "List", "append", "pop", "ค่าเฉลี่ย", "random", "NumPy", "การแจกแจงแบบปกติ", "Matplotlib", "scatter", "pandas", "linespace"],
-  "clo": ["CLO1", "CLO4"],
+  "tags": [
+    "input",
+    "int()",
+    "การแปลงชนิดข้อมูล",
+    "ลิสต์",
+    "List",
+    "append",
+    "pop",
+    "ค่าเฉลี่ย",
+    "random",
+    "NumPy",
+    "การแจกแจงแบบปกติ",
+    "Matplotlib",
+    "scatter",
+    "pandas",
+    "linespace"
+  ],
+  "clo": [
+    "CLO1",
+    "CLO4"
+  ],
   "prereq": [
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, for/while)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 04 ฟังก์ชัน", "url": "https://en-001-002-computer-programming.vercel.app/module/04" },
-    { "label": "บท 06 การจัดการข้อมูลและไฟล์ (List, CSV)", "url": "https://en-001-002-computer-programming.vercel.app/module/06" }
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, for/while)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 04 ฟังก์ชัน",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/04"
+    },
+    {
+      "label": "บท 06 การจัดการข้อมูลและไฟล์ (List, CSV)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/06"
+    }
   ],
   "topics": [
     "input() และการแปลงชนิดข้อมูล",
@@ -46,5 +74,7 @@
       "กระดาษสำหรับทายผลลัพธ์และไล่ค่าลิสต์ทีละคำสั่ง"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

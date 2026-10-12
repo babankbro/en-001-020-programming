@@ -73,7 +73,7 @@ export function buildSearchIndex(): SearchItem[] {
     );
     items.push({ title: `Lab ${m.id}: ${m.lab.title}`, sub: `${w} · ใบงาน`, url: `/lab/${m.id}`, kind: "lab" });
     items.push({ title: `Review Sheet บทที่ ${m.week}`, sub: `${m.title}`, url: `/review/${m.id}`, kind: "review" });
-    items.push({ title: `แบบทดสอบบทที่ ${m.week}`, sub: `${m.title} · 20 ข้อ`, url: `/exam/${m.id}`, kind: "exam" });
+    items.push({ title: `แบบทดสอบบทที่ ${m.week}`, sub: `${m.title} · มีแนวข้อสอบปลายภาค`, url: `/exam/${m.id}`, kind: "exam" });
     m.tags.forEach((t) => items.push({ title: t, sub: `${w} · ${m.title}`, url: `/module/${m.id}`, kind: "topic" }));
   }
   items.push(

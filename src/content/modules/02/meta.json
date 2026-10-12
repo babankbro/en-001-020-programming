@@ -4,13 +4,40 @@
   "title": "พื้นฐานไพทอนและเวกเตอร์",
   "titleEn": "Python Basics & Vectors",
   "summary": "เริ่มเขียนโปรแกรมไพทอนบน Jupyter Notebook ตั้งแต่ print ตัวแปร f-string ไปจนถึงฟังก์ชันคำนวณผลคูณจุดและขนาดของเวกเตอร์ และวาดรูปด้วย # ด้วยแนวคิดการออกแบบจากบนลงล่าง",
-  "tags": ["print", "ตัวแปร", "f-string", "ฟังก์ชัน", "การวนซ้ำ", "range", "ผลคูณจุด", "Dot Product", "ขนาดเวกเตอร์", "Top-Down Design", "Jupyter"],
-  "clo": ["CLO1", "CLO2"],
+  "tags": [
+    "print",
+    "ตัวแปร",
+    "f-string",
+    "ฟังก์ชัน",
+    "การวนซ้ำ",
+    "range",
+    "ผลคูณจุด",
+    "Dot Product",
+    "ขนาดเวกเตอร์",
+    "Top-Down Design",
+    "Jupyter"
+  ],
+  "clo": [
+    "CLO1",
+    "CLO2"
+  ],
   "prereq": [
-    { "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์", "url": "https://en-001-002-computer-programming.vercel.app/module/02" },
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (for/while)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 04 ฟังก์ชัน", "url": "https://en-001-002-computer-programming.vercel.app/module/04" },
-    { "label": "บท 05 การออกแบบจากบนลงล่าง", "url": "https://en-001-002-computer-programming.vercel.app/module/05" }
+    {
+      "label": "บท 02 ตัวแปร ชนิดข้อมูล และคณิตศาสตร์",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/02"
+    },
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (for/while)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 04 ฟังก์ชัน",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/04"
+    },
+    {
+      "label": "บท 05 การออกแบบจากบนลงล่าง",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/05"
+    }
   ],
   "topics": [
     "โปรแกรมแรก ตัวแปร และ f-string",
@@ -47,5 +74,7 @@
       "กระดาษและเครื่องคำนวณสำหรับตรวจคำตอบ"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

@@ -4,12 +4,42 @@
   "title": "การเคลื่อนที่และพฤติกรรมศัตรู",
   "titleEn": "Motion & Enemy Behaviour",
   "summary": "จำลองแรงเสียดทานด้วยการลดลงแบบเรขาคณิต แยกค่าคงที่ไว้ในมอดูล config.py แล้วสร้างศัตรู 2 แบบ คือศัตรูเคลื่อนที่สุ่มสะท้อนขอบจอ และศัตรูสีแดงที่ไล่ตามผู้เล่นด้วยเวกเตอร์หนึ่งหน่วยและแยกตัวออกจากกัน พร้อมการหมุนยานแบบนุ่มนวล",
-  "tags": ["แรงเสียดทาน", "friction", "ลำดับเรขาคณิต", "ลอการิทึม", "มอดูล", "config.py", "import", "random.uniform", "Vector2", "การสะท้อน", "Seek", "Separation", "normalize", "scale_to_length", "lerp", "มุมที่สั้นที่สุด"],
-  "clo": ["CLO2", "CLO3", "CLO4"],
+  "tags": [
+    "แรงเสียดทาน",
+    "friction",
+    "ลำดับเรขาคณิต",
+    "ลอการิทึม",
+    "มอดูล",
+    "config.py",
+    "import",
+    "random.uniform",
+    "Vector2",
+    "การสะท้อน",
+    "Seek",
+    "Separation",
+    "normalize",
+    "scale_to_length",
+    "lerp",
+    "มุมที่สั้นที่สุด"
+  ],
+  "clo": [
+    "CLO2",
+    "CLO3",
+    "CLO4"
+  ],
   "prereq": [
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (while/break)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 05 การออกแบบจากบนลงล่างและการแยกมอดูล", "url": "https://en-001-002-computer-programming.vercel.app/module/05" },
-    { "label": "บท 08 คลาสและวัตถุ (OOP)", "url": "https://en-001-002-computer-programming.vercel.app/module/08" }
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (while/break)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 05 การออกแบบจากบนลงล่างและการแยกมอดูล",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/05"
+    },
+    {
+      "label": "บท 08 คลาสและวัตถุ (OOP)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/08"
+    }
   ],
   "topics": [
     "แรงเสียดทานและการลดลงแบบเรขาคณิต",
@@ -47,5 +77,7 @@
       "เครื่องคำนวณที่มี ln (ลอการิทึมธรรมชาติ)"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

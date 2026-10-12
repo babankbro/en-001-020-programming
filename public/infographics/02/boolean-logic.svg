@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1160" width="800" height="1160" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ตารางความจริงของ and or not ลำดับความสำคัญ และต้นไม้การประเมินนิพจน์บูลีนทีละขั้น">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>ตารางความจริงของ and or not ลำดับความสำคัญ และต้นไม้การประเมินนิพจน์บูลีนทีละขั้น</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ตรรกะบูลีน: and · or · not และการประเมินทีละขั้น</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: นิพจน์อย่าง (True and False) or True ได้ค่าอะไร และคิดอย่างไร</text>
+<text x="24" y="98" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="94" y="85" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="120" y="98" font-size="15" fill="#0f172a" text-anchor="start">True (จริง)</text>
+<rect x="227.6" y="85" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="253.6" y="98" font-size="15" fill="#0f172a" text-anchor="start">False (เท็จ)</text>
+<rect x="368.8" y="85" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="394.8" y="98" font-size="15" fill="#0f172a" text-anchor="start">ส่วนที่ต้องทำก่อน</text>
+<circle cx="37" cy="130" r="13" fill="#2563eb"/>
+<text x="37" y="135.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="58" y="136" font-size="17" fill="#2563eb" text-anchor="start" font-weight="bold">จำตารางความจริง (Truth Table)</text>
+<text x="150" y="164" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">and: จริงเมื่อจริงทั้งคู่</text>
+<rect x="30" y="172" width="70" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="65" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">A</text>
+<rect x="100" y="172" width="70" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="135" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">B</text>
+<rect x="170" y="172" width="100" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="220" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">A and B</text>
+<rect x="30" y="202" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="65" y="223" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="100" y="202" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="135" y="223" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="170" y="202" width="100" height="30" rx="0" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="220" y="223" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="30" y="232" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="65" y="253" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="100" y="232" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="135" y="253" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="170" y="232" width="100" height="30" rx="0" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="220" y="253" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="30" y="262" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="65" y="283" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="100" y="262" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="135" y="283" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="170" y="262" width="100" height="30" rx="0" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="220" y="283" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="30" y="292" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="65" y="313" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="100" y="292" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="135" y="313" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="170" y="292" width="100" height="30" rx="0" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="220" y="313" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<text x="410" y="164" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">or: จริงอย่างน้อยหนึ่งตัว</text>
+<rect x="290" y="172" width="70" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="325" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">A</text>
+<rect x="360" y="172" width="70" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="395" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">B</text>
+<rect x="430" y="172" width="100" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="480" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">A or B</text>
+<rect x="290" y="202" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="325" y="223" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="360" y="202" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="395" y="223" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="430" y="202" width="100" height="30" rx="0" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="480" y="223" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="290" y="232" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="325" y="253" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="360" y="232" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="395" y="253" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="430" y="232" width="100" height="30" rx="0" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="480" y="253" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="290" y="262" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="325" y="283" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="360" y="262" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="395" y="283" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="430" y="262" width="100" height="30" rx="0" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="480" y="283" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="290" y="292" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="325" y="313" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="360" y="292" width="70" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="395" y="313" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="430" y="292" width="100" height="30" rx="0" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="480" y="313" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<text x="665" y="164" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">not: กลับค่า</text>
+<rect x="560" y="172" width="100" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="610" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">A</text>
+<rect x="660" y="172" width="110" height="30" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="715" y="193" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">not A</text>
+<rect x="560" y="202" width="100" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="610" y="223" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="660" y="202" width="110" height="30" rx="0" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="715" y="223" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="560" y="232" width="100" height="30" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="610" y="253" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="660" y="232" width="110" height="30" rx="0" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="715" y="253" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<text x="665" y="284" font-size="15" fill="#475569" text-anchor="middle">and มีเขียวแถวเดียว</text>
+<text x="665" y="306" font-size="15" fill="#475569" text-anchor="middle">or มีแดงแถวเดียว</text>
+<circle cx="37" cy="354" r="13" fill="#d97706"/>
+<text x="37" y="359.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="58" y="360" font-size="17" fill="#d97706" text-anchor="start" font-weight="bold">ลำดับความสำคัญ: ทำจากซ้ายไปขวาของแถบนี้</text>
+<rect x="60" y="378" width="120" height="50" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<text x="120" y="401" font-size="18" fill="#b45309" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">( )</text>
+<text x="120" y="421" font-size="15" fill="#475569" text-anchor="middle">วงเล็บ</text>
+<line x1="184" y1="403" x2="236" y2="403" stroke="#d97706" stroke-width="1.8" marker-end="url(#arrO)"/>
+<rect x="240" y="378" width="120" height="50" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<text x="300" y="401" font-size="18" fill="#b45309" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">not</text>
+<text x="300" y="421" font-size="15" fill="#475569" text-anchor="middle">กลับค่า</text>
+<line x1="364" y1="403" x2="416" y2="403" stroke="#d97706" stroke-width="1.8" marker-end="url(#arrO)"/>
+<rect x="420" y="378" width="120" height="50" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<text x="480" y="401" font-size="18" fill="#b45309" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">and</text>
+<text x="480" y="421" font-size="15" fill="#475569" text-anchor="middle">และ</text>
+<line x1="544" y1="403" x2="596" y2="403" stroke="#d97706" stroke-width="1.8" marker-end="url(#arrO)"/>
+<rect x="600" y="378" width="120" height="50" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<text x="660" y="401" font-size="18" fill="#b45309" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">or</text>
+<text x="660" y="421" font-size="15" fill="#475569" text-anchor="middle">หรือ</text>
+<text x="400" y="452" font-size="15" fill="#475569" text-anchor="middle">ทำก่อน ←——————————→ ทำทีหลัง   (เทียบเลขคณิต: วงเล็บ → ติดลบ → คูณ → บวก)</text>
+<circle cx="37" cy="486" r="13" fill="#7c3aed"/>
+<text x="37" y="491.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="58" y="492" font-size="17" fill="#7c3aed" text-anchor="start" font-weight="bold">ต้นไม้การประเมิน: ค่าไหลจากใบ (ล่าง) ขึ้นสู่ราก (บน)</text>
+<rect x="24" y="506" width="244" height="384" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="36" y="530" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ข้อ 1</text>
+<text x="146" y="558" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(True and False) or True</text>
+<line x1="142" y1="621" x2="114" y2="661" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="170" y1="621" x2="232" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="94" y1="695" x2="72" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="118" y1="695" x2="140" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="32" y="652" width="148" height="124" rx="10" fill="none" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="36" y="646" font-size="15" fill="#d97706" text-anchor="start">( ) ทำก่อน</text>
+<rect x="126" y="587" width="60" height="34" rx="17" fill="#ffffff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="156" y="610" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">or</text>
+<rect x="190" y="590" width="60" height="28" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="220" y="610" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="76" y="661" width="60" height="34" rx="17" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="106" y="684" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">and</text>
+<rect x="140" y="664" width="60" height="28" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+<text x="170" y="684" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="38" y="737" width="56" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="66" y="757" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="118" y="737" width="56" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="146" y="757" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="208" y="737" width="56" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="236" y="757" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<text x="36" y="804" font-size="15" fill="#475569" text-anchor="start">ขั้น 1 ในวงเล็บ:</text>
+<text x="36" y="826" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True and False → False</text>
+<text x="36" y="852" font-size="15" fill="#475569" text-anchor="start">ขั้น 2 นอกวงเล็บ:</text>
+<text x="36" y="874" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False or True → True</text>
+<rect x="34" y="882" width="224" height="18" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<rect x="278" y="506" width="244" height="384" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="290" y="530" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ข้อ 2</text>
+<text x="400" y="558" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(False or True) and False</text>
+<line x1="396" y1="621" x2="368" y2="661" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="424" y1="621" x2="486" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="348" y1="695" x2="326" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="372" y1="695" x2="394" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="286" y="652" width="148" height="124" rx="10" fill="none" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="290" y="646" font-size="15" fill="#d97706" text-anchor="start">( ) ทำก่อน</text>
+<rect x="380" y="587" width="60" height="34" rx="17" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="410" y="610" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">and</text>
+<rect x="444" y="590" width="60" height="28" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+<text x="474" y="610" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="330" y="661" width="60" height="34" rx="17" fill="#ffffff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="360" y="684" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">or</text>
+<rect x="394" y="664" width="60" height="28" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="424" y="684" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="292" y="737" width="56" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="320" y="757" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="372" y="737" width="56" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="400" y="757" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="462" y="737" width="56" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="490" y="757" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<text x="290" y="804" font-size="15" fill="#475569" text-anchor="start">ขั้น 1 ในวงเล็บ:</text>
+<text x="290" y="826" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False or True → True</text>
+<text x="290" y="852" font-size="15" fill="#475569" text-anchor="start">ขั้น 2 นอกวงเล็บ:</text>
+<text x="290" y="874" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True and False → False</text>
+<rect x="288" y="882" width="224" height="18" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<rect x="532" y="506" width="244" height="384" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="544" y="530" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ข้อ 3</text>
+<text x="654" y="558" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(True or False) and True</text>
+<line x1="650" y1="621" x2="622" y2="661" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="678" y1="621" x2="740" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="602" y1="695" x2="580" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="626" y1="695" x2="648" y2="737" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="540" y="652" width="148" height="124" rx="10" fill="none" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="544" y="646" font-size="15" fill="#d97706" text-anchor="start">( ) ทำก่อน</text>
+<rect x="634" y="587" width="60" height="34" rx="17" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="664" y="610" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">and</text>
+<rect x="698" y="590" width="60" height="28" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="728" y="610" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="584" y="661" width="60" height="34" rx="17" fill="#ffffff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="614" y="684" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">or</text>
+<rect x="648" y="664" width="60" height="28" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="678" y="684" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="546" y="737" width="56" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="574" y="757" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<rect x="626" y="737" width="56" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="654" y="757" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">False</text>
+<rect x="716" y="737" width="56" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="744" y="757" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<text x="544" y="804" font-size="15" fill="#475569" text-anchor="start">ขั้น 1 ในวงเล็บ:</text>
+<text x="544" y="826" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True or False → True</text>
+<text x="544" y="852" font-size="15" fill="#475569" text-anchor="start">ขั้น 2 นอกวงเล็บ:</text>
+<text x="544" y="874" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True and True → True</text>
+<rect x="542" y="882" width="224" height="18" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<rect x="24" y="902" width="752" height="44" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2.4"/>
+<text x="40" y="930" font-size="16" fill="#b45309" text-anchor="start" font-weight="bold">คำตอบ print ทั้ง 3 ข้อ</text>
+<text x="330" y="931" font-size="17" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ข้อ 1: True</text>
+<text x="480" y="931" font-size="17" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ข้อ 2: False</text>
+<text x="630" y="931" font-size="17" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ข้อ 3: True</text>
+<circle cx="37" cy="970" r="13" fill="#059669"/>
+<text x="37" y="975.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="58" y="976" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ลัดวงจร: False and X → False และ True or X → True โดยไม่ดู X เลย</text>
+<text x="56" y="1004" font-size="15" fill="#475569" text-anchor="start">เช่น 0 and 1/0 ได้ 0 ไม่เกิด ZeroDivisionError เพราะไม่เคยคำนวณ 1/0</text>
+<rect x="24" y="1024" width="368" height="130" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="48" cy="1048" r="13" fill="#dc2626"/>
+<text x="48" y="1054" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="70" y="1054" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">ผิด: ทำซ้ายไปขวาเหมือนอ่านหนังสือ</text>
+<text x="42" y="1082" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True or False and False</text>
+<text x="42" y="1108" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(True or False) and False</text>
+<text x="42" y="1134" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ False</text>
+<rect x="408" y="1024" width="368" height="130" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="432" cy="1048" r="13" fill="#059669"/>
+<text x="432" y="1054" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="454" y="1054" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ถูก: and ทำก่อน or</text>
+<text x="426" y="1082" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True or False and False</text>
+<text x="426" y="1108" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True or (False and False)</text>
+<text x="426" y="1134" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ True or False → True</text>
+</svg>

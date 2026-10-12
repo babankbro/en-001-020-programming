@@ -33,6 +33,7 @@ export interface QuizQuestion {
   choices: string[]; // 4 ตัวเลือก
   answer: number; // index 0–3
   explain: string; // เฉลยพร้อมเหตุผลสั้น ๆ
+  exam?: boolean; // ข้อแนวข้อสอบปลายภาค (แสดงป้ายกำกับ)
 }
 
 export interface ModuleContent {

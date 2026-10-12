@@ -4,12 +4,39 @@
   "title": "การตรวจจับการชนและกริด",
   "titleEn": "Collision Detection & Spatial Grid",
   "summary": "ยิงกระสุนจากยานไปยังตำแหน่งเมาส์ด้วยเวกเตอร์หนึ่งหน่วย ตรวจจับการชนแบบกล่องขอบเขต (AABB) ลบวัตถุออกจากลิสต์อย่างปลอดภัย และลดจำนวนการเปรียบเทียบจาก 80,000 เหลือราว 1,700 ครั้งต่อเฟรมด้วยการแบ่งพื้นที่เป็นกริด พร้อมวิเคราะห์ความซับซ้อนและวัด FPS",
-  "tags": ["การชน", "Collision", "AABB", "colliderect", "normalize", "เวกเตอร์หนึ่งหน่วย", "กริด", "Spatial Grid", "ลิสต์", "remove", "Big-O", "FPS", "isinstance"],
-  "clo": ["CLO2", "CLO3", "CLO4"],
+  "tags": [
+    "การชน",
+    "Collision",
+    "AABB",
+    "colliderect",
+    "normalize",
+    "เวกเตอร์หนึ่งหน่วย",
+    "กริด",
+    "Spatial Grid",
+    "ลิสต์",
+    "remove",
+    "Big-O",
+    "FPS",
+    "isinstance"
+  ],
+  "clo": [
+    "CLO2",
+    "CLO3",
+    "CLO4"
+  ],
   "prereq": [
-    { "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, and/or)", "url": "https://en-001-002-computer-programming.vercel.app/module/03" },
-    { "label": "บท 06 การจัดการข้อมูลและไฟล์ (List)", "url": "https://en-001-002-computer-programming.vercel.app/module/06" },
-    { "label": "บท 08 คลาสและวัตถุ (OOP)", "url": "https://en-001-002-computer-programming.vercel.app/module/08" }
+    {
+      "label": "บท 03 การควบคุมการไหลของโปรแกรม (if-else, and/or)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/03"
+    },
+    {
+      "label": "บท 06 การจัดการข้อมูลและไฟล์ (List)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/06"
+    },
+    {
+      "label": "บท 08 คลาสและวัตถุ (OOP)",
+      "url": "https://en-001-002-computer-programming.vercel.app/module/08"
+    }
   ],
   "topics": [
     "ยิงกระสุนไปยังเมาส์ด้วยเวกเตอร์หนึ่งหน่วย",
@@ -47,5 +74,7 @@
       "กระดาษและเครื่องคำนวณสำหรับตรวจคำตอบ"
     ]
   },
-  "quiz": { "minutes": 30 }
+  "quiz": {
+    "minutes": 35
+  }
 }

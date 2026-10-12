@@ -1,94 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 670" width="800" height="670" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กฎของ f-string แบบถูกและแบบผิด และการจัดรูปแบบ">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1112" width="800" height="1112" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กฎของ f-string แบบถูกและแบบผิด โครงสร้างนิพจน์กับรูปแบบ และการจัดความกว้างช่อง">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>กฎของ f-string แบบถูกและแบบผิด และการจัดรูปแบบ</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">กฎของ f-string: แบบไหนแทนค่า แบบไหนไม่แทนค่า</text>
-<text x="400" y="64" font-size="15" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">กำหนด fname = "Sarayut", lname = "Gowirat", a = 5, b = 2</text>
-<rect x="24" y="82" width="752" height="30" rx="8" fill="#f1f5f9"/>
-<text x="84" y="103" font-size="15" fill="#475569" font-weight="bold">โค้ดในวงเล็บของ print()</text>
-<text x="320" y="103" font-size="15" fill="#475569" font-weight="bold">สิ่งที่พิมพ์ออกมา</text>
-<text x="520" y="103" font-size="15" fill="#475569" font-weight="bold">เหตุผล</text>
-<rect x="24" y="120" width="752" height="40" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<circle cx="50" cy="140" r="13" fill="#059669"/>
-<text x="50" y="146" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">✓</text>
-<text x="76" y="146" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"{fname} {lname}"</text>
-<text x="320" y="146" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Sarayut Gowirat</text>
-<text x="520" y="146" font-size="14" fill="#0f172a">มี f + ปีกกา → แทนค่าตัวแปร</text>
-<rect x="24" y="166" width="752" height="40" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
-<circle cx="50" cy="186" r="13" fill="#dc2626"/>
-<text x="50" y="192" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">✗</text>
-<text x="76" y="192" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"{fname} {lname}"</text>
-<text x="320" y="192" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{fname} {lname}</text>
-<text x="520" y="192" font-size="14" fill="#0f172a">ลืม f → พิมพ์ปีกกาออกมาตรง ๆ</text>
-<rect x="24" y="212" width="752" height="40" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
-<circle cx="50" cy="232" r="13" fill="#dc2626"/>
-<text x="50" y="238" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">✗</text>
-<text x="76" y="238" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"(fname) (lname)"</text>
-<text x="320" y="238" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(fname) (lname)</text>
-<text x="520" y="238" font-size="14" fill="#0f172a">วงเล็บธรรมดา ไม่แทนค่า</text>
-<rect x="24" y="258" width="752" height="40" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<circle cx="50" cy="278" r="13" fill="#059669"/>
-<text x="50" y="284" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">✓</text>
-<text x="76" y="284" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"a * b = {a * b}"</text>
-<text x="320" y="284" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a * b = 10</text>
-<text x="520" y="284" font-size="14" fill="#0f172a">ในปีกกาใส่นิพจน์คำนวณได้</text>
-<rect x="24" y="304" width="752" height="40" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<circle cx="50" cy="324" r="13" fill="#059669"/>
-<text x="50" y="330" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">✓</text>
-<text x="76" y="330" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">fname + " " + lname</text>
-<text x="320" y="330" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Sarayut Gowirat</text>
-<text x="520" y="330" font-size="14" fill="#0f172a">ต่อด้วย + ได้ แต่ต้องเป็น str ทุกตัว</text>
-<text x="400" y="388" font-size="18" fill="#0f172a" font-weight="bold" text-anchor="middle">รูปแบบการแสดงผล {นิพจน์:รูปแบบ}</text>
-<text x="153.5" y="436" font-size="30" fill="#475569" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{</text>
-<text x="170.5" y="436" font-size="30" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2/3</text>
-<line x1="196" y1="442" x2="196" y2="452" stroke="#2563eb" stroke-width="1.5"/>
-<text x="221.5" y="436" font-size="30" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">:</text>
-<line x1="230" y1="442" x2="230" y2="452" stroke="#d97706" stroke-width="1.5"/>
-<text x="238.5" y="436" font-size="30" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">.3f</text>
-<line x1="264" y1="442" x2="264" y2="452" stroke="#7c3aed" stroke-width="1.5"/>
-<text x="289.5" y="436" font-size="30" fill="#475569" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">}</text>
-<text x="196" y="472" font-size="14" fill="#2563eb" font-weight="bold" text-anchor="middle">นิพจน์</text>
-<text x="230" y="492" font-size="14" fill="#d97706" font-weight="bold" text-anchor="middle">คั่น</text>
-<text x="264" y="472" font-size="14" fill="#7c3aed" font-weight="bold" text-anchor="middle">รูปแบบ</text>
-<line x1="352" y1="426" x2="410" y2="426" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
-<text x="424" y="436" font-size="30" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.667</text>
-<text x="540" y="432" font-size="14" fill="#475569">ปัดเป็นทศนิยม 3 ตำแหน่ง</text>
-<text x="400" y="512" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">จัดความกว้างช่อง: แต่ละช่องคือ 1 อักขระ (ช่องว่างแสดงเป็นช่องเปล่า)</text>
-<text x="40" y="556" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{'ab':&gt;4}]"</text>
-<line x1="250" y1="551" x2="282" y2="551" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
-<text x="300" y="557" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">[</text>
-<rect x="302" y="536" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<rect x="326" y="536" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<rect x="350" y="536" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="361" y="556" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">a</text>
-<rect x="374" y="536" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="385" y="556" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">b</text>
-<text x="400" y="557" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
-<text x="520" y="556" font-size="14" fill="#0f172a">&gt; ชิดขวา กว้าง 4</text>
-<text x="40" y="596" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{'ab':&lt;6}]"</text>
-<line x1="250" y1="591" x2="282" y2="591" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
-<text x="300" y="597" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">[</text>
-<rect x="302" y="576" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="313" y="596" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">a</text>
-<rect x="326" y="576" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="337" y="596" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">b</text>
-<rect x="350" y="576" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<rect x="374" y="576" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<rect x="398" y="576" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<rect x="422" y="576" width="22" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
-<text x="448" y="597" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
-<text x="520" y="596" font-size="14" fill="#0f172a">&lt; ชิดซ้าย กว้าง 6</text>
-<text x="40" y="636" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{3.14159:.2f}]"</text>
-<line x1="250" y1="631" x2="282" y2="631" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
-<text x="300" y="637" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">[</text>
-<rect x="302" y="616" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="313" y="636" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">3</text>
-<rect x="326" y="616" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="337" y="636" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">.</text>
-<rect x="350" y="616" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="361" y="636" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">1</text>
-<rect x="374" y="616" width="22" height="28" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="385" y="636" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">4</text>
-<text x="400" y="637" font-size="18" fill="#475569" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
-<text x="520" y="636" font-size="14" fill="#0f172a">.2f ทศนิยม 2 ตำแหน่ง</text>
+<title>กฎของ f-string แบบถูกและแบบผิด โครงสร้างนิพจน์กับรูปแบบ และการจัดความกว้างช่อง</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">กฎของ f-string: แบบไหนแทนค่า แบบไหนไม่แทนค่า</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: เขียนอย่างไรให้ไพทอนแทนค่าตัวแปร และจัดรูปแบบตัวเลขได้</text>
+<text x="400" y="94" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">กำหนด fname = "Sarayut", lname = "Gowirat", a = 5, b = 2</text>
+<circle cx="37" cy="126" r="13" fill="#2563eb"/>
+<text x="37" y="131.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="58" y="132" font-size="17" fill="#2563eb" text-anchor="start" font-weight="bold">ตรวจ 2 เงื่อนไข: มีตัว f นำหน้า และใช้ปีกกา { } หรือไม่</text>
+<rect x="24" y="146" width="752" height="32" rx="8" fill="#f1f5f9" stroke="#f1f5f9" stroke-width="1.2"/>
+<text x="78" y="168" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">โค้ดในวงเล็บของ print()</text>
+<text x="330" y="168" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สิ่งที่พิมพ์ออกมา</text>
+<text x="530" y="168" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">เหตุผล</text>
+<rect x="24" y="186" width="752" height="42" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<circle cx="50" cy="207" r="13" fill="#059669"/>
+<text x="50" y="213" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="76" y="213" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"{fname} {lname}"</text>
+<text x="330" y="213" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Sarayut Gowirat</text>
+<text x="530" y="213" font-size="15" fill="#0f172a" text-anchor="start">มี f + ปีกกา → แทนค่า</text>
+<rect x="24" y="236" width="752" height="42" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<circle cx="50" cy="257" r="13" fill="#dc2626"/>
+<text x="50" y="263" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="76" y="263" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"{fname} {lname}"</text>
+<text x="330" y="263" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{fname} {lname}</text>
+<text x="530" y="263" font-size="15" fill="#0f172a" text-anchor="start">ลืม f → พิมพ์ปีกกาตรง ๆ</text>
+<rect x="24" y="286" width="752" height="42" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<circle cx="50" cy="307" r="13" fill="#dc2626"/>
+<text x="50" y="313" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="76" y="313" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"(fname) (lname)"</text>
+<text x="330" y="313" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(fname) (lname)</text>
+<text x="530" y="313" font-size="15" fill="#0f172a" text-anchor="start">วงเล็บธรรมดา ไม่แทนค่า</text>
+<rect x="24" y="336" width="752" height="42" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<circle cx="50" cy="357" r="13" fill="#059669"/>
+<text x="50" y="363" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="76" y="363" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"a * b = {a * b}"</text>
+<text x="330" y="363" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a * b = 10</text>
+<text x="530" y="363" font-size="15" fill="#0f172a" text-anchor="start">ในปีกกาคำนวณนิพจน์ได้</text>
+<rect x="24" y="386" width="752" height="42" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<circle cx="50" cy="407" r="13" fill="#059669"/>
+<text x="50" y="413" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="76" y="413" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">fname + " " + lname</text>
+<text x="330" y="413" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Sarayut Gowirat</text>
+<text x="530" y="413" font-size="15" fill="#0f172a" text-anchor="start">ต่อด้วย + ได้ (str ทุกตัว)</text>
+<text x="24" y="450" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="94" y="437" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="120" y="450" font-size="15" fill="#0f172a" text-anchor="start">แทนค่าแล้ว (ถูก)</text>
+<rect x="277.2" y="437" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="303.2" y="450" font-size="15" fill="#0f172a" text-anchor="start">ไม่แทนค่า — ไม่มี error แต่ข้อความผิด</text>
+<circle cx="37" cy="492" r="13" fill="#7c3aed"/>
+<text x="37" y="497.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="58" y="498" font-size="17" fill="#7c3aed" text-anchor="start" font-weight="bold">แยกส่วนใน { นิพจน์ : รูปแบบ } แล้วคำนวณซ้ายไปขวา</text>
+<text x="90" y="562" font-size="30" fill="#475569" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{</text>
+<text x="109" y="562" font-size="30" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2/3</text>
+<text x="162" y="562" font-size="30" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">:</text>
+<text x="181" y="562" font-size="30" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">.3f</text>
+<text x="234" y="562" font-size="30" fill="#475569" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">}</text>
+<line x1="134.5" y1="570" x2="134.5" y2="582" stroke="#2563eb" stroke-width="1.4"/>
+<text x="152.5" y="598" font-size="15" fill="#2563eb" text-anchor="end">นิพจน์ (คำนวณ)</text>
+<line x1="170.5" y1="570" x2="170.5" y2="608" stroke="#d97706" stroke-width="1.4"/>
+<text x="170.5" y="624" font-size="15" fill="#d97706" text-anchor="middle">ตัวคั่น</text>
+<line x1="206.5" y1="570" x2="206.5" y2="582" stroke="#7c3aed" stroke-width="1.4"/>
+<text x="194.5" y="598" font-size="15" fill="#7c3aed" text-anchor="start">รูปแบบ</text>
+<rect x="330" y="536" width="118" height="38" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="389" y="561" font-size="17" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2/3</text>
+<text x="389" y="596" font-size="15" fill="#475569" text-anchor="middle">คำนวณนิพจน์</text>
+<line x1="450" y1="555" x2="478" y2="555" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="480" y="536" width="118" height="38" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.6"/>
+<text x="539" y="561" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.6666…</text>
+<text x="539" y="596" font-size="15" fill="#475569" text-anchor="middle">ค่าจริง (float)</text>
+<line x1="600" y1="555" x2="628" y2="555" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="630" y="536" width="118" height="38" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="689" y="561" font-size="17" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.667</text>
+<text x="689" y="596" font-size="15" fill="#475569" text-anchor="middle">จัดรูป .3f</text>
+<text x="330" y="626" font-size="15" fill="#475569" text-anchor="start">.3f = ทศนิยม 3 ตำแหน่ง · ค่าในตัวแปรไม่เปลี่ยน เปลี่ยนแค่ที่แสดง</text>
+<circle cx="37" cy="664" r="13" fill="#059669"/>
+<text x="37" y="669.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="58" y="670" font-size="17" fill="#059669" text-anchor="start" font-weight="bold">จัดความกว้างช่อง: 1 ช่อง = 1 อักขระ (ช่องเปล่า = ช่องว่าง)</text>
+<text x="40" y="725" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{'ab':&gt;4}]"</text>
+<line x1="246" y1="720" x2="282" y2="720" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<text x="292" y="726" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[</text>
+<rect x="306" y="704" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="339" y="704" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="372" y="704" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="387" y="726" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a</text>
+<rect x="405" y="704" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="420" y="726" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b</text>
+<text x="442" y="726" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
+<text x="530" y="726" font-size="15" fill="#0f172a" text-anchor="start">&gt; ชิดขวา กว้าง 4 (เติมว่างซ้าย)</text>
+<text x="40" y="769" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{'ab':&lt;6}]"</text>
+<line x1="246" y1="764" x2="282" y2="764" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<text x="292" y="770" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[</text>
+<rect x="306" y="748" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="321" y="770" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a</text>
+<rect x="339" y="748" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="354" y="770" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b</text>
+<rect x="372" y="748" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="405" y="748" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="438" y="748" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<rect x="471" y="748" width="30" height="32" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="508" y="770" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
+<text x="530" y="770" font-size="15" fill="#0f172a" text-anchor="start">&lt; ชิดซ้าย กว้าง 6 (เติมว่างขวา)</text>
+<text x="40" y="813" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"[{3.14159:.2f}]"</text>
+<line x1="246" y1="808" x2="282" y2="808" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<text x="292" y="814" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[</text>
+<rect x="306" y="792" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="321" y="814" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<rect x="339" y="792" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="354" y="814" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">.</text>
+<rect x="372" y="792" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="387" y="814" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<rect x="405" y="792" width="30" height="32" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="420" y="814" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4</text>
+<text x="442" y="814" font-size="17" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">]</text>
+<text x="530" y="814" font-size="15" fill="#0f172a" text-anchor="start">.2f ทศนิยม 2 ตำแหน่ง</text>
+<circle cx="37" cy="860" r="13" fill="#d97706"/>
+<text x="37" y="865.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="58" y="866" font-size="17" fill="#d97706" text-anchor="start" font-weight="bold">ลองทั้งบรรทัด: print(f"{2/3:.3f}|{'ab':&gt;4}|")</text>
+<text x="56" y="898" font-size="15" fill="#7c3aed" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{2/3:.3f} → 0.667</text>
+<text x="260" y="898" font-size="15" fill="#475569" text-anchor="start">| คงเดิม</text>
+<text x="370" y="898" font-size="15" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{'ab':&gt;4} → ␣␣ab</text>
+<text x="580" y="898" font-size="15" fill="#475569" text-anchor="start">| คงเดิม</text>
+<rect x="56" y="914" width="688" height="46" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2.4"/>
+<text x="72" y="943" font-size="16" fill="#b45309" text-anchor="start" font-weight="bold">ผลลัพธ์ (␣ = ช่องว่าง)</text>
+<text x="728" y="943" font-size="18" fill="#0f172a" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0.667|␣␣ab|</text>
+<rect x="24" y="990" width="368" height="104" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="48" cy="1014" r="13" fill="#dc2626"/>
+<text x="48" y="1020" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="70" y="1020" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">ผิด: ต่อ str กับ int ด้วย +</text>
+<text x="42" y="1048" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"age: " + 20</text>
+<text x="42" y="1074" font-size="15" fill="#0f172a" text-anchor="start">→ TypeError (โปรแกรมหยุด)</text>
+<rect x="408" y="990" width="368" height="104" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="432" cy="1014" r="13" fill="#059669"/>
+<text x="432" y="1020" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="454" y="1020" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ถูก: แปลงเป็น str หรือใช้ f-string</text>
+<text x="426" y="1048" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"age: " + str(20)   f"age: {20}"</text>
+<text x="426" y="1074" font-size="15" fill="#0f172a" text-anchor="start">→ age: 20</text>
 </svg>
