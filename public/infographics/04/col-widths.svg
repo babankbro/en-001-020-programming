@@ -1,200 +1,247 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
-<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" width="800" height="880" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
 <text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">คำนวณ col_widths และ line_length ทีละขั้น</text>
-<text x="400.0" y="64.0" font-size="15" fill="#475569" text-anchor="middle">ตาราง table_show (5 คอลัมน์) — ตัวเลขมุมขวาของแต่ละช่องคือ len(str(ค่า))</text>
-<circle cx="40.0" cy="92.0" r="13" fill="#2563eb" stroke="none" stroke-width="1"/>
-<text x="40.0" y="97.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
-<rect x="102.0" y="102.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="112.0" y="126.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Name</text>
-<text x="224.0" y="126.0" font-size="14" fill="#475569" text-anchor="end">4</text>
-<rect x="238.0" y="102.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="248.0" y="126.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Math</text>
-<text x="360.0" y="126.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">4</text>
-<rect x="374.0" y="102.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="384.0" y="126.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Science</text>
-<text x="496.0" y="126.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">7</text>
-<rect x="510.0" y="102.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="520.0" y="126.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">English</text>
-<text x="632.0" y="126.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">7</text>
-<rect x="646.0" y="102.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="656.0" y="126.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Computer</text>
-<text x="768.0" y="126.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">8</text>
-<rect x="102.0" y="142.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="112.0" y="166.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Somchai</text>
-<text x="224.0" y="166.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">7</text>
-<rect x="238.0" y="142.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="248.0" y="166.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">55</text>
-<text x="360.0" y="166.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="374.0" y="142.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="384.0" y="166.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">63</text>
-<text x="496.0" y="166.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="510.0" y="142.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="520.0" y="166.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">77</text>
-<text x="632.0" y="166.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="646.0" y="142.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="656.0" y="166.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">81</text>
-<text x="768.0" y="166.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="102.0" y="182.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="112.0" y="206.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Somsri</text>
-<text x="224.0" y="206.0" font-size="14" fill="#475569" text-anchor="end">6</text>
-<rect x="238.0" y="182.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="248.0" y="206.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">65</text>
-<text x="360.0" y="206.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="374.0" y="182.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="384.0" y="206.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">61</text>
-<text x="496.0" y="206.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="510.0" y="182.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="520.0" y="206.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">67</text>
-<text x="632.0" y="206.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="646.0" y="182.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="656.0" y="206.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">72</text>
-<text x="768.0" y="206.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="102.0" y="222.0" width="132.0" height="36.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="112.0" y="246.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Sompong</text>
-<text x="224.0" y="246.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">7</text>
-<rect x="238.0" y="222.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="248.0" y="246.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">97</text>
-<text x="360.0" y="246.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="374.0" y="222.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="384.0" y="246.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">95</text>
-<text x="496.0" y="246.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="510.0" y="222.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="520.0" y="246.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">92</text>
-<text x="632.0" y="246.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<rect x="646.0" y="222.0" width="132.0" height="36.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="656.0" y="246.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">88</text>
-<text x="768.0" y="246.0" font-size="14" fill="#475569" text-anchor="end">2</text>
-<text x="60.0" y="126.0" font-size="14" fill="#475569" text-anchor="middle">แถว 0</text>
-<text x="60.0" y="166.0" font-size="14" fill="#475569" text-anchor="middle">แถว 1</text>
-<text x="60.0" y="206.0" font-size="14" fill="#475569" text-anchor="middle">แถว 2</text>
-<text x="60.0" y="246.0" font-size="14" fill="#475569" text-anchor="middle">แถว 3</text>
-<circle cx="40.0" cy="294.0" r="13" fill="#d97706" stroke="none" stroke-width="1"/>
-<text x="40.0" y="299.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
-<line x1="168.0" y1="272.0" x2="168.0" y2="286.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
-<rect x="120.0" y="290.0" width="96.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="168.0" y="311.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
-<line x1="304.0" y1="272.0" x2="304.0" y2="286.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
-<rect x="256.0" y="290.0" width="96.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="304.0" y="311.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 4</text>
-<line x1="440.0" y1="272.0" x2="440.0" y2="286.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
-<rect x="392.0" y="290.0" width="96.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="440.0" y="311.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
-<line x1="576.0" y1="272.0" x2="576.0" y2="286.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
-<rect x="528.0" y="290.0" width="96.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="576.0" y="311.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
-<line x1="712.0" y1="272.0" x2="712.0" y2="286.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
-<rect x="664.0" y="290.0" width="96.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="712.0" y="311.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 8</text>
-<text x="100.0" y="348.0" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">col_widths = [7, 4, 7, 7, 8]</text>
-<circle cx="40.0" cy="374.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1"/>
-<text x="40.0" y="379.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
-<text x="100.0" y="380.0" font-size="16" fill="#0f172a"><tspan font-family="Consolas, 'Courier New', monospace">line_length = </tspan><tspan fill="#d97706" font-family="Consolas, 'Courier New', monospace">7+4+7+7+8</tspan><tspan font-family="Consolas, 'Courier New', monospace"> + </tspan><tspan fill="#475569" font-family="Consolas, 'Courier New', monospace">5 × 3</tspan><tspan font-family="Consolas, 'Courier New', monospace"> = 33 + 15 = </tspan><tspan fill="#7c3aed" font-family="Consolas, 'Courier New', monospace" font-weight="bold">48</tspan></text>
-<circle cx="40.0" cy="440.0" r="13" fill="#059669" stroke="none" stroke-width="1"/>
-<text x="40.0" y="445.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
-<text x="100.0" y="416.0" font-size="14" fill="#475569">แถวแรกที่พิมพ์ด้วย f&quot;{str(item):&lt;{col_widths[i]}}&quot; + &quot; | &quot; (1 ช่อง = 1 ตัวอักษร)</text>
-<rect x="72.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="79.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">N</text>
-<rect x="86.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="93.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">a</text>
-<rect x="101.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="108.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">m</text>
-<rect x="115.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="122.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
-<rect x="130.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<rect x="144.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<rect x="159.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<rect x="173.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<rect x="188.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<text x="195.2" y="444.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">|</text>
-<rect x="202.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<line x1="73.0" y1="460.0" x2="216.0" y2="460.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="73.0" y1="455.0" x2="73.0" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="216.0" y1="455.0" x2="216.0" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<text x="144.5" y="482.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">7+3</text>
-<rect x="217.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="224.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">M</text>
-<rect x="231.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="238.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">a</text>
-<rect x="246.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="253.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">t</text>
-<rect x="260.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="267.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">h</text>
-<rect x="275.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<rect x="289.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<text x="296.8" y="444.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">|</text>
-<rect x="304.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<line x1="218.0" y1="460.0" x2="317.5" y2="460.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="218.0" y1="455.0" x2="218.0" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="317.5" y1="455.0" x2="317.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<text x="267.8" y="482.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">4+3</text>
-<rect x="318.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="325.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">S</text>
-<rect x="333.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="340.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">c</text>
-<rect x="347.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="354.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">i</text>
-<rect x="362.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="369.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
-<rect x="376.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="383.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n</text>
-<rect x="391.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="398.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">c</text>
-<rect x="405.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="412.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
-<rect x="420.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<rect x="434.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<text x="441.8" y="444.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">|</text>
-<rect x="449.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<line x1="319.5" y1="460.0" x2="462.5" y2="460.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="319.5" y1="455.0" x2="319.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="462.5" y1="455.0" x2="462.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<text x="391.0" y="482.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">7+3</text>
-<rect x="463.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="470.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">E</text>
-<rect x="478.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="485.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n</text>
-<rect x="492.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="499.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">g</text>
-<rect x="507.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="514.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">l</text>
-<rect x="521.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="528.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">i</text>
-<rect x="536.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="543.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">s</text>
-<rect x="550.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="557.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">h</text>
-<rect x="565.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<rect x="579.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<text x="586.8" y="444.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">|</text>
-<rect x="594.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<line x1="464.5" y1="460.0" x2="607.5" y2="460.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="464.5" y1="455.0" x2="464.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="607.5" y1="455.0" x2="607.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<text x="536.0" y="482.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">7+3</text>
-<rect x="608.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="615.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">C</text>
-<rect x="623.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="630.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">o</text>
-<rect x="637.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="644.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">m</text>
-<rect x="652.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="659.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">p</text>
-<rect x="666.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="673.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">u</text>
-<rect x="681.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="688.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">t</text>
-<rect x="695.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="702.8" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
-<rect x="710.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#eff6ff" stroke="#93c5fd" stroke-width="0.8"/>
-<text x="717.2" y="444.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">r</text>
-<rect x="724.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<rect x="739.0" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<text x="746.2" y="444.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">|</text>
-<rect x="753.5" y="426.0" width="14.5" height="26.0" rx="0" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.8"/>
-<line x1="609.5" y1="460.0" x2="767.0" y2="460.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="609.5" y1="455.0" x2="609.5" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<line x1="767.0" y1="455.0" x2="767.0" y2="465.0" stroke="#059669" stroke-width="1.5"/>
-<text x="688.2" y="482.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">8+3</text>
-<text x="420.0" y="506.0" font-size="14" fill="#0f172a" text-anchor="middle">รวม 10 + 7 + 10 + 10 + 11 = 48 ตัวอักษร = ความยาวเส้น &quot;-&quot; * line_length</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="159.0" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">col_widths = [7, 4, 7, 7, 8] และ line_length = 48 มาจากไหน</tspan></text>
+<text x="84.4" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="176.3" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="200.3" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ความยาว len(str(ค่า))</text>
+<rect x="351.4" y="101.0" width="18.0" height="14.0" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="375.4" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ช่องที่ยาวที่สุด (max)</text>
+<rect x="514.3" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="538.3" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ตัวคั่น " | "</text>
+<rect x="627.6" y="101.0" width="18.0" height="14.0" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="651.6" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ผลรวม</text>
+<circle cx="30.0" cy="150.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="30.0" y="155.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="50.0" y="156.0" font-size="15" fill="#2563eb" text-anchor="start">วัดความยาวของทุกช่องเป็นตัวอักษร: len(str(ค่า)) — ตัวเลข 55 ต้องแปลงเป็น "55" ก่อน จึงยาว 2</text>
+<text x="60.0" y="192.0" font-size="15" fill="#475569" text-anchor="middle">แถว 0</text>
+<rect x="104.0" y="168.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="114.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Name</text>
+<rect x="204.0" y="176.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="215.0" y="191.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">4</text>
+<rect x="240.0" y="168.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="250.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Math</text>
+<rect x="340.0" y="176.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="351.0" y="191.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">4</text>
+<rect x="376.0" y="168.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="386.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Science</text>
+<rect x="476.0" y="176.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="487.0" y="191.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">7</text>
+<rect x="512.0" y="168.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="522.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">English</text>
+<rect x="612.0" y="176.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="623.0" y="191.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">7</text>
+<rect x="648.0" y="168.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="658.0" y="192.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Computer</text>
+<rect x="748.0" y="176.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="759.0" y="191.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">8</text>
+<text x="60.0" y="234.0" font-size="15" fill="#475569" text-anchor="middle">แถว 1</text>
+<rect x="104.0" y="210.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="114.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Somchai</text>
+<rect x="204.0" y="218.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="215.0" y="233.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">7</text>
+<rect x="240.0" y="210.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="250.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">55</text>
+<rect x="340.0" y="218.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="351.0" y="233.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="376.0" y="210.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="386.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">63</text>
+<rect x="476.0" y="218.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="487.0" y="233.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="512.0" y="210.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="522.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">77</text>
+<rect x="612.0" y="218.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="623.0" y="233.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="648.0" y="210.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="658.0" y="234.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">81</text>
+<rect x="748.0" y="218.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="759.0" y="233.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<text x="60.0" y="276.0" font-size="15" fill="#475569" text-anchor="middle">แถว 2</text>
+<rect x="104.0" y="252.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="114.0" y="276.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Somsri</text>
+<rect x="204.0" y="260.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="215.0" y="275.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">6</text>
+<rect x="240.0" y="252.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="250.0" y="276.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">65</text>
+<rect x="340.0" y="260.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="351.0" y="275.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="376.0" y="252.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="386.0" y="276.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">61</text>
+<rect x="476.0" y="260.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="487.0" y="275.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="512.0" y="252.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="522.0" y="276.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">67</text>
+<rect x="612.0" y="260.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="623.0" y="275.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="648.0" y="252.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="658.0" y="276.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">72</text>
+<rect x="748.0" y="260.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="759.0" y="275.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<text x="60.0" y="318.0" font-size="15" fill="#475569" text-anchor="middle">แถว 3</text>
+<rect x="104.0" y="294.0" width="130.0" height="36.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2.2"/>
+<text x="114.0" y="318.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Sompong</text>
+<rect x="204.0" y="302.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="215.0" y="317.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">7</text>
+<rect x="240.0" y="294.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="250.0" y="318.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">97</text>
+<rect x="340.0" y="302.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="351.0" y="317.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="376.0" y="294.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="386.0" y="318.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">95</text>
+<rect x="476.0" y="302.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="487.0" y="317.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="512.0" y="294.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="522.0" y="318.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">92</text>
+<rect x="612.0" y="302.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="623.0" y="317.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<rect x="648.0" y="294.0" width="130.0" height="36.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="658.0" y="318.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">88</text>
+<rect x="748.0" y="302.0" width="22.0" height="20.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="759.0" y="317.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">2</text>
+<line x1="169.0" y1="346.0" x2="169.0" y2="378.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ah-orange)"/>
+<rect x="124.0" y="380.0" width="90.0" height="32.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="169.0" y="402.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
+<line x1="305.0" y1="346.0" x2="305.0" y2="378.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ah-orange)"/>
+<rect x="260.0" y="380.0" width="90.0" height="32.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="305.0" y="402.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 4</text>
+<line x1="441.0" y1="346.0" x2="441.0" y2="378.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ah-orange)"/>
+<rect x="396.0" y="380.0" width="90.0" height="32.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="441.0" y="402.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
+<line x1="577.0" y1="346.0" x2="577.0" y2="378.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ah-orange)"/>
+<rect x="532.0" y="380.0" width="90.0" height="32.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="577.0" y="402.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 7</text>
+<line x1="713.0" y1="346.0" x2="713.0" y2="378.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ah-orange)"/>
+<rect x="668.0" y="380.0" width="90.0" height="32.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="713.0" y="402.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">max = 8</text>
+<circle cx="30.0" cy="440.0" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="30.0" y="445.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="50.0" y="446.0" font-size="16" text-anchor="start"><tspan fill="#d97706" font-weight="bold">เลือกค่ามากสุดในแต่ละคอลัมน์ → </tspan><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">col_widths = </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">[7, 4, 7, 7, 8]</tspan></text>
+<circle cx="30.0" cy="480.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="30.0" y="485.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="50.0" y="486.0" font-size="16" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">line_length = </tspan><tspan fill="#d97706" font-family="Consolas, 'Courier New', monospace">(7+4+7+7+8)</tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace"> + </tspan><tspan fill="#059669" font-family="Consolas, 'Courier New', monospace">5 × 3</tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace"> = 33 + 15 = </tspan><tspan fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace">48</tspan></text>
+<text x="50.0" y="512.0" font-size="15" fill="#475569" text-anchor="start">5 คอลัมน์ × ตัวคั่น " | " ยาว 3 ตัวอักษร (ช่องว่าง + ขีด + ช่องว่าง)</text>
+<circle cx="30.0" cy="544.0" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="30.0" y="549.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="50.0" y="550.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">แถวแรกที่พิมพ์ด้วย f"{str(item):&lt;{col_widths[i]}}" ตามด้วย " | " — 1 ช่อง = 1 ตัวอักษร</text>
+<rect x="34.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="41.1" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">N</text>
+<rect x="49.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="56.3" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">a</text>
+<rect x="64.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="71.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">m</text>
+<rect x="79.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="86.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
+<rect x="94.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="110.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="125.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="140.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="155.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="162.7" y="589.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">|</text>
+<rect x="170.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="186.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="193.1" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">M</text>
+<rect x="201.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="208.3" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">a</text>
+<rect x="216.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="223.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">t</text>
+<rect x="231.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="238.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">h</text>
+<rect x="246.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="262.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="269.1" y="589.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">|</text>
+<rect x="277.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="292.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="299.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">S</text>
+<rect x="307.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="314.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">c</text>
+<rect x="322.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="329.9" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">i</text>
+<rect x="338.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="345.1" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
+<rect x="353.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="360.3" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n</text>
+<rect x="368.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="375.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">c</text>
+<rect x="383.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="390.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
+<rect x="398.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="414.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="421.1" y="589.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">|</text>
+<rect x="429.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="444.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="451.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">E</text>
+<rect x="459.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="466.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n</text>
+<rect x="474.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="481.9" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">g</text>
+<rect x="490.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="497.1" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">l</text>
+<rect x="505.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="512.3" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">i</text>
+<rect x="520.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="527.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">s</text>
+<rect x="535.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="542.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">h</text>
+<rect x="550.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="566.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="573.1" y="589.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">|</text>
+<rect x="581.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="596.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="603.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">C</text>
+<rect x="611.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="618.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">o</text>
+<rect x="626.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="633.9" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">m</text>
+<rect x="642.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="649.1" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">p</text>
+<rect x="657.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="664.3" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">u</text>
+<rect x="672.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="679.5" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">t</text>
+<rect x="687.6" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="694.7" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">e</text>
+<rect x="702.8" y="570.0" width="14.2" height="26.0" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="709.9" y="589.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">r</text>
+<rect x="718.0" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<rect x="733.2" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<text x="740.3" y="589.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">|</text>
+<rect x="748.4" y="570.0" width="14.2" height="26.0" rx="2" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="0.6"/>
+<line x1="34.0" y1="610.0" x2="185.0" y2="610.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="34.0" y1="605.0" x2="34.0" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="185.0" y1="605.0" x2="185.0" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<text x="98.2" y="632.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">7</tspan><tspan fill="#059669" font-weight="bold">+3</tspan></text>
+<line x1="186.0" y1="610.0" x2="291.4" y2="610.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="186.0" y1="605.0" x2="186.0" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="291.4" y1="605.0" x2="291.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<text x="227.4" y="632.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">4</tspan><tspan fill="#059669" font-weight="bold">+3</tspan></text>
+<line x1="292.4" y1="610.0" x2="443.4" y2="610.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="292.4" y1="605.0" x2="292.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="443.4" y1="605.0" x2="443.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<text x="356.6" y="632.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">7</tspan><tspan fill="#059669" font-weight="bold">+3</tspan></text>
+<line x1="444.4" y1="610.0" x2="595.4" y2="610.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="444.4" y1="605.0" x2="444.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="595.4" y1="605.0" x2="595.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<text x="508.6" y="632.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">7</tspan><tspan fill="#059669" font-weight="bold">+3</tspan></text>
+<line x1="596.4" y1="610.0" x2="762.6" y2="610.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="596.4" y1="605.0" x2="596.4" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="762.6" y1="605.0" x2="762.6" y2="615.0" stroke="#475569" stroke-width="1.2"/>
+<text x="668.2" y="632.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">8</tspan><tspan fill="#059669" font-weight="bold">+3</tspan></text>
+<rect x="20.0" y="650.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="126.0" y="678.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ผลรวม 10 + 7 + 10 + 10 + 11 = </tspan><tspan fill="#7c3aed" font-weight="bold">48</tspan><tspan fill="#0f172a"> ตัวอักษร = ความยาวเส้น </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">"-" * line_length</tspan></text>
+<rect x="20.0" y="710.0" width="760.0" height="154.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="738.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="754.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="754.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="782.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="782.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="782.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(55)</tspan><tspan fill="#dc2626" font-weight="bold"> → TypeError</tspan></text>
+<text x="444.0" y="782.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(str(55))</tspan><tspan fill="#059669" font-weight="bold"> → 2</tspan></text>
+<rect x="36.0" y="808.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="808.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="836.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="836.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="836.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">line_length = 33</tspan><tspan fill="#0f172a"> ลืมตัวคั่น</tspan></text>
+<text x="444.0" y="836.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">33 + 5 × 3 = 48</tspan><tspan fill="#0f172a"> รวม " | " ทุกคอลัมน์</tspan></text>
 </svg>

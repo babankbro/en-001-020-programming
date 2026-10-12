@@ -1,151 +1,208 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 830" width="800" height="830" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
-<defs><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1358" width="800" height="1358" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<text x="400" y="36" font-size="20" fill="#0f172a" text-anchor="middle" font-weight="bold">ไล่สแตก 3 แบบที่ออกสอบ: pop สองครั้งต่อรอบ · pop + size · ลำดับอาร์กิวเมนต์</text>
-<text x="400" y="60" font-size="14" fill="#475569" text-anchor="middle">ถังเปิดด้านบน = สแตก · กล่องเข้ม = บนสุด items[-1] · กล่องแดงประ = ค่าที่ pop ออก</text>
-<rect x="14" y="76" width="772" height="270" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
-<text x="30" y="102" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">แบบ A: while not m.is_empty(): print(m.pop()); print(m.pop())</text>
-<text x="30" y="124" font-size="14" fill="#475569" text-anchor="start">push x, y, z (3 ตัว = เลขคี่) — while ตรวจแค่ต้นรอบ แต่ในรอบหนึ่ง pop 2 ครั้ง</text>
-<rect x="38" y="136" width="98" height="22" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
-<text x="87.0" y="152" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">ต้นรอบ 1</text>
-<rect x="144" y="136" width="204" height="22" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="246.0" y="152" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">รอบ 1: pop 2 ครั้ง</text>
-<rect x="356" y="136" width="204" height="22" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
-<text x="458.0" y="152" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">รอบ 2 (ตรวจแล้ว [x] ไม่ว่าง)</text>
-<path d="M52,204 L52,282 L122,282 L122,204" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="56" y="256" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="87" y="272" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="56" y="232" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="87" y="248" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<rect x="56" y="208" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="87" y="224" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
-<text x="87" y="306" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">เริ่ม</text>
-<text x="87" y="326" font-size="14" fill="#7c3aed" text-anchor="middle">while: ไม่ว่าง</text>
-<text x="87" y="344" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y, z]</text>
-<line x1="126" y1="248" x2="152" y2="248" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M158,204 L158,282 L228,282 L228,204" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="162" y="256" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="193" y="272" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="162" y="232" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="193" y="248" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<rect x="162" y="174" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="193" y="190" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
-<text x="193" y="306" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="193" y="326" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ z</text>
-<text x="193" y="344" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y]</text>
-<line x1="232" y1="248" x2="258" y2="248" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M264,204 L264,282 L334,282 L334,204" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="268" y="256" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="299" y="272" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="268" y="174" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="299" y="190" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<text x="299" y="306" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="299" y="326" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ y</text>
-<text x="299" y="344" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x]</text>
-<line x1="338" y1="248" x2="364" y2="248" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M370,204 L370,282 L440,282 L440,204" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="374" y="174" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="405" y="190" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<text x="405" y="306" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="405" y="326" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ x</text>
-<text x="405" y="344" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
-<line x1="444" y1="248" x2="470" y2="248" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M476,204 L476,282 L546,282 L546,204" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="468" y="224" width="86" height="30" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
-<text x="511" y="244" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">ว่าง!</text>
-<text x="511" y="306" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="511" y="326" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">IndexError</text>
-<text x="511" y="344" font-size="14" fill="#475569" text-anchor="middle">หยุดทันที</text>
-<text x="667" y="216" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">เลขคี่ → pop ครั้งสุดท้าย</text>
-<text x="667" y="238" font-size="14" fill="#dc2626" text-anchor="middle">เจอสแตกว่าง → พัง</text>
-<text x="667" y="272" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">push 4 ตัว (เลขคู่)</text>
-<text x="667" y="294" font-size="14" fill="#059669" text-anchor="middle">พิมพ์ 4 3 2 1 ไม่พัง</text>
-<rect x="14" y="362" width="772" height="270" rx="12" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
-<text x="30" y="388" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">แบบ B: while not m.is_empty(): print(m.pop()); print(m.size())</text>
-<text x="30" y="410" font-size="14" fill="#475569" text-anchor="start">push 10, 20, 30 — รอบละ pop 1 ครั้ง ก่อน pop ทุกครั้งผ่านการตรวจ while แล้ว → ไม่มี error</text>
-<rect x="38" y="422" width="98" height="22" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
-<text x="87.0" y="438" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">ต้นรอบ 1</text>
-<rect x="144" y="422" width="204" height="22" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<text x="246.0" y="438" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 1</text>
-<rect x="356" y="422" width="204" height="22" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<text x="458.0" y="438" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 2</text>
-<rect x="568" y="422" width="204" height="22" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<text x="670.0" y="438" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 3</text>
-<path d="M52,490 L52,568 L122,568 L122,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="56" y="542" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="87" y="558" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<rect x="56" y="518" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="87" y="534" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
-<rect x="56" y="494" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="87" y="510" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">30</text>
-<text x="87" y="592" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">เริ่ม</text>
-<text x="87" y="612" font-size="14" fill="#7c3aed" text-anchor="middle">while: ไม่ว่าง</text>
-<text x="87" y="630" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10,20,30]</text>
-<line x1="126" y1="534" x2="152" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M158,490 L158,568 L228,568 L228,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="162" y="542" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="193" y="558" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<rect x="162" y="518" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="193" y="534" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
-<rect x="162" y="460" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="193" y="476" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">30</text>
-<text x="193" y="592" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="193" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 30</text>
-<text x="193" y="630" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10, 20]</text>
-<line x1="232" y1="534" x2="258" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M264,490 L264,568 L334,568 L334,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="268" y="542" width="62" height="21" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="299" y="558" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<rect x="268" y="518" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="299" y="534" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
-<text x="299" y="592" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
-<text x="299" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 2</text>
-<text x="299" y="630" font-size="14" fill="#475569" text-anchor="middle">ไม่หยิบออก</text>
-<line x1="338" y1="534" x2="364" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M370,490 L370,568 L440,568 L440,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="374" y="542" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="405" y="558" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<rect x="374" y="460" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="405" y="476" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
-<text x="405" y="592" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="405" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 20</text>
-<text x="405" y="630" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10]</text>
-<line x1="444" y1="534" x2="470" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M476,490 L476,568 L546,568 L546,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="480" y="542" width="62" height="21" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="511" y="558" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<text x="511" y="592" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
-<text x="511" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 1</text>
-<text x="511" y="630" font-size="14" fill="#475569" text-anchor="middle">ไม่หยิบออก</text>
-<line x1="550" y1="534" x2="576" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M582,490 L582,568 L652,568 L652,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="586" y="460" width="62" height="21" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="617" y="476" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
-<text x="617" y="592" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="617" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 10</text>
-<text x="617" y="630" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
-<line x1="656" y1="534" x2="682" y2="534" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M688,490 L688,568 L758,568 L758,490" fill="none" stroke="#0f172a" stroke-width="2"/>
-<text x="723" y="592" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
-<text x="723" y="612" font-size="14" fill="#0f172a" text-anchor="middle">พิมพ์ 0</text>
-<text x="723" y="630" font-size="14" fill="#475569" text-anchor="middle">ว่าง → จบลูป</text>
-<rect x="14" y="648" width="772" height="168" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
-<text x="30" y="674" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">แบบ C: print(m.pop(), m.size())  เมื่อ items = ['k', 'n']</text>
-<text x="30" y="696" font-size="14" fill="#475569" text-anchor="start">ไพทอนประเมินอาร์กิวเมนต์จากซ้ายไปขวาให้ครบก่อน แล้วจึงเรียก print</text>
-<rect x="22" y="710" width="176" height="62" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="1.8"/>
-<text x="110.0" y="735" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">items = ['k','n']</text>
-<text x="110.0" y="758" font-size="14" fill="#0f172a" text-anchor="middle">สถานะก่อนเรียก</text>
-<line x1="200" y1="741.0" x2="210" y2="741.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="214" y="710" width="176" height="62" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
-<text x="302.0" y="735" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">① m.pop() → 'n'</text>
-<text x="302.0" y="758" font-size="14" fill="#0f172a" text-anchor="middle">เหลือ ['k']</text>
-<line x1="392" y1="741.0" x2="402" y2="741.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="406" y="710" width="176" height="62" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
-<text x="494.0" y="735" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">② m.size() → 1</text>
-<text x="494.0" y="758" font-size="14" fill="#0f172a" text-anchor="middle">นับหลัง pop แล้ว</text>
-<line x1="584" y1="741.0" x2="594" y2="741.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="598" y="710" width="176" height="62" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
-<text x="686.0" y="735" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">print('n', 1)</text>
-<text x="686.0" y="758" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">ผลลัพธ์: n 1</text>
-<text x="30" y="798" font-size="14" fill="#0f172a" text-anchor="start">สลับเป็น print(m.size(), m.pop()) → ① size() = 2 ก่อน ② pop() = 'n' → พิมพ์  2 n</text>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">ไล่สแตก 3 แบบที่ออกสอบ</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="136.3" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ลูปไหนพัง ลูปไหนไม่พัง และทำไม print(m.pop(), m.size()) จึงได้ n 1</tspan></text>
+<text x="54.3" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="146.2" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="170.2" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">บนสุด items[-1]</text>
+<rect x="297.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="321.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">pop ออก / error</text>
+<rect x="447.0" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="471.0" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">size() นับเฉย ๆ</text>
+<rect x="595.9" y="101.0" width="18.0" height="14.0" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="619.9" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">จุดที่ while ตรวจ</text>
+<rect x="14.0" y="128.0" width="772.0" height="372.0" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.8"/>
+<rect x="26.0" y="140.0" width="34.0" height="26.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+<text x="43.0" y="159.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">A</text>
+<text x="70.0" y="159.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">while not m.is_empty(): print(m.pop()); print(m.pop())</text>
+<text x="30.0" y="184.0" font-size="15" fill="#475569" text-anchor="start">push x, y, z แล้ววนลูป — while ตรวจแค่ต้นรอบ แต่ในหนึ่งรอบ pop 2 ครั้ง</text>
+<rect x="38.0" y="196.0" width="98.0" height="24.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="87.0" y="213.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ต้นรอบ 1</text>
+<rect x="144.0" y="196.0" width="204.0" height="24.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="246.0" y="213.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">รอบ 1: pop 2 ครั้ง</text>
+<rect x="356.0" y="196.0" width="310.0" height="24.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="511.0" y="213.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">รอบ 2: เหลือ 1 ตัวแต่ pop 2 ครั้ง</text>
+<path d="M51.0,264 L51.0,350 L123.0,350 L123.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="56.0" y="321.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="87.0" y="338.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="56.0" y="295.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="87.0" y="312.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<rect x="56.0" y="269.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="87.0" y="286.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
+<text x="87.0" y="372.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ตรวจ while</text>
+<text x="87.0" y="394.0" font-size="15" fill="#7c3aed" text-anchor="middle">ไม่ว่าง → เข้า</text>
+<text x="87.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y, z]</text>
+<line x1="126.0" y1="310.0" x2="152.0" y2="310.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M157.0,264 L157.0,350 L229.0,350 L229.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="162.0" y="321.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="193.0" y="338.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="162.0" y="295.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="193.0" y="312.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<rect x="162.0" y="234.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="193.0" y="251.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
+<text x="193.0" y="372.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="193.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ z</text>
+<text x="193.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y]</text>
+<line x1="232.0" y1="310.0" x2="258.0" y2="310.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M263.0,264 L263.0,350 L335.0,350 L335.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="268.0" y="321.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="299.0" y="338.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="268.0" y="234.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="299.0" y="251.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<text x="299.0" y="372.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="299.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ y</text>
+<text x="299.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x]</text>
+<line x1="338.0" y1="310.0" x2="364.0" y2="310.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M369.0,264 L369.0,350 L441.0,350 L441.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="374.0" y="321.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="405.0" y="338.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<text x="405.0" y="372.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ตรวจ while</text>
+<text x="405.0" y="394.0" font-size="15" fill="#7c3aed" text-anchor="middle">ไม่ว่าง → เข้า</text>
+<text x="405.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x]</text>
+<line x1="444.0" y1="310.0" x2="470.0" y2="310.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M475.0,264 L475.0,350 L547.0,350 L547.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="480.0" y="234.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="511.0" y="251.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<text x="511.0" y="372.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="511.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ x</text>
+<text x="511.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
+<line x1="550.0" y1="310.0" x2="576.0" y2="310.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M581.0,264 L581.0,350 L653.0,350 L653.0,264" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="573.0" y="290.0" width="88.0" height="32.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="2.5"/>
+<text x="617.0" y="312.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">ว่าง!</text>
+<text x="617.0" y="372.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="617.0" y="394.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">IndexError</text>
+<text x="617.0" y="414.0" font-size="15" fill="#475569" text-anchor="middle">หยุดทันที</text>
+<text x="731.0" y="278.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">3 ตัว = คี่</text>
+<text x="731.0" y="300.0" font-size="15" fill="#dc2626" text-anchor="middle">pop ครั้งที่ 4</text>
+<text x="731.0" y="322.0" font-size="15" fill="#dc2626" text-anchor="middle">เจอสแตกว่าง</text>
+<text x="731.0" y="354.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">ถ้า 4 ตัว = คู่</text>
+<text x="731.0" y="376.0" font-size="15" fill="#059669" text-anchor="middle">หมดพอดี ไม่พัง</text>
+<rect x="30.0" y="442.0" width="740.0" height="44.0" rx="10" fill="#fffbeb" stroke="#dc2626" stroke-width="3"/>
+<text x="119.2" y="470.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ผล A: พิมพ์ </tspan><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">z  y  x</tspan><tspan fill="#0f172a"> ครบก่อน แล้วจึง </tspan><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">IndexError: pop from empty stack</tspan></text>
+<rect x="14.0" y="514.0" width="772.0" height="372.0" rx="12" fill="#ffffff" stroke="#059669" stroke-width="1.8"/>
+<rect x="26.0" y="526.0" width="34.0" height="26.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1"/>
+<text x="43.0" y="545.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">B</text>
+<text x="70.0" y="545.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">while not m.is_empty(): print(m.pop()); print(m.size())</text>
+<text x="30.0" y="570.0" font-size="15" fill="#475569" text-anchor="start">push 10, 20, 30 — รอบละ pop ครั้งเดียว ทุก pop เกิดหลังการตรวจ while เสมอ</text>
+<rect x="38.0" y="582.0" width="98.0" height="24.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="87.0" y="599.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ต้นรอบ 1</text>
+<rect x="144.0" y="582.0" width="204.0" height="24.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="246.0" y="599.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 1</text>
+<rect x="356.0" y="582.0" width="204.0" height="24.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="458.0" y="599.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 2</text>
+<rect x="568.0" y="582.0" width="204.0" height="24.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="670.0" y="599.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">รอบ 3</text>
+<path d="M51.0,650 L51.0,736 L123.0,736 L123.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="56.0" y="707.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="87.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="56.0" y="681.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="87.0" y="698.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
+<rect x="56.0" y="655.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="87.0" y="672.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">30</text>
+<text x="87.0" y="758.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ตรวจ while</text>
+<text x="87.0" y="780.0" font-size="15" fill="#7c3aed" text-anchor="middle">ไม่ว่าง → เข้า</text>
+<text x="87.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10,20,30]</text>
+<line x1="126.0" y1="696.0" x2="152.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M157.0,650 L157.0,736 L229.0,736 L229.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="162.0" y="707.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="193.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="162.0" y="681.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="193.0" y="698.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
+<rect x="162.0" y="620.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="193.0" y="637.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">30</text>
+<text x="193.0" y="758.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="193.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 30</text>
+<text x="193.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10, 20]</text>
+<line x1="232.0" y1="696.0" x2="258.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M263.0,650 L263.0,736 L335.0,736 L335.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="268.0" y="707.0" width="62.0" height="23.0" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+<text x="299.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="268.0" y="681.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="299.0" y="698.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
+<text x="299.0" y="758.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
+<text x="299.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 2</text>
+<text x="299.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle">ไม่หยิบออก</text>
+<line x1="338.0" y1="696.0" x2="364.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M369.0,650 L369.0,736 L441.0,736 L441.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="374.0" y="707.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="405.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="374.0" y="620.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="405.0" y="637.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">20</text>
+<text x="405.0" y="758.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="405.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 20</text>
+<text x="405.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[10]</text>
+<line x1="444.0" y1="696.0" x2="470.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M475.0,650 L475.0,736 L547.0,736 L547.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="480.0" y="707.0" width="62.0" height="23.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="511.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<text x="511.0" y="758.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
+<text x="511.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 1</text>
+<text x="511.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle">ไม่หยิบออก</text>
+<line x1="550.0" y1="696.0" x2="576.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M581.0,650 L581.0,736 L653.0,736 L653.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="586.0" y="620.0" width="62.0" height="23.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="617.0" y="637.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<text x="617.0" y="758.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="617.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 10</text>
+<text x="617.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
+<line x1="656.0" y1="696.0" x2="682.0" y2="696.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<path d="M687.0,650 L687.0,736 L759.0,736 L759.0,650" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="723.0" y="758.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
+<text x="723.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="middle">พิมพ์ 0</text>
+<text x="723.0" y="800.0" font-size="15" fill="#475569" text-anchor="middle">ว่าง → จบ</text>
+<rect x="30.0" y="828.0" width="740.0" height="44.0" rx="10" fill="#fffbeb" stroke="#059669" stroke-width="3"/>
+<text x="149.7" y="856.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ผล B: </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">30  2  20  1  10  0</tspan><tspan fill="#0f172a"> (บรรทัดละค่า) แล้วจบลูปปกติ ไม่มี error</tspan></text>
+<rect x="14.0" y="902.0" width="772.0" height="214.0" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<rect x="26.0" y="914.0" width="34.0" height="26.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="43.0" y="933.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">C</text>
+<text x="70.0" y="933.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">print(m.pop(), m.size())   เมื่อ items = ['k', 'n']</text>
+<text x="30.0" y="958.0" font-size="15" fill="#475569" text-anchor="start">ไพทอนคำนวณอาร์กิวเมนต์จากซ้ายไปขวาให้ครบก่อน แล้วจึงเรียก print</text>
+<rect x="24.0" y="974.0" width="180.0" height="66.0" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="1.8"/>
+<circle cx="42.0" cy="994.0" r="11" fill="#475569" stroke="none" stroke-width="1.5"/>
+<text x="42.0" y="999.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="122.0" y="1000.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">['k', 'n']</text>
+<text x="114.0" y="1026.0" font-size="15" fill="#0f172a" text-anchor="middle">สถานะก่อนเรียก</text>
+<line x1="206.0" y1="1007.0" x2="210.0" y2="1007.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<rect x="214.0" y="974.0" width="180.0" height="66.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<circle cx="232.0" cy="994.0" r="11" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="232.0" y="999.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="312.0" y="1000.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">m.pop() → 'n'</text>
+<text x="304.0" y="1026.0" font-size="15" fill="#0f172a" text-anchor="middle">เหลือ ['k']</text>
+<line x1="396.0" y1="1007.0" x2="400.0" y2="1007.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<rect x="404.0" y="974.0" width="180.0" height="66.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<circle cx="422.0" cy="994.0" r="11" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="422.0" y="999.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="502.0" y="1000.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">m.size() → 1</text>
+<text x="494.0" y="1026.0" font-size="15" fill="#0f172a" text-anchor="middle">นับหลัง pop แล้ว</text>
+<line x1="586.0" y1="1007.0" x2="590.0" y2="1007.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<rect x="594.0" y="974.0" width="180.0" height="66.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="612.0" cy="994.0" r="11" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="612.0" y="999.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="692.0" y="1000.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">print('n', 1)</text>
+<text x="684.0" y="1026.0" font-size="15" fill="#0f172a" text-anchor="middle">ส่งเข้า print</text>
+<rect x="30.0" y="1054.0" width="740.0" height="44.0" rx="10" fill="#fffbeb" stroke="#2563eb" stroke-width="3"/>
+<text x="192.6" y="1082.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ผล C: </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">n 1</tspan><tspan fill="#0f172a">   ·   สลับเป็น print(m.size(), m.pop()) → </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2 n</tspan></text>
+<rect x="20.0" y="1134.0" width="760.0" height="208.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="1162.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="1178.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1178.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1206.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1206.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1206.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">pop(), size() → </tspan><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">n 2</tspan><tspan fill="#0f172a"> (นับก่อน pop)</tspan></text>
+<text x="444.0" y="1206.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">pop() ทำก่อน → </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">n 1</tspan></text>
+<rect x="36.0" y="1232.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1232.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1260.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1260.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1260.0" font-size="15" fill="#0f172a" text-anchor="start">3 ตัว pop 2 ครั้ง/รอบ → พังทันที</text>
+<text x="444.0" y="1260.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">พิมพ์ </tspan><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">z y x</tspan><tspan fill="#0f172a"> ก่อน แล้วจึง error</tspan></text>
+<rect x="36.0" y="1286.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1286.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1314.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1314.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1314.0" font-size="15" fill="#0f172a" text-anchor="start">ลูป pop 2 ครั้ง/รอบ พังเสมอ</text>
+<text x="444.0" y="1314.0" font-size="15" fill="#0f172a" text-anchor="start">พังเฉพาะจำนวนคี่ · 4 ตัวไม่พัง</text>
 </svg>

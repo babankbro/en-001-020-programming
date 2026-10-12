@@ -1,45 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 770" width="800" height="770" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1156" width="800" height="1156" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<text x="400.0" y="38.0" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">pygame.transform: กลับ ย่อ/ขยาย และหมุนภาพ (ภาพต้นฉบับ 80×40)</text>
-<text x="400.0" y="64.0" font-size="14" fill="#475569" text-anchor="middle">กรอบประ = ขนาดพื้นผิว (Surface) ใหม่ที่ฟังก์ชันคืนมา · ทุกฟังก์ชันคืนภาพใหม่ ไม่แก้ภาพเดิม</text>
-<rect x="17.0" y="84.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
-<text x="142.0" y="110.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">ต้นฉบับ img</text>
-<g transform="translate(142.0,222.0) scale(1.3)  translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="90.0" y="196.0" width="104.0" height="52.0" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="142.0" y="332.0" font-size="14" fill="#0f172a" text-anchor="middle">img.get_size() → (80, 40)</text>
-<text x="142.0" y="352.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 80×40</text>
-<rect x="275.0" y="84.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
-<text x="400.0" y="110.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">flip(img, True, False)</text>
-<g transform="translate(400.0,222.0) scale(1.3) scale(-1,1) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="348.0" y="196.0" width="104.0" height="52.0" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="400.0" y="332.0" font-size="14" fill="#0f172a" text-anchor="middle">กลับซ้าย–ขวา (แกน x) → หันซ้าย</text>
-<text x="400.0" y="352.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 80×40</text>
-<rect x="533.0" y="84.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
-<text x="658.0" y="110.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">flip(img, False, True)</text>
-<g transform="translate(658.0,222.0) scale(1.3) scale(1,-1) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="606.0" y="196.0" width="104.0" height="52.0" fill="none" stroke="#059669" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="658.0" y="332.0" font-size="14" fill="#0f172a" text-anchor="middle">กลับบน–ล่าง (แกน y) → หัวกลับ</text>
-<text x="658.0" y="352.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 80×40</text>
-<rect x="17.0" y="374.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
-<text x="142.0" y="400.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">scale(img, (100, 100))</text>
-<g transform="translate(142.0,512.0) scale(1.3) scale(1.25,2.5) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="77.0" y="447.0" width="130.0" height="130.0" fill="none" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="142.0" y="622.0" font-size="14" fill="#0f172a" text-anchor="middle">ยืดเป็นจัตุรัส (สัดส่วนเปลี่ยน)</text>
-<text x="142.0" y="642.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 100×100</text>
-<rect x="275.0" y="374.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-<text x="400.0" y="400.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">rotate(img, 90)</text>
-<g transform="translate(400.0,512.0) scale(1.3) rotate(-90) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="374.0" y="460.0" width="52.0" height="104.0" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="400.0" y="622.0" font-size="14" fill="#0f172a" text-anchor="middle">หมุนทวนเข็ม 90° → (40, 80)</text>
-<text x="400.0" y="642.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 40×80</text>
-<rect x="533.0" y="374.0" width="250.0" height="280.0" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
-<text x="658.0" y="400.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">rotate(img, 45)</text>
-<g transform="translate(658.0,512.0) scale(1.3) rotate(-45) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
-<rect x="603.4" y="457.4" width="109.2" height="109.2" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="6 4"/>
-<text x="658.0" y="622.0" font-size="14" fill="#0f172a" text-anchor="middle">ทวนเข็ม 45° → กรอบโตเป็น (84, 84)</text>
-<text x="658.0" y="642.0" font-size="14" fill="#475569" text-anchor="middle">ขนาดผลลัพธ์ 84×84</text>
-<rect x="17.0" y="670.0" width="766.0" height="90.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-<text x="32.0" y="694.0" font-size="14" fill="#0f172a" text-anchor="start">มุมบวก = หมุนทวนเข็มนาฬิกาบนจอ · มุมลบ = ตามเข็ม · หมุนมุมที่ไม่ใช่ 90° กรอบภาพจะโตขึ้นเพื่อให้มุมภาพไม่ถูกตัด</text>
-<text x="32.0" y="720.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold">✓ self.image = pygame.transform.rotate(self.original_image, angle)   หมุนจากต้นฉบับทุกครั้ง</text>
-<text x="32.0" y="744.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold">✗ self.image = pygame.transform.rotate(self.image, 10)   ทุกเฟรม → เบลอสะสม · หมุน 10 ครั้งกรอบโตจาก 80×40 เป็น 251×247</text>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">pygame.transform: กลับ ย่อ/ขยาย และหมุนภาพ (ภาพต้นฉบับ 80×40)</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="182.5" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">แต่ละคำสั่งทำให้ภาพหันไปทางไหน และพื้นผิวที่คืนมามีขนาดเท่าไร</tspan></text>
+<text x="113.1" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="205.0" y="101.0" width="18.0" height="14.0" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+<text x="229.0" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">กรอบประ = ขนาด Surface ใหม่</text>
+<rect x="437.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="461.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">หัวสุนัข = ใช้ดูทิศ</text>
+<rect x="582.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="606.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">จุดที่มักผิด</text>
+<rect x="17.0" y="130.0" width="250.0" height="300.0" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="1.6"/>
+<circle cx="39.0" cy="154.0" r="12" fill="#475569" stroke="none" stroke-width="1.5"/>
+<text x="39.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="57.0" y="160.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">img (ต้นฉบับ)</text>
+<g transform="translate(142.0,280.0) scale(1.3)  translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="90.0" y="254.0" width="104.0" height="52.0" rx="0" fill="none" stroke="#475569" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="142.0" y="392.0" font-size="15" fill="#0f172a" text-anchor="middle">หัวชี้ขวา</text>
+<text x="142.0" y="416.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 80×40</text>
+<rect x="275.0" y="130.0" width="250.0" height="300.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<circle cx="297.0" cy="154.0" r="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="297.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="315.0" y="160.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">flip(img, True, False)</text>
+<g transform="translate(400.0,280.0) scale(1.3) scale(-1,1) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="348.0" y="254.0" width="104.0" height="52.0" rx="0" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="400.0" y="392.0" font-size="15" fill="#0f172a" text-anchor="middle">กลับซ้าย–ขวา → หัวชี้ซ้าย</text>
+<text x="400.0" y="416.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 80×40</text>
+<rect x="533.0" y="130.0" width="250.0" height="300.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="555.0" cy="154.0" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="555.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="573.0" y="160.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">flip(img, False, True)</text>
+<g transform="translate(658.0,280.0) scale(1.3) scale(1,-1) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="606.0" y="254.0" width="104.0" height="52.0" rx="0" fill="none" stroke="#059669" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="658.0" y="392.0" font-size="15" fill="#0f172a" text-anchor="middle">กลับบน–ล่าง → ขาชี้ขึ้น</text>
+<text x="658.0" y="416.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 80×40</text>
+<rect x="17.0" y="440.0" width="250.0" height="300.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.6"/>
+<circle cx="39.0" cy="464.0" r="12" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="39.0" y="469.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="57.0" y="470.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">scale(img, (100, 100))</text>
+<g transform="translate(142.0,590.0) scale(1.3) scale(1.25,2.5) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="77.0" y="525.0" width="130.0" height="130.0" rx="0" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="142.0" y="702.0" font-size="15" fill="#0f172a" text-anchor="middle">ยืดเป็นจัตุรัส (สัดส่วนเปลี่ยน)</text>
+<text x="142.0" y="726.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 100×100</text>
+<rect x="275.0" y="440.0" width="250.0" height="300.0" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<circle cx="297.0" cy="464.0" r="12" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="297.0" y="469.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="315.0" y="470.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">rotate(img, 90)</text>
+<g transform="translate(400.0,590.0) scale(1.3) rotate(-90) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="374.0" y="538.0" width="52.0" height="104.0" rx="0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="400.0" y="702.0" font-size="15" fill="#0f172a" text-anchor="middle">ทวนเข็ม 90° → หัวชี้ขึ้น</text>
+<text x="400.0" y="726.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 40×80</text>
+<rect x="533.0" y="440.0" width="250.0" height="300.0" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="555.0" cy="464.0" r="12" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="555.0" y="469.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="573.0" y="470.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">rotate(img, 45)</text>
+<g transform="translate(658.0,590.0) scale(1.3) rotate(-45) translate(-40,-20)"><rect x="0" y="0" width="80" height="40" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.8"/><line x1="15" y1="17" x2="4" y2="4" stroke="#b45309" stroke-width="3" stroke-linecap="round"/><rect x="14" y="14" width="48" height="15" rx="5" fill="#d97706"/><rect x="18" y="27" width="6" height="13" fill="#b45309"/><rect x="51" y="27" width="6" height="13" fill="#b45309"/><rect x="58" y="5" width="18" height="17" rx="4" fill="#d97706"/><polygon points="60,6 63,0 67,6" fill="#b45309"/><circle cx="70" cy="11" r="2" fill="#0f172a"/><rect x="74" y="14" width="5" height="4" rx="1" fill="#0f172a"/></g>
+<rect x="603.4" y="535.4" width="109.2" height="109.2" rx="0" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="658.0" y="702.0" font-size="15" fill="#0f172a" text-anchor="middle">ทวนเข็ม 45° → กรอบโตขึ้น</text>
+<text x="658.0" y="726.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">ขนาดที่คืนมา 84×84</text>
+<rect x="20.0" y="756.0" width="760.0" height="100.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="36.0" y="782.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ทำไม rotate(img, 45) ได้ 84×84: กรอบใหม่ต้องครอบภาพที่เอียงทั้งรูป</text>
+<text x="36.0" y="808.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">กว้าง = 80·cos45° + 40·sin45° = 56.57 + 28.28 ≈ 84.85</tspan><tspan fill="#0f172a"> → พื้นผิว 84 พิกเซล</tspan></text>
+<text x="36.0" y="834.0" font-size="15" fill="#0f172a" text-anchor="start">มุมบวก = ทวนเข็มนาฬิกาบนจอ · มุมลบ = ตามเข็ม · หมุน 90°, 180° กรอบแค่สลับกว้าง/สูง</text>
+<rect x="20.0" y="872.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="163.7" y="900.0" font-size="17" text-anchor="start"><tspan fill="#0f172a" font-weight="bold">หมุนจากต้นฉบับ: </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">rotate(self.original_image, self.angle)</tspan></text>
+<rect x="20.0" y="932.0" width="760.0" height="208.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="960.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="976.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="976.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1004.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1004.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1004.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">flip(img, False, True)</tspan><tspan fill="#0f172a"> เพื่อหันซ้าย</tspan></text>
+<text x="444.0" y="1004.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">flip(img, True, False)</tspan><tspan fill="#0f172a"> ซ้าย–ขวา</tspan></text>
+<rect x="36.0" y="1030.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1030.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1058.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1058.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1058.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">rotate(self.image, 10)</tspan><tspan fill="#0f172a"> เบลอ + โต</tspan></text>
+<text x="444.0" y="1058.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">rotate(original_image, angle)</tspan></text>
+<rect x="36.0" y="1084.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1084.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1112.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1112.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1112.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">flip(img, True, False)</tspan><tspan fill="#0f172a"> ไม่เก็บผล</tspan></text>
+<text x="444.0" y="1112.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">img2 = flip(img, True, False)</tspan></text>
 </svg>

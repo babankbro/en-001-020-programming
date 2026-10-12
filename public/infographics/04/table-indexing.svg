@@ -1,74 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 530" width="800" height="530" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
-<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 874" width="800" height="874" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
 <text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">ลิสต์ซ้อนลิสต์คือตาราง: scores[แถว][คอลัมน์]</text>
-<text x="400.0" y="64.0" font-size="15" fill="#475569" text-anchor="middle">scores[1] เลือกแถวก่อน (ได้ลิสต์) แล้ว [2] เลือกตำแหน่งในแถวนั้น → 67</text>
-<text x="216.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 0</text>
-<text x="216.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Math</text>
-<text x="308.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 1</text>
-<text x="308.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Science</text>
-<text x="400.0" y="100.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">j = 2</text>
-<text x="400.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">English</text>
-<text x="492.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 3</text>
-<text x="492.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Computer</text>
-<text x="630.0" y="120.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">เฉลี่ยแถว</text>
-<rect x="166.0" y="173.0" width="376.0" height="52.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<rect x="351.0" y="126.0" width="98.0" height="146.0" rx="6" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="6 3"/>
-<text x="24.0" y="159.0" font-size="14" fill="#475569">i = 0</text>
-<text x="70.0" y="159.0" font-size="14" fill="#475569">Somchai</text>
-<rect x="173.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="216.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">55</text>
-<rect x="265.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="308.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">63</text>
-<rect x="357.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="400.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">77</text>
-<rect x="449.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="492.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">81</text>
-<text x="630.0" y="159.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">276/4 = 69.00</text>
-<text x="24.0" y="205.0" font-size="14" fill="#2563eb" font-weight="bold">i = 1</text>
-<text x="70.0" y="205.0" font-size="14" fill="#475569">Somsri</text>
-<rect x="173.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="216.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">65</text>
-<rect x="265.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="308.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">61</text>
-<rect x="357.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2.5"/>
-<text x="400.0" y="205.0" font-size="17" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">67</text>
-<rect x="449.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="492.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72</text>
-<text x="630.0" y="205.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">265/4 = 66.25</text>
-<text x="24.0" y="251.0" font-size="14" fill="#475569">i = 2</text>
-<text x="70.0" y="251.0" font-size="14" fill="#475569">Sompong</text>
-<rect x="173.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="216.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">97</text>
-<rect x="265.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="308.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">95</text>
-<rect x="357.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="400.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">92</text>
-<rect x="449.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-<text x="492.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">88</text>
-<text x="630.0" y="251.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">372/4 = 93.00</text>
-<text x="24.0" y="304.0" font-size="14" fill="#7c3aed" font-weight="bold">เฉลี่ยคอลัมน์</text>
-<text x="216.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">217/3</text>
-<text x="216.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72.33</text>
-<text x="308.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">219/3</text>
-<text x="308.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">73.00</text>
-<text x="400.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">236/3</text>
-<text x="400.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">78.67</text>
-<text x="492.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">241/3</text>
-<text x="492.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">80.33</text>
-<rect x="20.0" y="345.0" width="370.0" height="165.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-<circle cx="44.0" cy="371.0" r="13" fill="#2563eb" stroke="none" stroke-width="1"/>
-<text x="44.0" y="376.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
-<text x="64.0" y="377.0" font-size="15" fill="#2563eb" font-weight="bold">scores[1]  เลือกแถว i = 1</text>
-<text x="40.0" y="409.0" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">→ [65, 61, 67, 72]</text>
-<text x="40.0" y="437.0" font-size="14" fill="#475569">ได้ลิสต์ 1 มิติทั้งแถว (Somsri)</text>
-<circle cx="44.0" cy="467.0" r="13" fill="#d97706" stroke="none" stroke-width="1"/>
-<text x="44.0" y="472.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
-<text x="64.0" y="473.0" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">[65, 61, 67, 72][2] → 67</text>
-<rect x="410.0" y="345.0" width="370.0" height="165.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
-<text x="430.0" y="377.0" font-size="15" fill="#059669" font-weight="bold">ขนาดตารางและทิศทางการหาร</text>
-<text x="430.0" y="407.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores) = 3 แถว</text>
-<text x="430.0" y="433.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores[0]) = 4 คอลัมน์</text>
-<text x="430.0" y="463.0" font-size="14" fill="#0f172a">เฉลี่ยแถว ÷ len(row) = 4</text>
-<text x="430.0" y="489.0" font-size="14" fill="#0f172a">เฉลี่ยคอลัมน์ ÷ len(scores) = 3</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="154.2" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">scores[1][2] ได้ 67 อย่างไร และค่าเฉลี่ยแถว/คอลัมน์หารด้วยอะไร</tspan></text>
+<text x="123.3" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="215.2" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="239.2" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">แถวที่เลือก i = 1</text>
+<rect x="362.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="386.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">คอลัมน์ j = 2</text>
+<rect x="483.9" y="101.0" width="18.0" height="14.0" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="507.9" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ช่องคำตอบ</text>
+<rect x="588.7" y="101.0" width="18.0" height="14.0" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="612.7" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ค่าเฉลี่ย</text>
+<text x="214.0" y="140.0" font-size="15" fill="#475569" text-anchor="middle">j = 0</text>
+<text x="214.0" y="160.0" font-size="15" fill="#475569" text-anchor="middle">Math</text>
+<text x="306.0" y="140.0" font-size="15" fill="#475569" text-anchor="middle">j = 1</text>
+<text x="306.0" y="160.0" font-size="15" fill="#475569" text-anchor="middle">Science</text>
+<text x="398.0" y="140.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">j = 2</text>
+<text x="398.0" y="160.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">English</text>
+<text x="490.0" y="140.0" font-size="15" fill="#475569" text-anchor="middle">j = 3</text>
+<text x="490.0" y="160.0" font-size="15" fill="#475569" text-anchor="middle">Computer</text>
+<text x="660.0" y="160.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">เฉลี่ยแถว = ผลรวม ÷ 4</text>
+<rect x="350.0" y="166.0" width="96.0" height="136.0" rx="8" fill="none" stroke="#059669" stroke-width="2.5"/>
+<rect x="164.0" y="210.0" width="376.0" height="48.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="28.0" y="196.0" font-size="15" fill="#475569" text-anchor="start">i = 0</text>
+<text x="80.0" y="196.0" font-size="15" fill="#475569" text-anchor="start">Somchai</text>
+<rect x="170.0" y="170.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="214.0" y="196.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">55</text>
+<rect x="262.0" y="170.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="306.0" y="196.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">63</text>
+<rect x="354.0" y="170.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="398.0" y="196.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">77</text>
+<rect x="446.0" y="170.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="490.0" y="196.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">81</text>
+<text x="660.0" y="196.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">276/4 = 69.00</text>
+<text x="28.0" y="240.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">i = 1</text>
+<text x="80.0" y="240.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">Somsri</text>
+<rect x="170.0" y="214.0" width="88.0" height="40.0" rx="6" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="214.0" y="240.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">65</text>
+<rect x="262.0" y="214.0" width="88.0" height="40.0" rx="6" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="306.0" y="240.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">61</text>
+<rect x="354.0" y="214.0" width="88.0" height="40.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="398.0" y="240.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">67</text>
+<rect x="446.0" y="214.0" width="88.0" height="40.0" rx="6" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="490.0" y="240.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72</text>
+<text x="660.0" y="240.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">265/4 = 66.25</text>
+<text x="28.0" y="284.0" font-size="15" fill="#475569" text-anchor="start">i = 2</text>
+<text x="80.0" y="284.0" font-size="15" fill="#475569" text-anchor="start">Sompong</text>
+<rect x="170.0" y="258.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="214.0" y="284.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">97</text>
+<rect x="262.0" y="258.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="306.0" y="284.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">95</text>
+<rect x="354.0" y="258.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="398.0" y="284.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">92</text>
+<rect x="446.0" y="258.0" width="88.0" height="40.0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="490.0" y="284.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">88</text>
+<text x="660.0" y="284.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">372/4 = 93.00</text>
+<text x="28.0" y="332.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">เฉลี่ยคอลัมน์</text>
+<text x="28.0" y="352.0" font-size="15" fill="#7c3aed" text-anchor="start">= ผลรวม ÷ 3</text>
+<text x="214.0" y="332.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">217/3</text>
+<text x="214.0" y="352.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72.33</text>
+<text x="306.0" y="332.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">219/3</text>
+<text x="306.0" y="352.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">73.00</text>
+<text x="398.0" y="332.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">236/3</text>
+<text x="398.0" y="352.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">78.67</text>
+<text x="490.0" y="332.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">241/3</text>
+<text x="490.0" y="352.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">80.33</text>
+<circle cx="148.0" cy="234.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="148.0" y="239.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="438.0" cy="216.0" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="438.0" y="221.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="575.0" cy="234.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="575.0" y="239.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="398.0" cy="376.0" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="398.0" y="381.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<rect x="20.0" y="400.0" width="372.0" height="108.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="42.0" cy="424.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="42.0" y="429.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="429.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">scores[1] เลือกแถวก่อน</text>
+<text x="38.0" y="456.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[1] → </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">[65, 61, 67, 72]</tspan></text>
+<text x="38.0" y="480.0" font-size="15" fill="#0f172a" text-anchor="start">ได้ลิสต์ 1 มิติทั้งแถวของ Somsri</text>
+<rect x="408.0" y="400.0" width="372.0" height="108.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="430.0" cy="424.0" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="430.0" y="429.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="450.0" y="429.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">แล้ว [2] เลือกตำแหน่งในแถว</text>
+<text x="426.0" y="456.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">[65, 61, 67, 72][2] → </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">67</tspan></text>
+<text x="426.0" y="480.0" font-size="15" fill="#0f172a" text-anchor="start">นับจาก 0: 65 (0), 61 (1), 67 (2)</text>
+<rect x="20.0" y="520.0" width="372.0" height="108.0" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="42.0" cy="544.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="42.0" y="549.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="549.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">เฉลี่ยแถว 1 หารด้วยจำนวนคอลัมน์</text>
+<text x="38.0" y="576.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(65+61+67+72) / 4</tspan></text>
+<text x="38.0" y="600.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">= 265 / 4 = </tspan><tspan fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace">66.25</tspan></text>
+<rect x="408.0" y="520.0" width="372.0" height="108.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<circle cx="430.0" cy="544.0" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="430.0" y="549.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="450.0" y="549.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">เฉลี่ยคอลัมน์ 2 หารด้วยจำนวนแถว</text>
+<text x="426.0" y="576.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(77+67+92) / 3</tspan></text>
+<text x="426.0" y="600.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">= 236 / 3 ≈ </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">78.67</tspan></text>
+<rect x="20.0" y="644.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="87.0" y="672.0" font-size="17" text-anchor="start"><tspan fill="#0f172a" font-weight="bold">คำตอบ: </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">scores[1][2] = 67</tspan><tspan fill="#0f172a">   ·   len(scores) = 3 แถว   ·   len(scores[0]) = 4 คอลัมน์</tspan></text>
+<rect x="20.0" y="704.0" width="760.0" height="154.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="732.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="748.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="748.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="776.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="776.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="776.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[2][1]</tspan><tspan fill="#0f172a"> → 95 (สลับแถวกับคอลัมน์)</tspan></text>
+<text x="444.0" y="776.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[1][2]</tspan><tspan fill="#0f172a"> → 67 ดัชนีแรกคือแถวเสมอ</tspan></text>
+<rect x="36.0" y="802.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="802.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="830.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="830.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="830.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">236 / 4 = 59.0</tspan><tspan fill="#0f172a"> (หารด้วยคอลัมน์)</tspan></text>
+<text x="444.0" y="830.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">236 / 3 ≈ 78.67</tspan><tspan fill="#0f172a"> คอลัมน์มี 3 ค่า</tspan></text>
 </svg>

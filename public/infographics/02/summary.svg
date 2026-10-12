@@ -1,55 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 622" width="800" height="622" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนที่แนวคิด 5 หัวข้อของบทที่ 2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="800" height="960" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนที่แนวคิดบทที่ 2 ห้าหัวข้อพร้อมตัวเลขสำคัญ ลำดับการต่อยอด และจุดที่มักผิด">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>แผนที่แนวคิด 5 หัวข้อของบทที่ 2</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">แผนที่แนวคิด บทที่ 2 พื้นฐานไพทอนและเวกเตอร์</text>
-<line x1="400" y1="318" x2="142" y2="232" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="400" y2="232" stroke="#059669" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="658" y2="232" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="240" y2="404" stroke="#d97706" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="560" y2="404" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 4"/>
-<ellipse cx="400" cy="318" rx="170" ry="40" fill="#0f172a"/>
-<text x="400" y="314" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">บท 02 พื้นฐานไพทอนและเวกเตอร์</text>
-<text x="400" y="338" font-size="14" fill="#cbd5e1" text-anchor="middle">Jupyter Notebook · ฟังก์ชัน · การวนซ้ำ</text>
-<rect x="24" y="64" width="236" height="168" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<rect x="24" y="64" width="236" height="34" rx="10" fill="#2563eb"/>
-<rect x="24" y="84" width="236" height="14" rx="0" fill="#2563eb"/>
-<text x="36" y="87" font-size="15" fill="#ffffff" font-weight="bold">1. โปรแกรมแรก &amp; f-string</text>
-<text x="38" y="124" font-size="14" fill="#0f172a">• print(a, b) คั่นด้วยช่องว่าง</text>
-<text x="38" y="150" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"{x}" ต้องมี f + {}</text>
-<text x="38" y="176" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{x:.2f} → ทศนิยม 2</text>
-<text x="38" y="202" font-size="14" fill="#0f172a">• ไม่มี f → พิมพ์ {x} ตรง ๆ</text>
-<rect x="282" y="64" width="236" height="168" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
-<rect x="282" y="64" width="236" height="34" rx="10" fill="#059669"/>
-<rect x="282" y="84" width="236" height="14" rx="0" fill="#059669"/>
-<text x="294" y="87" font-size="15" fill="#ffffff" font-weight="bold">2. ค่าเฉลี่ย &amp; ตัวดำเนินการ</text>
-<text x="296" y="124" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = total / n</text>
-<text x="296" y="150" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">/ ได้ float  // ปัดลง</text>
-<text x="296" y="176" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">10 % 4 = 2  2**10 = 1024</text>
-<text x="296" y="202" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">-7 // 2 = -4</text>
-<rect x="540" y="64" width="236" height="168" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-<rect x="540" y="64" width="236" height="34" rx="10" fill="#7c3aed"/>
-<rect x="540" y="84" width="236" height="14" rx="0" fill="#7c3aed"/>
-<text x="552" y="87" font-size="15" fill="#ffffff" font-weight="bold">3. ผลคูณจุด (Dot Product)</text>
-<text x="554" y="124" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = Σ aᵢbᵢ → สเกลาร์</text>
-<text x="554" y="150" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1,2,3)·(1,0,1) = 4</text>
-<text x="554" y="176" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b = 0 → ตั้งฉาก</text>
-<text x="554" y="202" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a·b &gt; 0 → มุม &lt; 90°</text>
-<rect x="90" y="404" width="300" height="168" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<rect x="90" y="404" width="300" height="34" rx="10" fill="#d97706"/>
-<rect x="90" y="424" width="300" height="14" rx="0" fill="#d97706"/>
-<text x="102" y="427" font-size="15" fill="#ffffff" font-weight="bold">4. ขนาดเวกเตอร์ &amp; ลูปทุกมิติ</text>
-<text x="104" y="464" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|v| = √(v·v)</text>
-<text x="104" y="490" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">lenv((1,2,3,4)) = √30 ≈ 5.477</text>
-<text x="104" y="516" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">for i in range(len(v))</text>
-<text x="104" y="542" font-size="14" fill="#0f172a">• dotv3 กับ 4 มิติ → ได้ 5 (ผิด) แทน 21</text>
-<rect x="410" y="404" width="300" height="168" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
-<rect x="410" y="404" width="300" height="34" rx="10" fill="#dc2626"/>
-<rect x="410" y="424" width="300" height="14" rx="0" fill="#dc2626"/>
-<text x="422" y="427" font-size="15" fill="#ffffff" font-weight="bold">5. Top-Down &amp; วาดรูปด้วย #</text>
-<text x="424" y="464" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">line(n) → block → triangle</text>
-<text x="424" y="490" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">block(2, 10) → # 20 ตัว</text>
-<text x="424" y="516" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">triangle(n) → n(n+1)/2 ตัว</text>
-<text x="424" y="542" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">tree() → ใบบน/ใบล่าง/ลำต้น</text>
-<text x="400" y="604" font-size="14" fill="#475569" text-anchor="middle">ต่อยอดกัน: f-string แสดงผล → ตัวดำเนินการคำนวณ → dotv → lenv = √dotv(v, v) → ลูปเดียวกันวาดรูป #</text>
+<title>แผนที่แนวคิดบทที่ 2 ห้าหัวข้อพร้อมตัวเลขสำคัญ ลำดับการต่อยอด และจุดที่มักผิด</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">แผนที่แนวคิด บทที่ 2 พื้นฐานไพทอนและเวกเตอร์</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: บทนี้มีอะไรต้องจำ และแต่ละหัวข้อต่อยอดกันอย่างไร</text>
+<rect x="24" y="96" width="244" height="212" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<path d="M24,132 V108 Q24,96 36,96 H256 Q268,96 268,108 V132 Z" fill="#2563eb"/>
+<text x="38" y="121" font-size="16" fill="#ffffff" text-anchor="start" font-weight="bold">1. โปรแกรมแรก &amp; f-string</text>
+<text x="38" y="158" font-size="15" fill="#0f172a" text-anchor="start">print(a, b) คั่นด้วยช่องว่าง</text>
+<text x="38" y="185" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">f"{a*b}" ต้องมี f + { }</text>
+<text x="38" y="212" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"15" + "5" → "155"</text>
+<text x="38" y="239" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"7" * 2 → "77"</text>
+<text x="38" y="266" font-size="15" fill="#0f172a" text-anchor="start">{name} สองช่อง → ชื่อซ้ำ</text>
+<text x="38" y="293" font-size="15" fill="#0f172a" text-anchor="start">{age + 1} คำนวณในปีกกา</text>
+<rect x="278" y="96" width="244" height="212" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<path d="M278,132 V108 Q278,96 290,96 H510 Q522,96 522,108 V132 Z" fill="#059669"/>
+<text x="292" y="121" font-size="16" fill="#ffffff" text-anchor="start" font-weight="bold">2. ตัวดำเนินการ &amp; ตรรกะ</text>
+<text x="292" y="158" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">-7 // 2 = -4 · -7 % 2 = 1</text>
+<text x="292" y="185" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">round(math.pi, 3) = 3.142</text>
+<text x="292" y="212" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">round(2.5)=2 · int(3.7)=3</text>
+<text x="292" y="239" font-size="15" fill="#0f172a" text-anchor="start">ลำดับ: not → and → or</text>
+<text x="292" y="266" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(True and False) or True</text>
+<text x="292" y="293" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ False or True → True</text>
+<rect x="532" y="96" width="244" height="212" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<path d="M532,132 V108 Q532,96 544,96 H764 Q776,96 776,108 V132 Z" fill="#7c3aed"/>
+<text x="546" y="121" font-size="16" fill="#ffffff" text-anchor="start" font-weight="bold">3. ผลคูณจุด (Dot Product)</text>
+<text x="546" y="158" font-size="15" fill="#0f172a" text-anchor="start">a·b = Σ aᵢbᵢ ได้สเกลาร์</text>
+<text x="546" y="185" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(4,2)·(1,3) = 4+6 = 10</text>
+<text x="546" y="212" font-size="15" fill="#0f172a" text-anchor="start">cos θ ≈ 0.7071 → θ = 45°</text>
+<text x="546" y="239" font-size="15" fill="#0f172a" text-anchor="start">a·b = 0 → ตั้งฉาก</text>
+<text x="546" y="266" font-size="15" fill="#0f172a" text-anchor="start">a·b &lt; 0 → มุมป้าน</text>
+<text x="546" y="293" font-size="15" fill="#0f172a" text-anchor="start">dotv3 กับ 4 มิติ → 5 (ผิด)</text>
+<rect x="90" y="450" width="300" height="212" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<path d="M90,486 V462 Q90,450 102,450 H378 Q390,450 390,462 V486 Z" fill="#d97706"/>
+<text x="104" y="475" font-size="16" fill="#ffffff" text-anchor="start" font-weight="bold">4. ขนาดเวกเตอร์ &amp; ลูป</text>
+<text x="104" y="512" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">|v| = √(v·v)</text>
+<text x="104" y="539" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">lenv((3,4)) = 5.0</text>
+<text x="104" y="566" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">lenv((1,2,3,4)) = √30</text>
+<text x="104" y="593" font-size="15" fill="#0f172a" text-anchor="start">≈ 5.477 → round → 5.48</text>
+<text x="104" y="620" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">for i in range(len(v))</text>
+<text x="104" y="647" font-size="15" fill="#0f172a" text-anchor="start">return ต้องอยู่นอกลูป</text>
+<rect x="410" y="450" width="300" height="212" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<path d="M410,486 V462 Q410,450 422,450 H698 Q710,450 710,462 V486 Z" fill="#dc2626"/>
+<text x="424" y="475" font-size="16" fill="#ffffff" text-anchor="start" font-weight="bold">5. Top-Down &amp; วาดรูปด้วย #</text>
+<text x="424" y="512" font-size="15" fill="#0f172a" text-anchor="start">block(2, 10) → 20 ตัว</text>
+<text x="424" y="539" font-size="15" fill="#0f172a" text-anchor="start">triangle(n) → n(n+1)/2</text>
+<text x="424" y="566" font-size="15" fill="#0f172a" text-anchor="start">triangle(10) → 55 ตัว</text>
+<text x="424" y="593" font-size="15" fill="#0f172a" text-anchor="start">tree() → 8 แถว, 26 ตัว</text>
+<text x="424" y="620" font-size="15" fill="#0f172a" text-anchor="start">end="" พิมพ์ต่อบรรทัดเดิม</text>
+<text x="424" y="647" font-size="15" fill="#0f172a" text-anchor="start">ใหญ่ → ย่อย → linespace</text>
+<line x1="146" y1="308" x2="285.7" y2="374" stroke="#2563eb" stroke-width="2.4"/>
+<line x1="400" y1="308" x2="400" y2="374" stroke="#059669" stroke-width="2.4"/>
+<line x1="654" y1="308" x2="514.3" y2="374" stroke="#7c3aed" stroke-width="2.4"/>
+<line x1="240" y1="450" x2="304" y2="426" stroke="#d97706" stroke-width="2.4"/>
+<line x1="560" y1="450" x2="496" y2="426" stroke="#dc2626" stroke-width="2.4"/>
+<ellipse cx="400" cy="400" rx="200" ry="34" fill="#0f172a"/>
+<text x="400" y="397" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">บทที่ 02 พื้นฐานไพทอนและเวกเตอร์</text>
+<text x="400" y="419" font-size="15" fill="#cbd5e1" text-anchor="middle">Jupyter Notebook · ฟังก์ชัน · การวนซ้ำ</text>
+<text x="24" y="708" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">ลำดับการต่อยอด (อ่านตามหมายเลข)</text>
+<rect x="24" y="722" width="132" height="62" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<circle cx="42" cy="742" r="11" fill="#2563eb"/>
+<text x="42" y="747.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="100" y="747" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">แสดงผล</text>
+<text x="90" y="772" font-size="15" fill="#0f172a" text-anchor="middle">f-string</text>
+<line x1="158" y1="753" x2="176" y2="753" stroke="#475569" stroke-width="1.8" marker-end="url(#arrS)"/>
+<rect x="178" y="722" width="132" height="62" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="196" cy="742" r="11" fill="#059669"/>
+<text x="196" y="747.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="254" y="747" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">คำนวณ</text>
+<text x="244" y="772" font-size="15" fill="#0f172a" text-anchor="middle">ตัวดำเนินการ</text>
+<line x1="312" y1="753" x2="330" y2="753" stroke="#475569" stroke-width="1.8" marker-end="url(#arrS)"/>
+<rect x="332" y="722" width="132" height="62" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.6"/>
+<circle cx="350" cy="742" r="11" fill="#7c3aed"/>
+<text x="350" y="747.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="408" y="747" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold">dotv</text>
+<text x="398" y="772" font-size="15" fill="#0f172a" text-anchor="middle">ผลคูณจุด</text>
+<line x1="466" y1="753" x2="484" y2="753" stroke="#475569" stroke-width="1.8" marker-end="url(#arrS)"/>
+<rect x="486" y="722" width="132" height="62" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<circle cx="504" cy="742" r="11" fill="#d97706"/>
+<text x="504" y="747.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="562" y="747" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">lenv</text>
+<text x="552" y="772" font-size="15" fill="#0f172a" text-anchor="middle">= √dotv(v,v)</text>
+<line x1="620" y1="753" x2="638" y2="753" stroke="#475569" stroke-width="1.8" marker-end="url(#arrS)"/>
+<rect x="640" y="722" width="132" height="62" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="658" cy="742" r="11" fill="#dc2626"/>
+<text x="658" y="747.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="716" y="747" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">ลูปเดิม</text>
+<text x="706" y="772" font-size="15" fill="#0f172a" text-anchor="middle">วาดรูป #</text>
+<rect x="24" y="806" width="368" height="130" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="48" cy="830" r="13" fill="#dc2626"/>
+<text x="48" y="836" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="70" y="836" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">จุดที่มักผิดในบทนี้</text>
+<text x="42" y="864" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print("{x}") → ลืม f พิมพ์ {x}</text>
+<text x="42" y="890" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True or False and False → False</text>
+<text x="42" y="916" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = a + b + c / 3</text>
+<rect x="408" y="806" width="368" height="130" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="432" cy="830" r="13" fill="#059669"/>
+<text x="432" y="836" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="454" y="836" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ที่ถูก</text>
+<text x="426" y="864" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f"{x}") → แทนค่า x</text>
+<text x="426" y="890" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">and ก่อน or → True</text>
+<text x="426" y="916" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = (a + b + c) / 3</text>
 </svg>

@@ -1,1 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="800" height="700" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif"><defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ah-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#ffffff"/><text x="400.0" y="36.0" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ระบบพิกัด: กราฟคณิตศาสตร์ vs จอภาพ Pygame</text><rect x="20.0" y="56.0" width="370.0" height="334.0" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><rect x="410.0" y="56.0" width="370.0" height="334.0" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="205.0" y="82.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">กราฟคณิตศาสตร์: y ชี้ขึ้น</text><text x="595.0" y="82.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">จอภาพ Pygame 800×600: y ชี้ลง</text><line x1="55.0" y1="140.0" x2="55.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="85.0" y1="140.0" x2="85.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="115.0" y1="140.0" x2="115.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="145.0" y1="140.0" x2="145.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="175.0" y1="140.0" x2="175.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="205.0" y1="140.0" x2="205.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="235.0" y1="140.0" x2="235.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="265.0" y1="140.0" x2="265.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="295.0" y1="140.0" x2="295.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="325.0" y1="140.0" x2="325.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="355.0" y1="140.0" x2="355.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="140.0" x2="355.0" y2="140.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="170.0" x2="355.0" y2="170.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="200.0" x2="355.0" y2="200.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="230.0" x2="355.0" y2="230.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="260.0" x2="355.0" y2="260.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="290.0" x2="355.0" y2="290.0" stroke="#e2e8f0" stroke-width="1"/><line x1="55.0" y1="320.0" x2="355.0" y2="320.0" stroke="#e2e8f0" stroke-width="1"/><line x1="50.0" y1="230.0" x2="367.0" y2="230.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#ah-ink)"/><line x1="205.0" y1="325.0" x2="205.0" y2="126.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#ah-ink)"/><text x="363.0" y="250.0" font-size="15" fill="#0f172a" font-weight="bold">x</text><text x="215.0" y="134.0" font-size="15" fill="#0f172a" font-weight="bold">y</text><text x="199.0" y="248.0" font-size="14" fill="#475569" text-anchor="end">(0, 0)</text><line x1="295.0" y1="230.0" x2="295.0" y2="170.0" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/><line x1="205.0" y1="170.0" x2="295.0" y2="170.0" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/><circle cx="295.0" cy="170.0" r="5.0" fill="#2563eb"/><text x="303.0" y="162.0" font-size="15" fill="#2563eb" font-weight="bold">(3, 2)</text><text x="205.0" y="376.0" font-size="14" fill="#475569" text-anchor="middle">y มากขึ้น = สูงขึ้น · (0, 0) อยู่กลางกราฟ</text><rect x="432.0" y="104.0" width="336.0" height="252.0" rx="0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/><line x1="474.0" y1="104.0" x2="474.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="516.0" y1="104.0" x2="516.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="558.0" y1="104.0" x2="558.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="600.0" y1="104.0" x2="600.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="642.0" y1="104.0" x2="642.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="684.0" y1="104.0" x2="684.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="726.0" y1="104.0" x2="726.0" y2="356.0" stroke="#eef2f7" stroke-width="1"/><line x1="432.0" y1="146.0" x2="768.0" y2="146.0" stroke="#eef2f7" stroke-width="1"/><line x1="432.0" y1="188.0" x2="768.0" y2="188.0" stroke="#eef2f7" stroke-width="1"/><line x1="432.0" y1="230.0" x2="768.0" y2="230.0" stroke="#eef2f7" stroke-width="1"/><line x1="432.0" y1="272.0" x2="768.0" y2="272.0" stroke="#eef2f7" stroke-width="1"/><line x1="432.0" y1="314.0" x2="768.0" y2="314.0" stroke="#eef2f7" stroke-width="1"/><line x1="433.7" y1="107.4" x2="532.8" y2="107.4" stroke="#dc2626" stroke-width="2" marker-end="url(#ah-red)"/><text x="537.0" y="112.4" font-size="15" fill="#dc2626" font-weight="bold">x</text><line x1="435.4" y1="105.7" x2="435.4" y2="179.6" stroke="#dc2626" stroke-width="2" marker-end="url(#ah-red)"/><text x="439.6" y="188.0" font-size="15" fill="#dc2626" font-weight="bold">y</text><text x="444.6" y="135.5" font-size="14" fill="#dc2626">(0, 0) มุมบนซ้าย</text><text x="763.8" y="349.7" font-size="14" fill="#475569" text-anchor="end">(800, 600)</text><circle cx="600.0" cy="230.0" r="5.0" fill="#0f172a"/><text x="608.0" y="248.0" font-size="14" fill="#0f172a">(400, 300) กึ่งกลาง</text><circle cx="684.0" cy="154.4" r="5.0" fill="#2563eb"/><text x="676.0" y="146.4" font-size="14" fill="#2563eb" text-anchor="end">(600, 120)</text><circle cx="507.6" cy="242.6" r="9.0" fill="#d97706"/><line x1="507.6" y1="253.6" x2="507.6" y2="294.6" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/><text x="521.6" y="278.6" font-size="14" fill="#d97706" font-weight="bold">GRAVITY = +0.1</text><text x="521.6" y="298.6" font-size="14" fill="#d97706">vy += 0.1 → ตกลง</text><text x="595.0" y="376.0" font-size="14" fill="#475569" text-anchor="middle">y มากขึ้น = ต่ำลง · กดขึ้น = y ลดลง</text><rect x="20.0" y="410.0" width="760.0" height="270.0" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="36.0" y="436.0" font-size="16" fill="#7c3aed" font-weight="bold">pygame.Rect(120, 80, 50, 50) — ขยาย 3 เท่า</text><line x1="150.0" y1="468.0" x2="400.0" y2="468.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-sub)"/><text x="406.0" y="473.0" font-size="14" fill="#475569">x</text><line x1="150.0" y1="468.0" x2="150.0" y2="664.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-sub)"/><text x="140.0" y="662.0" font-size="14" fill="#475569" text-anchor="end">y</text><line x1="210.0" y1="463.0" x2="210.0" y2="473.0" stroke="#475569" stroke-width="1.5"/><text x="210.0" y="460.0" font-size="14" fill="#475569" text-anchor="middle">120</text><line x1="210.0" y1="473.0" x2="210.0" y2="644.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><line x1="285.0" y1="463.0" x2="285.0" y2="473.0" stroke="#475569" stroke-width="1.5"/><text x="285.0" y="460.0" font-size="14" fill="#475569" text-anchor="middle">145</text><line x1="285.0" y1="473.0" x2="285.0" y2="644.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><line x1="360.0" y1="463.0" x2="360.0" y2="473.0" stroke="#475569" stroke-width="1.5"/><text x="360.0" y="460.0" font-size="14" fill="#475569" text-anchor="middle">170</text><line x1="360.0" y1="473.0" x2="360.0" y2="644.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><line x1="145.0" y1="494.0" x2="155.0" y2="494.0" stroke="#475569" stroke-width="1.5"/><text x="140.0" y="499.0" font-size="14" fill="#475569" text-anchor="end">80</text><line x1="155.0" y1="494.0" x2="360.0" y2="494.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><line x1="145.0" y1="569.0" x2="155.0" y2="569.0" stroke="#475569" stroke-width="1.5"/><text x="140.0" y="574.0" font-size="14" fill="#475569" text-anchor="end">105</text><line x1="155.0" y1="569.0" x2="360.0" y2="569.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><line x1="145.0" y1="644.0" x2="155.0" y2="644.0" stroke="#475569" stroke-width="1.5"/><text x="140.0" y="649.0" font-size="14" fill="#475569" text-anchor="end">130</text><line x1="155.0" y1="644.0" x2="360.0" y2="644.0" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/><rect x="210.0" y="494.0" width="150.0" height="150.0" rx="0" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2.5"/><circle cx="285.0" cy="569.0" r="5.0" fill="#7c3aed"/><text x="285.0" y="514.0" font-size="14" fill="#7c3aed" text-anchor="middle">top</text><text x="285.0" y="636.0" font-size="14" fill="#7c3aed" text-anchor="middle">bottom</text><text x="216.0" y="559.0" font-size="14" fill="#7c3aed">left</text><text x="354.0" y="559.0" font-size="14" fill="#7c3aed" text-anchor="end">right</text><text x="285.0" y="591.0" font-size="14" fill="#7c3aed" text-anchor="middle">center</text><circle cx="210.0" cy="494.0" r="4.0" fill="#0f172a"/><circle cx="360.0" cy="644.0" r="4.0" fill="#0f172a"/><text x="368.0" y="644.0" font-size="14" fill="#0f172a">bottomright</text><text x="368.0" y="664.0" font-size="14" fill="#0f172a">(170, 130)</text><text x="440.0" y="466.0" font-size="14" fill="#475569" font-weight="bold">แอตทริบิวต์</text><text x="550.0" y="466.0" font-size="14" fill="#475569" font-weight="bold">สูตร</text><text x="660.0" y="466.0" font-size="14" fill="#475569" font-weight="bold">ค่า</text><text x="440.0" y="494.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">left, top</text><text x="550.0" y="494.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">x, y</text><text x="660.0" y="494.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">120, 80</text><text x="440.0" y="520.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">right</text><text x="550.0" y="520.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">x + w</text><text x="660.0" y="520.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">170</text><text x="440.0" y="546.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">bottom</text><text x="550.0" y="546.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y + h</text><text x="660.0" y="546.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">130</text><text x="440.0" y="572.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">centerx</text><text x="550.0" y="572.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">x + w/2</text><text x="660.0" y="572.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">145</text><text x="440.0" y="598.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">centery</text><text x="550.0" y="598.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y + h/2</text><text x="660.0" y="598.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">105</text><text x="440.0" y="624.0" font-size="14" fill="#7c3aed" font-family="Consolas, 'Courier New', monospace">center</text><text x="550.0" y="624.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(cx, cy)</text><text x="660.0" y="624.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(145, 105)</text><text x="470.0" y="662.0" font-size="14" fill="#0f172a">rect.right = 800 → เลื่อนทั้งกรอบ</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1086" width="800" height="1086" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">ระบบพิกัด: กราฟคณิตศาสตร์ vs จอภาพ Pygame</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="132.6" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ทำไมบนจอ y มากขึ้น = ลงล่าง และ Rect หา right / bottom / center อย่างไร</tspan></text>
+<text x="106.4" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="198.3" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="222.3" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">กราฟคณิตศาสตร์</text>
+<rect x="328.3" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="352.3" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">จอ Pygame</text>
+<rect x="441.7" y="101.0" width="18.0" height="14.0" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="465.7" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ความโน้มถ่วง</text>
+<rect x="563.3" y="101.0" width="18.0" height="14.0" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="587.3" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">pygame.Rect</text>
+<rect x="20.0" y="130.0" width="370.0" height="340.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="42.0" cy="154.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="42.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="160.0" font-size="16" fill="#2563eb" text-anchor="start" font-weight="bold">กราฟคณิตศาสตร์: y ชี้ขึ้น</text>
+<line x1="45.0" y1="182.0" x2="45.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="77.0" y1="182.0" x2="77.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="109.0" y1="182.0" x2="109.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="141.0" y1="182.0" x2="141.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="173.0" y1="182.0" x2="173.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="205.0" y1="182.0" x2="205.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="237.0" y1="182.0" x2="237.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="269.0" y1="182.0" x2="269.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="301.0" y1="182.0" x2="301.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="333.0" y1="182.0" x2="333.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="365.0" y1="182.0" x2="365.0" y2="412.4" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="438.0" x2="365.0" y2="438.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="406.0" x2="365.0" y2="406.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="374.0" x2="365.0" y2="374.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="342.0" x2="365.0" y2="342.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="310.0" x2="365.0" y2="310.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="278.0" x2="365.0" y2="278.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="246.0" x2="365.0" y2="246.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="45.0" y1="214.0" x2="365.0" y2="214.0" stroke="#dbeafe" stroke-width="1"/>
+<line x1="38.6" y1="310.0" x2="371.4" y2="310.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#ah-ink)"/>
+<line x1="205.0" y1="412.4" x2="205.0" y2="175.6" stroke="#0f172a" stroke-width="1.8" marker-end="url(#ah-ink)"/>
+<text x="377.8" y="315.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">x</text>
+<text x="215.0" y="178.8" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">y</text>
+<line x1="301.0" y1="246.0" x2="301.0" y2="310.0" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="205.0" y1="246.0" x2="301.0" y2="246.0" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="301.0" cy="246.0" r="6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="311.0" y="238.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">(3, 2)</text>
+<text x="197.0" y="330.0" font-size="15" fill="#475569" text-anchor="end">(0, 0)</text>
+<text x="205.0" y="454.0" font-size="15" fill="#0f172a" text-anchor="middle">y = 2 อยู่ "เหนือ" แกน x · (0, 0) อยู่กลางกราฟ</text>
+<rect x="410.0" y="130.0" width="370.0" height="340.0" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<circle cx="432.0" cy="154.0" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="432.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="452.0" y="160.0" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">จอ Pygame 800×600: y ชี้ลง</text>
+<rect x="435.0" y="186.0" width="320.0" height="240.0" rx="0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<line x1="475.0" y1="186.0" x2="475.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="515.0" y1="186.0" x2="515.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="555.0" y1="186.0" x2="555.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="595.0" y1="186.0" x2="595.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="635.0" y1="186.0" x2="635.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="675.0" y1="186.0" x2="675.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="715.0" y1="186.0" x2="715.0" y2="426.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="435.0" y1="226.0" x2="755.0" y2="226.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="435.0" y1="266.0" x2="755.0" y2="266.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="435.0" y1="306.0" x2="755.0" y2="306.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="435.0" y1="346.0" x2="755.0" y2="346.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="435.0" y1="386.0" x2="755.0" y2="386.0" stroke="#f1f5f9" stroke-width="1"/>
+<line x1="438.0" y1="189.0" x2="505.0" y2="189.0" stroke="#dc2626" stroke-width="2.2" marker-end="url(#ah-red)"/>
+<line x1="438.0" y1="189.0" x2="438.0" y2="246.0" stroke="#dc2626" stroke-width="2.2" marker-end="url(#ah-red)"/>
+<text x="511.0" y="195.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">x</text>
+<text x="441.0" y="262.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">y</text>
+<text x="449.0" y="214.0" font-size="15" fill="#dc2626" text-anchor="start">(0, 0) มุมบนซ้าย</text>
+<circle cx="595.0" cy="306.0" r="5" fill="#0f172a" stroke="none" stroke-width="1.5"/>
+<text x="603.0" y="324.0" font-size="15" fill="#0f172a" text-anchor="start">(400, 300) กึ่งกลาง</text>
+<circle cx="675.0" cy="234.0" r="5" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="667.0" y="226.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold">(600, 120)</text>
+<circle cx="495.0" cy="318.0" r="9" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<line x1="495.0" y1="330.0" x2="495.0" y2="370.0" stroke="#d97706" stroke-width="2.5" marker-end="url(#ah-orange)"/>
+<text x="509.0" y="348.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">GRAVITY = +0.1</text>
+<text x="509.0" y="368.0" font-size="15" fill="#d97706" text-anchor="start">vy += 0.1 → ตกลง</text>
+<text x="751.0" y="420.0" font-size="15" fill="#475569" text-anchor="end">(800, 600)</text>
+<text x="595.0" y="454.0" font-size="15" fill="#0f172a" text-anchor="middle">y = 120 &lt; 300 จึงอยู่ "สูงกว่า" กึ่งกลาง</text>
+<rect x="20.0" y="486.0" width="760.0" height="300.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="42.0" cy="510.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="42.0" y="515.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="516.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold">pygame.Rect(120, 80, 50, 50) ขยาย 3 เท่า: ทุกค่ามาจาก "มุมบนซ้าย + ขนาด"</text>
+<line x1="110.0" y1="546.0" x2="360.0" y2="546.0" stroke="#475569" stroke-width="1.2" marker-end="url(#ah-gray)"/>
+<line x1="110.0" y1="546.0" x2="110.0" y2="756.0" stroke="#475569" stroke-width="1.2" marker-end="url(#ah-gray)"/>
+<line x1="150.0" y1="540.0" x2="150.0" y2="552.0" stroke="#475569" stroke-width="1.2"/>
+<text x="150.0" y="534.0" font-size="15" fill="#475569" text-anchor="middle">120</text>
+<line x1="150.0" y1="552.0" x2="150.0" y2="576.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="225.0" y1="540.0" x2="225.0" y2="552.0" stroke="#475569" stroke-width="1.2"/>
+<text x="225.0" y="534.0" font-size="15" fill="#475569" text-anchor="middle">145</text>
+<line x1="225.0" y1="552.0" x2="225.0" y2="576.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="300.0" y1="540.0" x2="300.0" y2="552.0" stroke="#475569" stroke-width="1.2"/>
+<text x="300.0" y="534.0" font-size="15" fill="#475569" text-anchor="middle">170</text>
+<line x1="300.0" y1="552.0" x2="300.0" y2="576.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="104.0" y1="576.0" x2="116.0" y2="576.0" stroke="#475569" stroke-width="1.2"/>
+<text x="98.0" y="581.0" font-size="15" fill="#475569" text-anchor="end">80</text>
+<line x1="116.0" y1="576.0" x2="150.0" y2="576.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="104.0" y1="651.0" x2="116.0" y2="651.0" stroke="#475569" stroke-width="1.2"/>
+<text x="98.0" y="656.0" font-size="15" fill="#475569" text-anchor="end">105</text>
+<line x1="116.0" y1="651.0" x2="150.0" y2="651.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="104.0" y1="726.0" x2="116.0" y2="726.0" stroke="#475569" stroke-width="1.2"/>
+<text x="98.0" y="731.0" font-size="15" fill="#475569" text-anchor="end">130</text>
+<line x1="116.0" y1="726.0" x2="150.0" y2="726.0" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="150.0" y="576.0" width="150.0" height="150.0" rx="0" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2.5"/>
+<circle cx="225.0" cy="651.0" r="5" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="225.0" y="673.0" font-size="15" fill="#7c3aed" text-anchor="middle">center</text>
+<text x="225.0" y="596.0" font-size="15" fill="#7c3aed" text-anchor="middle">top</text>
+<text x="225.0" y="718.0" font-size="15" fill="#7c3aed" text-anchor="middle">bottom</text>
+<text x="158.0" y="656.0" font-size="15" fill="#7c3aed" text-anchor="start">left</text>
+<text x="292.0" y="656.0" font-size="15" fill="#7c3aed" text-anchor="end">right</text>
+<circle cx="150.0" cy="576.0" r="4" fill="#0f172a" stroke="none" stroke-width="1.5"/>
+<circle cx="300.0" cy="726.0" r="4" fill="#0f172a" stroke="none" stroke-width="1.5"/>
+<text x="420.0" y="548.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">แอตทริบิวต์</text>
+<text x="530.0" y="548.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สูตร</text>
+<text x="620.0" y="548.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">แทนค่า</text>
+<rect x="412.0" y="558.0" width="358.0" height="28.0" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+<text x="420.0" y="578.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">left, top</text>
+<text x="530.0" y="578.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">x, y</text>
+<text x="620.0" y="578.0" font-size="15" fill="#0f172a" text-anchor="start">120, 80</text>
+<rect x="412.0" y="590.0" width="358.0" height="28.0" rx="6" fill="#ffffff" stroke="#e9d5ff" stroke-width="1"/>
+<text x="420.0" y="610.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">right</text>
+<text x="530.0" y="610.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">x + w</text>
+<text x="620.0" y="610.0" font-size="15" fill="#0f172a" text-anchor="start">120 + 50 = 170</text>
+<rect x="412.0" y="622.0" width="358.0" height="28.0" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+<text x="420.0" y="642.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">bottom</text>
+<text x="530.0" y="642.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">y + h</text>
+<text x="620.0" y="642.0" font-size="15" fill="#0f172a" text-anchor="start">80 + 50 = 130</text>
+<rect x="412.0" y="654.0" width="358.0" height="28.0" rx="6" fill="#ffffff" stroke="#e9d5ff" stroke-width="1"/>
+<text x="420.0" y="674.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">centerx</text>
+<text x="530.0" y="674.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">x + w/2</text>
+<text x="620.0" y="674.0" font-size="15" fill="#0f172a" text-anchor="start">120 + 25 = 145</text>
+<rect x="412.0" y="686.0" width="358.0" height="28.0" rx="6" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+<text x="420.0" y="706.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">centery</text>
+<text x="530.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">y + h/2</text>
+<text x="620.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="start">80 + 25 = 105</text>
+<text x="420.0" y="738.0" font-size="15" fill="#0f172a" text-anchor="start">กำหนด rect.right = 800 → เลื่อนทั้งกรอบให้ชิดขวา</text>
+<rect x="20.0" y="802.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="111.8" y="830.0" font-size="17" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Rect(120, 80, 50, 50): </tspan><tspan fill="#7c3aed" font-weight="bold">right = 170 · bottom = 130 · center = (145, 105)</tspan></text>
+<rect x="20.0" y="862.0" width="760.0" height="208.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="890.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="906.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="906.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="934.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="934.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="934.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">กดขึ้น: </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y += 1</tspan></text>
+<text x="444.0" y="934.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">กดขึ้น: </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y -= 1</tspan><tspan fill="#0f172a"> (y ลด = ขึ้น)</tspan></text>
+<rect x="36.0" y="960.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="960.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="988.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="988.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="988.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">GRAVITY = -0.1</tspan><tspan fill="#0f172a"> ลูกบอลลอยขึ้น</tspan></text>
+<text x="444.0" y="988.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">GRAVITY = +0.1</tspan><tspan fill="#0f172a"> ดึงลงล่าง</tspan></text>
+<rect x="36.0" y="1014.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1014.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1042.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1042.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1042.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">right = x = 120</tspan></text>
+<text x="444.0" y="1042.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">right = x + w = 170</tspan></text>
+</svg>

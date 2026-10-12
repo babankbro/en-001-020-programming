@@ -1,1 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif"><defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ah-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#ffffff"/><text x="400.0" y="36.0" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">วงวนเกม (Game Loop): 6 ขั้นที่ทำซ้ำทุกเฟรม</text><path d="M515.0,165.7 A250,185 0 0 1 566.9,192.3" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><path d="M641.6,282.5 A250,185 0 0 1 641.6,377.5" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><path d="M566.9,467.7 A250,185 0 0 1 515.0,494.3" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><path d="M285.0,494.3 A250,185 0 0 1 233.1,467.7" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><path d="M158.4,377.5 A250,185 0 0 1 158.4,282.5" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><path d="M233.1,192.3 A250,185 0 0 1 285.0,165.7" fill="none" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#ah-gray)"/><rect x="293.0" y="108.0" width="214.0" height="74.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><circle cx="313.0" cy="131.0" r="13.0" fill="#2563eb"/><text x="313.0" y="136.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text><text x="335.0" y="136.0" font-size="16" fill="#2563eb" font-weight="bold">รับเหตุการณ์</text><text x="400.0" y="167.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">pygame.event.get()</text><rect x="509.5" y="200.5" width="214.0" height="74.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/><circle cx="529.5" cy="223.5" r="13.0" fill="#059669"/><text x="529.5" y="228.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text><text x="551.5" y="228.5" font-size="16" fill="#059669" font-weight="bold">ล้างจอ</text><text x="616.5" y="259.5" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">screen.fill(BLACK)</text><rect x="509.5" y="385.5" width="214.0" height="74.0" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/><circle cx="529.5" cy="408.5" r="13.0" fill="#d97706"/><text x="529.5" y="413.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text><text x="551.5" y="413.5" font-size="16" fill="#d97706" font-weight="bold">อัปเดตสถานะ</text><text x="616.5" y="444.5" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">ball.move()</text><rect x="293.0" y="478.0" width="214.0" height="74.0" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/><circle cx="313.0" cy="501.0" r="13.0" fill="#dc2626"/><text x="313.0" y="506.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text><text x="335.0" y="506.0" font-size="16" fill="#dc2626" font-weight="bold">วาดลงบัฟเฟอร์</text><text x="400.0" y="537.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">ball.draw(screen)</text><rect x="76.5" y="385.5" width="214.0" height="74.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/><circle cx="96.5" cy="408.5" r="13.0" fill="#7c3aed"/><text x="96.5" y="413.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text><text x="118.5" y="413.5" font-size="16" fill="#7c3aed" font-weight="bold">แสดงภาพขึ้นจอ</text><text x="183.5" y="444.5" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">pygame.display.flip()</text><rect x="76.5" y="200.5" width="214.0" height="74.0" rx="12" fill="#f1f5f9" stroke="#0f172a" stroke-width="2"/><circle cx="96.5" cy="223.5" r="13.0" fill="#0f172a"/><text x="96.5" y="228.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text><text x="118.5" y="228.5" font-size="16" fill="#0f172a" font-weight="bold">คุมอัตราเฟรม</text><text x="183.5" y="259.5" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">clock.tick(60)</text><text x="400.0" y="300.0" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold">1 รอบ = 1 เฟรม</text><text x="400.0" y="326.0" font-size="15" fill="#475569" text-anchor="middle">60 FPS → 1000/60 ≈ 16.7 ms</text><text x="400.0" y="350.0" font-size="14" fill="#475569" text-anchor="middle">วาดเสร็จก่อน แล้ว flip ครั้งเดียว</text><text x="400.0" y="372.0" font-size="14" fill="#475569" text-anchor="middle">(Double Buffering ภาพไม่กะพริบ)</text><rect x="20.0" y="58.0" width="200.0" height="62.0" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/><text x="32.0" y="82.0" font-size="14" fill="#475569">ก่อนวน: pygame.init()</text><text x="32.0" y="105.0" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace">set_mode, Clock()</text><line x1="220.0" y1="92.0" x2="288.0" y2="118.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-sub)"/><rect x="580.0" y="58.0" width="200.0" height="62.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/><text x="592.0" y="82.0" font-size="14" fill="#dc2626">QUIT → running = False</text><text x="592.0" y="105.0" font-size="14" fill="#dc2626">ออกวน → pygame.quit()</text><line x1="512.0" y1="118.0" x2="578.0" y2="92.0" stroke="#dc2626" stroke-width="1.5" marker-end="url(#ah-red)" stroke-dasharray="4 3"/><text x="400.0" y="600.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">ลำดับที่ต้องจำ: event → fill → update → draw → flip → tick</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1072" width="800" height="1072" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">วงวนเกม (Game Loop): 6 ขั้นที่ทำซ้ำทุกเฟรม</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="140.5" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ในหนึ่งเฟรมโปรแกรมทำอะไรตามลำดับ และถ้าขาดขั้นไหนจะเห็นอะไรบนจอ</tspan></text>
+<text x="68.8" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="160.7" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="184.7" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">อินพุต / เวลา</text>
+<rect x="280.5" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="304.5" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ทำบนบัฟเฟอร์หลังจอ (ยังไม่เห็น)</text>
+<rect x="521.6" y="101.0" width="18.0" height="14.0" rx="3" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="545.6" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">แสดงขึ้นจอ</text>
+<rect x="634.8" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="658.8" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ถ้าขาดขั้นนี้</text>
+<path d="M524.0,212.8 Q554.4,216.9 588.6,244.0" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<path d="M678.5,348.0 Q694.0,381.0 678.5,414.0" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<path d="M588.6,518.0 Q554.4,545.1 524.0,549.2" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<path d="M276.0,549.2 Q245.6,545.1 211.4,518.0" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<path d="M121.5,414.0 Q106.0,381.0 121.5,348.0" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<path d="M211.4,244.0 Q245.6,216.9 276.0,212.8" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah-gray)"/>
+<rect x="282.0" y="150.0" width="236.0" height="92.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="302.0" cy="172.0" r="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="302.0" y="177.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="322.0" y="178.0" font-size="16" fill="#2563eb" text-anchor="start" font-weight="bold">รับเหตุการณ์</text>
+<text x="298.0" y="204.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">pygame.event.get()</text>
+<text x="298.0" y="230.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → หน้าต่างค้าง กดปิดไม่ได้</text>
+<rect x="536.0" y="250.0" width="236.0" height="92.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="556.0" cy="272.0" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="556.0" y="277.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="576.0" y="278.0" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ล้างจอ</text>
+<text x="552.0" y="304.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">screen.fill(BLACK)</text>
+<text x="552.0" y="330.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → เกิดรอยทางของเฟรมเก่า</text>
+<rect x="536.0" y="420.0" width="236.0" height="92.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="556.0" cy="442.0" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="556.0" y="447.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="576.0" y="448.0" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">อัปเดตสถานะ</text>
+<text x="552.0" y="474.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">ball.move()</text>
+<text x="552.0" y="500.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → วัตถุไม่ขยับ</text>
+<rect x="282.0" y="520.0" width="236.0" height="92.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="302.0" cy="542.0" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="302.0" y="547.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="322.0" y="548.0" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">วาดลงบัฟเฟอร์</text>
+<text x="298.0" y="574.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">ball.draw(screen)</text>
+<text x="298.0" y="600.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → จอว่าง ไม่มีวัตถุ</text>
+<rect x="28.0" y="420.0" width="236.0" height="92.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="48.0" cy="442.0" r="12" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="48.0" y="447.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="68.0" y="448.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold">แสดงภาพขึ้นจอ</text>
+<text x="44.0" y="474.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">pygame.display.flip()</text>
+<text x="44.0" y="500.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → ไม่เห็นอะไรเลย</text>
+<rect x="28.0" y="250.0" width="236.0" height="92.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="48.0" cy="272.0" r="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="48.0" y="277.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="68.0" y="278.0" font-size="16" fill="#2563eb" text-anchor="start" font-weight="bold">คุมอัตราเฟรม</text>
+<text x="44.0" y="304.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">clock.tick(60)</text>
+<text x="44.0" y="330.0" font-size="15" fill="#dc2626" text-anchor="start">ขาด → เร็วตามความแรงเครื่อง</text>
+<text x="400.0" y="352.0" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold">1 รอบวง = 1 เฟรม</text>
+<text x="400.0" y="378.0" font-size="15" fill="#0f172a" text-anchor="middle">60 FPS → 1000 / 60 ≈ 16.7 ms ต่อเฟรม</text>
+<text x="400.0" y="402.0" font-size="15" fill="#059669" text-anchor="middle">ขั้น 2–4 วาดบนบัฟเฟอร์หลังจอ</text>
+<text x="400.0" y="424.0" font-size="15" fill="#7c3aed" text-anchor="middle">ขั้น 5 สลับขึ้นจอทีเดียว (ไม่กะพริบ)</text>
+<rect x="20.0" y="140.0" width="236.0" height="70.0" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="32.0" y="166.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ก่อนวน (ทำครั้งเดียว):</text>
+<text x="32.0" y="192.0" font-size="15" fill="#475569" text-anchor="start">init() · set_mode() · Clock()</text>
+<rect x="544.0" y="140.0" width="236.0" height="70.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="556.0" y="166.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">ทางออกเดียว: พบ QUIT ในขั้น 1</text>
+<text x="556.0" y="192.0" font-size="15" fill="#dc2626" text-anchor="start">running = False → quit()</text>
+<text x="30.0" y="640.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ตัวอย่างตัวเลข: เวลาทำงาน = FRAME_LIMIT ÷ FPS · เวลาต่อเฟรม = 1000 ÷ FPS</text>
+<text x="40.0" y="670.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">FRAME_LIMIT</text>
+<text x="170.0" y="670.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">FPS</text>
+<text x="280.0" y="670.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">เวลาทำงาน</text>
+<text x="560.0" y="670.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">เวลาต่อเฟรม</text>
+<rect x="22.0" y="680.0" width="756.0" height="28.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="40.0" y="700.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">600</text>
+<text x="170.0" y="700.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">60</text>
+<text x="280.0" y="700.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">600 ÷ 60 = 10 วินาที</text>
+<text x="560.0" y="700.0" font-size="15" fill="#0f172a" text-anchor="start">1000 ÷ 60 ≈ 16.7 ms</text>
+<rect x="22.0" y="712.0" width="756.0" height="28.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="40.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">900</text>
+<text x="170.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">30</text>
+<text x="280.0" y="732.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">900 ÷ 30 = 30 วินาที</text>
+<text x="560.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="start">1000 ÷ 30 ≈ 33.3 ms</text>
+<rect x="22.0" y="744.0" width="756.0" height="28.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="40.0" y="764.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">1200</text>
+<text x="170.0" y="764.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">50</text>
+<text x="280.0" y="764.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">1200 ÷ 50 = 24 วินาที</text>
+<text x="560.0" y="764.0" font-size="15" fill="#0f172a" text-anchor="start">1000 ÷ 50 = 20 ms</text>
+<rect x="20.0" y="788.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="159.2" y="816.0" font-size="17" text-anchor="start"><tspan fill="#0f172a" font-weight="bold">ลำดับที่ต้องจำ: </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">event → fill → update → draw → flip → tick</tspan></text>
+<rect x="20.0" y="848.0" width="760.0" height="208.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="876.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="892.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="892.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="920.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="920.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="920.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">draw → fill → flip</tspan><tspan fill="#dc2626"> → จอเป็นสีพื้นล้วน</tspan></text>
+<text x="444.0" y="920.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">fill → draw → flip</tspan><tspan fill="#059669"> fill ก่อนเสมอ</tspan></text>
+<rect x="36.0" y="946.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="946.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="974.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="974.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="974.0" font-size="15" fill="#0f172a" text-anchor="start">ไม่มี tick() → คิดว่าแค่ไม่ลื่น</text>
+<text x="444.0" y="974.0" font-size="15" fill="#0f172a" text-anchor="start">ไม่มี tick() → เร็วเกินและต่างกันทุกเครื่อง</text>
+<rect x="36.0" y="1000.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="1000.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1028.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1028.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1028.0" font-size="15" fill="#0f172a" text-anchor="start">วาดสี่เหลี่ยมหลังวงกลม แต่หวังเห็นวงกลม</text>
+<text x="444.0" y="1028.0" font-size="15" fill="#0f172a" text-anchor="start">สิ่งที่วาดทีหลังทับสิ่งที่วาดก่อน</text>
+</svg>

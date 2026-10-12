@@ -11,19 +11,19 @@
 <circle cx="150" cy="96" r="13" fill="#7c3aed" stroke="#ffffff" stroke-width="2"/><text x="150" y="101.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
 <rect x="20" y="262" width="184" height="132" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
 <text x="112" y="288" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">space.py</text>
-<text x="112" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">from config import *</text>
+<text x="112" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve" textLength="164" lengthAdjust="spacingAndGlyphs">from config import *</text>
 <text x="112" y="344" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">class Space</text>
 <text x="112" y="372" font-size="15" fill="#475569" text-anchor="middle">ยานผู้เล่น</text>
 <line x1="290" y1="202" x2="112" y2="259" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>
 <rect x="204" y="262" width="184" height="132" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
 <text x="296" y="288" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">enemy.py</text>
-<text x="296" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">from config import *</text>
+<text x="296" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve" textLength="164" lengthAdjust="spacingAndGlyphs">from config import *</text>
 <text x="296" y="344" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">class Enemy</text>
 <text x="296" y="372" font-size="15" fill="#475569" text-anchor="middle">สุ่ม + สะท้อน</text>
 <line x1="290" y1="202" x2="296" y2="259" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>
 <rect x="388" y="262" width="184" height="132" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
 <text x="480" y="288" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">red_enemy.py</text>
-<text x="480" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">from config import *</text>
+<text x="480" y="316" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve" textLength="164" lengthAdjust="spacingAndGlyphs">from config import *</text>
 <text x="480" y="344" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">class RedEnemy</text>
 <text x="480" y="372" font-size="15" fill="#475569" text-anchor="middle">ไล่ตาม + แยกตัว</text>
 <line x1="290" y1="202" x2="480" y2="259" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>

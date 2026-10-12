@@ -1,64 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1016" width="800" height="1016" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<text x="400.0" y="38.0" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">สี RGB ใน Pygame: ผสมแสงแบบบวก (Additive) ค่าละ 0–255</text>
-<text x="400.0" y="64.0" font-size="14" fill="#475569" text-anchor="middle">แสงแดง + เขียว + น้ำเงิน เต็มที่ = ขาว (255, 255, 255) · ไม่มีแสงเลย = ดำ (0, 0, 0)</text>
-<rect x="25.0" y="90.0" width="340.0" height="440.0" rx="12" fill="#000000" stroke="#cbd5e1" stroke-width="1.5"/>
-<circle cx="195.0" cy="272.0" r="100" fill="#ff0000"/>
-<circle cx="144.8" cy="359.0" r="100" fill="#00ff00"/>
-<circle cx="245.2" cy="359.0" r="100" fill="#0000ff"/>
-<path d="M95.00,272.27 A100,100 0 0 0 244.77,358.73 A100,100 0 0 0 95.00,272.27 Z" fill="#ffff00"/>
-<path d="M295.00,272.27 A100,100 0 0 1 145.23,358.73 A100,100 0 0 1 295.00,272.27 Z" fill="#ff00ff"/>
-<path d="M195.00,445.47 A100,100 0 0 0 195.00,272.53 A100,100 0 0 0 195.00,445.47 Z" fill="#00ffff"/>
-<path d="M244.77,358.73 A100,100 0 0 0 195.00,272.53 A100,100 0 0 0 145.23,358.73 A100,100 0 0 0 244.77,358.73 Z" fill="#ffffff"/>
-<circle cx="195.0" cy="272.0" r="100" fill="none" stroke="#000000" stroke-width="0.8" stroke-opacity="0.35"/>
-<circle cx="144.8" cy="359.0" r="100" fill="none" stroke="#000000" stroke-width="0.8" stroke-opacity="0.35"/>
-<circle cx="245.2" cy="359.0" r="100" fill="none" stroke="#000000" stroke-width="0.8" stroke-opacity="0.35"/>
-<text x="195.0" y="222.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">แดง R</text>
-<text x="97.1" y="391.5" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">เขียว G</text>
-<text x="292.9" y="391.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">น้ำเงิน B</text>
-<text x="135.2" y="300.5" font-size="14" fill="#000000" text-anchor="middle" font-weight="bold">เหลือง</text>
-<text x="254.8" y="300.5" font-size="14" fill="#000000" text-anchor="middle" font-weight="bold">ม่วงแดง</text>
-<text x="195.0" y="404.0" font-size="14" fill="#000000" text-anchor="middle" font-weight="bold">ฟ้าอมเขียว</text>
-<text x="195.0" y="335.0" font-size="14" fill="#000000" text-anchor="middle" font-weight="bold">ขาว</text>
-<text x="195.0" y="505.0" font-size="14" fill="#ffffff" text-anchor="middle">บริเวณซ้อนกัน = ผลบวกของแสง</text>
-<text x="390.0" y="100.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold">สี</text>
-<text x="785.0" y="100.0" font-size="14" fill="#475569" text-anchor="end" font-weight="bold">ทูเพิล (R, G, B)</text>
-<rect x="386.0" y="114.0" width="399.0" height="40.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="120.0" width="44.0" height="28.0" rx="4" fill="#000000" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="139.0" font-size="15" fill="#0f172a" text-anchor="start">ดำ (Black)</text>
-<text x="780.0" y="139.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 0, 0)</text>
-<rect x="386.0" y="160.0" width="399.0" height="40.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="166.0" width="44.0" height="28.0" rx="4" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="185.0" font-size="15" fill="#0f172a" text-anchor="start">ขาว (White)</text>
-<text x="780.0" y="185.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255, 255)</text>
-<rect x="386.0" y="206.0" width="399.0" height="40.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="212.0" width="44.0" height="28.0" rx="4" fill="#ff0000" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="231.0" font-size="15" fill="#0f172a" text-anchor="start">แดง (Red)</text>
-<text x="780.0" y="231.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 0, 0)</text>
-<rect x="386.0" y="252.0" width="399.0" height="40.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="258.0" width="44.0" height="28.0" rx="4" fill="#00ff00" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="277.0" font-size="15" fill="#0f172a" text-anchor="start">เขียว (Green)</text>
-<text x="780.0" y="277.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 255, 0)</text>
-<rect x="386.0" y="298.0" width="399.0" height="40.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="304.0" width="44.0" height="28.0" rx="4" fill="#0000ff" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="323.0" font-size="15" fill="#0f172a" text-anchor="start">น้ำเงิน (Blue)</text>
-<text x="780.0" y="323.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 0, 255)</text>
-<rect x="386.0" y="344.0" width="399.0" height="40.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="350.0" width="44.0" height="28.0" rx="4" fill="#ffff00" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="369.0" font-size="15" fill="#0f172a" text-anchor="start">เหลือง (Yellow) = R+G</text>
-<text x="780.0" y="369.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255, 0)</text>
-<rect x="386.0" y="390.0" width="399.0" height="40.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="396.0" width="44.0" height="28.0" rx="4" fill="#00ffff" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="415.0" font-size="15" fill="#0f172a" text-anchor="start">ฟ้าอมเขียว (Cyan) = G+B</text>
-<text x="780.0" y="415.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 255, 255)</text>
-<rect x="386.0" y="436.0" width="399.0" height="40.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="442.0" width="44.0" height="28.0" rx="4" fill="#ff00ff" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="461.0" font-size="15" fill="#0f172a" text-anchor="start">ม่วงแดง (Magenta) = R+B</text>
-<text x="780.0" y="461.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 0, 255)</text>
-<rect x="386.0" y="482.0" width="399.0" height="40.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-<rect x="394.0" y="488.0" width="44.0" height="28.0" rx="4" fill="#808080" stroke="#475569" stroke-width="1.2"/>
-<text x="450.0" y="507.0" font-size="15" fill="#0f172a" text-anchor="start">เทา (Gray) ค่าเท่ากันทั้งสาม</text>
-<text x="780.0" y="507.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(128, 128, 128)</text>
-<text x="400.0" y="560.0" font-size="14" fill="#0f172a" text-anchor="middle">ยิ่งค่ามาก แสงช่องนั้นยิ่งสว่าง · ค่าเท่ากันทั้ง 3 ช่อง = เฉดเทา (0 ดำ → 255 ขาว) · ผสมแสง ไม่ใช่ผสมสีน้ำ: แดง + เขียว = เหลือง</text>
-<text x="400.0" y="584.0" font-size="14" fill="#475569" text-anchor="middle">ตัวอย่าง: YELLOW = (255, 255, 0) แล้ว pygame.draw.rect(screen, YELLOW, (270, 180, 60, 40))</text>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">สี RGB ใน Pygame: ผสมแสงแบบบวก ค่าละ 0–255</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="116.4" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ทำไมแดง + เขียว = เหลือง (255, 255, 0) และจะอ่านทูเพิลสีที่ไม่เคยเห็นอย่างไร</tspan></text>
+<text x="120.7" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="212.6" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="236.6" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">แสงแดง R</text>
+<rect x="322.0" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="346.0" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">แสงเขียว G</text>
+<rect x="439.9" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="463.9" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">แสงน้ำเงิน B</text>
+<rect x="557.7" y="101.0" width="18.0" height="14.0" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="581.7" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ตัวอย่างคำนวณ</text>
+<rect x="24.0" y="130.0" width="352.0" height="440.0" rx="12" fill="#000000" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="200.0" cy="292.0" r="98" fill="#ff0000"/>
+<circle cx="149.8" cy="379.0" r="98" fill="#00ff00"/>
+<circle cx="250.2" cy="379.0" r="98" fill="#0000ff"/>
+<path d="M102.01,293.43 A98,98 0 0 0 247.76,377.57 A98,98 0 0 0 102.01,293.43 Z" fill="#ffff00"/>
+<path d="M297.99,293.43 A98,98 0 0 1 152.24,377.57 A98,98 0 0 1 297.99,293.43 Z" fill="#ff00ff"/>
+<path d="M200.00,463.15 A98,98 0 0 0 200.00,294.85 A98,98 0 0 0 200.00,463.15 Z" fill="#00ffff"/>
+<path d="M247.76,377.57 A98,98 0 0 0 200.00,294.85 A98,98 0 0 0 152.24,377.57 A98,98 0 0 0 247.76,377.57 Z" fill="#ffffff"/>
+<text x="200.0" y="245.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">แดง R</text>
+<text x="104.7" y="410.0" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">เขียว G</text>
+<text x="295.3" y="410.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">น้ำเงิน B</text>
+<text x="140.2" y="320.5" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">เหลือง</text>
+<text x="259.8" y="320.5" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">ม่วงแดง</text>
+<text x="200.0" y="424.0" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">ฟ้าอมเขียว</text>
+<text x="200.0" y="355.0" font-size="15" fill="#000000" text-anchor="middle" font-weight="bold">ขาว</text>
+<circle cx="48.0" cy="154.0" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="48.0" y="159.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="68.0" y="160.0" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">แม่สีแสง 3 สี</text>
+<circle cx="48.0" cy="500.0" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="48.0" y="505.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="68.0" y="506.0" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">ซ้อน 2 สี = สีใหม่</text>
+<circle cx="48.0" cy="540.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="48.0" y="545.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="68.0" y="546.0" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">ซ้อนครบ 3 สี = ขาว</text>
+<rect x="392.0" y="130.0" width="388.0" height="42.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="136.0" width="44.0" height="30.0" rx="4" fill="#000000" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="156.0" font-size="15" fill="#0f172a" text-anchor="start">ดำ (Black)</text>
+<text x="772.0" y="156.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 0, 0)</text>
+<rect x="392.0" y="178.0" width="388.0" height="42.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="184.0" width="44.0" height="30.0" rx="4" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="204.0" font-size="15" fill="#0f172a" text-anchor="start">ขาว (White)</text>
+<text x="772.0" y="204.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255, 255)</text>
+<rect x="392.0" y="226.0" width="388.0" height="42.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="232.0" width="44.0" height="30.0" rx="4" fill="#ff0000" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="252.0" font-size="15" fill="#0f172a" text-anchor="start">แดง (Red)</text>
+<text x="772.0" y="252.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 0, 0)</text>
+<rect x="392.0" y="274.0" width="388.0" height="42.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="280.0" width="44.0" height="30.0" rx="4" fill="#00ff00" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="300.0" font-size="15" fill="#0f172a" text-anchor="start">เขียว (Green)</text>
+<text x="772.0" y="300.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 255, 0)</text>
+<rect x="392.0" y="322.0" width="388.0" height="42.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="328.0" width="44.0" height="30.0" rx="4" fill="#0000ff" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="348.0" font-size="15" fill="#0f172a" text-anchor="start">น้ำเงิน (Blue)</text>
+<text x="772.0" y="348.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 0, 255)</text>
+<rect x="392.0" y="370.0" width="388.0" height="42.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="376.0" width="44.0" height="30.0" rx="4" fill="#ffff00" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="396.0" font-size="15" fill="#0f172a" text-anchor="start">เหลือง = R + G</text>
+<text x="772.0" y="396.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255, 0)</text>
+<rect x="392.0" y="418.0" width="388.0" height="42.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="424.0" width="44.0" height="30.0" rx="4" fill="#00ffff" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="444.0" font-size="15" fill="#0f172a" text-anchor="start">ฟ้าอมเขียว = G + B</text>
+<text x="772.0" y="444.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 255, 255)</text>
+<rect x="392.0" y="466.0" width="388.0" height="42.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="472.0" width="44.0" height="30.0" rx="4" fill="#ff00ff" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="492.0" font-size="15" fill="#0f172a" text-anchor="start">ม่วงแดง = R + B</text>
+<text x="772.0" y="492.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 0, 255)</text>
+<rect x="392.0" y="514.0" width="388.0" height="42.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<rect x="400.0" y="520.0" width="44.0" height="30.0" rx="4" fill="#808080" stroke="#475569" stroke-width="1.2"/>
+<text x="454.0" y="540.0" font-size="15" fill="#0f172a" text-anchor="start">เทา (สามช่องเท่ากัน)</text>
+<text x="772.0" y="540.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(128, 128, 128)</text>
+<circle cx="32.0" cy="598.0" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="32.0" y="603.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="52.0" y="604.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">คำนวณทีละช่อง (R, G, B): บวกแสงแล้วไม่เกิน 255</text>
+<text x="150.0" y="642.0" font-size="15" fill="#dc2626" text-anchor="end" font-weight="bold">แดง</text>
+<text x="170.0" y="642.0" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255,   0,   0)</text>
+<text x="150.0" y="674.0" font-size="15" fill="#059669" text-anchor="end" font-weight="bold">+ เขียว</text>
+<text x="170.0" y="674.0" font-size="16" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(  0, 255,   0)</text>
+<text x="150.0" y="706.0" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold">= เหลือง</text>
+<text x="170.0" y="706.0" font-size="16" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255,   0)</text>
+<line x1="168.0" y1="685.0" x2="330.0" y2="685.0" stroke="#0f172a" stroke-width="1.5"/>
+<rect x="400.0" y="620.0" width="380.0" height="96.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="414.0" y="644.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">อ่านทูเพิลใหม่: ดูว่าช่องไหนมีค่ามาก</text>
+<text x="414.0" y="668.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(255, 165, 0)</tspan><tspan fill="#0f172a"> แดงเต็ม + เขียวครึ่ง → ส้ม</tspan></text>
+<text x="414.0" y="692.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(200, 200, 200)</tspan><tspan fill="#0f172a"> เท่ากันทั้งสาม → เทาอ่อน</tspan></text>
+<rect x="20.0" y="732.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="108.6" y="760.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">เหลือง </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 255, 0)</tspan><tspan fill="#0f172a"> · ฟ้าอมเขียว </tspan><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(0, 255, 255)</tspan><tspan fill="#0f172a"> · ม่วงแดง </tspan><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(255, 0, 255)</tspan></text>
+<rect x="20.0" y="792.0" width="760.0" height="208.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="820.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="836.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="836.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="864.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="864.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="864.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">เหลือง = </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(255, 0, 255)</tspan></text>
+<text x="444.0" y="864.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">เหลือง = </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(255, 255, 0)</tspan><tspan fill="#0f172a"> (R + G)</tspan></text>
+<rect x="36.0" y="890.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="890.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="918.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="918.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="918.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">(300, 0, 0)</tspan><tspan fill="#0f172a"> สว่างกว่าแดง</tspan></text>
+<text x="444.0" y="918.0" font-size="15" text-anchor="start"><tspan fill="#0f172a">ค่าเกิน 255 → </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">ValueError</tspan></text>
+<rect x="36.0" y="944.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="944.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="972.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="972.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="972.0" font-size="15" fill="#0f172a" text-anchor="start">วาดเขียวทับแดง จะได้เหลือง</text>
+<text x="444.0" y="972.0" font-size="15" fill="#0f172a" text-anchor="start">draw เขียนทับพิกเซล ไม่ผสมแสง</text>
 </svg>

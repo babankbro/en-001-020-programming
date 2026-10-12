@@ -1,124 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนภาพการเรียกฟังก์ชัน tree และภาพต้นไม้ที่ได้">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1146" width="800" height="1146" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="Top-Down Design ของ tree() แตกเป็น top_leaf bottom_leaf clone ที่เรียก linespace(s, n) พร้อมผลลัพธ์ 8 แถว">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>แผนภาพการเรียกฟังก์ชัน tree และภาพต้นไม้ที่ได้</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">Top-Down Design: tree() แตกเป็นฟังก์ชันย่อยจนถึง linespace()</text>
-<rect x="165" y="80" width="150" height="44" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-<text x="240" y="108" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">tree()</text>
-<line x1="240" y1="124" x2="110" y2="174" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>
-<rect x="48" y="174" width="124" height="52" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
-<text x="110" y="200" font-size="16" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">top_leaf()</text>
-<text x="110" y="220" font-size="13.5" fill="#475569" text-anchor="middle">ใบบน 3 แถว</text>
-<line x1="110" y1="226" x2="181.5" y2="279" stroke="#059669" stroke-width="2" marker-end="url(#arrG)"/>
-<line x1="240" y1="124" x2="240" y2="174" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>
-<rect x="178" y="174" width="124" height="52" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<text x="240" y="200" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">bottom_leaf()</text>
-<text x="240" y="220" font-size="13.5" fill="#475569" text-anchor="middle">ใบล่าง 3 แถว</text>
-<line x1="240" y1="226" x2="240" y2="279" stroke="#2563eb" stroke-width="2" marker-end="url(#arrB)"/>
-<line x1="240" y1="124" x2="370" y2="174" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrP)"/>
-<rect x="308" y="174" width="124" height="52" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="370" y="200" font-size="16" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">clone()</text>
-<text x="370" y="220" font-size="13.5" fill="#475569" text-anchor="middle">ลำต้น 2 แถว</text>
-<line x1="370" y1="226" x2="298.5" y2="279" stroke="#d97706" stroke-width="2" marker-end="url(#arrO)"/>
-<rect x="145" y="280" width="190" height="44" rx="10" fill="#f1f5f9" stroke="#0f172a" stroke-width="2"/>
-<text x="240" y="308" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">linespace(s, n)</text>
-<text x="240" y="344" font-size="14" fill="#475569" text-anchor="middle">พิมพ์ช่องว่าง s ตัว แล้ว # n ตัว แล้วขึ้นบรรทัด</text>
-<rect x="24" y="372" width="432" height="186" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-<text x="40" y="400" font-size="15" fill="#0f172a" font-weight="bold">แต่ละฟังก์ชันวนเรียก linespace อย่างไร</text>
-<rect x="38" y="414" width="132" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
-<text x="104" y="434" font-size="14" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">top_leaf()</text>
-<text x="182" y="434" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i = 0,1,2 → linespace(3−i, 2i+1)</text>
-<rect x="38" y="454" width="132" height="30" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
-<text x="104" y="474" font-size="14" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">bottom_leaf()</text>
-<text x="182" y="474" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i = 0,1,2 → linespace(2−i, 2i+3)</text>
-<rect x="38" y="494" width="132" height="30" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
-<text x="104" y="514" font-size="14" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">clone()</text>
-<text x="182" y="514" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2 ครั้ง → linespace(3, 1)</text>
-<text x="240" y="548" font-size="14" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">tree() = top_leaf() + bottom_leaf() + clone()</text>
-<rect x="476" y="58" width="300" height="500" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-<text x="626" y="80" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">ผลลัพธ์ของ tree()</text>
-<text x="707" y="96" font-size="14" fill="#475569" font-weight="bold">(s, n)</text>
-<rect x="508" y="104" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="104" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="562" y="104" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="589" y="104" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="601" y="127" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="127" font-size="14" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
-<text x="496" y="127" font-size="13.5" fill="#475569" text-anchor="end">1</text>
-<rect x="508" y="154" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="154" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="562" y="154" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="574" y="177" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="589" y="154" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="601" y="177" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="616" y="154" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="628" y="177" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="177" font-size="14" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(2, 3)</text>
-<text x="496" y="177" font-size="13.5" fill="#475569" text-anchor="end">2</text>
-<rect x="508" y="204" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="204" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="547" y="227" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="562" y="204" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="574" y="227" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="589" y="204" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="601" y="227" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="616" y="204" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="628" y="227" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="643" y="204" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.3"/>
-<text x="655" y="227" font-size="15" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="227" font-size="14" fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1, 5)</text>
-<text x="496" y="227" font-size="13.5" fill="#475569" text-anchor="end">3</text>
-<rect x="508" y="254" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="254" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="562" y="254" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="574" y="277" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="589" y="254" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="601" y="277" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="616" y="254" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="628" y="277" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="277" font-size="14" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(2, 3)</text>
-<text x="496" y="277" font-size="13.5" fill="#475569" text-anchor="end">4</text>
-<rect x="508" y="304" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="304" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="547" y="327" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="562" y="304" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="574" y="327" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="589" y="304" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="601" y="327" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="616" y="304" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="628" y="327" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="643" y="304" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="655" y="327" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="327" font-size="14" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1, 5)</text>
-<text x="496" y="327" font-size="13.5" fill="#475569" text-anchor="end">5</text>
-<rect x="508" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="520" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="535" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="547" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="562" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="574" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="589" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="601" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="616" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="628" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="643" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="655" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<rect x="670" y="354" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"/>
-<text x="682" y="377" font-size="15" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="377" font-size="14" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(0, 7)</text>
-<text x="496" y="377" font-size="13.5" fill="#475569" text-anchor="end">6</text>
-<rect x="508" y="404" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="404" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="562" y="404" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="589" y="404" width="24" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.3"/>
-<text x="601" y="427" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="427" font-size="14" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
-<text x="496" y="427" font-size="13.5" fill="#475569" text-anchor="end">7</text>
-<rect x="508" y="454" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="535" y="454" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="562" y="454" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="3 3"/>
-<rect x="589" y="454" width="24" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.3"/>
-<text x="601" y="477" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">#</text>
-<text x="707" y="477" font-size="14" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
-<text x="496" y="477" font-size="13.5" fill="#475569" text-anchor="end">8</text>
+<title>Top-Down Design ของ tree() แตกเป็น top_leaf bottom_leaf clone ที่เรียก linespace(s, n) พร้อมผลลัพธ์ 8 แถว</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">Top-Down Design: tree() แตกเป็นฟังก์ชันย่อยจนถึง linespace()</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: แบ่งงานวาดต้นไม้เป็นฟังก์ชันย่อยอย่างไร และแต่ละแถวพิมพ์อะไร</text>
+<text x="24" y="98" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="94" y="85" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="120" y="98" font-size="15" fill="#0f172a" text-anchor="start">ใบบน top_leaf</text>
+<rect x="242.8" y="85" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="268.8" y="98" font-size="15" fill="#0f172a" text-anchor="start">ใบล่าง bottom_leaf</text>
+<rect x="429.6" y="85" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="455.6" y="98" font-size="15" fill="#0f172a" text-anchor="start">ลำต้น clone</text>
+<rect x="563.2" y="85" width="18" height="18" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="589.2" y="98" font-size="15" fill="#0f172a" text-anchor="start">tree</text>
+<rect x="24" y="116" width="752" height="320" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<circle cx="50" cy="170" r="13" fill="#0f172a"/>
+<text x="50" y="175.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="70" y="176" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ระดับบนสุด</text>
+<rect x="410" y="148" width="140" height="44" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="480" y="176" font-size="17" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">tree()</text>
+<circle cx="50" cy="270" r="13" fill="#0f172a"/>
+<text x="50" y="275.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="70" y="276" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ระดับกลาง</text>
+<text x="70" y="298" font-size="15" fill="#475569" text-anchor="start">(ส่วนของต้นไม้)</text>
+<line x1="480" y1="192" x2="300" y2="240" stroke="#7c3aed" stroke-width="1.6" marker-end="url(#arrP)"/>
+<rect x="218" y="244" width="164" height="56" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="300" y="268" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">top_leaf()</text>
+<text x="300" y="290" font-size="15" fill="#475569" text-anchor="middle">ใบบน 3 แถว</text>
+<line x1="300" y1="300" x2="417" y2="348" stroke="#059669" stroke-width="1.6"/>
+<line x1="480" y1="192" x2="480" y2="240" stroke="#7c3aed" stroke-width="1.6" marker-end="url(#arrP)"/>
+<rect x="398" y="244" width="164" height="56" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="480" y="268" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">bottom_leaf()</text>
+<text x="480" y="290" font-size="15" fill="#475569" text-anchor="middle">ใบล่าง 3 แถว</text>
+<line x1="480" y1="300" x2="480" y2="348" stroke="#2563eb" stroke-width="1.6"/>
+<line x1="480" y1="192" x2="660" y2="240" stroke="#7c3aed" stroke-width="1.6" marker-end="url(#arrP)"/>
+<rect x="578" y="244" width="164" height="56" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="660" y="268" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">clone()</text>
+<text x="660" y="290" font-size="15" fill="#475569" text-anchor="middle">ลำต้น 2 แถว</text>
+<line x1="660" y1="300" x2="543" y2="348" stroke="#d97706" stroke-width="1.6"/>
+<text x="564" y="176" font-size="15" fill="#7c3aed" text-anchor="start">เรียกจากซ้ายไปขวาตามลำดับ</text>
+<circle cx="50" cy="370" r="13" fill="#0f172a"/>
+<text x="50" y="375.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="70" y="376" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ระดับล่างสุด</text>
+<text x="70" y="398" font-size="15" fill="#475569" text-anchor="start">(ฟังก์ชันพื้นฐาน)</text>
+<rect x="370" y="350" width="220" height="44" rx="10" fill="#f1f5f9" stroke="#0f172a" stroke-width="2"/>
+<text x="480" y="378" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">linespace(s, n)</text>
+<text x="480" y="420" font-size="15" fill="#475569" text-anchor="middle">พิมพ์ช่องว่าง s ตัว → # n ตัว → ขึ้นบรรทัด</text>
+<rect x="24" y="456" width="400" height="214" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="40" y="484" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">แต่ละฟังก์ชันส่ง (s, n) อะไร</text>
+<rect x="40" y="500" width="122" height="36" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="101" y="524" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">top_leaf</text>
+<text x="174" y="524" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=0,1,2 → (3−i, 2i+1)</text>
+<rect x="40" y="546" width="122" height="36" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="101" y="570" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">bottom_leaf</text>
+<text x="174" y="570" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=0,1,2 → (2−i, 2i+3)</text>
+<rect x="40" y="592" width="122" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="101" y="616" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">clone</text>
+<text x="174" y="616" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2 ครั้ง → (3, 1)</text>
+<text x="40" y="656" font-size="15" fill="#475569" text-anchor="start">s ลด 1, n เพิ่ม 2 ทุกแถว → # อยู่กึ่งกลาง</text>
+<circle cx="37" cy="706" r="13" fill="#0f172a"/>
+<text x="37" y="711.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="58" y="712" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">ไล่ 1 แถว: top_leaf รอบ i = 2</text>
+<text x="44" y="744" font-size="16" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">s = 3 − 2 = 1</text>
+<text x="44" y="770" font-size="16" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n = 2×2 + 1 = 5</text>
+<text x="44" y="796" font-size="16" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ linespace(1, 5)</text>
+<text x="44" y="824" font-size="15" fill="#0f172a" text-anchor="start">พิมพ์ช่องว่าง 1 ตัว แล้ว # 5 ตัว</text>
+<text x="44" y="848" font-size="15" fill="#0f172a" text-anchor="start">→ ␣#####  = แถวที่ 3 ในภาพขวา</text>
+<circle cx="453" cy="476" r="13" fill="#0f172a"/>
+<text x="453" y="481.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="474" y="482" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">ผลลัพธ์ 8 แถว</text>
+<text x="610" y="482" font-size="15" fill="#475569" text-anchor="start">(เส้นประ = ช่องว่าง)</text>
+<rect x="440" y="496" width="336" height="380" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="760" y="518" font-size="15" fill="#475569" text-anchor="end" font-weight="bold">(s, n)</text>
+<text x="458" y="549" font-size="15" fill="#475569" text-anchor="middle">1</text>
+<rect x="474" y="526" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="526" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="530" y="526" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="558" y="526" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="570" y="549" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="549" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
+<text x="458" y="592" font-size="15" fill="#475569" text-anchor="middle">2</text>
+<rect x="474" y="569" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="569" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="530" y="569" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="542" y="592" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="558" y="569" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="570" y="592" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="586" y="569" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="598" y="592" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="592" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(2, 3)</text>
+<text x="458" y="635" font-size="15" fill="#475569" text-anchor="middle">3</text>
+<rect x="474" y="612" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="612" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="514" y="635" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="530" y="612" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="542" y="635" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="558" y="612" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="570" y="635" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="586" y="612" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="598" y="635" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="614" y="612" width="24" height="34" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="626" y="635" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="635" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1, 5)</text>
+<text x="458" y="678" font-size="15" fill="#475569" text-anchor="middle">4</text>
+<rect x="474" y="655" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="655" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="530" y="655" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="542" y="678" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="558" y="655" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="570" y="678" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="586" y="655" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="598" y="678" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="678" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(2, 3)</text>
+<text x="458" y="721" font-size="15" fill="#475569" text-anchor="middle">5</text>
+<rect x="474" y="698" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="698" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="514" y="721" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="530" y="698" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="542" y="721" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="558" y="698" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="570" y="721" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="586" y="698" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="598" y="721" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="614" y="698" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="626" y="721" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="721" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(1, 5)</text>
+<text x="458" y="764" font-size="15" fill="#475569" text-anchor="middle">6</text>
+<rect x="474" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="486" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="502" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="514" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="530" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="542" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="558" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="570" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="586" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="598" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="614" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="626" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<rect x="642" y="741" width="24" height="34" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="654" y="764" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="764" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(0, 7)</text>
+<text x="458" y="807" font-size="15" fill="#475569" text-anchor="middle">7</text>
+<rect x="474" y="784" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="784" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="530" y="784" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="558" y="784" width="24" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="570" y="807" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="807" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
+<text x="458" y="850" font-size="15" fill="#475569" text-anchor="middle">8</text>
+<rect x="474" y="827" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="502" y="827" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="530" y="827" width="24" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="3 3"/>
+<rect x="558" y="827" width="24" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="570" y="850" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">#</text>
+<text x="760" y="850" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(3, 1)</text>
+<line x1="330" y1="846" x2="500" y2="652" stroke="#059669" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrG)"/>
+<rect x="24" y="896" width="752" height="48" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2.4"/>
+<text x="40" y="926" font-size="16" fill="#b45309" text-anchor="start" font-weight="bold">คำตอบ</text>
+<text x="760" y="926" font-size="17" fill="#0f172a" text-anchor="end" font-weight="bold">tree() = 8 แถว, # รวม 1+3+5+3+5+7+1+1 = 26 ตัว</text>
+<rect x="24" y="964" width="368" height="130" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<circle cx="48" cy="988" r="13" fill="#dc2626"/>
+<text x="48" y="994" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+<text x="70" y="994" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">ผิด: เขียน tree() เป็น print 8 บรรทัดตรง ๆ</text>
+<text x="42" y="1022" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print("   #") ... × 8</text>
+<text x="42" y="1048" font-size="15" fill="#0f172a" text-anchor="start">แก้ขนาดต้นไม้ต้องแก้ทุกบรรทัด</text>
+<text x="42" y="1074" font-size="15" fill="#0f172a" text-anchor="start">ไม่มีส่วนใดนำกลับมาใช้ซ้ำได้</text>
+<rect x="408" y="964" width="368" height="130" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<circle cx="432" cy="988" r="13" fill="#059669"/>
+<text x="432" y="994" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+<text x="454" y="994" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">ถูก: แบ่งเป็นฟังก์ชันย่อยแบบ Top-Down</text>
+<text x="426" y="1022" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">tree() → top_leaf() ...</text>
+<text x="426" y="1048" font-size="15" fill="#0f172a" text-anchor="start">แต่ละส่วนทดสอบแยกได้</text>
+<text x="426" y="1074" font-size="15" fill="#0f172a" text-anchor="start">linespace ใช้ซ้ำทั้ง 8 แถว</text>
+<text x="400" y="1118" font-size="15" fill="#dc2626" text-anchor="middle">ระวังลำดับอาร์กิวเมนต์: linespace(5, 1) = ช่องว่าง 5 ตัว + # 1 ตัว ไม่ใช่ # 5 ตัว</text>
 </svg>

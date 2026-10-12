@@ -1,1 +1,151 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 616" width="800" height="616" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif"><defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ah-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs><rect width="100%" height="100%" rx="16" fill="#ffffff"/><text x="400.0" y="36.0" font-size="20" fill="#0f172a" text-anchor="middle" font-weight="bold">ชนพื้นแล้วต้อง "วางตำแหน่งกลับ" (r = 20, จอสูง 600, ชนที่ y = 590, vy = 5)</text><rect x="20.0" y="56.0" width="370.0" height="510.0" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="2"/><text x="36.0" y="84.0" font-size="17" fill="#dc2626" font-weight="bold">✗ กลับทิศอย่างเดียว</text><rect x="36.0" y="96.0" width="338.0" height="70.0" rx="8" fill="#fef2f2"/><text x="48.0" y="118.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">if y + r &gt;= 600:</text><text x="48.0" y="138.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    vy = -vy * 0.9</text><rect x="80.0" y="316.0" width="296.0" height="80.0" rx="0" fill="#fef2f2"/><text x="374.0" y="388.0" font-size="14" fill="#dc2626" text-anchor="end">ทะลุพื้น</text><line x1="80.0" y1="196.0" x2="380.0" y2="196.0" stroke="#e2e8f0" stroke-width="1"/><text x="74.0" y="201.0" font-size="14" fill="#475569" text-anchor="end">570</text><line x1="80.0" y1="236.0" x2="380.0" y2="236.0" stroke="#e2e8f0" stroke-width="1"/><text x="74.0" y="241.0" font-size="14" fill="#475569" text-anchor="end">580</text><line x1="80.0" y1="276.0" x2="380.0" y2="276.0" stroke="#e2e8f0" stroke-width="1"/><text x="74.0" y="281.0" font-size="14" fill="#475569" text-anchor="end">590</text><line x1="80.0" y1="316.0" x2="380.0" y2="316.0" stroke="#0f172a" stroke-width="2.5"/><text x="74.0" y="321.0" font-size="14" fill="#475569" text-anchor="end">600</text><line x1="80.0" y1="356.0" x2="380.0" y2="356.0" stroke="#e2e8f0" stroke-width="1"/><text x="74.0" y="361.0" font-size="14" fill="#475569" text-anchor="end">610</text><text x="240.0" y="310.0" font-size="14" fill="#0f172a" text-anchor="middle">พื้น y = 600</text><text x="34.0" y="184.0" font-size="14" fill="#475569">ขอบล่างบอล y + r (แกน y ชี้ลง)</text><polyline points="90.0,356.0 135.0,338.0 180.0,353.8 225.0,339.2 270.0,352.0 315.0,340.2 360.0,350.4" fill="none" stroke="#dc2626" stroke-width="2"/><circle cx="90.0" cy="356.0" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="135.0" cy="338.0" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="180.0" cy="353.8" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="225.0" cy="339.2" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="270.0" cy="352.0" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="315.0" cy="340.2" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><circle cx="360.0" cy="350.4" r="5.0" fill="#dc2626" stroke="#dc2626" stroke-width="2"/><text x="34.0" y="430.0" font-size="14" fill="#475569" font-weight="bold">เฟรม</text><text x="34.0" y="454.0" font-size="14" fill="#475569" font-weight="bold">y+r</text><text x="34.0" y="478.0" font-size="14" fill="#475569" font-weight="bold">vy</text><text x="94.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">0</text><text x="94.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">610.0</text><text x="94.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">−4.50</text><text x="139.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">1</text><text x="139.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">605.5</text><text x="139.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">3.96</text><text x="184.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">2</text><text x="184.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">609.5</text><text x="184.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">−3.65</text><text x="229.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">3</text><text x="229.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">605.8</text><text x="229.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">3.19</text><text x="274.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">4</text><text x="274.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">609.0</text><text x="274.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">−2.96</text><text x="319.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">5</text><text x="319.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">606.0</text><text x="319.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">2.57</text><text x="364.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">6</text><text x="364.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">608.6</text><text x="364.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">−2.40</text><text x="36.0" y="510.0" font-size="14" fill="#dc2626">ทุกเฟรมขอบล่างยัง ≥ 600 → ชนซ้ำ กลับทิศ</text><text x="36.0" y="532.0" font-size="14" fill="#dc2626">ไปมา บอลสั่นติดพื้น ไม่เด้งขึ้น</text><rect x="410.0" y="56.0" width="370.0" height="510.0" rx="12" fill="#ffffff" stroke="#059669" stroke-width="2"/><text x="426.0" y="84.0" font-size="17" fill="#059669" font-weight="bold">✓ กลับทิศ + วางกลับ</text><rect x="426.0" y="96.0" width="338.0" height="70.0" rx="8" fill="#ecfdf5"/><text x="438.0" y="118.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">if y + r &gt;= 600:</text><text x="438.0" y="138.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    vy = -vy * 0.9</text><text x="438.0" y="158.0" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    y = 600 - r</text><rect x="470.0" y="316.0" width="296.0" height="80.0" rx="0" fill="#fef2f2"/><text x="764.0" y="388.0" font-size="14" fill="#dc2626" text-anchor="end">ทะลุพื้น</text><line x1="470.0" y1="196.0" x2="770.0" y2="196.0" stroke="#e2e8f0" stroke-width="1"/><text x="464.0" y="201.0" font-size="14" fill="#475569" text-anchor="end">570</text><line x1="470.0" y1="236.0" x2="770.0" y2="236.0" stroke="#e2e8f0" stroke-width="1"/><text x="464.0" y="241.0" font-size="14" fill="#475569" text-anchor="end">580</text><line x1="470.0" y1="276.0" x2="770.0" y2="276.0" stroke="#e2e8f0" stroke-width="1"/><text x="464.0" y="281.0" font-size="14" fill="#475569" text-anchor="end">590</text><line x1="470.0" y1="316.0" x2="770.0" y2="316.0" stroke="#0f172a" stroke-width="2.5"/><text x="464.0" y="321.0" font-size="14" fill="#475569" text-anchor="end">600</text><line x1="470.0" y1="356.0" x2="770.0" y2="356.0" stroke="#e2e8f0" stroke-width="1"/><text x="464.0" y="361.0" font-size="14" fill="#475569" text-anchor="end">610</text><text x="710.0" y="310.0" font-size="14" fill="#0f172a" text-anchor="middle">พื้น y = 600</text><text x="424.0" y="184.0" font-size="14" fill="#475569">ขอบล่างบอล y + r (แกน y ชี้ลง)</text><polyline points="480.0,316.0 525.0,298.0 570.0,280.4 615.0,263.3 660.0,246.5 705.0,230.2 750.0,214.3" fill="none" stroke="#059669" stroke-width="2"/><circle cx="480.0" cy="316.0" r="5.0" fill="#059669" stroke="#059669" stroke-width="2"/><circle cx="525.0" cy="298.0" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><circle cx="570.0" cy="280.4" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><circle cx="615.0" cy="263.3" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><circle cx="660.0" cy="246.5" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><circle cx="705.0" cy="230.2" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><circle cx="750.0" cy="214.3" r="5.0" fill="#ffffff" stroke="#059669" stroke-width="2"/><text x="424.0" y="430.0" font-size="14" fill="#475569" font-weight="bold">เฟรม</text><text x="424.0" y="454.0" font-size="14" fill="#475569" font-weight="bold">y+r</text><text x="424.0" y="478.0" font-size="14" fill="#475569" font-weight="bold">vy</text><text x="484.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">0</text><text x="484.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">600.0</text><text x="484.0" y="478.0" font-size="14" fill="#dc2626" text-anchor="middle">−4.50</text><text x="529.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">1</text><text x="529.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">595.5</text><text x="529.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−4.40</text><text x="574.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">2</text><text x="574.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">591.1</text><text x="574.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−4.29</text><text x="619.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">3</text><text x="619.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">586.8</text><text x="619.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−4.19</text><text x="664.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">4</text><text x="664.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">582.6</text><text x="664.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−4.08</text><text x="709.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">5</text><text x="709.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">578.5</text><text x="709.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−3.98</text><text x="754.0" y="430.0" font-size="14" fill="#475569" text-anchor="middle">6</text><text x="754.0" y="454.0" font-size="14" fill="#0f172a" text-anchor="middle">574.6</text><text x="754.0" y="478.0" font-size="14" fill="#0f172a" text-anchor="middle">−3.88</text><text x="426.0" y="510.0" font-size="14" fill="#059669">เฟรม 0 วาง y = 580 (ขอบล่าง = 600 พอดี)</text><text x="426.0" y="532.0" font-size="14" fill="#059669">vy ติดลบต่อเนื่อง → ลอยขึ้นตามปกติ</text><text x="400.0" y="596.0" font-size="14" fill="#475569" text-anchor="middle">จุดทึบ = เฟรมที่เงื่อนไขชนเป็นจริง · เส้นเดียวกับสุนัข: rect.right = SCREEN_WIDTH</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1062" width="800" height="1062" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">ชนพื้นแล้วต้อง "วางตำแหน่งกลับ" (r = 20, จอสูง 600)</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="141.4" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ทำไมกลับทิศอย่างเดียวทำให้ลูกบอลติดพื้น แต่กลับทิศ + วางกลับจึงเด้งขึ้นได้</tspan></text>
+<text x="52.5" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="144.4" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="168.4" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">บริเวณทะลุพื้น / กลับทิศอย่างเดียว</text>
+<rect x="390.2" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="414.2" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">กลับทิศ + วางกลับ</text>
+<rect x="535.2" y="101.0" width="18.0" height="14.0" rx="3" fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
+<text x="559.2" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">จุดทึบ = เงื่อนไขชนเป็นจริง</text>
+<rect x="20.0" y="130.0" width="760.0" height="150.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="156.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">เฟรมที่ชน: ลูกบอลตกมาอยู่ที่ y = 590, vy = 5 (ทะลุพื้นไปแล้ว)</text>
+<circle cx="46.0" cy="177.0" r="10" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="46.0" y="182.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="64.0" y="182.0" font-size="15" text-anchor="start"><tspan fill="#2563eb" font-weight="bold">ตรวจชน: </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y + r = 590 + 20 = 610 ≥ 600</tspan><tspan fill="#0f172a"> → ชน</tspan></text>
+<circle cx="46.0" cy="202.0" r="10" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="46.0" y="207.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="64.0" y="207.0" font-size="15" text-anchor="start"><tspan fill="#d97706" font-weight="bold">กลับทิศ: </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">vy = -5 × 0.9 = -4.5</tspan></text>
+<circle cx="46.0" cy="227.0" r="10" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="46.0" y="232.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="64.0" y="232.0" font-size="15" text-anchor="start"><tspan fill="#059669" font-weight="bold">วางกลับ (เฉพาะแบบถูก): </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y = 600 - 20 = 580</tspan><tspan fill="#0f172a"> → ขอบล่างอยู่ที่ 600 พอดี</tspan></text>
+<circle cx="46.0" cy="252.0" r="10" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="46.0" y="257.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="64.0" y="257.0" font-size="15" text-anchor="start"><tspan fill="#7c3aed" font-weight="bold">เฟรมถัดไป: </tspan><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">✗ 590 - 4.5 = 585.5</tspan><tspan fill="#0f172a"> ขอบล่าง 605.5 ยังทะลุ · </tspan><tspan fill="#059669" font-family="Consolas, 'Courier New', monospace">✓ 580 - 4.5 = 575.5</tspan><tspan fill="#0f172a"> → 595.5</tspan></text>
+<rect x="20.0" y="296.0" width="372.0" height="520.0" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="36.0" y="324.0" font-size="17" fill="#dc2626" text-anchor="start" font-weight="bold">✗ กลับทิศอย่างเดียว</text>
+<rect x="34.0" y="336.0" width="344.0" height="58.0" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1"/>
+<text x="46.0" y="358.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">if y + r &gt;= 600:</text>
+<text x="46.0" y="380.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">    vy = -vy * 0.9</text>
+<rect x="100.0" y="579.3" width="262.0" height="66.7" rx="0" fill="#fee2e2" stroke="none" stroke-width="0"/>
+<line x1="100.0" y1="446.0" x2="362.0" y2="446.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="92.0" y="451.0" font-size="15" fill="#475569" text-anchor="end">570</text>
+<line x1="100.0" y1="490.4" x2="362.0" y2="490.4" stroke="#e2e8f0" stroke-width="1"/>
+<text x="92.0" y="495.4" font-size="15" fill="#475569" text-anchor="end">580</text>
+<line x1="100.0" y1="534.9" x2="362.0" y2="534.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="92.0" y="539.9" font-size="15" fill="#475569" text-anchor="end">590</text>
+<line x1="100.0" y1="579.3" x2="362.0" y2="579.3" stroke="#e2e8f0" stroke-width="1"/>
+<text x="92.0" y="584.3" font-size="15" fill="#475569" text-anchor="end">600</text>
+<line x1="100.0" y1="623.8" x2="362.0" y2="623.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="92.0" y="628.8" font-size="15" fill="#475569" text-anchor="end">610</text>
+<line x1="100.0" y1="579.3" x2="362.0" y2="579.3" stroke="#0f172a" stroke-width="2.5"/>
+<text x="358.0" y="573.3" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">พื้น y = 600</text>
+<text x="358.0" y="640.0" font-size="15" fill="#dc2626" text-anchor="end" font-weight="bold">ทะลุพื้น</text>
+<text x="36.0" y="434.0" font-size="15" fill="#475569" text-anchor="start">ขอบล่างลูกบอล y + r (แกน y ชี้ลง)</text>
+<path d="M100.0,623.8 L143.7,603.8 L187.3,621.4 L231.0,605.2 L274.7,619.3 L318.3,606.2 L362.0,617.6" fill="none" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="100.0" cy="623.8" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="143.7" cy="603.8" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="187.3" cy="621.4" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="231.0" cy="605.2" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="274.7" cy="619.3" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="318.3" cy="606.2" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<circle cx="362.0" cy="617.6" r="6" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="36.0" y="680.0" font-size="15" fill="#475569" text-anchor="start">เฟรม</text>
+<text x="36.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">y+r</text>
+<text x="36.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">vy</text>
+<text x="100.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">0</text>
+<text x="100.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">610.0</text>
+<text x="100.0" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">−4.50</text>
+<text x="143.7" y="680.0" font-size="15" fill="#475569" text-anchor="middle">1</text>
+<text x="143.7" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">605.5</text>
+<text x="143.7" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">3.96</text>
+<text x="187.3" y="680.0" font-size="15" fill="#475569" text-anchor="middle">2</text>
+<text x="187.3" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">609.5</text>
+<text x="187.3" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">−3.65</text>
+<text x="231.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">3</text>
+<text x="231.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">605.8</text>
+<text x="231.0" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">3.19</text>
+<text x="274.7" y="680.0" font-size="15" fill="#475569" text-anchor="middle">4</text>
+<text x="274.7" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">609.0</text>
+<text x="274.7" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">−2.96</text>
+<text x="318.3" y="680.0" font-size="15" fill="#475569" text-anchor="middle">5</text>
+<text x="318.3" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">606.0</text>
+<text x="318.3" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">2.57</text>
+<text x="362.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">6</text>
+<text x="362.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">608.6</text>
+<text x="362.0" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">−2.40</text>
+<rect x="408.0" y="296.0" width="372.0" height="520.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="424.0" y="324.0" font-size="17" fill="#059669" text-anchor="start" font-weight="bold">✓ กลับทิศ + วางกลับ</text>
+<rect x="422.0" y="336.0" width="344.0" height="80.0" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1"/>
+<text x="434.0" y="358.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">if y + r &gt;= 600:</text>
+<text x="434.0" y="380.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">    vy = -vy * 0.9</text>
+<text x="434.0" y="402.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">    y = 600 - r</text>
+<rect x="488.0" y="579.3" width="262.0" height="66.7" rx="0" fill="#fee2e2" stroke="none" stroke-width="0"/>
+<line x1="488.0" y1="446.0" x2="750.0" y2="446.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480.0" y="451.0" font-size="15" fill="#475569" text-anchor="end">570</text>
+<line x1="488.0" y1="490.4" x2="750.0" y2="490.4" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480.0" y="495.4" font-size="15" fill="#475569" text-anchor="end">580</text>
+<line x1="488.0" y1="534.9" x2="750.0" y2="534.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480.0" y="539.9" font-size="15" fill="#475569" text-anchor="end">590</text>
+<line x1="488.0" y1="579.3" x2="750.0" y2="579.3" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480.0" y="584.3" font-size="15" fill="#475569" text-anchor="end">600</text>
+<line x1="488.0" y1="623.8" x2="750.0" y2="623.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480.0" y="628.8" font-size="15" fill="#475569" text-anchor="end">610</text>
+<line x1="488.0" y1="579.3" x2="750.0" y2="579.3" stroke="#0f172a" stroke-width="2.5"/>
+<text x="746.0" y="573.3" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">พื้น y = 600</text>
+<text x="746.0" y="640.0" font-size="15" fill="#dc2626" text-anchor="end" font-weight="bold">ทะลุพื้น</text>
+<text x="424.0" y="434.0" font-size="15" fill="#475569" text-anchor="start">ขอบล่างลูกบอล y + r (แกน y ชี้ลง)</text>
+<path d="M488.0,579.3 L531.7,559.3 L575.3,539.8 L619.0,520.7 L662.7,502.1 L706.3,484.0 L750.0,466.3" fill="none" stroke="#059669" stroke-width="2.2"/>
+<circle cx="488.0" cy="579.3" r="6" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="531.7" cy="559.3" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<circle cx="575.3" cy="539.8" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<circle cx="619.0" cy="520.7" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<circle cx="662.7" cy="502.1" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<circle cx="706.3" cy="484.0" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<circle cx="750.0" cy="466.3" r="5" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<text x="424.0" y="680.0" font-size="15" fill="#475569" text-anchor="start">เฟรม</text>
+<text x="424.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">y+r</text>
+<text x="424.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">vy</text>
+<text x="488.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">0</text>
+<text x="488.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">600.0</text>
+<text x="488.0" y="732.0" font-size="15" fill="#dc2626" text-anchor="middle">−4.50</text>
+<text x="531.7" y="680.0" font-size="15" fill="#475569" text-anchor="middle">1</text>
+<text x="531.7" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">595.5</text>
+<text x="531.7" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−4.40</text>
+<text x="575.3" y="680.0" font-size="15" fill="#475569" text-anchor="middle">2</text>
+<text x="575.3" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">591.1</text>
+<text x="575.3" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−4.29</text>
+<text x="619.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">3</text>
+<text x="619.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">586.8</text>
+<text x="619.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−4.19</text>
+<text x="662.7" y="680.0" font-size="15" fill="#475569" text-anchor="middle">4</text>
+<text x="662.7" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">582.6</text>
+<text x="662.7" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−4.08</text>
+<text x="706.3" y="680.0" font-size="15" fill="#475569" text-anchor="middle">5</text>
+<text x="706.3" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">578.5</text>
+<text x="706.3" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−3.98</text>
+<text x="750.0" y="680.0" font-size="15" fill="#475569" text-anchor="middle">6</text>
+<text x="750.0" y="706.0" font-size="15" fill="#0f172a" text-anchor="middle">574.6</text>
+<text x="750.0" y="732.0" font-size="15" fill="#0f172a" text-anchor="middle">−3.88</text>
+<text x="206.0" y="776.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">ชนซ้ำทุกเฟรม vy สลับ ± จนติดพื้น</text>
+<text x="594.0" y="776.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">ชนเฟรมเดียว แล้ว vy ติดลบ → ลอยขึ้น</text>
+<rect x="20.0" y="832.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="197.8" y="860.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ต้องมี </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">y = SCREEN_HEIGHT - radius</tspan><tspan fill="#0f172a"> → 600 − 20 = </tspan><tspan fill="#059669" font-weight="bold">580</tspan></text>
+<rect x="20.0" y="892.0" width="760.0" height="154.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="920.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="936.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="936.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="964.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="964.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="964.0" font-size="15" fill="#0f172a" text-anchor="start">ชนแล้วกลับทิศอย่างเดียว</text>
+<text x="444.0" y="964.0" font-size="15" fill="#0f172a" text-anchor="start">กลับทิศ + วางตำแหน่งกลับเข้าขอบ</text>
+<rect x="36.0" y="990.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="990.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="1018.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="1018.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="1018.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y = 600</tspan><tspan fill="#0f172a"> (ลืมลบรัศมี บอลจมครึ่งลูก)</tspan></text>
+<text x="444.0" y="1018.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">y = 600 - r = 580</tspan></text>
+</svg>

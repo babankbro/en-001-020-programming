@@ -1,96 +1,132 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 690" width="800" height="690" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
-<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 942" width="800" height="942" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">สแตก (Stack): เข้าหลังออกก่อน (LIFO) และบั๊ก pop สองครั้งใน stack_v2.py</text>
-<text x="400.0" y="64.0" font-size="15" fill="#475569" text-anchor="middle">ปากสแตกอยู่ด้านบน = ท้ายลิสต์ items[-1] · กล่องแดงประ = ค่าที่ pop ออกมา</text>
-<path d="M42,128 L42,230 L126,230 L126,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<text x="84.0" y="260.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">Stack()</text>
-<text x="84.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
-<line x1="134.0" y1="180.0" x2="164.0" y2="180.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M170,128 L170,230 L254,230 L254,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="175.0" y="199.0" width="74.0" height="28.0" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="212.0" y="219.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<text x="212.0" y="260.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('x')</text>
-<text x="212.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x']</text>
-<line x1="262.0" y1="180.0" x2="292.0" y2="180.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M298,128 L298,230 L382,230 L382,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="303.0" y="199.0" width="74.0" height="28.0" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="340.0" y="219.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="303.0" y="165.0" width="74.0" height="28.0" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="340.0" y="185.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<text x="340.0" y="260.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('y')</text>
-<text x="340.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x', 'y']</text>
-<line x1="390.0" y1="180.0" x2="420.0" y2="180.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M426,128 L426,230 L510,230 L510,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="431.0" y="199.0" width="74.0" height="28.0" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="468.0" y="219.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="431.0" y="165.0" width="74.0" height="28.0" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="468.0" y="185.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<rect x="431.0" y="131.0" width="74.0" height="28.0" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="468.0" y="151.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
-<text x="468.0" y="260.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('z')</text>
-<text x="468.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x', 'y', 'z']</text>
-<line x1="518.0" y1="180.0" x2="548.0" y2="180.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M554,128 L554,230 L638,230 L638,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="559.0" y="199.0" width="74.0" height="28.0" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
-<text x="596.0" y="219.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="559.0" y="165.0" width="74.0" height="28.0" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="596.0" y="185.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<rect x="559.0" y="93.0" width="74.0" height="28.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="596.0" y="113.0" font-size="16" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
-<text x="596.0" y="260.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="596.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x', 'y']</text>
-<text x="596.0" y="306.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">คืน 'z'</text>
-<line x1="646.0" y1="180.0" x2="676.0" y2="180.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<path d="M682,128 L682,230 L766,230 L766,128" fill="none" stroke="#0f172a" stroke-width="2"/>
-<rect x="687.0" y="199.0" width="74.0" height="28.0" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-<text x="724.0" y="219.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
-<rect x="687.0" y="93.0" width="74.0" height="28.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
-<text x="724.0" y="113.0" font-size="16" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
-<text x="724.0" y="260.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
-<text x="724.0" y="284.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x']</text>
-<text x="724.0" y="306.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">คืน 'y'</text>
-<text x="400.0" y="330.0" font-size="15" fill="#0f172a" text-anchor="middle">'z' เข้าสแตกเป็นตัวสุดท้าย จึงออกเป็นตัวแรก — ลำดับออก z, y, x กลับกับลำดับเข้า x, y, z</text>
-<rect x="14.0" y="360.0" width="772.0" height="316.0" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
-<text x="34.0" y="390.0" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">stack_v2.py: while not m.is_empty(): print(m.pop()); print(m.pop())</text>
-<text x="34.0" y="414.0" font-size="14" fill="#475569">เงื่อนไข while ตรวจแค่ต้นรอบ — สแตกมี 3 ตัว (เลขคี่) จึง pop ครั้งที่ 4 ตอนว่าง</text>
-<rect x="30.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-<text x="88.0" y="466.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ตรวจ while</text>
-<text x="88.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x','y','z']</text>
-<text x="88.0" y="528.0" font-size="14" fill="#475569" text-anchor="middle">ไม่ว่าง → รอบ 1</text>
-<line x1="147.0" y1="494.0" x2="155.0" y2="494.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="156.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<text x="214.0" y="466.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop() #1</text>
-<text x="214.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">คืน 'z'</text>
-<text x="214.0" y="528.0" font-size="14" fill="#475569" text-anchor="middle">เหลือ 2 ตัว</text>
-<line x1="273.0" y1="494.0" x2="281.0" y2="494.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="282.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<text x="340.0" y="466.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop() #2</text>
-<text x="340.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">คืน 'y'</text>
-<text x="340.0" y="528.0" font-size="14" fill="#475569" text-anchor="middle">เหลือ 1 ตัว</text>
-<line x1="399.0" y1="494.0" x2="407.0" y2="494.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="408.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-<text x="466.0" y="466.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ตรวจ while</text>
-<text x="466.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">['x']</text>
-<text x="466.0" y="528.0" font-size="14" fill="#475569" text-anchor="middle">ไม่ว่าง → รอบ 2</text>
-<line x1="525.0" y1="494.0" x2="533.0" y2="494.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="534.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<text x="592.0" y="466.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop() #3</text>
-<text x="592.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">คืน 'x'</text>
-<text x="592.0" y="528.0" font-size="14" fill="#475569" text-anchor="middle">เหลือ 0 ตัว</text>
-<line x1="651.0" y1="494.0" x2="659.0" y2="494.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
-<rect x="660.0" y="440.0" width="116.0" height="108.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
-<text x="718.0" y="466.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop() #4</text>
-<text x="718.0" y="498.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[] ว่าง!</text>
-<text x="718.0" y="528.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">IndexError</text>
-<line x1="30.0" y1="564.0" x2="398.0" y2="564.0" stroke="#475569" stroke-width="1.5"/>
-<line x1="30.0" y1="558.0" x2="30.0" y2="564.0" stroke="#475569" stroke-width="1.5"/>
-<line x1="398.0" y1="558.0" x2="398.0" y2="564.0" stroke="#475569" stroke-width="1.5"/>
-<text x="214.0" y="586.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">รอบที่ 1: pop 2 ครั้ง ปลอดภัย</text>
-<line x1="408.0" y1="564.0" x2="776.0" y2="564.0" stroke="#dc2626" stroke-width="1.5"/>
-<line x1="408.0" y1="558.0" x2="408.0" y2="564.0" stroke="#dc2626" stroke-width="1.5"/>
-<line x1="776.0" y1="558.0" x2="776.0" y2="564.0" stroke="#dc2626" stroke-width="1.5"/>
-<text x="592.0" y="586.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">รอบที่ 2: เหลือ 1 ตัวแต่ pop 2 ครั้ง</text>
-<text x="34.0" y="622.0" font-size="15" fill="#0f172a">ผลลัพธ์บนจอ:  z  y  x  แล้ว  IndexError: pop from empty stack</text>
-<text x="34.0" y="652.0" font-size="15" fill="#0f172a"><tspan fill="#059669" font-weight="bold">✓ แก้: </tspan><tspan>pop บรรทัดเดียวต่อรอบ หรือ </tspan><tspan font-family="Consolas, 'Courier New', monospace">if not m.is_empty():</tspan><tspan> ก่อน pop ครั้งที่สอง</tspan></text>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">สแตก (Stack): เข้าหลังออกก่อน (LIFO)</text>
+<rect x="20.0" y="52.0" width="760.0" height="32.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="213.6" y="74.0" font-size="15" text-anchor="start"><tspan fill="#475569" font-weight="bold">ภาพนี้ตอบคำถามว่า: </tspan><tspan fill="#0f172a">ทำไมค่าที่ push เข้าไปหลังสุดจึงถูก pop ออกมาก่อน</tspan></text>
+<text x="83.9" y="113.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">คำอธิบายสี:</text>
+<rect x="175.8" y="101.0" width="18.0" height="14.0" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="199.8" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">บนสุด items[-1]</text>
+<rect x="326.7" y="101.0" width="18.0" height="14.0" rx="3" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+<text x="350.7" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ข้อมูลที่อยู่ข้างใต้</text>
+<rect x="465.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="489.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">ค่าที่ pop ออก</text>
+<rect x="583.1" y="101.0" width="18.0" height="14.0" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="607.1" y="113.0" font-size="15" fill="#0f172a" text-anchor="start">peek: ดูเฉย ๆ</text>
+<circle cx="76.0" cy="160.0" r="13" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="76.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<path d="M38.0,212 L38.0,304 L114.0,304 L114.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<line x1="117.0" y1="262.0" x2="141.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="76.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">Stack()</text>
+<text x="76.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[]</text>
+<circle cx="184.0" cy="160.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="184.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<path d="M146.0,212 L146.0,304 L222.0,304 L222.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="151.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="184.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<line x1="225.0" y1="262.0" x2="249.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="184.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('x')</text>
+<text x="184.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x]</text>
+<circle cx="292.0" cy="160.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="292.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<path d="M254.0,212 L254.0,304 L330.0,304 L330.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="259.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="292.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="259.0" y="245.0" width="66.0" height="25.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="292.0" y="263.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<line x1="333.0" y1="262.0" x2="357.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="292.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('y')</text>
+<text x="292.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y]</text>
+<circle cx="400.0" cy="160.0" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="400.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<path d="M362.0,212 L362.0,304 L438.0,304 L438.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="367.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="400.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="367.0" y="245.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="400.0" y="263.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<rect x="367.0" y="217.0" width="66.0" height="25.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="235.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
+<line x1="441.0" y1="262.0" x2="465.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="400.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push('z')</text>
+<text x="400.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y, z]</text>
+<circle cx="508.0" cy="160.0" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="508.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<path d="M470.0,212 L470.0,304 L546.0,304 L546.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="475.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="508.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="475.0" y="245.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="508.0" y="263.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<rect x="475.0" y="217.0" width="66.0" height="25.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="508.0" y="235.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
+<text x="508.0" y="200.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">ดู ไม่หยิบ</text>
+<line x1="549.0" y1="262.0" x2="573.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="508.0" y="330.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">peek()</text>
+<text x="508.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y, z]</text>
+<text x="508.0" y="374.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">คืน 'z'</text>
+<circle cx="616.0" cy="160.0" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="616.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<path d="M578.0,212 L578.0,304 L654.0,304 L654.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="583.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1"/>
+<text x="616.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="583.0" y="245.0" width="66.0" height="25.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="616.0" y="263.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<rect x="583.0" y="180.0" width="66.0" height="25.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="616.0" y="198.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'z'</text>
+<line x1="657.0" y1="262.0" x2="681.0" y2="262.0" stroke="#475569" stroke-width="1.5" marker-end="url(#ah-gray)"/>
+<text x="616.0" y="330.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="616.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x, y]</text>
+<text x="616.0" y="374.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">คืน 'z'</text>
+<circle cx="724.0" cy="160.0" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="724.0" y="165.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+<path d="M686.0,212 L686.0,304 L762.0,304 L762.0,212" fill="none" stroke="#0f172a" stroke-width="2"/>
+<rect x="691.0" y="273.0" width="66.0" height="25.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="724.0" y="291.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'x'</text>
+<rect x="691.0" y="180.0" width="66.0" height="25.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="724.0" y="198.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">'y'</text>
+<text x="724.0" y="330.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="724.0" y="352.0" font-size="15" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[x]</text>
+<text x="724.0" y="374.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">คืน 'y'</text>
+<rect x="20.0" y="396.0" width="760.0" height="44.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="187.8" y="424.0" font-size="17" text-anchor="start"><tspan fill="#0f172a">ลำดับเข้า </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">x → y → z</tspan><tspan fill="#0f172a">   แต่ลำดับออก </tspan><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">z → y → x</tspan><tspan fill="#0f172a">  (กลับกันเสมอ)</tspan></text>
+<text x="30.0" y="476.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">เมท็อดของคลาส Stack ↔ คำสั่งลิสต์ไพทอน (ตัวอย่างเมื่อ items = ['x', 'y', 'z'])</text>
+<text x="30.0" y="506.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">เมท็อด</text>
+<text x="200.0" y="506.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ลิสต์ไพทอน</text>
+<text x="400.0" y="506.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">ผลลัพธ์</text>
+<rect x="22.0" y="518.0" width="756.0" height="30.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="539.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">push(item)</text>
+<text x="200.0" y="539.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">items.append(item)</text>
+<text x="400.0" y="539.0" font-size="15" fill="#0f172a" text-anchor="start">push('w') → ['x','y','z','w']</text>
+<rect x="22.0" y="552.0" width="756.0" height="30.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="573.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pop()</text>
+<text x="200.0" y="573.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">items.pop()</text>
+<text x="400.0" y="573.0" font-size="15" fill="#0f172a" text-anchor="start">คืน 'z' เหลือ ['x','y']</text>
+<rect x="22.0" y="586.0" width="756.0" height="30.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="607.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">peek()</text>
+<text x="200.0" y="607.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">items[-1]</text>
+<text x="400.0" y="607.0" font-size="15" fill="#0f172a" text-anchor="start">คืน 'z' สแตกไม่เปลี่ยน</text>
+<rect x="22.0" y="620.0" width="756.0" height="30.0" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="641.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">is_empty()</text>
+<text x="200.0" y="641.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">len(items) == 0</text>
+<text x="400.0" y="641.0" font-size="15" fill="#0f172a" text-anchor="start">False</text>
+<rect x="22.0" y="654.0" width="756.0" height="30.0" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="675.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">size()</text>
+<text x="200.0" y="675.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">len(items)</text>
+<text x="400.0" y="675.0" font-size="15" fill="#0f172a" text-anchor="start">3</text>
+<rect x="22.0" y="702.0" width="756.0" height="54.0" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="36.0" y="724.0" font-size="15" fill="#0f172a" text-anchor="start">ทำไมใช้ท้ายลิสต์เป็นบนสุด: pop() ที่ท้ายไม่ต้องเลื่อนสมาชิกตัวอื่น (เร็ว)</text>
+<text x="36.0" y="746.0" font-size="15" fill="#0f172a" text-anchor="start">ถ้า pop(0) ที่หัวลิสต์ ได้ตัวที่เข้าก่อนออกก่อน = คิว (Queue, FIFO) ไม่ใช่สแตก</text>
+<rect x="20.0" y="772.0" width="760.0" height="154.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="800.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิด</text>
+<rect x="36.0" y="816.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="816.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="844.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="844.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="844.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">items[0]</tspan><tspan fill="#0f172a"> คือบนสุด</tspan></text>
+<text x="444.0" y="844.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">items[-1]</tspan><tspan fill="#0f172a"> คือบนสุด (items[0] = ก้น)</tspan></text>
+<rect x="36.0" y="870.0" width="356.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<rect x="408.0" y="870.0" width="356.0" height="44.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="50.0" y="898.0" font-size="18" fill="#dc2626" text-anchor="start" font-weight="bold">✗</text>
+<text x="422.0" y="898.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold">✓</text>
+<text x="72.0" y="898.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">peek: return items.pop()</tspan></text>
+<text x="444.0" y="898.0" font-size="15" text-anchor="start"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">peek: return items[-1]</tspan><tspan fill="#0f172a"> ไม่หยิบออก</tspan></text>
 </svg>
