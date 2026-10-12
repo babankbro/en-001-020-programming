@@ -36,7 +36,7 @@ export default function Home() {
         <Stat icon={<BookOpen size={18} />} big={`${modules.length} บทเรียน`} small={`${topicCount} หัวข้อเชิงลึก`} />
         <Stat icon={<FlaskConical size={18} />} big={`${modules.length} ใบงาน`} small="สร้างเกมทีละขั้น" />
         <Stat icon={<FileText size={18} />} big={`${modules.length} Review Sheet`} small="สรุป 1 หน้าต่อบท" />
-        <Stat icon={<ClipboardCheck size={18} />} big={`${modules.length} แบบทดสอบ`} small="Quiz พร้อมเฉลย + แนวข้อสอบปลายภาค" />
+        <Stat icon={<ClipboardCheck size={18} />} big={`${modules.length} แบบทดสอบ`} small="Quiz 25 ข้อ + แนวข้อสอบปลายภาค" />
       </section>
 
       {/* Docs cards */}

@@ -221,5 +221,42 @@
     ],
     "answer": 2,
     "explain": "เช่น tree() → top_leaf()/bottom_leaf()/clone() → linespace() ทำให้ทดสอบทีละส่วนและนำกลับมาใช้ซ้ำได้"
+  },
+  {
+    "q": "โค้ดต่อไปนี้แสดงผล 3 บรรทัดอย่างไร (คั่นแต่ละบรรทัดด้วย /)",
+    "code": "city = \"Kalasin\"\nyear = 2026\nprint(f\"{city}-{year}\")\nprint(\"{city}-{year}\")\nprint(f\"(city)-(year)\")",
+    "choices": ["Kalasin-2026 / Kalasin-2026 / Kalasin-2026", "{city}-{year} / Kalasin-2026 / (city)-(year)", "Kalasin-2026 / {city}-{year} / (city)-(year)", "Kalasin-2026 / {city}-{year} / Kalasin-2026"],
+    "answer": 2,
+    "explain": "แทนค่าเฉพาะเมื่อมี f นำหน้าและใช้วงเล็บปีกกา { } บรรทัดที่ 2 ไม่มี f จึงพิมพ์ตามตัวอักษร ส่วนบรรทัดที่ 3 ใช้วงเล็บ ( ) จึงไม่แทนค่า",
+    "exam": true
+  },
+  {
+    "q": "ผลลัพธ์ของคำสั่ง print(True or False and False, not True and False) คือข้อใด",
+    "choices": ["True False", "False False", "True True", "False True"],
+    "answer": 0,
+    "explain": "not ทำก่อน and และ and ทำก่อน or: True or (False and False) = True และ (not True) and False = False and False = False",
+    "exam": true
+  },
+  {
+    "q": "ผลลัพธ์ของคำสั่ง round(math.sqrt(5), 3) คือข้อใด",
+    "choices": ["2.24", "2.2361", "2.23", "2.236"],
+    "answer": 3,
+    "explain": "√5 = 2.2360679… ปัดเป็นทศนิยม 3 ตำแหน่งได้ 2.236 (2.24 คือ 2 ตำแหน่ง และ 2.23 คือการตัดทิ้ง)",
+    "exam": true
+  },
+  {
+    "q": "โค้ดต่อไปนี้พิมพ์เครื่องหมาย * ทั้งหมดกี่ตัว",
+    "code": "for i in range(2, 5):\n    for j in range(i):\n        print(\"*\")",
+    "choices": ["6", "9", "12", "15"],
+    "answer": 1,
+    "explain": "วงในวนตามค่า i ของวงนอก i = 2, 3, 4 จึงพิมพ์ 2 + 3 + 4 = 9 ตัว",
+    "exam": true
+  },
+  {
+    "q": "ผลคูณจุด (Dot Product) ของ u = (−2, 3, 4) กับ v = (5, 1, −2) เท่ากับเท่าใด",
+    "choices": ["20", "(−10, 3, −8)", "−15", "21"],
+    "answer": 2,
+    "explain": "u·v = (−2)(5) + (3)(1) + (4)(−2) = −10 + 3 − 8 = −15 ผลคูณจุดเป็นสเกลาร์ ไม่ใช่เวกเตอร์ของผลคูณรายตัว",
+    "exam": true
   }
 ]
