@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เปรียบเทียบการรันไฟล์ .py กับ Notebook .ipynb">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>เปรียบเทียบการรันไฟล์ .py กับ Notebook .ipynb</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">ไฟล์ .py กับ .ipynb: โค้ดเดียวกัน รันซ้ำแล้วได้ผลต่างกัน</text>
+<rect x="24" y="58" width="368" height="470" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="208" y="88" font-size="16" fill="#2563eb" font-weight="bold" text-anchor="middle">สคริปต์ .py (VS Code / เทอร์มินัล)</text>
+<rect x="40" y="104" width="336" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="52" y="126" font-size="14" fill="#475569" font-weight="bold">lab01.py</text>
+<text x="70" y="152" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">1</text>
+<text x="82" y="152" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<text x="70" y="174" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">2</text>
+<text x="82" y="174" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1</text>
+<text x="70" y="196" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">3</text>
+<text x="82" y="196" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(x)</text>
+<path d="M354,140 V198" stroke="#2563eb" stroke-width="2.5" fill="none" marker-end="url(#arrB)"/>
+<text x="344" y="172" font-size="13.5" fill="#2563eb" text-anchor="end">บนลงล่าง</text>
+<rect x="40" y="230" width="336" height="112" rx="8" fill="#0f172a"/>
+<text x="54" y="256" font-size="15" fill="#93c5fd" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python lab01.py</text>
+<text x="54" y="279" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<text x="54" y="302" font-size="15" fill="#93c5fd" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python lab01.py</text>
+<text x="54" y="325" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<text x="364" y="279" font-size="14" fill="#fcd34d" text-anchor="end">ครั้งที่ 1 → 6</text>
+<text x="364" y="325" font-size="14" fill="#fcd34d" text-anchor="end">ครั้งที่ 2 → 6</text>
+<text x="46" y="378" font-size="15" fill="#0f172a">✓ เริ่มจากศูนย์ทุกครั้ง ตัวแปรไม่ค้าง</text>
+<text x="46" y="408" font-size="15" fill="#0f172a">✓ รันทั้งไฟล์ตามลำดับเสมอ</text>
+<text x="46" y="438" font-size="15" fill="#0f172a">✓ ผลแสดงในเทอร์มินัล ต้องใช้ print()</text>
+<text x="46" y="468" font-size="15" fill="#0f172a">✓ เหมาะกับเกม Pygame และหลายไฟล์</text>
+<text x="208" y="510" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">ผลลัพธ์คาดเดาได้: 6 ทุกครั้ง</text>
+<rect x="408" y="58" width="368" height="470" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="592" y="88" font-size="16" fill="#d97706" font-weight="bold" text-anchor="middle">สมุดบันทึก .ipynb (Jupyter / Colab)</text>
+<text x="466" y="126" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[1]</text>
+<rect x="472" y="104" width="288" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="484" y="126" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<text x="466" y="172" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[2]</text>
+<rect x="472" y="150" width="288" height="34" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<text x="484" y="172" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1; x</text>
+<text x="466" y="206" font-size="14" fill="#dc2626" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">Out[2]</text>
+<text x="484" y="206" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<text x="760" y="228" font-size="13.5" fill="#d97706" text-anchor="end">รันเซลล์เดิมซ้ำ (Shift+Enter)</text>
+<text x="466" y="258" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[3]</text>
+<rect x="472" y="236" width="288" height="34" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<text x="484" y="258" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1; x</text>
+<text x="466" y="292" font-size="14" fill="#dc2626" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">Out[3]</text>
+<text x="484" y="292" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<rect x="424" y="318" width="336" height="46" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="438" y="347" font-size="14" fill="#7c3aed" font-weight="bold">หน่วยความจำ kernel:</text>
+<text x="638" y="347" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 7</text>
+<text x="430" y="394" font-size="15" fill="#0f172a">✓ รันทีละเซลล์ ลำดับใดก็ได้</text>
+<text x="430" y="422" font-size="15" fill="#dc2626">! ตัวแปรค้างใน kernel จน Restart</text>
+<text x="430" y="450" font-size="15" fill="#0f172a">✓ บรรทัดสุดท้ายแสดงค่าเองโดยไม่ต้อง print</text>
+<text x="430" y="478" font-size="15" fill="#0f172a">✓ เหมาะกับทดลองสูตร แผนภูมิ (บท 2–4)</text>
+<rect x="424" y="494" width="336" height="26" rx="6" fill="#fef2f2"/>
+<text x="592" y="512" font-size="14" fill="#dc2626" font-weight="bold" text-anchor="middle">Restart แล้วรัน In[2] ก่อน In[1] → NameError</text>
+<rect x="24" y="542" width="752" height="44" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="400" y="570" font-size="15" fill="#0f172a" text-anchor="middle">สับสนเมื่อไร ให้ Restart and run all เพื่อให้ Notebook ทำงานเหมือนไฟล์ .py (บนลงล่าง เริ่มใหม่)</text>
+</svg>

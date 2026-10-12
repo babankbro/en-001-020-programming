@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">สำเนาตื้น: table_show = scores.copy() คัดลอกแค่ลิสต์ชั้นนอก</text>
+<text x="400.0" y="64.0" font-size="15" fill="#475569" text-anchor="middle">หลังแทรกหัวตารางและชื่อ — ลิสต์แถวทั้ง 3 ถูกชี้จากทั้งสองตัวแปร จึงเปลี่ยนพร้อมกัน</text>
+<rect x="20.0" y="128.0" width="120.0" height="40.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="80.0" y="154.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">scores</text>
+<rect x="20.0" y="340.0" width="120.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="80.0" y="366.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">table_show</text>
+<text x="80.0" y="116.0" font-size="14" fill="#475569" text-anchor="middle">ตัวแปร</text>
+<text x="220.0" y="96.0" font-size="14" fill="#475569" text-anchor="middle">ลิสต์ชั้นนอก</text>
+<text x="220.0" y="270.0" font-size="14" fill="#475569" text-anchor="middle">ลิสต์ชั้นนอก (ใหม่)</text>
+<rect x="190.0" y="108.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="220.0" y="134.0" font-size="14" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[0]</text>
+<rect x="190.0" y="148.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="220.0" y="174.0" font-size="14" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[1]</text>
+<rect x="190.0" y="188.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="220.0" y="214.0" font-size="14" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[2]</text>
+<rect x="190.0" y="282.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="220.0" y="308.0" font-size="14" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[0]</text>
+<rect x="190.0" y="322.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="220.0" y="348.0" font-size="14" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[1]</text>
+<rect x="190.0" y="362.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="220.0" y="388.0" font-size="14" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[2]</text>
+<rect x="190.0" y="402.0" width="60.0" height="40.0" rx="0" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="220.0" y="428.0" font-size="14" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">[3]</text>
+<line x1="140.0" y1="148.0" x2="186.0" y2="148.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ah-blue)"/>
+<line x1="140.0" y1="360.0" x2="186.0" y2="360.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
+<text x="470.0" y="94.0" font-size="14" fill="#475569">ลิสต์แถว 0</text>
+<rect x="470.0" y="100.0" width="92.0" height="38.0" rx="0" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="516.0" y="125.0" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Somchai</text>
+<rect x="562.0" y="100.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="586.0" y="125.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">55</text>
+<rect x="610.0" y="100.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="634.0" y="125.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">63</text>
+<rect x="658.0" y="100.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="682.0" y="125.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">77</text>
+<rect x="706.0" y="100.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="730.0" y="125.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">81</text>
+<text x="470.0" y="176.0" font-size="14" fill="#475569">ลิสต์แถว 1</text>
+<rect x="470.0" y="182.0" width="92.0" height="38.0" rx="0" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="516.0" y="207.0" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Somsri</text>
+<rect x="562.0" y="182.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="586.0" y="207.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">65</text>
+<rect x="610.0" y="182.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="634.0" y="207.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">61</text>
+<rect x="658.0" y="182.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="682.0" y="207.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">67</text>
+<rect x="706.0" y="182.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="730.0" y="207.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72</text>
+<text x="470.0" y="258.0" font-size="14" fill="#475569">ลิสต์แถว 2</text>
+<rect x="470.0" y="264.0" width="92.0" height="38.0" rx="0" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="516.0" y="289.0" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Sompong</text>
+<rect x="562.0" y="264.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="586.0" y="289.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">97</text>
+<rect x="610.0" y="264.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="634.0" y="289.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">95</text>
+<rect x="658.0" y="264.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="682.0" y="289.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">92</text>
+<rect x="706.0" y="264.0" width="48.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="730.0" y="289.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">88</text>
+<text x="350.0" y="380.0" font-size="14" fill="#475569">ลิสต์หัวตาราง (มีแต่ table_show ชี้)</text>
+<rect x="350.0" y="386.0" width="74.0" height="38.0" rx="0" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="387.0" y="411.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Name</text>
+<rect x="424.0" y="386.0" width="74.0" height="38.0" rx="0" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="461.0" y="411.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Math</text>
+<rect x="498.0" y="386.0" width="74.0" height="38.0" rx="0" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="535.0" y="411.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Science</text>
+<rect x="572.0" y="386.0" width="74.0" height="38.0" rx="0" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="609.0" y="411.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">English</text>
+<rect x="646.0" y="386.0" width="74.0" height="38.0" rx="0" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="683.0" y="411.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">Computer</text>
+<line x1="250.0" y1="128.0" x2="466.0" y2="112.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ah-blue)"/>
+<line x1="250.0" y1="168.0" x2="466.0" y2="194.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ah-blue)"/>
+<line x1="250.0" y1="208.0" x2="466.0" y2="276.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ah-blue)"/>
+<path d="M250,342.0 C340,342.0 360,128.0 466,128.0" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
+<path d="M250,382.0 C340,382.0 360,210.0 466,210.0" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
+<path d="M250,422.0 C340,422.0 360,292.0 466,292.0" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
+<line x1="250.0" y1="302.0" x2="346.0" y2="405.0" stroke="#d97706" stroke-width="2" marker-end="url(#ah-orange)"/>
+<rect x="20.0" y="448.0" width="760.0" height="136.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="40.0" y="476.0" font-size="16" fill="#dc2626" font-weight="bold">ผลที่ตามมา</text>
+<text x="40.0" y="504.0" font-size="15" fill="#0f172a"><tspan font-family="Consolas, 'Courier New', monospace">table_show[1] is scores[0]</tspan><tspan fill="#dc2626" font-weight="bold">  →  True  (กล่องเดียวกัน)</tspan></text>
+<text x="40.0" y="530.0" font-size="15" fill="#0f172a"><tspan font-family="Consolas, 'Courier New', monospace">table_show[i+1].insert(0, names[i])</tspan><tspan> → แถวที่ใช้ร่วม</tspan></text>
+<text x="40.0" y="556.0" font-size="15" fill="#0f172a"><tspan font-family="Consolas, 'Courier New', monospace">print(scores)</tspan><tspan> → </tspan><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">[['Somchai', 55, 63, 77, 81], ...]</tspan></text>
+<text x="590.0" y="504.0" font-size="15" fill="#059669" font-weight="bold">✓ วิธีแก้</text>
+<text x="590.0" y="530.0" font-size="14" fill="#059669" font-family="Consolas, 'Courier New', monospace">copy.deepcopy(scores)</text>
+<text x="590.0" y="556.0" font-size="14" fill="#059669" font-family="Consolas, 'Courier New', monospace">[names[i]] + scores[i]</text>
+</svg>

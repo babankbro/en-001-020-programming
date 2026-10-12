@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 530" width="800" height="530" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<defs><marker id="ah-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ah-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<text x="400.0" y="38.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">ลิสต์ซ้อนลิสต์คือตาราง: scores[แถว][คอลัมน์]</text>
+<text x="400.0" y="64.0" font-size="15" fill="#475569" text-anchor="middle">scores[1] เลือกแถวก่อน (ได้ลิสต์) แล้ว [2] เลือกตำแหน่งในแถวนั้น → 67</text>
+<text x="216.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 0</text>
+<text x="216.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Math</text>
+<text x="308.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 1</text>
+<text x="308.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Science</text>
+<text x="400.0" y="100.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">j = 2</text>
+<text x="400.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">English</text>
+<text x="492.0" y="100.0" font-size="14" fill="#475569" text-anchor="middle">j = 3</text>
+<text x="492.0" y="120.0" font-size="14" fill="#475569" text-anchor="middle">Computer</text>
+<text x="630.0" y="120.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">เฉลี่ยแถว</text>
+<rect x="166.0" y="173.0" width="376.0" height="52.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<rect x="351.0" y="126.0" width="98.0" height="146.0" rx="6" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="6 3"/>
+<text x="24.0" y="159.0" font-size="14" fill="#475569">i = 0</text>
+<text x="70.0" y="159.0" font-size="14" fill="#475569">Somchai</text>
+<rect x="173.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="216.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">55</text>
+<rect x="265.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="308.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">63</text>
+<rect x="357.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">77</text>
+<rect x="449.0" y="133.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="492.0" y="159.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">81</text>
+<text x="630.0" y="159.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">276/4 = 69.00</text>
+<text x="24.0" y="205.0" font-size="14" fill="#2563eb" font-weight="bold">i = 1</text>
+<text x="70.0" y="205.0" font-size="14" fill="#475569">Somsri</text>
+<rect x="173.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="216.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">65</text>
+<rect x="265.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="308.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">61</text>
+<rect x="357.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2.5"/>
+<text x="400.0" y="205.0" font-size="17" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">67</text>
+<rect x="449.0" y="179.0" width="86.0" height="40.0" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="492.0" y="205.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72</text>
+<text x="630.0" y="205.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">265/4 = 66.25</text>
+<text x="24.0" y="251.0" font-size="14" fill="#475569">i = 2</text>
+<text x="70.0" y="251.0" font-size="14" fill="#475569">Sompong</text>
+<rect x="173.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="216.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">97</text>
+<rect x="265.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="308.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">95</text>
+<rect x="357.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">92</text>
+<rect x="449.0" y="225.0" width="86.0" height="40.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="492.0" y="251.0" font-size="17" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">88</text>
+<text x="630.0" y="251.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">372/4 = 93.00</text>
+<text x="24.0" y="304.0" font-size="14" fill="#7c3aed" font-weight="bold">เฉลี่ยคอลัมน์</text>
+<text x="216.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">217/3</text>
+<text x="216.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">72.33</text>
+<text x="308.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">219/3</text>
+<text x="308.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">73.00</text>
+<text x="400.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">236/3</text>
+<text x="400.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">78.67</text>
+<text x="492.0" y="296.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">241/3</text>
+<text x="492.0" y="314.0" font-size="14" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">80.33</text>
+<rect x="20.0" y="345.0" width="370.0" height="165.0" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="44.0" cy="371.0" r="13" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="44.0" y="376.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="64.0" y="377.0" font-size="15" fill="#2563eb" font-weight="bold">scores[1]  เลือกแถว i = 1</text>
+<text x="40.0" y="409.0" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">→ [65, 61, 67, 72]</text>
+<text x="40.0" y="437.0" font-size="14" fill="#475569">ได้ลิสต์ 1 มิติทั้งแถว (Somsri)</text>
+<circle cx="44.0" cy="467.0" r="13" fill="#d97706" stroke="none" stroke-width="1"/>
+<text x="44.0" y="472.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="64.0" y="473.0" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">[65, 61, 67, 72][2] → 67</text>
+<rect x="410.0" y="345.0" width="370.0" height="165.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="430.0" y="377.0" font-size="15" fill="#059669" font-weight="bold">ขนาดตารางและทิศทางการหาร</text>
+<text x="430.0" y="407.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores) = 3 แถว</text>
+<text x="430.0" y="433.0" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores[0]) = 4 คอลัมน์</text>
+<text x="430.0" y="463.0" font-size="14" fill="#0f172a">เฉลี่ยแถว ÷ len(row) = 4</text>
+<text x="430.0" y="489.0" font-size="14" fill="#0f172a">เฉลี่ยคอลัมน์ ÷ len(scores) = 3</text>
+</svg>

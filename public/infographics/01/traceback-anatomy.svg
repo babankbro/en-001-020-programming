@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กายวิภาคของ Traceback และขั้นตอนแก้ bug">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>กายวิภาคของ Traceback และขั้นตอนแก้ bug</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">กายวิภาคของ Traceback: อ่านจากบรรทัดสุดท้ายขึ้นไป</text>
+<rect x="24" y="58" width="366" height="150" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="40" y="82" font-size="15" fill="#475569" font-weight="bold">lab01.py</text>
+<text x="52" y="108" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">1</text>
+<text x="66" y="108" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">def average(total, n):</text>
+<text x="52" y="132" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">2</text>
+<text x="96.8" y="132" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">return total / n</text>
+<text x="52" y="156" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">3</text>
+<text x="52" y="180" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">4</text>
+<text x="66" y="180" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(average(30, 0))</text>
+<rect x="410" y="58" width="366" height="150" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="426" y="82" font-size="15" fill="#7c3aed" font-weight="bold">เทียบ: SyntaxError (ตรวจก่อนรัน)</text>
+<text x="426" y="106" font-size="13.5" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  File "s.py", line 1</text>
+<text x="426" y="126" font-size="13.5" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print("Hello"</text>
+<text x="426" y="146" font-size="13.5" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">         ^</text>
+<text x="426" y="166" font-size="13.5" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">SyntaxError: '(' was never closed</text>
+<text x="426" y="196" font-size="14" fill="#475569">ไม่มีหัว Traceback · ไม่มีบรรทัดใดทำงานเลย</text>
+<rect x="24" y="226" width="352" height="230" rx="12" fill="#0f172a"/>
+<text x="36" y="254" font-size="14" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Traceback (most recent call last):</text>
+<text x="36" y="280" font-size="14" fill="#fcd34d" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  File "lab01.py", line 4, in &lt;module&gt;</text>
+<text x="36" y="306" font-size="14" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print(average(30, 0))</text>
+<text x="36" y="332" font-size="14" fill="#fcd34d" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">          ^^^^^^^^^^^^^^</text>
+<text x="36" y="358" font-size="14" fill="#fca5a5" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  File "lab01.py", line 2, in average</text>
+<text x="36" y="384" font-size="14" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    return total / n</text>
+<text x="36" y="410" font-size="14" fill="#fca5a5" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">           ~~~~~~^~~</text>
+<text x="36" y="436" font-size="14" fill="#f87171" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ZeroDivisionError: division by zero</text>
+<path d="M380,238 h8 V260 h-8" stroke="#cbd5e1" stroke-width="2" fill="none"/>
+<line x1="388" y1="249" x2="400" y2="249" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="400" y="222" width="376" height="50" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<circle cx="420" cy="247" r="12" fill="#475569"/>
+<text x="420" y="252" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">4</text>
+<text x="440" y="244" font-size="14.5" fill="#0f172a" font-weight="bold">most recent call last</text>
+<text x="440" y="265" font-size="14" fill="#475569">เฟรมที่เกิดล่าสุดอยู่ล่างสุด</text>
+<path d="M380,264 h8 V338 h-8" stroke="#d97706" stroke-width="2" fill="none"/>
+<line x1="388" y1="301" x2="400" y2="301" stroke="#d97706" stroke-width="2"/>
+<rect x="400" y="276" width="376" height="50" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="420" cy="301" r="12" fill="#d97706"/>
+<text x="420" y="306" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">3</text>
+<text x="440" y="298" font-size="14.5" fill="#0f172a" font-weight="bold">ใครเรียก: line 4 ใน &lt;module&gt;</text>
+<text x="440" y="319" font-size="14" fill="#475569">print(average(30, 0)) ส่ง n = 0</text>
+<path d="M380,342 h8 V416 h-8" stroke="#dc2626" stroke-width="2" fill="none"/>
+<line x1="388" y1="379" x2="400" y2="379" stroke="#dc2626" stroke-width="2"/>
+<rect x="400" y="346" width="376" height="50" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<circle cx="420" cy="371" r="12" fill="#dc2626"/>
+<text x="420" y="376" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">2</text>
+<text x="440" y="368" font-size="14.5" fill="#0f172a" font-weight="bold">เกิดจริง: line 2 ใน average</text>
+<text x="440" y="389" font-size="14" fill="#475569">^ ชี้ที่เครื่องหมาย / (ตัวหาร n = 0)</text>
+<path d="M380,420 h8 V442 h-8" stroke="#dc2626" stroke-width="2" fill="none"/>
+<line x1="388" y1="431" x2="400" y2="431" stroke="#dc2626" stroke-width="2"/>
+<rect x="400" y="408" width="376" height="50" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<circle cx="420" cy="433" r="12" fill="#b91c1c"/>
+<text x="420" y="438" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">1</text>
+<text x="440" y="430" font-size="14.5" fill="#0f172a" font-weight="bold">อ่านก่อน! ชนิด + ข้อความ</text>
+<text x="440" y="451" font-size="14" fill="#475569">ZeroDivisionError = หารด้วยศูนย์</text>
+<text x="400" y="492" font-size="17" fill="#0f172a" font-weight="bold" text-anchor="middle">ขั้นตอนแก้ bug: ทำตามเลข 1 → 4 ในภาพ</text>
+<rect x="24" y="508" width="170" height="66" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="109" y="536" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">1. อ่านบรรทัดสุดท้าย</text>
+<text x="109" y="560" font-size="14" fill="#475569" text-anchor="middle">ชนิด + ข้อความ</text>
+<line x1="196" y1="541" x2="216" y2="541" stroke="#2563eb" stroke-width="2" marker-end="url(#arrB)"/>
+<rect x="218" y="508" width="170" height="66" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="303" y="536" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">2. ดู File/line ล่างสุด</text>
+<text x="303" y="560" font-size="14" fill="#475569" text-anchor="middle">บรรทัดที่พังจริง</text>
+<line x1="390" y1="541" x2="410" y2="541" stroke="#2563eb" stroke-width="2" marker-end="url(#arrB)"/>
+<rect x="412" y="508" width="170" height="66" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="497" y="536" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">3. ไล่ขึ้นหาผู้เรียก</text>
+<text x="497" y="560" font-size="14" fill="#475569" text-anchor="middle">ค่าที่ส่งเข้ามาผิด?</text>
+<line x1="584" y1="541" x2="604" y2="541" stroke="#2563eb" stroke-width="2" marker-end="url(#arrB)"/>
+<rect x="606" y="508" width="170" height="66" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="691" y="536" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">4. แก้ทีละอย่าง</text>
+<text x="691" y="560" font-size="14" fill="#475569" text-anchor="middle">รันซ้ำ ดู error เปลี่ยน</text>
+<text x="400" y="614" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle">วิธีแก้ตัวอย่างนี้: ตรวจ if n == 0 ก่อนหาร หรือเรียกด้วย n ที่ไม่เป็นศูนย์</text>
+</svg>

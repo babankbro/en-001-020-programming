@@ -75,7 +75,8 @@ Base URL `https://en-001-002-computer-programming.vercel.app/module/NN`
   > > [!success]- เฉลย
   > > คำตอบพร้อมเหตุผล
   ```
-- **ห้าม** ใช้ HTML ดิบ, ห้ามใช้ wikilink `[[...]]` (แปลงเป็นข้อความธรรมดาหรือลิงก์ `#topic-N` / `/module/NN`), ห้ามใส่รูปภาพ
+- **ห้าม** ใช้ HTML ดิบ, ห้ามใช้ wikilink `[[...]]` (แปลงเป็นข้อความธรรมดาหรือลิงก์ `#topic-N` / `/module/NN`)
+- รูปภาพใช้ได้เฉพาะ infographic SVG ใน `public/infographics/` ตาม [INFOGRAPHIC_GUIDE.md](INFOGRAPHIC_GUIDE.md)
 - ลิงก์ภายในเว็บ: `/module/05`, `/lab/05`, `/review/05`, `/exam/05`, `/module/06#topic-3`
 
 ## module.md

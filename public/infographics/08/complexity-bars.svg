@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 630" width="800" height="630" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="a_2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="a_059669" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="a_d97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="a_dc2626" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="a_7c3aed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="a_475569" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="a_0f172a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">จำนวนการเปรียบเทียบต่อเฟรม: ตรวจทุกคู่ vs กริด</text>
+<text x="400" y="62" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">กระสุน 40 ลูก ศัตรู 2,000 ตัว ตำแหน่งสุ่ม random.seed(8) จากใบงาน (สเกลเชิงเส้น)</text>
+<line x1="230" y1="90" x2="230" y2="300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="230" y="318" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">0</text>
+<line x1="347.5" y1="90" x2="347.5" y2="300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="347.5" y="318" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">20,000</text>
+<line x1="465" y1="90" x2="465" y2="300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="465" y="318" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">40,000</text>
+<line x1="582.5" y1="90" x2="582.5" y2="300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="582.5" y="318" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">60,000</text>
+<line x1="700" y1="90" x2="700" y2="300" stroke="#e2e8f0" stroke-width="1"/>
+<text x="700" y="318" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">80,000</text>
+<text x="220" y="122" font-size="15" fill="#0f172a" text-anchor="end" font-weight="normal">ตรวจทุกคู่ B × E</text>
+<rect x="230" y="100" width="470" height="32" rx="3" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="690" y="122" font-size="15" fill="#ffffff" text-anchor="end" font-weight="bold">80,000</text>
+<text x="220" y="172" font-size="15" fill="#0f172a" text-anchor="end" font-weight="normal">กริด + ช่องข้างเคียง</text>
+<rect x="230" y="150" width="33.42" height="32" rx="3" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="271.42" y="172" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">5,688 (ชนครบ 181 คู่)</text>
+<text x="220" y="222" font-size="15" fill="#0f172a" text-anchor="end" font-weight="normal">กริดช่องเดียว</text>
+<rect x="230" y="200" width="9.69" height="32" rx="3" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="247.69" y="222" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">1,649 (ชน 129 คู่ พลาด 52)</text>
+<text x="220" y="272" font-size="15" fill="#0f172a" text-anchor="end" font-weight="normal">ค่าประมาณ 80,000 / 48</text>
+<rect x="230" y="250" width="9.79" height="32" rx="3" fill="#475569" stroke="none" stroke-width="1.5"/>
+<text x="247.79" y="272" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">≈ 1,667</text>
+<line x1="230" y1="90" x2="230" y2="300" stroke="#0f172a" stroke-width="1.5"/>
+<text x="400" y="360" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">ศัตรูเพิ่ม → ตรวจทุกคู่โตเป็นสัดส่วนตรง O(B·E) · กริดหารด้วยจำนวนช่อง (48)</text>
+<line x1="120" y1="570" x2="760" y2="570" stroke="#e2e8f0" stroke-width="1"/>
+<text x="112" y="575" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">0</text>
+<line x1="120" y1="532.5" x2="760" y2="532.5" stroke="#e2e8f0" stroke-width="1"/>
+<text x="112" y="537.5" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">20,000</text>
+<line x1="120" y1="495" x2="760" y2="495" stroke="#e2e8f0" stroke-width="1"/>
+<text x="112" y="500" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">40,000</text>
+<line x1="120" y1="457.5" x2="760" y2="457.5" stroke="#e2e8f0" stroke-width="1"/>
+<text x="112" y="462.5" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">60,000</text>
+<line x1="120" y1="420" x2="760" y2="420" stroke="#e2e8f0" stroke-width="1"/>
+<text x="112" y="425" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">80,000</text>
+<rect x="150" y="532.5" width="46" height="37.5" rx="2" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<rect x="202" y="568.5" width="46" height="1.5" rx="2" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="173" y="526.5" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="normal">20,000</text>
+<text x="225" y="563.22" font-size="14" fill="#059669" text-anchor="middle" font-weight="normal">417</text>
+<text x="199" y="590" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="normal">E = 500</text>
+<rect x="310" y="495" width="46" height="75" rx="2" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<rect x="362" y="568.44" width="46" height="1.56" rx="2" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="333" y="489" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="normal">40,000</text>
+<text x="385" y="562.44" font-size="14" fill="#059669" text-anchor="middle" font-weight="normal">833</text>
+<text x="359" y="590" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="normal">E = 1,000</text>
+<rect x="470" y="457.5" width="46" height="112.5" rx="2" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<rect x="522" y="567.66" width="46" height="2.34" rx="2" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="493" y="451.5" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="normal">60,000</text>
+<text x="545" y="561.66" font-size="14" fill="#059669" text-anchor="middle" font-weight="normal">1,250</text>
+<text x="519" y="590" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="normal">E = 1,500</text>
+<rect x="630" y="420" width="46" height="150" rx="2" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<rect x="682" y="566.88" width="46" height="3.12" rx="2" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="653" y="414" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="normal">80,000</text>
+<text x="705" y="560.88" font-size="14" fill="#059669" text-anchor="middle" font-weight="normal">1,667</text>
+<text x="679" y="590" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="normal">E = 2,000</text>
+<line x1="120" y1="570" x2="760" y2="570" stroke="#0f172a" stroke-width="1.5"/>
+<rect x="130" y="384" width="14" height="14" rx="0" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="150" y="396" font-size="14" fill="#0f172a" text-anchor="start" font-weight="normal">ทุกคู่ 40 × E</text>
+<rect x="270" y="384" width="14" height="14" rx="0" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="290" y="396" font-size="14" fill="#0f172a" text-anchor="start" font-weight="normal">กริด ≈ 40E / 48</text>
+<text x="400" y="615" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">60 FPS มีงบเวลาเฟรมละ ≈ 16.7 ms — ถ้างานต่อเฟรมเกินงบ clock.get_fps() จะต่ำกว่า 60</text>
+</svg>

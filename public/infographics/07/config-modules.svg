@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="a_2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="a_059669" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="a_d97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="a_dc2626" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="a_7c3aed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="a_475569" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="a_0f172a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">โครงสร้างโปรเจกต์ game/: config.py ถูกนำเข้าโดยทุกมอดูล</text>
+<text x="400" y="62" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">ลูกศรชี้จากไฟล์ที่ถูกนำเข้า ไปยังไฟล์ที่นำเข้า (import)</text>
+<rect x="250" y="85" width="300" height="92" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="400" y="112" font-size="18" fill="#7c3aed" text-anchor="middle" font-weight="bold">config.py</text>
+<text x="400" y="138" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">SCREEN_WIDTH = 1200</text>
+<text x="400" y="162" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">SCREEN_HEIGHT = 900</text>
+<line x1="400" y1="177" x2="150" y2="248" stroke="#7c3aed" stroke-width="2" marker-end="url(#a_7c3aed)"/>
+<line x1="400" y1="177" x2="400" y2="248" stroke="#7c3aed" stroke-width="2" marker-end="url(#a_7c3aed)"/>
+<line x1="400" y1="177" x2="650" y2="248" stroke="#7c3aed" stroke-width="2" marker-end="url(#a_7c3aed)"/>
+<rect x="40" y="250" width="220" height="118" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="150" y="278" font-size="17" fill="#2563eb" text-anchor="middle" font-weight="bold">space.py</text>
+<text x="150" y="302" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from config import *</text>
+<text x="150" y="328" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">class Space</text>
+<text x="150" y="352" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">ยานผู้เล่น</text>
+<rect x="290" y="250" width="220" height="118" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="400" y="278" font-size="17" fill="#d97706" text-anchor="middle" font-weight="bold">enemy.py</text>
+<text x="400" y="302" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from config import *</text>
+<text x="400" y="328" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">class Enemy</text>
+<text x="400" y="352" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">สุ่ม + สะท้อน</text>
+<rect x="540" y="250" width="220" height="118" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="650" y="278" font-size="17" fill="#dc2626" text-anchor="middle" font-weight="bold">red_enemy.py</text>
+<text x="650" y="302" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from config import *</text>
+<text x="650" y="328" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal" font-family="Consolas, 'Courier New', monospace">class RedEnemy</text>
+<text x="650" y="352" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">ไล่ตาม + แยกตัว</text>
+<rect x="220" y="410" width="360" height="122" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="400" y="436" font-size="17" fill="#059669" text-anchor="middle" font-weight="bold">main.py (รันไฟล์นี้: วงวนเกม)</text>
+<text x="240" y="460" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from config import *</text>
+<text x="240" y="480" font-size="14" fill="#2563eb" text-anchor="start" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from space import Space</text>
+<text x="240" y="500" font-size="14" fill="#d97706" text-anchor="start" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from enemy import Enemy</text>
+<text x="240" y="520" font-size="14" fill="#dc2626" text-anchor="start" font-weight="normal" font-family="Consolas, 'Courier New', monospace">from red_enemy import RedEnemy</text>
+<line x1="150" y1="368" x2="235" y2="408" stroke="#2563eb" stroke-width="2" marker-end="url(#a_2563eb)"/>
+<line x1="400" y1="368" x2="400" y2="408" stroke="#d97706" stroke-width="2" marker-end="url(#a_d97706)"/>
+<line x1="650" y1="368" x2="565" y2="408" stroke="#dc2626" stroke-width="2" marker-end="url(#a_dc2626)"/>
+<path d="M 250 131 C 10 131, 10 471, 218 471" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#a_7c3aed)"/>
+<text x="400" y="560" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">เปลี่ยนจอเป็น 1600×1200 → แก้แค่ config.py ทุกไฟล์เห็นค่าใหม่พร้อมกัน</text>
+<text x="400" y="584" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">import config → ใช้ config.SCREEN_WIDTH   ·   from config import * → ใช้ SCREEN_WIDTH</text>
+</svg>

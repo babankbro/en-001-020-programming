@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 566" width="800" height="566" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="วงจรแก้ปัญหา 4 ขั้นและตารางไล่ค่าลูกบอลตก">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>วงจรแก้ปัญหา 4 ขั้นและตารางไล่ค่าลูกบอลตก</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">วงจรแก้ปัญหาด้วยโปรแกรม + ตารางไล่ค่า (Trace Table)</text>
+<path d="M262.0,159.2 A124,158 0 0 1 307.4,217.0" stroke="#2563eb" stroke-width="3" fill="none" marker-end="url(#arrB)"/>
+<path d="M307.4,375.0 A124,158 0 0 1 262.0,432.8" stroke="#7c3aed" stroke-width="3" fill="none" marker-end="url(#arrP)"/>
+<path d="M138.0,432.8 A124,158 0 0 1 92.6,375.0" stroke="#d97706" stroke-width="3" fill="none" marker-end="url(#arrO)"/>
+<path d="M92.6,217.0 A124,158 0 0 1 138.0,159.2" stroke="#059669" stroke-width="3" fill="none" marker-end="url(#arrG)"/>
+<rect x="134" y="101" width="132" height="74" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="200" y="126" font-size="16" fill="#2563eb" font-weight="bold" text-anchor="middle">1. วิเคราะห์</text>
+<text x="200" y="148" font-size="14" fill="#0f172a" text-anchor="middle">input · output</text>
+<text x="200" y="167" font-size="14" fill="#475569" text-anchor="middle">กรณีพิเศษ</text>
+<rect x="258" y="259" width="132" height="74" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="324" y="284" font-size="16" fill="#7c3aed" font-weight="bold" text-anchor="middle">2. ออกแบบ</text>
+<text x="324" y="306" font-size="14" fill="#0f172a" text-anchor="middle">pseudocode</text>
+<text x="324" y="325" font-size="14" fill="#475569" text-anchor="middle">ผังงาน</text>
+<rect x="134" y="417" width="132" height="74" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="200" y="442" font-size="16" fill="#d97706" font-weight="bold" text-anchor="middle">3. เขียนโค้ด</text>
+<text x="200" y="464" font-size="14" fill="#0f172a" text-anchor="middle">แปลงทีละบรรทัด</text>
+<text x="200" y="483" font-size="14" fill="#475569" text-anchor="middle">.py / .ipynb</text>
+<rect x="10" y="259" width="132" height="74" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="76" y="284" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle">4. ทดสอบ</text>
+<text x="76" y="306" font-size="14" fill="#0f172a" text-anchor="middle">trace table</text>
+<text x="76" y="325" font-size="14" fill="#475569" text-anchor="middle">+ รันจริง</text>
+<text x="200" y="290" font-size="14" fill="#dc2626" font-weight="bold" text-anchor="middle">ไม่ตรงกับ</text>
+<text x="200" y="310" font-size="14" fill="#dc2626" font-weight="bold" text-anchor="middle">คำนวณมือ?</text>
+<text x="200" y="330" font-size="14" fill="#dc2626" text-anchor="middle">วนกลับไปแก้</text>
+<rect x="404" y="64" width="372" height="132" rx="12" fill="#0f172a"/>
+<text x="418" y="90" font-size="14.5" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">GRAVITY = 0.1</text>
+<text x="418" y="113" font-size="14.5" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y, vy = 100, 0</text>
+<text x="418" y="136" font-size="14.5" fill="#93c5fd" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">for frame in range(1, 6):</text>
+<text x="418" y="159" font-size="14.5" fill="#fcd34d" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    y += vy        # ① ก่อน</text>
+<text x="418" y="182" font-size="14.5" fill="#86efac" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    vy += GRAVITY  # ② หลัง</text>
+<rect x="404" y="212" width="372" height="30" rx="6" fill="#e2e8f0"/>
+<text x="444" y="233" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">เฟรม</text>
+<text x="580" y="233" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">① y += vy</text>
+<text x="716" y="233" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">② vy += 0.1</text>
+<rect x="404" y="242" width="372" height="34" rx="0" fill="#ffffff"/>
+<text x="444" y="265" font-size="15" fill="#0f172a" text-anchor="middle">เริ่ม</text>
+<text x="580" y="265" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100</text>
+<text x="716" y="265" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0</text>
+<rect x="404" y="276" width="372" height="34" rx="0" fill="#ecfdf5"/>
+<text x="444" y="299" font-size="15" fill="#0f172a" text-anchor="middle">1</text>
+<text x="580" y="299" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100 + 0 = 100</text>
+<text x="716" y="299" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0.1</text>
+<rect x="404" y="310" width="372" height="34" rx="0" fill="#ffffff"/>
+<text x="444" y="333" font-size="15" fill="#0f172a" text-anchor="middle">2</text>
+<text x="580" y="333" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100 + 0.1 = 100.1</text>
+<text x="716" y="333" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0.2</text>
+<rect x="404" y="344" width="372" height="34" rx="0" fill="#ecfdf5"/>
+<text x="444" y="367" font-size="15" fill="#0f172a" text-anchor="middle">3</text>
+<text x="580" y="367" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100.1 + 0.2 = 100.3</text>
+<text x="716" y="367" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0.3</text>
+<rect x="404" y="378" width="372" height="34" rx="0" fill="#ffffff"/>
+<text x="444" y="401" font-size="15" fill="#0f172a" text-anchor="middle">4</text>
+<text x="580" y="401" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100.3 + 0.3 = 100.6</text>
+<text x="716" y="401" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0.4</text>
+<rect x="404" y="412" width="372" height="34" rx="0" fill="#ecfdf5"/>
+<text x="444" y="435" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle">5</text>
+<text x="580" y="435" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">100.6 + 0.4 = 101.0</text>
+<text x="716" y="435" font-size="15" fill="#059669" font-family="Consolas, 'Courier New', monospace" text-anchor="middle" xml:space="preserve">0.5</text>
+<line x1="404" y1="446" x2="776" y2="446" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="404" y="458" width="372" height="66" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="418" y="484" font-size="15" fill="#dc2626" font-weight="bold">สลับลำดับ ② ก่อน ① → เฟรม 1 ได้ y = 100.1</text>
+<text x="418" y="508" font-size="14" fill="#0f172a">ลำดับบรรทัดเปลี่ยนคำตอบ — ต้องไล่ตามโค้ดจริง</text>
+<text x="200" y="520" font-size="14" fill="#475569" text-anchor="middle">ระยะที่ตกต่อเฟรม 0, 0.1, 0.2, 0.3, 0.4</text>
+<text x="200" y="542" font-size="14" fill="#475569" text-anchor="middle">→ ตกเร็วขึ้นเรื่อย ๆ (มีความเร่ง)</text>
+</svg>

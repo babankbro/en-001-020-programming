@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="800" height="660" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="a_2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="a_059669" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="a_d97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="a_dc2626" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="a_7c3aed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="a_475569" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="a_0f172a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ทิศกระสุน: (เมาส์ − ยาน) → normalize → × bullet_speed</text>
+<text x="400" y="62" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">ยาน (400, 300) เมาส์ (460, 380) bullet_speed = 10 · พิกัดจอ y ชี้ลง</text>
+<line x1="80" y1="110" x2="80" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="80" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">380</text>
+<line x1="140" y1="110" x2="140" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="140" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">400</text>
+<line x1="200" y1="110" x2="200" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="200" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">420</text>
+<line x1="260" y1="110" x2="260" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="260" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">440</text>
+<line x1="320" y1="110" x2="320" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="320" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">460</text>
+<line x1="380" y1="110" x2="380" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="380" y="104" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">480</text>
+<line x1="80" y1="110" x2="380" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="115" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">290</text>
+<line x1="80" y1="170" x2="380" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="175" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">310</text>
+<line x1="80" y1="230" x2="380" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="235" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">330</text>
+<line x1="80" y1="290" x2="380" y2="290" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="295" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">350</text>
+<line x1="80" y1="350" x2="380" y2="350" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="355" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">370</text>
+<line x1="80" y1="410" x2="380" y2="410" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="415" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">390</text>
+<rect x="80" y="110" width="300" height="300" rx="0" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="140" y1="140" x2="320" y2="140" stroke="#475569" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="320" y1="140" x2="320" y2="380" stroke="#475569" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="230" y="132" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">dx = 60</text>
+<text x="326" y="275" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">dy = 80</text>
+<line x1="140" y1="140" x2="316" y2="375" stroke="#7c3aed" stroke-width="2" marker-end="url(#a_7c3aed)"/>
+<circle cx="158" cy="164" r="5" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="176" cy="188" r="5" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="194" cy="212" r="5" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<line x1="140" y1="140" x2="158" y2="164" stroke="#dc2626" stroke-width="3.5" marker-end="url(#a_dc2626)"/>
+<circle cx="140" cy="140" r="8" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<circle cx="320" cy="380" r="7" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="230" cy="260" r="6" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<text x="140" y="126" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ยาน (400, 300)</text>
+<text x="310" y="368" font-size="14" fill="#7c3aed" text-anchor="end" font-weight="bold">เมาส์ (460, 380)</text>
+<text x="218" y="264" font-size="14" fill="#7c3aed" text-anchor="end" font-weight="normal">เมาส์ใกล้ (430, 340)</text>
+<text x="174" y="168" font-size="14" fill="#0f172a" text-anchor="start" font-weight="normal"></text>
+<text x="208" y="216" font-size="14" fill="#d97706" text-anchor="start" font-weight="normal">เฟรม 1, 2, 3</text>
+<text x="80" y="434" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">สเกล 1 หน่วย = 3 px · ลูกศรแดง = ความเร็ว (6, 8)</text>
+<text x="80" y="456" font-size="14" fill="#0f172a" text-anchor="start" font-weight="normal">เมาส์ไกลหรือใกล้ ทิศเดียวกัน → ความเร็ว (6, 8) เท่ากัน</text>
+<path d="M 640 120 A 120 120 0 0 1 520 240" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="520" y1="120" x2="670" y2="120" stroke="#0f172a" stroke-width="1.2"/>
+<line x1="520" y1="120" x2="520" y2="270" stroke="#0f172a" stroke-width="1.2"/>
+<text x="674" y="125" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">x</text>
+<text x="526" y="274" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">y</text>
+<line x1="592" y1="120" x2="592" y2="216" stroke="#475569" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="520" y1="216" x2="592" y2="216" stroke="#475569" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="520" y1="120" x2="592" y2="216" stroke="#059669" stroke-width="3" marker-end="url(#a_059669)"/>
+<text x="586" y="114" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">0.6</text>
+<text x="514" y="221" font-size="14" fill="#475569" text-anchor="end" font-weight="normal">0.8</text>
+<text x="602" y="224" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">หนึ่งหน่วย (0.6, 0.8)</text>
+<text x="602" y="246" font-size="14" fill="#059669" text-anchor="start" font-weight="normal">ขนาด = 1</text>
+<text x="648" y="180" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">วงกลมรัศมี 1</text>
+<text x="510" y="300" font-size="14" fill="#475569" text-anchor="start" font-weight="normal">(1 หน่วย = 120 px)</text>
+<rect x="40" y="480" width="220" height="76" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="150" y="510" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold">d = (60, 80)</text>
+<text x="150" y="536" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">|d| = √10000 = 100</text>
+<line x1="263" y1="518" x2="287" y2="518" stroke="#475569" stroke-width="2" marker-end="url(#a_475569)"/>
+<rect x="290" y="480" width="220" height="76" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="400" y="510" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">d / |d| = d / 100</text>
+<text x="400" y="536" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">= (0.6, 0.8)</text>
+<line x1="513" y1="518" x2="537" y2="518" stroke="#475569" stroke-width="2" marker-end="url(#a_475569)"/>
+<rect x="540" y="480" width="220" height="76" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="650" y="510" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">v = (0.6, 0.8) × 10</text>
+<text x="650" y="536" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">= (6, 8)  |v| = 10</text>
+<text x="400" y="600" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="normal">ตำแหน่งหลัง n เฟรม = (400 + 6n, 300 + 8n): (406, 308) → (412, 316) → (418, 324)</text>
+<text x="400" y="626" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="normal">ถ้าไม่ normalize จะใช้ (60, 80) เป็นความเร็ว = 100 px ต่อเฟรม และเมาส์ยิ่งไกลยิ่งเร็ว ✗</text>
+</svg>
