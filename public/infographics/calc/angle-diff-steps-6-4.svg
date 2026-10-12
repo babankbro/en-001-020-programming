@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">ขั้นตอน angle_diff บนเส้นจำนวน (แนวข้อสอบชุดที่ 2)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">angle = −30, target_angle = 200 → ทำให้ผลต่างอยู่ในช่วง (−180, 180]</text>
+<text x="24.0" y="100.0" font-size="16" fill="#0f172a" font-weight="bold">① ผลต่างดิบ 230 แล้ว % 360 = 230 (อยู่ใน [0, 360) อยู่แล้ว)</text>
+<rect x="400.0" y="134.0" width="330.0" height="32.0" rx="4" fill="#fef2f2" fill-opacity="1" stroke="#dc2626" stroke-width="1"/>
+<text x="565.0" y="128.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">เกิน 180 = อ้อมไกล</text>
+<line x1="70.0" y1="150.0" x2="730.0" y2="150.0" stroke="#475569" stroke-width="2"/>
+<line x1="70.0" y1="144.0" x2="70.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<text x="70.0" y="174.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<line x1="125.0" y1="144.0" x2="125.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="180.0" y1="144.0" x2="180.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="235.0" y1="144.0" x2="235.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<text x="235.0" y="174.0" font-size="14" fill="#475569" text-anchor="middle">90</text>
+<line x1="290.0" y1="144.0" x2="290.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="345.0" y1="144.0" x2="345.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="400.0" y1="144.0" x2="400.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<text x="400.0" y="174.0" font-size="14" fill="#475569" text-anchor="middle">180</text>
+<line x1="455.0" y1="144.0" x2="455.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="510.0" y1="144.0" x2="510.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="565.0" y1="144.0" x2="565.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<text x="565.0" y="174.0" font-size="14" fill="#475569" text-anchor="middle">270</text>
+<line x1="620.0" y1="144.0" x2="620.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="675.0" y1="144.0" x2="675.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="730.0" y1="144.0" x2="730.0" y2="156.0" stroke="#475569" stroke-width="1.5"/>
+<text x="730.0" y="174.0" font-size="14" fill="#475569" text-anchor="middle">360</text>
+<circle cx="491.7" cy="150.0" r="8.0" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="491.7" y="200.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">200 − (−30) = 230</text>
+<text x="24.0" y="270.0" font-size="16" fill="#0f172a" font-weight="bold">② 230 &gt; 180 จึงลบ 360 → เลื่อนเข้าช่วงทางสั้น</text>
+<rect x="70.0" y="304.0" width="660.0" height="32.0" rx="4" fill="#ecfdf5" fill-opacity="1" stroke="#059669" stroke-width="1"/>
+<text x="400.0" y="298.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">ช่วงทางสั้น (−180, 180]</text>
+<line x1="70.0" y1="320.0" x2="730.0" y2="320.0" stroke="#475569" stroke-width="2"/>
+<line x1="70.0" y1="314.0" x2="70.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<text x="70.0" y="344.0" font-size="14" fill="#475569" text-anchor="middle">−180</text>
+<line x1="125.0" y1="314.0" x2="125.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="180.0" y1="314.0" x2="180.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="235.0" y1="314.0" x2="235.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<text x="235.0" y="344.0" font-size="14" fill="#475569" text-anchor="middle">−90</text>
+<line x1="290.0" y1="314.0" x2="290.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="345.0" y1="314.0" x2="345.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="400.0" y1="314.0" x2="400.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<text x="400.0" y="344.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<line x1="455.0" y1="314.0" x2="455.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="510.0" y1="314.0" x2="510.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="565.0" y1="314.0" x2="565.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<text x="565.0" y="344.0" font-size="14" fill="#475569" text-anchor="middle">90</text>
+<line x1="620.0" y1="314.0" x2="620.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="675.0" y1="314.0" x2="675.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="730.0" y1="314.0" x2="730.0" y2="326.0" stroke="#475569" stroke-width="1.5"/>
+<text x="730.0" y="344.0" font-size="14" fill="#475569" text-anchor="middle">180</text>
+<circle cx="161.7" cy="320.0" r="8.0" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<text x="161.7" y="370.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">230 − 360 = −130</text>
+<circle cx="400.0" cy="320.0" r="8.0" fill="#475569" stroke="#ffffff" stroke-width="2"/>
+<text x="400.0" y="370.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold"></text>
+<text x="560.0" y="238.0" font-size="15" fill="#7c3aed" text-anchor="middle" font-weight="bold">ลบ 360: จุด 230 ย้ายไปที่ −130</text>
+<text x="400.0" y="410.0" font-size="15" fill="#475569" text-anchor="middle">ผลลัพธ์ angle_diff = −130 → หมุนทางลบ 130° แทนการหมุนทางบวก 230° (ประหยัด 100°)</text>
+</svg>

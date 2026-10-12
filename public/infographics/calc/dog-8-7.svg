@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">สุนัขเดินกลับไปกลับมา (แนวข้อสอบชุดที่ 3)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">dog.py · กว้าง 80, จอกว้าง 640 · ตรวจขอบซ้าย: rect.left &lt;= 0 · ขยายช่วง x = -30 ถึง 150</text>
+<line x1="354.4" y1="92.0" x2="354.4" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="354.4" y="88.0" font-size="14" fill="#475569" text-anchor="middle">-20</text>
+<line x1="403.3" y1="92.0" x2="403.3" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="403.3" y="88.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<line x1="452.2" y1="92.0" x2="452.2" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="452.2" y="88.0" font-size="14" fill="#475569" text-anchor="middle">20</text>
+<line x1="501.1" y1="92.0" x2="501.1" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="501.1" y="88.0" font-size="14" fill="#475569" text-anchor="middle">40</text>
+<line x1="550.0" y1="92.0" x2="550.0" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="550.0" y="88.0" font-size="14" fill="#475569" text-anchor="middle">60</text>
+<line x1="598.9" y1="92.0" x2="598.9" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="598.9" y="88.0" font-size="14" fill="#475569" text-anchor="middle">80</text>
+<line x1="647.8" y1="92.0" x2="647.8" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="647.8" y="88.0" font-size="14" fill="#475569" text-anchor="middle">100</text>
+<line x1="696.7" y1="92.0" x2="696.7" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="696.7" y="88.0" font-size="14" fill="#475569" text-anchor="middle">120</text>
+<line x1="745.6" y1="92.0" x2="745.6" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="745.6" y="88.0" font-size="14" fill="#475569" text-anchor="middle">140</text>
+<line x1="403.3" y1="102.0" x2="403.3" y2="438.0" stroke="#dc2626" stroke-width="2.5"/>
+<text x="409.3" y="452.0" font-size="14" fill="#dc2626" font-weight="bold">ขอบจอ x = 0</text>
+<rect x="20.0" y="108.0" width="296.0" height="74.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="130.0" font-size="15" fill="#0f172a" font-weight="bold">เริ่มต้น</text>
+<text x="32.0" y="152.0" font-size="14" fill="#0f172a">x = 12, right = 92</text>
+<text x="32.0" y="172.0" font-size="14" fill="#475569">vx = −5 · ค่าเริ่มต้น</text>
+<rect x="432.7" y="122.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="530.4" y="150.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">12–92</text>
+<line x1="552.4" y1="178.0" x2="508.4" y2="178.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+<rect x="20.0" y="192.0" width="296.0" height="74.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="214.0" font-size="15" fill="#0f172a" font-weight="bold">update() ครั้งที่ 1</text>
+<text x="32.0" y="236.0" font-size="14" fill="#0f172a">x = 7, right = 87</text>
+<text x="32.0" y="256.0" font-size="14" fill="#475569">vx = −5 · ไม่ชนขอบ</text>
+<rect x="420.4" y="206.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="518.2" y="234.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">7–87</text>
+<line x1="540.2" y1="262.0" x2="496.2" y2="262.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+<rect x="20.0" y="276.0" width="296.0" height="74.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="298.0" font-size="15" fill="#0f172a" font-weight="bold">update() ครั้งที่ 2</text>
+<text x="32.0" y="320.0" font-size="14" fill="#0f172a">x = 2, right = 82</text>
+<text x="32.0" y="340.0" font-size="14" fill="#475569">vx = −5 · ไม่ชนขอบ</text>
+<rect x="408.2" y="290.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="506.0" y="318.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">2–82</text>
+<line x1="528.0" y1="346.0" x2="484.0" y2="346.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+<rect x="20.0" y="360.0" width="296.0" height="74.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="32.0" y="382.0" font-size="15" fill="#0f172a" font-weight="bold">update() ครั้งที่ 3</text>
+<text x="32.0" y="404.0" font-size="14" fill="#dc2626" font-weight="bold">x = −3 → ชนขอบ! วาง x = 0</text>
+<text x="32.0" y="424.0" font-size="14" fill="#059669" font-weight="bold">vx = −5 → 5 · หันขวา</text>
+<rect x="396.0" y="374.0" width="195.6" height="46.0" rx="6" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="403.3" y="374.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="501.1" y="402.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">0–80</text>
+<line x1="479.1" y1="430.0" x2="523.1" y2="430.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+</svg>

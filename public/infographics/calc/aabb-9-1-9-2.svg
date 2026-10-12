@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">การชนแบบ AABB: ต้องซ้อนกันทั้งแกน x และแกน y</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">ซ้าย: โจทย์ 9.1 จุดในกล่อง · ขวา: โจทย์ 9.2 กล่องซ้อนกล่อง · พิกัดจอ (y ชี้ลง) วาดตามสเกล</text>
+<rect x="20.0" y="80.0" width="372.0" height="380.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="104.0" font-size="15" fill="#0f172a" font-weight="bold">9.1 ศัตรู (260, 100) ขนาด 50×50</text>
+<line x1="70.0" y1="130.0" x2="70.0" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="105.7" y1="130.0" x2="105.7" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="141.4" y1="130.0" x2="141.4" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="177.1" y1="130.0" x2="177.1" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="212.9" y1="130.0" x2="212.9" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="248.6" y1="130.0" x2="248.6" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="284.3" y1="130.0" x2="284.3" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="320.0" y1="130.0" x2="320.0" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="130.0" x2="320.0" y2="130.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="165.7" x2="320.0" y2="165.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="201.4" x2="320.0" y2="201.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="237.1" x2="320.0" y2="237.1" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="272.9" x2="320.0" y2="272.9" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="308.6" x2="320.0" y2="308.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="344.3" x2="320.0" y2="344.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="70.0" y1="380.0" x2="320.0" y2="380.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="105.7" y="396.0" font-size="14" fill="#475569" text-anchor="middle">260</text>
+<text x="177.1" y="396.0" font-size="14" fill="#475569" text-anchor="middle">280</text>
+<text x="248.6" y="396.0" font-size="14" fill="#475569" text-anchor="middle">300</text>
+<text x="284.3" y="396.0" font-size="14" fill="#475569" text-anchor="middle">310</text>
+<text x="64.0" y="169.7" font-size="14" fill="#475569" text-anchor="end">100</text>
+<text x="64.0" y="241.1" font-size="14" fill="#475569" text-anchor="end">120</text>
+<text x="64.0" y="312.6" font-size="14" fill="#475569" text-anchor="end">140</text>
+<text x="64.0" y="348.3" font-size="14" fill="#475569" text-anchor="end">150</text>
+<rect x="105.7" y="165.7" width="178.6" height="178.6" rx="2" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="195.0" y="189.7" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">ศัตรู</text>
+<circle cx="266.4" cy="337.1" r="7.0" fill="#059669" stroke="#ffffff" stroke-width="1.5"/>
+<text x="256.4" y="327.1" font-size="14" fill="#059669" text-anchor="end" font-weight="bold">(305, 148) ชน ✓</text>
+<circle cx="266.4" cy="351.4" r="6.0" fill="#475569" stroke="#ffffff" stroke-width="1.5"/>
+<text x="256.4" y="369.4" font-size="14" fill="#475569" text-anchor="end" font-weight="bold">(305, 152) ไม่ชน ✗</text>
+<text x="36.0" y="422.0" font-size="15" fill="#059669" font-weight="bold">x: 260 ≤ 305 ≤ 310 ✓   y: 100 ≤ 148 ≤ 150 ✓</text>
+<text x="36.0" y="446.0" font-size="14" fill="#475569">ถ้า y = 152 &gt; 150 → นอกกล่อง แม้ x ยังอยู่ในช่วง</text>
+<rect x="404.0" y="80.0" width="376.0" height="380.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="420.0" y="104.0" font-size="15" fill="#0f172a" font-weight="bold">9.2 A (10, 10, 40×40) กับ B (45, 30, 20×20)</text>
+<line x1="440.0" y1="124.0" x2="440.0" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="459.2" y1="124.0" x2="459.2" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="478.3" y1="124.0" x2="478.3" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="497.5" y1="124.0" x2="497.5" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="516.7" y1="124.0" x2="516.7" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="535.8" y1="124.0" x2="535.8" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="555.0" y1="124.0" x2="555.0" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="574.2" y1="124.0" x2="574.2" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="593.3" y1="124.0" x2="593.3" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="612.5" y1="124.0" x2="612.5" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="631.7" y1="124.0" x2="631.7" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="650.8" y1="124.0" x2="650.8" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="670.0" y1="124.0" x2="670.0" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="689.2" y1="124.0" x2="689.2" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="708.3" y1="124.0" x2="708.3" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="727.5" y1="124.0" x2="727.5" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="124.0" x2="727.5" y2="124.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="143.2" x2="727.5" y2="143.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="162.3" x2="727.5" y2="162.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="181.5" x2="727.5" y2="181.5" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="200.7" x2="727.5" y2="200.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="219.8" x2="727.5" y2="219.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="239.0" x2="727.5" y2="239.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="258.2" x2="727.5" y2="258.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="277.3" x2="727.5" y2="277.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="296.5" x2="727.5" y2="296.5" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="315.7" x2="727.5" y2="315.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="334.8" x2="727.5" y2="334.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="440.0" y1="354.0" x2="727.5" y2="354.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="478.3" y="370.0" font-size="14" fill="#475569" text-anchor="middle">10</text>
+<text x="612.5" y="370.0" font-size="14" fill="#475569" text-anchor="middle">45</text>
+<text x="631.7" y="370.0" font-size="14" fill="#475569" text-anchor="middle">50</text>
+<text x="689.2" y="370.0" font-size="14" fill="#475569" text-anchor="middle">65</text>
+<text x="434.0" y="166.3" font-size="14" fill="#475569" text-anchor="end">10</text>
+<text x="434.0" y="243.0" font-size="14" fill="#475569" text-anchor="end">30</text>
+<text x="434.0" y="319.7" font-size="14" fill="#475569" text-anchor="end">50</text>
+<rect x="478.3" y="162.3" width="153.3" height="153.3" rx="2" fill="#eff6ff" fill-opacity="0.8" stroke="#2563eb" stroke-width="2"/>
+<text x="488.3" y="184.3" font-size="18" fill="#2563eb" font-weight="bold">A</text>
+<rect x="612.5" y="239.0" width="76.7" height="76.7" rx="2" fill="#fffbeb" fill-opacity="0.8" stroke="#d97706" stroke-width="2"/>
+<text x="681.2" y="261.0" font-size="18" fill="#d97706" text-anchor="end" font-weight="bold">B</text>
+<rect x="612.5" y="239.0" width="19.2" height="76.7" rx="0" fill="#7c3aed" fill-opacity="0.45" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="420.0" y="392.0" font-size="14" fill="#0f172a">A.left 10 &lt; B.right 65 ✓   A.right 50 &gt; B.left 45 ✓</text>
+<text x="420.0" y="414.0" font-size="14" fill="#0f172a">A.top 10 &lt; B.bottom 50 ✓   A.bottom 50 &gt; B.top 30 ✓</text>
+<text x="420.0" y="442.0" font-size="15" fill="#7c3aed" font-weight="bold">ซ้อนทับ (สีม่วง): x 45–50, y 30–50</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">วงวนเกมทำงานกี่วินาที (แนวข้อสอบชุดที่ 2)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">clock.tick(30) = ไม่เกิน 30 เฟรมต่อวินาที · FRAME_LIMIT = 900 เฟรม</text>
+<rect x="40.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="64.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="88.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="112.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="136.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="160.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="184.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="208.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="232.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="256.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="280.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="304.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="328.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="352.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="376.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="400.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="424.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="448.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="472.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="496.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="520.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="544.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="568.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="592.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="616.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="640.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="664.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="688.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<rect x="712.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<rect x="736.0" y="120.0" width="22.0" height="46.0" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="1"/>
+<line x1="40.0" y1="170.0" x2="40.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="40.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">0 s</text>
+<text x="40.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">0</text>
+<line x1="160.0" y1="170.0" x2="160.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="160.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">5 s</text>
+<text x="160.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">150</text>
+<line x1="280.0" y1="170.0" x2="280.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="280.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">10 s</text>
+<text x="280.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">300</text>
+<line x1="400.0" y1="170.0" x2="400.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="400.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">15 s</text>
+<text x="400.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">450</text>
+<line x1="520.0" y1="170.0" x2="520.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="520.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">20 s</text>
+<text x="520.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">600</text>
+<line x1="640.0" y1="170.0" x2="640.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="640.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">25 s</text>
+<text x="640.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">750</text>
+<line x1="760.0" y1="170.0" x2="760.0" y2="180.0" stroke="#475569" stroke-width="1.5"/>
+<text x="760.0" y="198.0" font-size="14" fill="#475569" text-anchor="middle">30 s</text>
+<text x="760.0" y="112.0" font-size="14" fill="#2563eb" text-anchor="middle">900</text>
+<text x="36.0" y="94.0" font-size="14" fill="#2563eb" font-weight="bold">เฟรมที่</text>
+<text x="52.0" y="148.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">30</text>
+<text x="76.0" y="148.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">30</text>
+<text x="400.0" y="226.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">แต่ละช่อง = 1 วินาที = 30 เฟรม · มีทั้งหมด 30 ช่อง</text>
+<rect x="40.0" y="250.0" width="720.0" height="64.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="56.0" y="276.0" font-size="17" fill="#059669" font-weight="bold">เวลา = FRAME_LIMIT / FPS = 900 / 30 = 30 วินาที</text>
+<text x="56.0" y="302.0" font-size="14" fill="#475569">แต่ละเฟรมห่างกัน ≈ 1000 / 30 ≈ 33.3 มิลลิวินาที (ถ้าเครื่องทำงานทันตามเป้า)</text>
+</svg>

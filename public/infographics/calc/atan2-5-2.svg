@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">จากปุ่มที่กด ไปเป็นมุมเป้าหมายของยาน (target_angle)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 5.2: กดลง + ซ้าย → input_dir = (−1, 1) · ลำดับการคิด 3 ขั้น</text>
+<rect x="20.0" y="80.0" width="248.0" height="290.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="144.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">① พิกัดจอ (y ชี้ลง)</text>
+<line x1="44.0" y1="118.0" x2="44.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="77.3" y1="118.0" x2="77.3" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="110.7" y1="118.0" x2="110.7" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="144.0" y1="118.0" x2="144.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="177.3" y1="118.0" x2="177.3" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="210.7" y1="118.0" x2="210.7" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="244.0" y1="118.0" x2="244.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="118.0" x2="244.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="151.3" x2="244.0" y2="151.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="184.7" x2="244.0" y2="184.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="218.0" x2="244.0" y2="218.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="251.3" x2="244.0" y2="251.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="284.7" x2="244.0" y2="284.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="318.0" x2="244.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="44.0" y1="218.0" x2="244.0" y2="218.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="144.0" y1="118.0" x2="144.0" y2="318.0" stroke="#475569" stroke-width="1.5"/>
+<circle cx="144.0" cy="218.0" r="66.7" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="144.0" y1="218.0" x2="77.3" y2="284.7" stroke="#d97706" stroke-width="3.5" marker-end="url(#ar-orange)"/>
+<text x="77.3" y="306.7" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">(−1, 1)</text>
+<text x="240.7" y="210.0" font-size="14" fill="#475569" text-anchor="end" font-weight="bold">x</text>
+<text x="152.0" y="314.7" font-size="14" fill="#475569" font-weight="bold">y</text>
+<text x="144.0" y="340.0" font-size="15" fill="#475569" text-anchor="middle">x = −1 (ซ้าย), y = +1 (ลง)</text>
+<rect x="276.0" y="80.0" width="248.0" height="290.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="400.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">② กลับแกน y แล้วใช้ atan2</text>
+<line x1="300.0" y1="318.0" x2="300.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="333.3" y1="318.0" x2="333.3" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="366.7" y1="318.0" x2="366.7" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="400.0" y1="318.0" x2="400.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="433.3" y1="318.0" x2="433.3" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="466.7" y1="318.0" x2="466.7" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="500.0" y1="318.0" x2="500.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="318.0" x2="500.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="284.7" x2="500.0" y2="284.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="251.3" x2="500.0" y2="251.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="218.0" x2="500.0" y2="218.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="184.7" x2="500.0" y2="184.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="151.3" x2="500.0" y2="151.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="118.0" x2="500.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="300.0" y1="218.0" x2="500.0" y2="218.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="400.0" y1="318.0" x2="400.0" y2="118.0" stroke="#475569" stroke-width="1.5"/>
+<circle cx="400.0" cy="218.0" r="66.7" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="400.0" y1="218.0" x2="447.1" y2="170.9" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar-ink2)"/>
+<text x="417.1" y="160.9" font-size="14" fill="#475569" text-anchor="middle">atan(1) = 45° ✗</text>
+<path d="M429.9,220.1 L429.8,221.7 L429.5,223.2 L429.2,224.8 L428.8,226.3 L428.3,227.8 L427.8,229.3 L427.2,230.8 L426.4,232.2 L425.7,233.5 L424.8,234.9 L423.9,236.2 L422.9,237.4 L421.8,238.6 L420.7,239.7 L419.5,240.8 L418.3,241.8 L417.0,242.7 L415.7,243.6 L414.3,244.4 L412.9,245.1 L411.5,245.7 L410.0,246.3 L408.5,246.8 L407.0,247.2 L405.4,247.5 L403.9,247.8 L402.3,247.9 L400.7,248.0 L399.1,248.0 L397.5,247.9 L396.0,247.7 L394.4,247.5 L392.9,247.1 L391.3,246.7 L389.8,246.2 L388.3,245.6 L386.9,245.0 L385.5,244.3 L384.1,243.5 L382.8,242.6 L381.5,241.6 L380.3,240.6" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ar-red)"/>
+<line x1="400.0" y1="218.0" x2="333.3" y2="284.7" stroke="#dc2626" stroke-width="3.5" marker-end="url(#ar-red)"/>
+<text x="333.3" y="306.7" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">(−1, −1)</text>
+<text x="418.0" y="260.7" font-size="15" fill="#dc2626" font-weight="bold">−135°</text>
+<text x="496.7" y="210.0" font-size="14" fill="#475569" text-anchor="end" font-weight="bold">x</text>
+<text x="408.0" y="121.3" font-size="14" fill="#475569" font-weight="bold">y</text>
+<text x="400.0" y="340.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">atan2(−1, −1) = −135° ✓</text>
+<text x="400.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">(จตุภาคที่ 3: x ลบ, y ลบ)</text>
+<rect x="532.0" y="80.0" width="248.0" height="290.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="656.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">③ ลบ 90° เพราะยานหันขึ้นที่ 0°</text>
+<line x1="556.0" y1="318.0" x2="556.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="589.3" y1="318.0" x2="589.3" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="622.7" y1="318.0" x2="622.7" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="656.0" y1="318.0" x2="656.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="689.3" y1="318.0" x2="689.3" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="722.7" y1="318.0" x2="722.7" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="756.0" y1="318.0" x2="756.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="318.0" x2="756.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="284.7" x2="756.0" y2="284.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="251.3" x2="756.0" y2="251.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="218.0" x2="756.0" y2="218.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="184.7" x2="756.0" y2="184.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="151.3" x2="756.0" y2="151.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="118.0" x2="756.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="556.0" y1="218.0" x2="756.0" y2="218.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="656.0" y1="318.0" x2="656.0" y2="118.0" stroke="#475569" stroke-width="1.5"/>
+<circle cx="656.0" cy="218.0" r="66.7" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="656.0" y1="218.0" x2="656.0" y2="138.0" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar-ink2)"/>
+<text x="664.0" y="146.0" font-size="14" fill="#475569">0° = หันขึ้น</text>
+<path d="M653.7,184.7 L651.9,184.9 L650.2,185.2 L648.5,185.5 L646.8,186.0 L645.1,186.5 L643.4,187.1 L641.8,187.8 L640.3,188.6 L638.7,189.5 L637.2,190.4 L635.8,191.5 L634.4,192.6 L633.1,193.7 L631.9,195.0 L630.7,196.3 L629.6,197.7 L628.6,199.1 L627.6,200.5 L626.7,202.1 L625.9,203.6 L625.2,205.2 L624.6,206.9 L624.0,208.6 L623.6,210.3 L623.2,212.0 L622.9,213.7 L622.8,215.5 L622.7,217.2 L622.7,219.0 L622.8,220.7 L623.0,222.5 L623.3,224.2 L623.6,225.9 L624.1,227.6 L624.6,229.3 L625.3,230.9 L626.0,232.6 L626.8,234.1 L627.7,235.6 L628.7,237.1 L629.7,238.5 L630.8,239.9" fill="none" stroke="#059669" stroke-width="2.5" marker-end="url(#ar-green)"/>
+<line x1="656.0" y1="218.0" x2="599.3" y2="274.7" stroke="#059669" stroke-width="3.5" marker-end="url(#ar-green)"/>
+<text x="599.3" y="298.7" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">หันลง-ซ้าย</text>
+<text x="613.3" y="184.7" font-size="15" fill="#059669" text-anchor="end" font-weight="bold">135°</text>
+<text x="656.0" y="340.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">−135 − 90 = −225°</text>
+<text x="656.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">≡ −225 + 360 = 135° (ทวนเข็ม)</text>
+<text x="400.0" y="400.0" font-size="15" fill="#475569" text-anchor="middle">ยานหันลง-ซ้ายตรงกับปุ่มที่กดในขั้น ① พอดี — ถ้าใช้ atan จะได้ 45° − 90° = −45° ซึ่งหันผิดทาง</text>
+<text x="400.0" y="424.0" font-size="14" fill="#475569" text-anchor="middle">(ขั้น ② ③ วาดแกน y ชี้ขึ้นแบบคณิตศาสตร์ มุมบวก = ทวนเข็มนาฬิกา)</text>
+</svg>

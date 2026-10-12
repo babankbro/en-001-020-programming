@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 396" width="800" height="396" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">สุนัขเดินกลับไปกลับมา (แนวข้อสอบชุดที่ 2)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">dog.py · กว้าง 80, จอกว้าง 640 · ตรวจขอบขวา: rect.right &gt;= 640 · ขยายช่วง x = 480 ถึง 660</text>
+<line x1="330.0" y1="92.0" x2="330.0" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="330.0" y="88.0" font-size="14" fill="#475569" text-anchor="middle">480</text>
+<line x1="378.9" y1="92.0" x2="378.9" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="378.9" y="88.0" font-size="14" fill="#475569" text-anchor="middle">500</text>
+<line x1="427.8" y1="92.0" x2="427.8" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="427.8" y="88.0" font-size="14" fill="#475569" text-anchor="middle">520</text>
+<line x1="476.7" y1="92.0" x2="476.7" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="476.7" y="88.0" font-size="14" fill="#475569" text-anchor="middle">540</text>
+<line x1="525.6" y1="92.0" x2="525.6" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="525.6" y="88.0" font-size="14" fill="#475569" text-anchor="middle">560</text>
+<line x1="574.4" y1="92.0" x2="574.4" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="574.4" y="88.0" font-size="14" fill="#475569" text-anchor="middle">580</text>
+<line x1="623.3" y1="92.0" x2="623.3" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="623.3" y="88.0" font-size="14" fill="#475569" text-anchor="middle">600</text>
+<line x1="672.2" y1="92.0" x2="672.2" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="672.2" y="88.0" font-size="14" fill="#475569" text-anchor="middle">620</text>
+<line x1="721.1" y1="92.0" x2="721.1" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="721.1" y="88.0" font-size="14" fill="#475569" text-anchor="middle">640</text>
+<line x1="770.0" y1="92.0" x2="770.0" y2="100.0" stroke="#475569" stroke-width="1"/>
+<text x="770.0" y="88.0" font-size="14" fill="#475569" text-anchor="middle">660</text>
+<line x1="721.1" y1="102.0" x2="721.1" y2="354.0" stroke="#dc2626" stroke-width="2.5"/>
+<text x="715.1" y="368.0" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold">ขอบจอ x = 640</text>
+<rect x="20.0" y="108.0" width="296.0" height="74.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="130.0" font-size="15" fill="#0f172a" font-weight="bold">เริ่มต้น</text>
+<text x="32.0" y="152.0" font-size="14" fill="#0f172a">x = 545, right = 625</text>
+<text x="32.0" y="172.0" font-size="14" fill="#475569">vx = 10 · ค่าเริ่มต้น</text>
+<rect x="488.9" y="122.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="586.7" y="150.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">545–625</text>
+<line x1="564.7" y1="178.0" x2="608.7" y2="178.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+<rect x="20.0" y="192.0" width="296.0" height="74.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="214.0" font-size="15" fill="#0f172a" font-weight="bold">update() ครั้งที่ 1</text>
+<text x="32.0" y="236.0" font-size="14" fill="#0f172a">x = 555, right = 635</text>
+<text x="32.0" y="256.0" font-size="14" fill="#475569">vx = 10 · ไม่ชนขอบ</text>
+<rect x="513.3" y="206.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="611.1" y="234.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">555–635</text>
+<line x1="589.1" y1="262.0" x2="633.1" y2="262.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+<rect x="20.0" y="276.0" width="296.0" height="74.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="32.0" y="298.0" font-size="15" fill="#0f172a" font-weight="bold">update() ครั้งที่ 2</text>
+<text x="32.0" y="320.0" font-size="14" fill="#dc2626" font-weight="bold">x = 565 → ชนขอบ! วาง x = 560</text>
+<text x="32.0" y="340.0" font-size="14" fill="#059669" font-weight="bold">vx = 10 → −10 · หันซ้าย</text>
+<rect x="537.8" y="290.0" width="195.6" height="46.0" rx="6" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 4"/>
+<rect x="525.6" y="290.0" width="195.6" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="623.3" y="318.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">560–640</text>
+<line x1="645.3" y1="346.0" x2="601.3" y2="346.0" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#ar-purple)"/>
+</svg>

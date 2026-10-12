@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">move() 1 ครั้ง และการสะท้อนพื้น (แนวข้อสอบชุดที่ 3)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">x = 300, y = 150, vx = 5, vy = −2 · GRAVITY = 0.1, DAMPING_COEFFICIENT = 0.999</text>
+<rect x="20.0" y="82.0" width="178.0" height="100.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="109.0" y="106.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">① ตำแหน่งก่อน</text>
+<text x="30.0" y="136.0" font-size="15" fill="#0f172a">x = 300 + (5) = 305</text>
+<text x="30.0" y="160.0" font-size="15" fill="#0f172a" font-weight="bold">y = 150 + (−2) = 148</text>
+<rect x="206.0" y="82.0" width="172.0" height="100.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="292.0" y="106.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">② บวกความโน้มถ่วง</text>
+<text x="216.0" y="136.0" font-size="15" fill="#0f172a">vy = −2 + 0.1</text>
+<text x="216.0" y="160.0" font-size="15" fill="#0f172a">   = −1.9</text>
+<rect x="386.0" y="82.0" width="220.0" height="100.0" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="496.0" y="106.0" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold">③ หน่วงด้วย 0.999</text>
+<text x="396.0" y="136.0" font-size="14" fill="#0f172a">vx = 5 × 0.999 = 4.995</text>
+<text x="396.0" y="160.0" font-size="14" fill="#0f172a" font-weight="bold">vy = −1.9 × 0.999 = −1.8981</text>
+<rect x="614.0" y="82.0" width="166.0" height="100.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="697.0" y="106.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">④ ตรวจชนขอบ</text>
+<text x="624.0" y="136.0" font-size="15" fill="#0f172a">ไม่ชนขอบ</text>
+<text x="624.0" y="160.0" font-size="15" fill="#0f172a">ค่าคงเดิม</text>
+<rect x="20.0" y="198.0" width="370.0" height="286.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="222.0" font-size="14" fill="#0f172a" font-weight="bold">ขยายพิกัดจอ: 1 ช่อง = 1 พิกเซล (y ชี้ลง)</text>
+<line x1="50.0" y1="236.0" x2="50.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="90.0" y1="236.0" x2="90.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="130.0" y1="236.0" x2="130.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="170.0" y1="236.0" x2="170.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="210.0" y1="236.0" x2="210.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="250.0" y1="236.0" x2="250.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="290.0" y1="236.0" x2="290.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="330.0" y1="236.0" x2="330.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="256.0" x2="330.0" y2="256.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="296.0" x2="330.0" y2="296.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="336.0" x2="330.0" y2="336.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="376.0" x2="330.0" y2="376.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="416.0" x2="330.0" y2="416.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="50.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">299</text>
+<text x="90.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">300</text>
+<text x="130.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">301</text>
+<text x="170.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">302</text>
+<text x="210.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">303</text>
+<text x="250.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">304</text>
+<text x="290.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">305</text>
+<text x="330.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">306</text>
+<line x1="90.0" y1="376.0" x2="290.0" y2="296.0" stroke="#2563eb" stroke-width="3" marker-end="url(#ar-blue)"/>
+<circle cx="90.0" cy="376.0" r="7.0" fill="#475569" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="290.0" cy="296.0" r="8.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="90.0" y="362.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">เดิม (300, 150)</text>
+<text x="290.0" y="282.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ใหม่ (305, 148)</text>
+<text x="205.0" y="474.0" font-size="14" fill="#475569" text-anchor="middle">เลื่อนด้วย (vx, vy) เดิม = (5, −2) ก่อนจะเปลี่ยนความเร็ว</text>
+<rect x="400.0" y="198.0" width="380.0" height="286.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="416.0" y="222.0" font-size="15" fill="#0f172a" font-weight="bold">(ข) ชนพื้นด้วย vy = 10, BOUNCE_DAMPING = 0.9</text>
+<line x1="430.0" y1="400.0" x2="760.0" y2="400.0" stroke="#dc2626" stroke-width="3"/>
+<text x="760.0" y="422.0" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold">พื้น</text>
+<line x1="460.0" y1="242.0" x2="460.0" y2="392.0" stroke="#d97706" stroke-width="5" marker-end="url(#ar-orange)"/>
+<text x="474.0" y="317.0" font-size="15" fill="#d97706" font-weight="bold">ก่อนชน vy = +10 (ลง)</text>
+<line x1="720.0" y1="392.0" x2="720.0" y2="257.0" stroke="#059669" stroke-width="5" marker-end="url(#ar-green)"/>
+<text x="712.0" y="251.0" font-size="15" fill="#059669" text-anchor="end" font-weight="bold">หลังชน vy = −9 (ขึ้น)</text>
+<text x="416.0" y="446.0" font-size="15" fill="#0f172a" font-weight="bold">vy = −vy × 0.9 = −10 × 0.9 = −9</text>
+<text x="416.0" y="470.0" font-size="14" fill="#475569">ความยาวลูกศรตามสเกล: เหลือ 90% และกลับทิศขึ้น</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">scale_to_length(5): คงทิศเดิม แต่ย่อความยาวเหลือ 5</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 2.3 (ก): ความเร็ว (−9, 12) ยาว 15 เกิน max_speed = 5 · พิกัดจอ (แกน y ชี้ลง) · 1 ช่อง = 1 พิกเซล/เฟรม</text>
+<line x1="30.0" y1="86.0" x2="30.0" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="49.6" y1="86.0" x2="49.6" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="69.2" y1="86.0" x2="69.2" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="88.7" y1="86.0" x2="88.7" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="108.3" y1="86.0" x2="108.3" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="127.9" y1="86.0" x2="127.9" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="147.5" y1="86.0" x2="147.5" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="167.1" y1="86.0" x2="167.1" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="186.6" y1="86.0" x2="186.6" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="206.2" y1="86.0" x2="206.2" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="225.8" y1="86.0" x2="225.8" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="245.4" y1="86.0" x2="245.4" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="264.9" y1="86.0" x2="264.9" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="284.5" y1="86.0" x2="284.5" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="304.1" y1="86.0" x2="304.1" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="323.7" y1="86.0" x2="323.7" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="343.3" y1="86.0" x2="343.3" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="86.0" x2="343.3" y2="86.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="105.6" x2="343.3" y2="105.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="125.2" x2="343.3" y2="125.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="144.7" x2="343.3" y2="144.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="164.3" x2="343.3" y2="164.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="183.9" x2="343.3" y2="183.9" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="203.5" x2="343.3" y2="203.5" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="223.1" x2="343.3" y2="223.1" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="242.6" x2="343.3" y2="242.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="262.2" x2="343.3" y2="262.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="281.8" x2="343.3" y2="281.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="301.4" x2="343.3" y2="301.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="320.9" x2="343.3" y2="320.9" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="340.5" x2="343.3" y2="340.5" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="360.1" x2="343.3" y2="360.1" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="379.7" x2="343.3" y2="379.7" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="399.3" x2="343.3" y2="399.3" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="418.8" x2="343.3" y2="418.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="438.4" x2="343.3" y2="438.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="458.0" x2="343.3" y2="458.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="30.0" y1="203.5" x2="343.3" y2="203.5" stroke="#475569" stroke-width="1.5"/>
+<line x1="225.8" y1="86.0" x2="225.8" y2="458.0" stroke="#475569" stroke-width="1.5"/>
+<text x="30.0" y="219.5" font-size="14" fill="#475569" text-anchor="middle">−10</text>
+<text x="69.2" y="219.5" font-size="14" fill="#475569" text-anchor="middle">−8</text>
+<text x="108.3" y="219.5" font-size="14" fill="#475569" text-anchor="middle">−6</text>
+<text x="147.5" y="219.5" font-size="14" fill="#475569" text-anchor="middle">−4</text>
+<text x="186.6" y="219.5" font-size="14" fill="#475569" text-anchor="middle">−2</text>
+<text x="264.9" y="219.5" font-size="14" fill="#475569" text-anchor="middle">2</text>
+<text x="304.1" y="219.5" font-size="14" fill="#475569" text-anchor="middle">4</text>
+<text x="343.3" y="219.5" font-size="14" fill="#475569" text-anchor="middle">6</text>
+<text x="219.8" y="91.0" font-size="14" fill="#475569" text-anchor="end">−6</text>
+<text x="219.8" y="130.2" font-size="14" fill="#475569" text-anchor="end">−4</text>
+<text x="219.8" y="169.3" font-size="14" fill="#475569" text-anchor="end">−2</text>
+<text x="219.8" y="247.6" font-size="14" fill="#475569" text-anchor="end">2</text>
+<text x="219.8" y="286.8" font-size="14" fill="#475569" text-anchor="end">4</text>
+<text x="219.8" y="325.9" font-size="14" fill="#475569" text-anchor="end">6</text>
+<text x="219.8" y="365.1" font-size="14" fill="#475569" text-anchor="end">8</text>
+<text x="219.8" y="404.3" font-size="14" fill="#475569" text-anchor="end">10</text>
+<text x="219.8" y="443.4" font-size="14" fill="#475569" text-anchor="end">12</text>
+<circle cx="225.8" cy="203.5" r="97.9" fill="none" stroke="#059669" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="225.8" cy="203.5" r="19.6" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="3 3"/>
+<line x1="225.8" y1="203.5" x2="49.6" y2="438.4" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#ar-red)"/>
+<line x1="225.8" y1="203.5" x2="167.1" y2="281.8" stroke="#059669" stroke-width="4" marker-end="url(#ar-green)"/>
+<line x1="225.8" y1="203.5" x2="214.0" y2="219.1" stroke="#7c3aed" stroke-width="3" marker-end="url(#ar-purple)"/>
+<circle cx="225.8" cy="203.5" r="5.0" fill="#0f172a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="63.6" y="442.4" font-size="14" fill="#dc2626" font-weight="bold">v = (−9, 12)  |v| = 15</text>
+<text x="155.1" y="273.8" font-size="14" fill="#059669" text-anchor="end" font-weight="bold">(−3, 4) ยาว 5</text>
+<text x="226.0" y="235.1" font-size="14" fill="#7c3aed" font-weight="bold">v̂ ยาว 1</text>
+<text x="300.3" y="133.0" font-size="14" fill="#059669">วงกลมรัศมี 5</text>
+<rect x="410.0" y="92.0" width="366.0" height="350.0" rx="10" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="426.0" y="122.0" font-size="17" fill="#2563eb" font-weight="bold">① หาขนาดเดิม</text>
+<text x="426.0" y="150.0" font-size="16" fill="#0f172a">|v| = √((−9)² + 12²) = √225 = 15</text>
+<text x="426.0" y="186.0" font-size="17" fill="#2563eb" font-weight="bold">② ทำให้เป็นเวกเตอร์หนึ่งหน่วย (ม่วง)</text>
+<text x="426.0" y="214.0" font-size="16" fill="#0f172a">v̂ = (−9/15, 12/15) = (−0.6, 0.8)</text>
+<text x="426.0" y="250.0" font-size="17" fill="#2563eb" font-weight="bold">③ คูณด้วยความยาวใหม่ L = 5 (เขียว)</text>
+<text x="426.0" y="278.0" font-size="16" fill="#0f172a" font-weight="bold">v_new = (−0.6×5, 0.8×5) = (−3, 4)</text>
+<text x="426.0" y="314.0" font-size="16" fill="#059669" font-weight="bold">ตรวจ: √(9 + 16) = 5 ✓</text>
+<text x="426.0" y="352.0" font-size="15" fill="#475569">ลูกศรทั้งสามอยู่บนเส้นตรงเดียวกัน</text>
+<text x="426.0" y="376.0" font-size="15" fill="#475569">= ทิศเดิม เปลี่ยนแค่ความยาว 15 → 1 → 5</text>
+<text x="426.0" y="412.0" font-size="15" fill="#475569">(ข) ใช้หลักเดียวกัน: (−0.6, 0.8) × 15 = (−9, 12)</text>
+</svg>

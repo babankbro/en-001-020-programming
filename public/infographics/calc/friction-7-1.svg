@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">ความเร็วลดลงแบบเรขาคณิต v = 6 × 0.8ⁿ</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 7.1: ทุกเฟรมความเร็วเหลือ 0.8 เท่า · แท่งสูงตามค่าจริง</text>
+<line x1="80.0" y1="350.0" x2="770.0" y2="350.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="355.0" font-size="14" fill="#475569" text-anchor="end">0</text>
+<line x1="80.0" y1="313.0" x2="770.0" y2="313.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="318.0" font-size="14" fill="#475569" text-anchor="end">1</text>
+<line x1="80.0" y1="275.9" x2="770.0" y2="275.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="280.9" font-size="14" fill="#475569" text-anchor="end">2</text>
+<line x1="80.0" y1="238.9" x2="770.0" y2="238.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="243.9" font-size="14" fill="#475569" text-anchor="end">3</text>
+<line x1="80.0" y1="201.9" x2="770.0" y2="201.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="206.9" font-size="14" fill="#475569" text-anchor="end">4</text>
+<line x1="80.0" y1="164.8" x2="770.0" y2="164.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="169.8" font-size="14" fill="#475569" text-anchor="end">5</text>
+<line x1="80.0" y1="127.8" x2="770.0" y2="127.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="132.8" font-size="14" fill="#475569" text-anchor="end">6</text>
+<line x1="80.0" y1="350.0" x2="770.0" y2="350.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="80.0" y1="350.0" x2="80.0" y2="100.0" stroke="#475569" stroke-width="1.5"/>
+<text x="72.0" y="92.0" font-size="15" fill="#475569" text-anchor="end" font-weight="bold">v</text>
+<rect x="96.4" y="127.8" width="53.5" height="222.2" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="123.1" y="121.8" font-size="14" fill="#0f172a" text-anchor="middle">6</text>
+<text x="123.1" y="368.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<rect x="182.6" y="172.2" width="53.5" height="177.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="209.4" y="166.2" font-size="14" fill="#0f172a" text-anchor="middle">4.8</text>
+<text x="209.4" y="368.0" font-size="14" fill="#475569" text-anchor="middle">1</text>
+<rect x="268.9" y="207.8" width="53.5" height="142.2" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="295.6" y="201.8" font-size="14" fill="#0f172a" text-anchor="middle">3.84</text>
+<text x="295.6" y="368.0" font-size="14" fill="#475569" text-anchor="middle">2</text>
+<rect x="355.1" y="236.2" width="53.5" height="113.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="381.9" y="230.2" font-size="14" fill="#0f172a" text-anchor="middle">3.072</text>
+<text x="381.9" y="368.0" font-size="14" fill="#475569" text-anchor="middle">3</text>
+<rect x="441.4" y="259.0" width="53.5" height="91.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="468.1" y="253.0" font-size="14" fill="#0f172a" text-anchor="middle">2.458</text>
+<text x="468.1" y="368.0" font-size="14" fill="#475569" text-anchor="middle">4</text>
+<rect x="527.6" y="277.2" width="53.5" height="72.8" rx="2" fill="#059669" stroke="#059669" stroke-width="1.5"/>
+<text x="554.4" y="269.9" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">1.966</text>
+<text x="554.4" y="368.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">5</text>
+<rect x="613.9" y="291.7" width="53.5" height="58.3" rx="2" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="640.6" y="269.9" font-size="14" fill="#0f172a" text-anchor="middle">1.573</text>
+<text x="640.6" y="368.0" font-size="14" fill="#475569" text-anchor="middle">6</text>
+<rect x="700.1" y="303.4" width="53.5" height="46.6" rx="2" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="726.9" y="297.4" font-size="14" fill="#0f172a" text-anchor="middle">1.258</text>
+<text x="726.9" y="368.0" font-size="14" fill="#475569" text-anchor="middle">7</text>
+<text x="425.0" y="388.0" font-size="14" fill="#475569" text-anchor="middle">จำนวนเฟรม n</text>
+<line x1="80.0" y1="275.9" x2="770.0" y2="275.9" stroke="#dc2626" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="86.0" y="267.9" font-size="14" fill="#dc2626" font-weight="bold">เกณฑ์ v = 2</text>
+<rect x="24.0" y="400.0" width="752.0" height="56.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="40.0" y="424.0" font-size="15" fill="#0f172a" font-weight="bold">v = 6 × 0.8ⁿ &lt; 2  ⇒  n &gt; ln(2/6) / ln 0.8 = (−1.0986) / (−0.22314) ≈ 4.92</text>
+<text x="40.0" y="446.0" font-size="14" fill="#475569">ปัดขึ้นเป็น 5 เฟรม: n = 4 ยังได้ 2.458 (≥ 2) และ n = 5 ได้ 1.966 เป็นแท่งแรกที่ต่ำกว่าเส้นแดง · (ก) แท่ง n = 2 คือ 3.84</text>
+</svg>

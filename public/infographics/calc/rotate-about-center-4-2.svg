@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="800" height="370" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">หมุนรอบจุดอื่น = เลื่อน → หมุน → เลื่อนกลับ</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 4.2: หมุน p = (5, 1) รอบ c = (2, 1) เป็นมุม 180° · R.dot(p − c) + c · 1 ช่อง = 1 หน่วย</text>
+<rect x="20.0" y="82.0" width="248.0" height="240.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="144.0" y="106.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">① เลื่อน: p − c</text>
+<line x1="32.0" y1="256.9" x2="32.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="54.4" y1="256.9" x2="54.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="76.8" y1="256.9" x2="76.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="99.2" y1="256.9" x2="99.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="121.6" y1="256.9" x2="121.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="144.0" y1="256.9" x2="144.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="166.4" y1="256.9" x2="166.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="188.8" y1="256.9" x2="188.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="211.2" y1="256.9" x2="211.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="233.6" y1="256.9" x2="233.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="256.0" y1="256.9" x2="256.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="252.4" x2="256.0" y2="252.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="230.0" x2="256.0" y2="230.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="207.6" x2="256.0" y2="207.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="185.2" x2="256.0" y2="185.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="162.8" x2="256.0" y2="162.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="140.4" x2="256.0" y2="140.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="118.0" x2="256.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="32.0" y1="207.6" x2="256.0" y2="207.6" stroke="#475569" stroke-width="1.5"/>
+<line x1="121.6" y1="256.9" x2="121.6" y2="118.0" stroke="#475569" stroke-width="1.5"/>
+<circle cx="166.4" cy="185.2" r="6.0" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="162.4" y="175.2" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">c</text>
+<circle cx="233.6" cy="185.2" r="6.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="233.6" y="175.2" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">p</text>
+<line x1="233.6" y1="185.2" x2="192.2" y2="206.5" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar-ink2)"/>
+<line x1="166.4" y1="185.2" x2="125.0" y2="206.5" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar-ink2)"/>
+<circle cx="188.8" cy="207.6" r="6.0" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="196.8" y="229.6" font-size="14" fill="#7c3aed" font-weight="bold">(3, 0)</text>
+<circle cx="121.6" cy="207.6" r="4.0" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="144.0" y="306.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(5, 1) − (2, 1) = (3, 0)</text>
+<rect x="276.0" y="82.0" width="248.0" height="240.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="400.0" y="106.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">② หมุน 180° รอบ (0, 0)</text>
+<line x1="288.0" y1="256.9" x2="288.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="310.4" y1="256.9" x2="310.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="332.8" y1="256.9" x2="332.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="355.2" y1="256.9" x2="355.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="377.6" y1="256.9" x2="377.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="400.0" y1="256.9" x2="400.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="422.4" y1="256.9" x2="422.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="444.8" y1="256.9" x2="444.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="467.2" y1="256.9" x2="467.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="489.6" y1="256.9" x2="489.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="512.0" y1="256.9" x2="512.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="252.4" x2="512.0" y2="252.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="230.0" x2="512.0" y2="230.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="207.6" x2="512.0" y2="207.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="185.2" x2="512.0" y2="185.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="162.8" x2="512.0" y2="162.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="140.4" x2="512.0" y2="140.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="118.0" x2="512.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="288.0" y1="207.6" x2="512.0" y2="207.6" stroke="#475569" stroke-width="1.5"/>
+<line x1="377.6" y1="256.9" x2="377.6" y2="118.0" stroke="#475569" stroke-width="1.5"/>
+<path d="M444.6,202.9 L444.3,199.4 L443.8,195.9 L443.1,192.4 L442.2,189.0 L441.1,185.6 L439.9,182.3 L438.4,179.1 L436.9,175.9 L435.1,172.8 L433.2,169.9 L431.1,167.0 L428.9,164.2 L426.6,161.6 L424.1,159.1 L421.5,156.7 L418.7,154.4 L415.9,152.4 L412.9,150.4 L409.8,148.6 L406.7,147.0 L403.5,145.6 L400.2,144.3 L396.8,143.2 L393.4,142.3 L389.9,141.5 L386.4,141.0 L382.9,140.6 L379.4,140.4 L375.8,140.4 L372.3,140.6 L368.8,141.0 L365.3,141.5 L361.8,142.3 L358.4,143.2 L355.0,144.3 L351.7,145.6 L348.5,147.0 L345.4,148.6 L342.3,150.4 L339.3,152.4 L336.5,154.4 L333.7,156.7 L331.1,159.1 L328.6,161.6 L326.3,164.2 L324.1,167.0 L322.0,169.9 L320.1,172.8 L318.3,175.9 L316.8,179.1 L315.3,182.3 L314.1,185.6 L313.0,189.0 L312.1,192.4 L311.4,195.9 L310.9,199.4 L310.6,202.9" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar-green)"/>
+<circle cx="377.6" cy="207.6" r="5.0" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="377.6" y="247.6" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold">c → (0, 0)</text>
+<circle cx="444.8" cy="207.6" r="6.0" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="444.8" y="231.6" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">(3, 0)</text>
+<circle cx="310.4" cy="207.6" r="6.0" fill="#059669" stroke="#ffffff" stroke-width="1.5"/>
+<text x="310.4" y="231.6" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">(−3, 0)</text>
+<text x="377.6" y="160.4" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">180°</text>
+<text x="400.0" y="306.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(3, 0) → (−3, 0)</text>
+<rect x="532.0" y="82.0" width="248.0" height="240.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="656.0" y="106.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">③ เลื่อนกลับ: + c</text>
+<line x1="544.0" y1="256.9" x2="544.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="566.4" y1="256.9" x2="566.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="588.8" y1="256.9" x2="588.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="611.2" y1="256.9" x2="611.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="633.6" y1="256.9" x2="633.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="656.0" y1="256.9" x2="656.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="678.4" y1="256.9" x2="678.4" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="700.8" y1="256.9" x2="700.8" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="723.2" y1="256.9" x2="723.2" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="745.6" y1="256.9" x2="745.6" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="768.0" y1="256.9" x2="768.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="252.4" x2="768.0" y2="252.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="230.0" x2="768.0" y2="230.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="207.6" x2="768.0" y2="207.6" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="185.2" x2="768.0" y2="185.2" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="162.8" x2="768.0" y2="162.8" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="140.4" x2="768.0" y2="140.4" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="118.0" x2="768.0" y2="118.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="544.0" y1="207.6" x2="768.0" y2="207.6" stroke="#475569" stroke-width="1.5"/>
+<line x1="633.6" y1="256.9" x2="633.6" y2="118.0" stroke="#475569" stroke-width="1.5"/>
+<circle cx="566.4" cy="207.6" r="6.0" fill="#059669" stroke="#ffffff" stroke-width="1.5"/>
+<text x="566.4" y="231.6" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">(−3, 0)</text>
+<line x1="566.4" y1="207.6" x2="607.8" y2="186.3" stroke="#475569" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar-ink2)"/>
+<circle cx="678.4" cy="185.2" r="6.0" fill="#d97706" stroke="#ffffff" stroke-width="1.5"/>
+<text x="678.4" y="175.2" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">c</text>
+<circle cx="745.6" cy="185.2" r="5.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="745.6" y="175.2" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">p</text>
+<circle cx="611.2" cy="185.2" r="7.0" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+<text x="611.2" y="173.2" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">p' = (−1, 1)</text>
+<text x="656.0" y="306.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(−3, 0) + (2, 1) = (−1, 1)</text>
+<text x="400.0" y="350.0" font-size="15" fill="#475569" text-anchor="middle">ตรวจ: c อยู่กึ่งกลางระหว่าง p กับ p' พอดี (ห่าง 3 หน่วยทั้งสองข้าง) เพราะหมุน 180° คือกลับด้านผ่านจุดศูนย์กลาง</text>
+</svg>

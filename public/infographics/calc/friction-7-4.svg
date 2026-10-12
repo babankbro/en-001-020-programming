@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">ความเร็ว v = 8 × 0.9ⁿ ลดลงจนต่ำกว่า 1 (แนวข้อสอบชุดที่ 2)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">แท่งสูงตามค่าจริง · แสดงตัวเลขเฉพาะแท่งที่สำคัญ</text>
+<line x1="80.0" y1="350.0" x2="770.0" y2="350.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="355.0" font-size="14" fill="#475569" text-anchor="end">0</text>
+<line x1="80.0" y1="322.2" x2="770.0" y2="322.2" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="327.2" font-size="14" fill="#475569" text-anchor="end">1</text>
+<line x1="80.0" y1="294.4" x2="770.0" y2="294.4" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="299.4" font-size="14" fill="#475569" text-anchor="end">2</text>
+<line x1="80.0" y1="266.7" x2="770.0" y2="266.7" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="271.7" font-size="14" fill="#475569" text-anchor="end">3</text>
+<line x1="80.0" y1="238.9" x2="770.0" y2="238.9" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="243.9" font-size="14" fill="#475569" text-anchor="end">4</text>
+<line x1="80.0" y1="211.1" x2="770.0" y2="211.1" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="216.1" font-size="14" fill="#475569" text-anchor="end">5</text>
+<line x1="80.0" y1="183.3" x2="770.0" y2="183.3" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="188.3" font-size="14" fill="#475569" text-anchor="end">6</text>
+<line x1="80.0" y1="155.6" x2="770.0" y2="155.6" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="160.6" font-size="14" fill="#475569" text-anchor="end">7</text>
+<line x1="80.0" y1="127.8" x2="770.0" y2="127.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72.0" y="132.8" font-size="14" fill="#475569" text-anchor="end">8</text>
+<line x1="80.0" y1="350.0" x2="770.0" y2="350.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="80.0" y1="350.0" x2="80.0" y2="100.0" stroke="#475569" stroke-width="1.5"/>
+<text x="72.0" y="92.0" font-size="15" fill="#475569" text-anchor="end" font-weight="bold">v</text>
+<rect x="85.7" y="127.8" width="18.6" height="222.2" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="95.0" y="121.8" font-size="14" fill="#0f172a" text-anchor="middle">8</text>
+<text x="95.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<rect x="115.7" y="150.0" width="18.6" height="200.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="145.7" y="170.0" width="18.6" height="180.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="155.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">2</text>
+<rect x="175.7" y="188.0" width="18.6" height="162.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="205.7" y="204.2" width="18.6" height="145.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="215.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">4</text>
+<rect x="235.7" y="218.8" width="18.6" height="131.2" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="265.7" y="231.9" width="18.6" height="118.1" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="275.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">6</text>
+<rect x="295.7" y="243.7" width="18.6" height="106.3" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="325.7" y="254.3" width="18.6" height="95.7" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="335.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">8</text>
+<rect x="355.7" y="263.9" width="18.6" height="86.1" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="385.7" y="272.5" width="18.6" height="77.5" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="395.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">10</text>
+<rect x="415.7" y="280.3" width="18.6" height="69.7" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="445.7" y="287.2" width="18.6" height="62.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="455.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">12</text>
+<rect x="475.7" y="293.5" width="18.6" height="56.5" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="505.7" y="299.2" width="18.6" height="50.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="515.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">14</text>
+<rect x="535.7" y="304.2" width="18.6" height="45.8" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="565.7" y="308.8" width="18.6" height="41.2" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="575.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">16</text>
+<rect x="595.7" y="312.9" width="18.6" height="37.1" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="625.7" y="316.6" width="18.6" height="33.4" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="635.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">18</text>
+<rect x="655.7" y="320.0" width="18.6" height="30.0" rx="2" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="665.0" y="294.2" font-size="14" fill="#0f172a" text-anchor="middle">1.081</text>
+<rect x="685.7" y="323.0" width="18.6" height="27.0" rx="2" fill="#059669" stroke="#059669" stroke-width="1.5"/>
+<text x="695.0" y="316.2" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">0.973</text>
+<text x="695.0" y="368.0" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">20</text>
+<rect x="715.7" y="325.7" width="18.6" height="24.3" rx="2" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<rect x="745.7" y="328.1" width="18.6" height="21.9" rx="2" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="755.0" y="368.0" font-size="14" fill="#475569" text-anchor="middle">22</text>
+<text x="425.0" y="388.0" font-size="14" fill="#475569" text-anchor="middle">จำนวนเฟรม n</text>
+<line x1="80.0" y1="322.2" x2="770.0" y2="322.2" stroke="#dc2626" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="86.0" y="314.2" font-size="14" fill="#dc2626" font-weight="bold">เกณฑ์ v = 1</text>
+<rect x="24.0" y="400.0" width="752.0" height="56.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="40.0" y="424.0" font-size="15" fill="#0f172a" font-weight="bold">v = 8 × 0.9ⁿ &lt; 1  ⇒  n &gt; ln(1/8) / ln 0.9 = (−2.0794) / (−0.10536) ≈ 19.74</text>
+<text x="40.0" y="446.0" font-size="14" fill="#475569">ปัดขึ้นเป็น 20 เฟรม: n = 19 ยังได้ 1.081 (≥ 1) และ n = 20 ได้ 0.973 เป็นแท่งแรกที่ต่ำกว่าเส้นแดง</text>
+</svg>

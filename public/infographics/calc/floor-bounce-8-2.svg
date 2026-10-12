@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">ชนพื้นแล้วต้องวางลูกบอลกลับขึ้นมาบนพื้น</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 8.2: รัศมี 20, SCREEN_HEIGHT = 600, y = 590, vy = 5 · ขยาย 1 พิกเซล = 4 หน่วยภาพ</text>
+<rect x="20.0" y="80.0" width="376.0" height="340.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="208.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">ก่อนแก้: 590 + 20 = 610 ≥ 600 → ชน (จมพื้น)</text>
+<rect x="22.0" y="356.0" width="372.0" height="60.0" rx="0" fill="#fef2f2" stroke="#fef2f2" stroke-width="0"/>
+<line x1="30.0" y1="356.0" x2="386.0" y2="356.0" stroke="#dc2626" stroke-width="3"/>
+<text x="386.0" y="348.0" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold">พื้น y = 600</text>
+<circle cx="170.0" cy="316.0" r="80.0" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="170.0" cy="316.0" r="4.0" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<text x="178.0" y="310.0" font-size="14" fill="#2563eb" font-weight="bold">y = 590</text>
+<line x1="170.0" y1="316.0" x2="170.0" y2="396.0" stroke="#475569" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="164.0" y="360.0" font-size="14" fill="#475569" text-anchor="end">r = 20</text>
+<line x1="210.0" y1="396.0" x2="290.0" y2="396.0" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="294.0" y="401.0" font-size="14" fill="#7c3aed" font-weight="bold">ขอบล่าง 610</text>
+<rect x="404.0" y="80.0" width="376.0" height="340.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="592.0" y="104.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">หลังแก้: y = 600 − 20 = 580, vy = −4.5</text>
+<rect x="406.0" y="356.0" width="372.0" height="60.0" rx="0" fill="#fef2f2" stroke="#fef2f2" stroke-width="0"/>
+<line x1="414.0" y1="356.0" x2="770.0" y2="356.0" stroke="#dc2626" stroke-width="3"/>
+<text x="418.0" y="348.0" font-size="14" fill="#dc2626" font-weight="bold">พื้น y = 600</text>
+<circle cx="554.0" cy="276.0" r="80.0" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="554.0" cy="276.0" r="4.0" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<text x="562.0" y="270.0" font-size="14" fill="#2563eb" font-weight="bold">y = 580</text>
+<line x1="554.0" y1="276.0" x2="554.0" y2="356.0" stroke="#475569" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="548.0" y="320.0" font-size="14" fill="#475569" text-anchor="end">r = 20</text>
+<text x="644.0" y="348.0" font-size="14" fill="#7c3aed" font-weight="bold">ขอบล่าง = 600 พอดี</text>
+<line x1="444.0" y1="306.0" x2="444.0" y2="226.0" stroke="#059669" stroke-width="4" marker-end="url(#ar-green)"/>
+<text x="418.0" y="216.0" font-size="14" fill="#059669" font-weight="bold">vy = −4.5</text>
+<text x="400.0" y="446.0" font-size="15" fill="#475569" text-anchor="middle">ถ้ากลับทิศอย่างเดียวโดยไม่วาง y ใหม่ ลูกบอลยังจมอยู่ (610 &gt; 600)</text>
+<text x="400.0" y="468.0" font-size="15" fill="#475569" text-anchor="middle">เฟรมถัดไปจะตรวจพบชนอีกและกลับทิศซ้ำจน “ติดพื้น”</text>
+</svg>

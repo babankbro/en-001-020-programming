@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">space_move.py: |v| = 5 × 0.97ⁿ จนกว่าจะต่ำกว่า 1</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 7.2 · จุดแต่ละจุด = ความเร็วหลังรอบที่ n (วาดตามค่าจริง)</text>
+<line x1="70.0" y1="340.0" x2="770.0" y2="340.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="345.0" font-size="14" fill="#475569" text-anchor="end">0</text>
+<line x1="70.0" y1="295.6" x2="770.0" y2="295.6" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="300.6" font-size="14" fill="#475569" text-anchor="end">1</text>
+<line x1="70.0" y1="251.1" x2="770.0" y2="251.1" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="256.1" font-size="14" fill="#475569" text-anchor="end">2</text>
+<line x1="70.0" y1="206.7" x2="770.0" y2="206.7" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="211.7" font-size="14" fill="#475569" text-anchor="end">3</text>
+<line x1="70.0" y1="162.2" x2="770.0" y2="162.2" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="167.2" font-size="14" fill="#475569" text-anchor="end">4</text>
+<line x1="70.0" y1="117.8" x2="770.0" y2="117.8" stroke="#e2e8f0" stroke-width="1"/>
+<text x="62.0" y="122.8" font-size="14" fill="#475569" text-anchor="end">5</text>
+<line x1="70.0" y1="340.0" x2="70.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="70.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">0</text>
+<line x1="170.0" y1="340.0" x2="170.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="170.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">10</text>
+<line x1="270.0" y1="340.0" x2="270.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="270.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">20</text>
+<line x1="370.0" y1="340.0" x2="370.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="370.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">30</text>
+<line x1="470.0" y1="340.0" x2="470.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="470.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">40</text>
+<line x1="570.0" y1="340.0" x2="570.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="570.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">50</text>
+<line x1="670.0" y1="340.0" x2="670.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="670.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">60</text>
+<line x1="770.0" y1="340.0" x2="770.0" y2="345.0" stroke="#475569" stroke-width="1.5"/>
+<text x="770.0" y="360.0" font-size="14" fill="#475569" text-anchor="middle">70</text>
+<line x1="70.0" y1="340.0" x2="770.0" y2="340.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="70.0" y1="340.0" x2="70.0" y2="90.0" stroke="#475569" stroke-width="1.5"/>
+<text x="420.0" y="380.0" font-size="14" fill="#475569" text-anchor="middle">รอบที่ n</text>
+<polyline points="70.0,117.8 80.0,124.4 90.0,130.9 100.0,137.2 110.0,143.3 120.0,149.2 130.0,154.9 140.0,160.4 150.0,165.8 160.0,171.1 170.0,176.1 180.0,181.0 190.0,185.8 200.0,190.4 210.0,194.9 220.0,199.3 230.0,203.5 240.0,207.6 250.0,211.6 260.0,215.4 270.0,219.2 280.0,222.8 290.0,226.3 300.0,229.7 310.0,233.0 320.0,236.2 330.0,239.3 340.0,242.4 350.0,245.3 360.0,248.1 370.0,250.9 380.0,253.6 390.0,256.2 400.0,258.7 410.0,261.1 420.0,263.5 430.0,265.8 440.0,268.0 450.0,270.2 460.0,272.3 470.0,274.3 480.0,276.3 490.0,278.2 500.0,280.0 510.0,281.8 520.0,283.6 530.0,285.3 540.0,286.9 550.0,288.5 560.0,290.0 570.0,291.5 580.0,293.0 590.0,294.4 600.0,295.8" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<polyline points="600.0,295.8 610.0,297.1 620.0,298.4 630.0,299.6 640.0,300.8 650.0,302.0 660.0,303.2 670.0,304.3 680.0,305.3 690.0,306.4 700.0,307.4 710.0,308.4 720.0,309.3 730.0,310.2 740.0,311.1 750.0,312.0 760.0,312.8 770.0,313.6" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4"/>
+<circle cx="70.0" cy="117.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="80.0" cy="124.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="90.0" cy="130.9" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="100.0" cy="137.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="110.0" cy="143.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="120.0" cy="149.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="130.0" cy="154.9" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="140.0" cy="160.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="150.0" cy="165.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="160.0" cy="171.1" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="170.0" cy="176.1" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="180.0" cy="181.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="190.0" cy="185.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="200.0" cy="190.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="210.0" cy="194.9" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="220.0" cy="199.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="230.0" cy="203.5" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="240.0" cy="207.6" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="250.0" cy="211.6" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="260.0" cy="215.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="270.0" cy="219.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="280.0" cy="222.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="290.0" cy="226.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="300.0" cy="229.7" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="310.0" cy="233.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="320.0" cy="236.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="330.0" cy="239.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="340.0" cy="242.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="350.0" cy="245.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="360.0" cy="248.1" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="370.0" cy="250.9" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="380.0" cy="253.6" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="390.0" cy="256.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="400.0" cy="258.7" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="410.0" cy="261.1" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="420.0" cy="263.5" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="430.0" cy="265.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="440.0" cy="268.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="450.0" cy="270.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="460.0" cy="272.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="470.0" cy="274.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="480.0" cy="276.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="490.0" cy="278.2" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="500.0" cy="280.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="510.0" cy="281.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="520.0" cy="283.6" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="530.0" cy="285.3" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="540.0" cy="286.9" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="550.0" cy="288.5" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="560.0" cy="290.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="570.0" cy="291.5" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="580.0" cy="293.0" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="590.0" cy="294.4" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<circle cx="600.0" cy="295.8" r="2.2" fill="#2563eb" stroke="#2563eb" stroke-width="0"/>
+<line x1="70.0" y1="295.6" x2="770.0" y2="295.6" stroke="#dc2626" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="770.0" y="287.6" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold">norm &lt; 1 → หยุดวงวน</text>
+<circle cx="590.0" cy="294.4" r="6.0" fill="#d97706" stroke="#ffffff" stroke-width="2"/>
+<line x1="590.0" y1="294.4" x2="570.0" y2="250.4" stroke="#d97706" stroke-width="1.5"/>
+<text x="566.0" y="254.4" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold">n = 52: 5 × 0.97⁵² ≈ 1.026</text>
+<circle cx="600.0" cy="295.8" r="6.0" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<line x1="600.0" y1="295.8" x2="580.0" y2="319.8" stroke="#059669" stroke-width="1.5"/>
+<text x="576.0" y="323.8" font-size="15" fill="#059669" text-anchor="end" font-weight="bold">n = 53: 5 × 0.97⁵³ ≈ 0.995</text>
+<text x="210.0" y="121.8" font-size="14" fill="#2563eb" font-weight="bold">เริ่ม |v| = 5</text>
+<rect x="24.0" y="386.0" width="752.0" height="54.0" rx="8" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="40.0" y="409.0" font-size="15" fill="#0f172a" font-weight="bold">n &gt; ln 0.2 / ln 0.97 = (−1.609)/(−0.0305) ≈ 52.8 → 53 รอบ (n = 52 ยังไม่ต่ำกว่า 1, n = 53 ต่ำกว่า 1)</text>
+<text x="40.0" y="431.0" font-size="14" fill="#475569">(ข) ระยะรวม = 5 + 5(0.97) + 5(0.97)² + … = 5 / (1 − 0.97) ≈ 166.7 พิกเซล (ผลรวมความสูงของทุกจุดถ้าไม่หยุด)</text>
+</svg>

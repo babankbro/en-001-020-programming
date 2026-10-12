@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">หมุนจุด (4, 0) รอบจุดกำเนิด 60° (แนวข้อสอบชุดที่ 3)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">(ก) ใช้เมทริกซ์การหมุน · (ข) ไล่มุมตามเฟรมของแอนิเมชัน · 1 ช่อง = 1 หน่วย</text>
+<line x1="40.0" y1="318.0" x2="40.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="77.0" y1="318.0" x2="77.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="114.0" y1="318.0" x2="114.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="151.0" y1="318.0" x2="151.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="188.0" y1="318.0" x2="188.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="225.0" y1="318.0" x2="225.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="262.0" y1="318.0" x2="262.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="299.0" y1="318.0" x2="299.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="336.0" y1="318.0" x2="336.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="373.0" y1="318.0" x2="373.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="410.0" y1="318.0" x2="410.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="318.0" x2="410.0" y2="318.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="281.0" x2="410.0" y2="281.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="244.0" x2="410.0" y2="244.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="207.0" x2="410.0" y2="207.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="170.0" x2="410.0" y2="170.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="133.0" x2="410.0" y2="133.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="96.0" x2="410.0" y2="96.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="40.0" y1="281.0" x2="410.0" y2="281.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="225.0" y1="318.0" x2="225.0" y2="96.0" stroke="#475569" stroke-width="1.5"/>
+<text x="77.0" y="297.0" font-size="14" fill="#475569" text-anchor="middle">−4</text>
+<text x="151.0" y="297.0" font-size="14" fill="#475569" text-anchor="middle">−2</text>
+<text x="299.0" y="297.0" font-size="14" fill="#475569" text-anchor="middle">2</text>
+<text x="373.0" y="297.0" font-size="14" fill="#475569" text-anchor="middle">4</text>
+<text x="231.0" y="212.0" font-size="14" fill="#475569">2</text>
+<text x="231.0" y="138.0" font-size="14" fill="#475569">4</text>
+<path d="M368.3,318.0 L370.1,310.4 L371.4,302.7 L372.3,294.9 L372.9,287.1 L373.0,279.3 L372.7,271.5 L372.0,263.7 L370.9,255.9 L369.3,248.3 L367.4,240.7 L365.1,233.2 L362.4,225.9 L359.3,218.7 L355.8,211.7 L351.9,204.9 L347.7,198.3 L343.2,191.9 L338.3,185.8 L333.1,179.9 L327.6,174.4 L321.9,169.1 L315.8,164.1 L309.5,159.5 L303.0,155.2 L296.2,151.3 L289.3,147.7 L282.1,144.5 L274.9,141.6 L267.4,139.2 L259.9,137.2 L252.2,135.5 L244.5,134.3 L236.7,133.5 L228.9,133.1 L221.1,133.1 L213.3,133.5 L205.5,134.3 L197.8,135.5 L190.1,137.2 L182.6,139.2 L175.1,141.6 L167.9,144.5 L160.7,147.7 L153.8,151.3 L147.0,155.2 L140.5,159.5 L134.2,164.1 L128.1,169.1 L122.4,174.4 L116.9,179.9 L111.7,185.8 L106.8,191.9 L102.3,198.3 L98.1,204.9 L94.2,211.7 L90.7,218.7 L87.6,225.9 L84.9,233.2 L82.6,240.7 L80.7,248.3 L79.1,255.9 L78.0,263.7 L77.3,271.5 L77.0,279.3 L77.1,287.1 L77.7,294.9 L78.6,302.7 L79.9,310.4 L81.7,318.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5 5"/>
+<line x1="225.0" y1="281.0" x2="373.0" y2="281.0" stroke="#2563eb" stroke-width="3.5" marker-end="url(#ar-blue)"/>
+<line x1="225.0" y1="281.0" x2="299.0" y2="152.8" stroke="#059669" stroke-width="3.5" marker-end="url(#ar-green)"/>
+<path d="M269.3,277.9 L269.1,275.5 L268.7,273.2 L268.2,270.9 L267.6,268.6 L266.9,266.3 L266.1,264.1 L265.1,261.9 L264.0,259.8 L262.8,257.8 L261.6,255.8 L260.2,253.9 L258.7,252.0 L257.1,250.3 L255.4,248.6 L253.6,247.0 L251.8,245.6 L249.8,244.2" fill="none" stroke="#059669" stroke-width="2" marker-end="url(#ar-green)"/>
+<text x="277.3" y="255.8" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">60°</text>
+<text x="309.0" y="142.8" font-size="15" fill="#059669" font-weight="bold">(2, 3.464)</text>
+<text x="383.0" y="299.0" font-size="15" fill="#2563eb" font-weight="bold">(4, 0)</text>
+<rect x="430.0" y="92.0" width="346.0" height="340.0" rx="10" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="446.0" y="120.0" font-size="16" fill="#0f172a" font-weight="bold">x' = x·cos θ − y·sin θ</text>
+<text x="446.0" y="144.0" font-size="16" fill="#0f172a" font-weight="bold">y' = x·sin θ + y·cos θ</text>
+<text x="446.0" y="180.0" font-size="15" fill="#059669" font-weight="bold">θ = 60°: cos = 0.5, sin = 0.866</text>
+<text x="446.0" y="206.0" font-size="15" fill="#0f172a">x' = 4(0.5) − 0(0.866) = 2</text>
+<text x="446.0" y="230.0" font-size="15" fill="#0f172a">y' = 4(0.866) + 0(0.5) = 3.464</text>
+<text x="446.0" y="266.0" font-size="15" fill="#475569">ระยะจากจุดกำเนิดคงเดิม = 4</text>
+<text x="446.0" y="288.0" font-size="15" fill="#475569">(ทุกจุดอยู่บนวงกลมเส้นประ)</text>
+<text x="24.0" y="462.0" font-size="16" fill="#0f172a" font-weight="bold">(ข) theta_deg = frame * 4 , frames = 90</text>
+<line x1="60.0" y1="510.0" x2="740.0" y2="510.0" stroke="#475569" stroke-width="2"/>
+<line x1="60.0" y1="504.0" x2="60.0" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<text x="60.0" y="496.0" font-size="14" fill="#2563eb" text-anchor="middle">0</text>
+<text x="60.0" y="536.0" font-size="14" fill="#d97706" text-anchor="middle">0°</text>
+<line x1="135.6" y1="504.0" x2="135.6" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="211.1" y1="504.0" x2="211.1" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="286.7" y1="504.0" x2="286.7" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<text x="286.7" y="496.0" font-size="14" fill="#2563eb" text-anchor="middle">30</text>
+<text x="286.7" y="536.0" font-size="14" fill="#d97706" text-anchor="middle">120°</text>
+<line x1="362.2" y1="504.0" x2="362.2" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="437.8" y1="504.0" x2="437.8" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="513.3" y1="504.0" x2="513.3" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<text x="513.3" y="496.0" font-size="14" fill="#2563eb" text-anchor="middle">60</text>
+<text x="513.3" y="536.0" font-size="14" fill="#d97706" text-anchor="middle">240°</text>
+<line x1="588.9" y1="504.0" x2="588.9" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="664.4" y1="504.0" x2="664.4" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<line x1="740.0" y1="504.0" x2="740.0" y2="516.0" stroke="#475569" stroke-width="1.5"/>
+<text x="740.0" y="496.0" font-size="14" fill="#2563eb" text-anchor="middle">90</text>
+<text x="740.0" y="536.0" font-size="14" fill="#d97706" text-anchor="middle">360°</text>
+<text x="50.0" y="496.0" font-size="14" fill="#2563eb" text-anchor="end" font-weight="bold">เฟรม</text>
+<text x="50.0" y="536.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">มุม</text>
+<rect x="60.0" y="506.0" width="226.7" height="8.0" rx="3" fill="#059669" stroke="#059669" stroke-width="0"/>
+<circle cx="286.7" cy="510.0" r="7.0" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<text x="286.7" y="562.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">เฟรม 30 → 30 × 4 = 120°</text>
+<text x="740.0" y="562.0" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold">รวม 90 × 4 = 360° ครบ 1 รอบ</text>
+</svg>

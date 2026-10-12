@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">move() 1 ครั้ง: เลื่อนตำแหน่งก่อน แล้วค่อยแก้ความเร็ว</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">โจทย์ 8.1: x = 100, y = 200, vx = −4, vy = 2 · GRAVITY = 0.1, DAMPING = 0.999</text>
+<rect x="20.0" y="82.0" width="178.0" height="100.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="109.0" y="106.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">① ตำแหน่งก่อน</text>
+<text x="30.0" y="136.0" font-size="15" fill="#0f172a">x = 100 + (−4) = 96</text>
+<text x="30.0" y="160.0" font-size="15" fill="#0f172a" font-weight="bold">y = 200 + (2) = 202</text>
+<rect x="206.0" y="82.0" width="172.0" height="100.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="292.0" y="106.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">② บวกความโน้มถ่วง</text>
+<text x="216.0" y="136.0" font-size="15" fill="#0f172a">vy = 2 + 0.1</text>
+<text x="216.0" y="160.0" font-size="15" fill="#0f172a">   = 2.1</text>
+<rect x="386.0" y="82.0" width="220.0" height="100.0" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="496.0" y="106.0" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold">③ หน่วงด้วย 0.999</text>
+<text x="396.0" y="136.0" font-size="14" fill="#0f172a">vx = −4 × 0.999 = −3.996</text>
+<text x="396.0" y="160.0" font-size="14" fill="#0f172a" font-weight="bold">vy = 2.1 × 0.999 = 2.0979</text>
+<rect x="614.0" y="82.0" width="166.0" height="100.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="697.0" y="106.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">④ ตรวจชนขอบ</text>
+<text x="624.0" y="136.0" font-size="15" fill="#0f172a">ไม่ชนขอบ</text>
+<text x="624.0" y="160.0" font-size="15" fill="#0f172a">ค่าคงเดิม</text>
+<rect x="20.0" y="198.0" width="370.0" height="286.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="36.0" y="222.0" font-size="14" fill="#0f172a" font-weight="bold">ขยายพิกัดจอ: 1 ช่อง = 1 พิกเซล (y ชี้ลง)</text>
+<line x1="50.0" y1="236.0" x2="50.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="90.0" y1="236.0" x2="90.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="130.0" y1="236.0" x2="130.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="170.0" y1="236.0" x2="170.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="210.0" y1="236.0" x2="210.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="250.0" y1="236.0" x2="250.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="290.0" y1="236.0" x2="290.0" y2="436.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="256.0" x2="290.0" y2="256.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="296.0" x2="290.0" y2="296.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="336.0" x2="290.0" y2="336.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="376.0" x2="290.0" y2="376.0" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="50.0" y1="416.0" x2="290.0" y2="416.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="50.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">95</text>
+<text x="90.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">96</text>
+<text x="130.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">97</text>
+<text x="170.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">98</text>
+<text x="210.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">99</text>
+<text x="250.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">100</text>
+<text x="290.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle">101</text>
+<line x1="250.0" y1="296.0" x2="90.0" y2="376.0" stroke="#2563eb" stroke-width="3" marker-end="url(#ar-blue)"/>
+<circle cx="250.0" cy="296.0" r="7.0" fill="#475569" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="90.0" cy="376.0" r="8.0" fill="#2563eb" stroke="#ffffff" stroke-width="1.5"/>
+<text x="250.0" y="282.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">เดิม (100, 200)</text>
+<text x="90.0" y="400.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ใหม่ (96, 202)</text>
+<text x="205.0" y="474.0" font-size="14" fill="#475569" text-anchor="middle">เลื่อนด้วย (vx, vy) เดิม = (−4, 2) ก่อนจะเปลี่ยนความเร็ว</text>
+<rect x="400.0" y="198.0" width="380.0" height="286.0" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="416.0" y="222.0" font-size="15" fill="#dc2626" font-weight="bold">✗ ข้อผิดพลาดที่พบบ่อย: บวก g ก่อนเลื่อน</text>
+<text x="416.0" y="252.0" font-size="15" fill="#dc2626">y = 200 + (2 + 0.1) = 202.1  ✗</text>
+<text x="416.0" y="290.0" font-size="15" fill="#059669" font-weight="bold">✓ ลำดับในโค้ด ball.py</text>
+<text x="416.0" y="320.0" font-size="15" fill="#059669">y = 200 + 2 = 202 ก่อน</text>
+<text x="416.0" y="346.0" font-size="15" fill="#059669">แล้ว vy จึงกลายเป็น 2.1 → 2.0979</text>
+<text x="416.0" y="386.0" font-size="15" fill="#475569">ความเร็วใหม่จะมีผลกับตำแหน่ง</text>
+<text x="416.0" y="410.0" font-size="15" fill="#475569">ในการเรียก move() ครั้งถัดไป</text>
+</svg>

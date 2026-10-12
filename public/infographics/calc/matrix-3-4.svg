@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-ink2" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="24.0" y="38.0" font-size="21" fill="#0f172a" font-weight="bold">บวก/ลบเมทริกซ์เอกลักษณ์ และคูณเมทริกซ์ (แนวข้อสอบชุดที่ 2)</text>
+<text x="24.0" y="64.0" font-size="15" fill="#475569">(ก) A + I ทำทีละตำแหน่ง: เปลี่ยนเฉพาะเส้นทแยงมุมหลัก · (ข) PQ ใช้แถว · คอลัมน์</text>
+<rect x="62.0" y="112.0" width="40.0" height="32.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="82.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">2</text>
+<text x="126.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">4</text>
+<text x="170.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">6</text>
+<text x="82.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="106.0" y="148.0" width="40.0" height="32.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="126.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">3</text>
+<text x="170.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">5</text>
+<text x="82.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">9</text>
+<text x="126.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">8</text>
+<rect x="150.0" y="184.0" width="40.0" height="32.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="170.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">7</text>
+<path d="M66,110 L60,110 L60,218 L66,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M186,110 L192,110 L192,218 L186,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="126.0" y="102.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">A</text>
+<text x="216.0" y="171.0" font-size="24" fill="#0f172a" text-anchor="middle" font-weight="bold">+</text>
+<rect x="242.0" y="112.0" width="40.0" height="32.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="262.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="306.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<text x="350.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<text x="262.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<rect x="286.0" y="148.0" width="40.0" height="32.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="306.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="350.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<text x="262.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<text x="306.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<rect x="330.0" y="184.0" width="40.0" height="32.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="350.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<path d="M246,110 L240,110 L240,218 L246,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M366,110 L372,110 L372,218 L366,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="306.0" y="102.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">I</text>
+<text x="396.0" y="171.0" font-size="24" fill="#0f172a" text-anchor="middle" font-weight="bold">=</text>
+<rect x="422.0" y="112.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">3</text>
+<text x="486.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">4</text>
+<text x="530.0" y="134.1" font-size="17" fill="#0f172a" text-anchor="middle">6</text>
+<text x="442.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="466.0" y="148.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="486.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">4</text>
+<text x="530.0" y="170.1" font-size="17" fill="#0f172a" text-anchor="middle">5</text>
+<text x="442.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">9</text>
+<text x="486.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle">8</text>
+<rect x="510.0" y="184.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="530.0" y="206.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">8</text>
+<path d="M426,110 L420,110 L420,218 L426,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M546,110 L552,110 L552,218 L546,218" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="486.0" y="102.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">A + I</text>
+<text x="578.0" y="132.0" font-size="15" fill="#475569" font-weight="bold">ทแยงมุม:</text>
+<text x="578.0" y="158.0" font-size="16" fill="#059669" font-weight="bold">2 + 1 = 3</text>
+<text x="578.0" y="182.0" font-size="16" fill="#059669" font-weight="bold">3 + 1 = 4</text>
+<text x="578.0" y="206.0" font-size="16" fill="#059669" font-weight="bold">7 + 1 = 8</text>
+<text x="578.0" y="234.0" font-size="14" fill="#475569">ช่องอื่น ± 0 = ค่าเดิม</text>
+<line x1="20.0" y1="262.0" x2="780.0" y2="262.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="172.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle">2</text>
+<text x="216.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle">1</text>
+<text x="172.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle">0</text>
+<text x="216.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle">3</text>
+<path d="M156,300 L150,300 L150,372 L156,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M232,300 L238,300 L238,372 L232,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="194.0" y="292.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">P</text>
+<text x="260.0" y="343.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">×</text>
+<text x="304.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle">1</text>
+<text x="348.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle">4</text>
+<text x="304.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle">2</text>
+<text x="348.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle">1</text>
+<path d="M288,300 L282,300 L282,372 L288,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M364,300 L370,300 L370,372 L364,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="326.0" y="292.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold">Q</text>
+<text x="392.0" y="343.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold">=</text>
+<rect x="416.0" y="302.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="436.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="460.0" y="302.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="480.0" y="324.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">9</text>
+<rect x="416.0" y="338.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="436.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">6</text>
+<rect x="460.0" y="338.0" width="40.0" height="32.0" rx="5" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="480.0" y="360.1" font-size="17" fill="#0f172a" text-anchor="middle" font-weight="bold">3</text>
+<path d="M420,300 L414,300 L414,372 L420,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M496,300 L502,300 L502,372 L496,372" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="458.0" y="292.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">PQ</text>
+<text x="526.0" y="342.0" font-size="15" fill="#475569">แต่ละช่อง = แถว · คอลัมน์</text>
+<rect x="22.0" y="394.0" width="184.0" height="132.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="32.0" y="416.0" font-size="14" fill="#0f172a" font-weight="bold">c11: แถว 1 · คอลัมน์ 1</text>
+<rect x="38.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="51.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="68.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="81.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="51.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">0</text>
+<text x="81.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">3</text>
+<path d="M42,428 L36,428 L36,480 L42,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M90,428 L96,428 L96,480 L90,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="110.0" y="458.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">×</text>
+<rect x="128.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="141.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="171.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">4</text>
+<rect x="128.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="141.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">2</text>
+<text x="171.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<path d="M132,428 L126,428 L126,480 L132,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M180,428 L186,428 L186,480 L180,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="114.0" y="502.0" font-size="14" fill="#0f172a" text-anchor="middle">2(1) + 1(2)</text>
+<text x="114.0" y="520.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">= 4</text>
+<rect x="212.0" y="394.0" width="184.0" height="132.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="222.0" y="416.0" font-size="14" fill="#0f172a" font-weight="bold">c12: แถว 1 · คอลัมน์ 2</text>
+<rect x="228.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="241.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="258.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="271.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="241.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">0</text>
+<text x="271.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">3</text>
+<path d="M232,428 L226,428 L226,480 L232,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M280,428 L286,428 L286,480 L280,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="300.0" y="458.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">×</text>
+<text x="331.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="348.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="361.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">4</text>
+<text x="331.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">2</text>
+<rect x="348.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="361.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<path d="M322,428 L316,428 L316,480 L322,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M370,428 L376,428 L376,480 L370,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="304.0" y="502.0" font-size="14" fill="#0f172a" text-anchor="middle">2(4) + 1(1)</text>
+<text x="304.0" y="520.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">= 9</text>
+<rect x="402.0" y="394.0" width="184.0" height="132.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="412.0" y="416.0" font-size="14" fill="#0f172a" font-weight="bold">c21: แถว 2 · คอลัมน์ 1</text>
+<text x="431.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">2</text>
+<text x="461.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="418.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="431.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">0</text>
+<rect x="448.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="461.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">3</text>
+<path d="M422,428 L416,428 L416,480 L422,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M470,428 L476,428 L476,480 L470,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="490.0" y="458.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">×</text>
+<rect x="508.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="521.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<text x="551.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">4</text>
+<rect x="508.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="521.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">2</text>
+<text x="551.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<path d="M512,428 L506,428 L506,480 L512,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M560,428 L566,428 L566,480 L560,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="494.0" y="502.0" font-size="14" fill="#0f172a" text-anchor="middle">0(1) + 3(2)</text>
+<text x="494.0" y="520.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">= 6</text>
+<rect x="592.0" y="394.0" width="184.0" height="132.0" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="602.0" y="416.0" font-size="14" fill="#0f172a" font-weight="bold">c22: แถว 2 · คอลัมน์ 2</text>
+<text x="621.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">2</text>
+<text x="651.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="608.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="621.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">0</text>
+<rect x="638.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="651.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">3</text>
+<path d="M612,428 L606,428 L606,480 L612,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M660,428 L666,428 L666,480 L660,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="680.0" y="458.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold">×</text>
+<text x="711.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="728.0" y="430.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="741.0" y="446.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">4</text>
+<text x="711.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle">2</text>
+<rect x="728.0" y="456.0" width="26.0" height="22.0" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="741.0" y="472.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">1</text>
+<path d="M702,428 L696,428 L696,480 L702,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<path d="M750,428 L756,428 L756,480 L750,480" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="684.0" y="502.0" font-size="14" fill="#0f172a" text-anchor="middle">0(4) + 3(1)</text>
+<text x="684.0" y="520.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold">= 3</text>
+</svg>
