@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1064" width="800" height="1064" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนที่ใบงานที่ 1 แบ่ง 3 ส่วน 45 40 35 นาที ขั้นตอนที่ 1-4 5-6 7-8 พร้อมไฟล์ที่ได้และสิ่งที่ต้องส่ง">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>แผนที่ใบงานที่ 1 แบ่ง 3 ส่วน 45 40 35 นาที ขั้นตอนที่ 1-4 5-6 7-8 พร้อมไฟล์ที่ได้และสิ่งที่ต้องส่ง</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">แผนที่ใบงานที่ 1: เตรียมเครื่องมือและโปรแกรมแรก</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: ใบงานมีกี่ส่วน แต่ละส่วนทำขั้นตอนไหน ได้ไฟล์อะไร และต้องส่งอะไร</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">ขั้นตอนที่ในใบงาน</text>
+<rect x="245.39999999999998" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="271.4" y="97" font-size="15" fill="#0f172a" text-anchor="start">ไฟล์/ผลงานที่ได้</text>
+<rect x="386.99999999999994" y="84" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="412.99999999999994" y="97" font-size="15" fill="#0f172a" text-anchor="start">สิ่งที่ต้องส่ง</text>
+<circle cx="38" cy="138" r="13" fill="#d97706"/>
+<text x="38" y="143" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="144" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">เวลารวม 120 นาที (ความยาวแถบวาดตามสัดส่วนเวลาจริง)</text>
+<rect x="60" y="162" width="264.5" height="34" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="192.25" y="185" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 1 · 45 นาที</text>
+<rect x="328.5" y="162" width="234.66666666666666" height="34" rx="6" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+<text x="445.8333333333333" y="185" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 2 · 40 นาที</text>
+<rect x="567.1666666666666" y="162" width="204.83333333333334" height="34" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="669.5833333333333" y="185" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 3 · 35 นาที</text>
+<circle cx="38" cy="232" r="13" fill="#d97706"/>
+<text x="38" y="237" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60" y="238" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">แต่ละส่วนทำขั้นตอนใด (เลขตรงกับหัวข้อ &quot;ขั้นตอนที่ N&quot; ในใบงาน)</text>
+<rect x="24" y="258" width="240" height="82" rx="10" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="144.0" y="284" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 1</text>
+<text x="144.0" y="306" font-size="15" fill="#ffffff" text-anchor="middle">ติดตั้งและตรวจสอบเครื่องมือ</text>
+<text x="144.0" y="328" font-size="15" fill="#ffffff" text-anchor="middle">(ข้อย่อย 1–8)</text>
+<rect x="24" y="350" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="32" y="357" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="49" y="373" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="74" y="373" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ตรวจสอบ Python</text>
+<text x="74" y="393" font-size="14" fill="#475569" text-anchor="start">python --version</text>
+<text x="74" y="413" font-size="14" fill="#475569" text-anchor="start">python -m pip --version</text>
+<rect x="24" y="428" width="240" height="50" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="32" y="435" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="49" y="451" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="74" y="451" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">venv (ทางเลือก)</text>
+<text x="74" y="471" font-size="14" fill="#475569" text-anchor="start">python -m venv .venv</text>
+<rect x="24" y="486" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="32" y="493" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="49" y="509" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="74" y="509" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ติดตั้งไลบรารี</text>
+<text x="74" y="529" font-size="14" fill="#475569" text-anchor="start">pygame numpy</text>
+<text x="74" y="549" font-size="14" fill="#475569" text-anchor="start">matplotlib pandas</text>
+<rect x="24" y="564" width="240" height="50" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="32" y="571" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="49" y="587" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="74" y="587" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">สคริปต์ตรวจเวอร์ชัน</text>
+<text x="74" y="607" font-size="14" fill="#475569" text-anchor="start">สร้างและรัน check_env.py</text>
+<rect x="280" y="258" width="240" height="82" rx="10" fill="#7c3aed" stroke="#7c3aed" stroke-width="1"/>
+<text x="400.0" y="284" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 2</text>
+<text x="400.0" y="306" font-size="15" fill="#ffffff" text-anchor="middle">Colab และ VS Code</text>
+<text x="400.0" y="328" font-size="15" fill="#ffffff" text-anchor="middle">(ข้อย่อย 9–17)</text>
+<rect x="280" y="350" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="288" y="357" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="305" y="373" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="330" y="373" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">Notebook แรกบน Colab</text>
+<text x="330" y="393" font-size="14" fill="#475569" text-anchor="start">รันเซลล์ · ดู NameError</text>
+<text x="330" y="413" font-size="14" fill="#475569" text-anchor="start">แทรกเซลล์ c = a + b</text>
+<rect x="280" y="428" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="288" y="435" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="305" y="451" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="330" y="451" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ไฟล์ .py แรก</text>
+<text x="330" y="471" font-size="14" fill="#475569" text-anchor="start">SyntaxError → แก้ )</text>
+<text x="330" y="491" font-size="14" fill="#475569" text-anchor="start">TypeError → ใช้ f-string</text>
+<rect x="536" y="258" width="240" height="82" rx="10" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="656.0" y="284" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">ส่วนที่ 3</text>
+<text x="656.0" y="306" font-size="15" fill="#ffffff" text-anchor="middle">Pygame และตารางไล่ค่า</text>
+<text x="656.0" y="328" font-size="15" fill="#ffffff" text-anchor="middle">(ข้อย่อย 18–24)</text>
+<rect x="536" y="350" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="544" y="357" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="561" y="373" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+<text x="586" y="373" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">หน้าต่างสีดำ 800×600</text>
+<text x="586" y="393" font-size="14" fill="#475569" text-anchor="start">รันวงวนเกม · ลองเปลี่ยนสี</text>
+<text x="586" y="413" font-size="14" fill="#475569" text-anchor="start">ปิดแล้วพิมพ์ window closed</text>
+<rect x="536" y="428" width="240" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<rect x="544" y="435" width="34" height="22" rx="5" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="561" y="451" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">8</text>
+<text x="586" y="451" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ตารางไล่ค่าบนกระดาษ</text>
+<text x="586" y="471" font-size="14" fill="#475569" text-anchor="start">frame, y, vy ครบ 6 รอบ</text>
+<text x="586" y="491" font-size="14" fill="#475569" text-anchor="start">แล้วสลับลำดับ 2 บรรทัด</text>
+<line x1="144.0" y1="616" x2="144.0" y2="640" stroke="#059669" stroke-width="2" marker-end="url(#arrG)"/>
+<line x1="400.0" y1="500" x2="400.0" y2="640" stroke="#059669" stroke-width="2" marker-end="url(#arrG)"/>
+<line x1="656.0" y1="500" x2="656.0" y2="640" stroke="#059669" stroke-width="2" marker-end="url(#arrG)"/>
+<rect x="24" y="644" width="240" height="114" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="36" y="666" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">ได้ไฟล์/ผลงาน</text>
+<circle cx="244" cy="661" r="13" fill="#d97706"/>
+<text x="244" y="666" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="36" y="688" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">check_env.py</text>
+<text x="36" y="708" font-size="14" fill="#0f172a" text-anchor="start">output เวอร์ชันครบ 5 บรรทัด</text>
+<text x="36" y="728" font-size="14" fill="#0f172a" text-anchor="start">(.venv) ถ้าทำขั้นตอนที่ 2</text>
+<rect x="280" y="644" width="240" height="114" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="292" y="666" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">ได้ไฟล์/ผลงาน</text>
+<text x="292" y="688" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">Lab01_&lt;รหัส&gt;.ipynb</text>
+<text x="292" y="708" font-size="14" fill="#0f172a" text-anchor="start">first.py (ฉบับแก้แล้ว)</text>
+<text x="292" y="728" font-size="14" fill="#0f172a" text-anchor="start">average ... is 10.0.</text>
+<text x="292" y="748" font-size="14" fill="#0f172a" text-anchor="start">sum = 30</text>
+<rect x="536" y="644" width="240" height="114" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="548" y="666" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">ได้ไฟล์/ผลงาน</text>
+<text x="548" y="688" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">first_window.py</text>
+<text x="548" y="708" font-size="14" fill="#0f172a" text-anchor="start">ภาพหน้าจอสีพื้นที่กลุ่มเลือก</text>
+<text x="548" y="728" font-size="14" fill="#0f172a" text-anchor="start">ตารางไล่ค่า (ข้อ 22, 24)</text>
+<line x1="144.0" y1="758" x2="144.0" y2="796" stroke="#d97706" stroke-width="2" marker-end="url(#arrO)"/>
+<line x1="400.0" y1="758" x2="400.0" y2="796" stroke="#d97706" stroke-width="2" marker-end="url(#arrO)"/>
+<line x1="656.0" y1="758" x2="656.0" y2="796" stroke="#d97706" stroke-width="2" marker-end="url(#arrO)"/>
+<circle cx="38" cy="820" r="13" fill="#d97706"/>
+<text x="38" y="825" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<rect x="60" y="798" width="716" height="140" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="78" y="826" font-size="17" fill="#d97706" text-anchor="start" font-weight="bold">สิ่งที่ต้องส่ง (ตรวจให้ครบก่อนส่ง)</text>
+<rect x="80" y="840" width="15" height="15" rx="3" fill="#ffffff" stroke="#d97706" stroke-width="1.6"/>
+<text x="104" y="853" font-size="15" fill="#0f172a" text-anchor="start">ภาพหน้าจอผลรัน check_env.py ครบ 5 บรรทัด จากเครื่องของตนเอง</text>
+<rect x="80" y="864" width="15" height="15" rx="3" fill="#ffffff" stroke="#d97706" stroke-width="1.6"/>
+<text x="104" y="877" font-size="15" fill="#0f172a" text-anchor="start">Lab01_&lt;รหัส&gt;.ipynb มีเซลล์ข้อ 10–13 และ 23–24 (เก็บเซลล์ NameError ไว้)</text>
+<rect x="80" y="888" width="15" height="15" rx="3" fill="#ffffff" stroke="#d97706" stroke-width="1.6"/>
+<text x="104" y="901" font-size="15" fill="#0f172a" text-anchor="start">first.py (แก้แล้ว) + first_window.py + ภาพหน้าจอสีพื้นหลังที่เลือก (ค่า RGB)</text>
+<rect x="80" y="912" width="15" height="15" rx="3" fill="#ffffff" stroke="#d97706" stroke-width="1.6"/>
+<text x="104" y="925" font-size="15" fill="#0f172a" text-anchor="start">ภาพถ่ายตารางไล่ค่าข้อ 22 และ 24 + คำตอบคำถาม 1.1–3.2 และท้ายใบงาน 1–3</text>
+<circle cx="38" cy="974" r="13" fill="#d97706"/>
+<text x="38" y="979" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<rect x="60" y="956" width="716" height="84" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+<text x="78" y="981" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">กติกาตลอดใบงาน</text>
+<text x="78" y="1003" font-size="15" fill="#0f172a" text-anchor="start">พิมพ์โค้ดเอง ห้ามคัดลอกวาง · ทายผลบนกระดาษก่อนรันทุกครั้ง</text>
+<text x="78" y="1025" font-size="15" fill="#0f172a" text-anchor="start">ทำเป็นกลุ่ม 2–3 คน แต่ทุกคนต้องติดตั้งบนเครื่องของตนเองให้สำเร็จ</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1294" width="800" height="1294" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ขั้นตอนที่ 1 ถึง 3 ของใบงานที่ 1 คำสั่งในเทอร์มินัล ผลลัพธ์ที่ควรเห็น และวิธีแก้เมื่อไม่ผ่าน">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>ขั้นตอนที่ 1 ถึง 3 ของใบงานที่ 1 คำสั่งในเทอร์มินัล ผลลัพธ์ที่ควรเห็น และวิธีแก้เมื่อไม่ผ่าน</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ส่วนที่ 1: ตรวจ Python → (venv) → ติดตั้งไลบรารี</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: พิมพ์คำสั่งอะไร ควรเห็นอะไรบนเทอร์มินัล และถ้าไม่ผ่านต้องแก้อย่างไร</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#fde68a" stroke="#fde68a" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">คำสั่งที่พิมพ์</text>
+<rect x="206.4" y="84" width="18" height="18" rx="4" fill="#0f172a" stroke="#0f172a" stroke-width="1.8"/>
+<text x="232.4" y="97" font-size="15" fill="#0f172a" text-anchor="start">ผลลัพธ์บนจอ</text>
+<rect x="324.6" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="350.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">ผ่านเมื่อ</text>
+<rect x="419.40000000000003" y="84" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="445.40000000000003" y="97" font-size="15" fill="#0f172a" text-anchor="start">ถ้าไม่ผ่าน → แก้</text>
+<circle cx="38" cy="138" r="13" fill="#d97706"/>
+<text x="38" y="143" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<rect x="60" y="126" width="104" height="26" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="112" y="144" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 1</text>
+<text x="176" y="145" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">ตรวจสอบ Python และ pip (ข้อย่อย 1–4)</text>
+<rect x="60" y="164" width="716" height="172" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="164" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="180" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="177" r="5" fill="#ef4444"/>
+<circle cx="92" cy="177" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="177" r="5" fill="#22c55e"/>
+<text x="130" y="182" font-size="13" fill="#cbd5e1" text-anchor="start">PowerShell</text>
+<text x="74" y="212" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python --version</text>
+<text x="74" y="233" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Python 3.12.8</text>
+<text x="74" y="254" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"></text>
+<text x="74" y="275" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python -m pip --version</text>
+<text x="74" y="296" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pip 25.3 from C:\Users\student\AppData\Local\Programs\Python\Python312</text>
+<text x="74" y="317" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    \Lib\site-packages\pip (python 3.12)</text>
+<rect x="60" y="348" width="350" height="128" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="76" y="372" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ ผ่านเมื่อ</text>
+<text x="76" y="396" font-size="15" fill="#0f172a" text-anchor="start">ได้ Python 3.10 ขึ้นไป</text>
+<text x="76" y="418" font-size="15" fill="#0f172a" text-anchor="start">และ pip บอก (python 3.12) ตรงกับบรรทัดบน</text>
+<text x="76" y="440" font-size="15" fill="#0f172a" text-anchor="start">= pip เป็นของไพทอนตัวเดียวกัน</text>
+<rect x="426" y="348" width="350" height="128" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<text x="442" y="372" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">ถ้าไม่ผ่าน → แก้</text>
+<text x="442" y="396" font-size="15" fill="#dc2626" text-anchor="start" xml:space="preserve">✗ &#x27;python&#x27; is not recognized...</text>
+<text x="442" y="418" font-size="15" fill="#dc2626" text-anchor="start" xml:space="preserve">   หรือ Microsoft Store เปิดขึ้นมา</text>
+<text x="442" y="440" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">✓ ติดตั้งจาก python.org ติ๊ก Add python.exe</text>
+<text x="442" y="462" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">   to PATH แล้วปิด-เปิดเทอร์มินัลใหม่</text>
+<circle cx="38" cy="520" r="13" fill="#d97706"/>
+<text x="38" y="525" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<rect x="60" y="508" width="104" height="26" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="112" y="526" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 2</text>
+<text x="176" y="527" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">สร้าง Virtual Environment — ทางเลือก (ข้อย่อย 5–6)</text>
+<rect x="60" y="546" width="716" height="109" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="546" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="562" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="559" r="5" fill="#ef4444"/>
+<circle cx="92" cy="559" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="559" r="5" fill="#22c55e"/>
+<text x="130" y="564" font-size="13" fill="#cbd5e1" text-anchor="start">PowerShell — โฟลเดอร์ ps-course</text>
+<text x="74" y="594" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python -m venv .venv</text>
+<text x="74" y="615" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; .venv\Scripts\activate</text>
+<text x="74" y="636" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">(.venv) C:\Users\student\ps-course&gt;</text>
+<rect x="60" y="667" width="350" height="128" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="76" y="691" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ ผ่านเมื่อ</text>
+<text x="76" y="715" font-size="15" fill="#0f172a" text-anchor="start">พรอมต์มี (.venv) นำหน้า</text>
+<text x="76" y="737" font-size="15" fill="#0f172a" text-anchor="start">= กำลังใช้ไพทอนในโฟลเดอร์นี้</text>
+<text x="76" y="759" font-size="15" fill="#0f172a" text-anchor="start">(ข้ามขั้นนี้ได้ ใช้ไพทอนหลักแทน)</text>
+<rect x="426" y="667" width="350" height="128" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<text x="442" y="691" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">ถ้าไม่ผ่าน → แก้</text>
+<text x="442" y="715" font-size="15" fill="#dc2626" text-anchor="start" xml:space="preserve">✗ พรอมต์ไม่มี (.venv) นำหน้า</text>
+<text x="442" y="737" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">✓ รันคำสั่ง activate ให้ถูกระบบ</text>
+<text x="442" y="759" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">   Windows: .venv\Scripts\activate</text>
+<text x="442" y="781" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">   macOS/Linux: source .venv/bin/activate</text>
+<circle cx="38" cy="839" r="13" fill="#d97706"/>
+<text x="38" y="844" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<rect x="60" y="827" width="104" height="26" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="112" y="845" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 3</text>
+<text x="176" y="846" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold">ติดตั้งไลบรารี 4 ตัว (1–3 นาที)</text>
+<rect x="60" y="865" width="716" height="193" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="865" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="881" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="878" r="5" fill="#ef4444"/>
+<circle cx="92" cy="878" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="878" r="5" fill="#22c55e"/>
+<text x="130" y="883" font-size="13" fill="#cbd5e1" text-anchor="start">PowerShell</text>
+<text x="74" y="913" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python -m pip install pygame numpy matplotlib pandas</text>
+<text x="74" y="934" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Collecting pygame</text>
+<text x="74" y="955" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  Downloading pygame-2.6.1-cp312-cp312-win_amd64.whl (10.6 MB)</text>
+<text x="74" y="976" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Collecting numpy</text>
+<text x="74" y="997" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  ...</text>
+<text x="74" y="1018" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Successfully installed contourpy-... matplotlib-3.8.2 numpy-1.26.2</text>
+<text x="74" y="1039" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    pandas-2.2.0 pygame-2.6.1 ...</text>
+<rect x="60" y="1070" width="350" height="128" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="76" y="1094" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ ผ่านเมื่อ</text>
+<text x="76" y="1118" font-size="15" fill="#0f172a" text-anchor="start">บรรทัดท้ายขึ้นต้นด้วย Successfully installed</text>
+<text x="76" y="1140" font-size="15" fill="#0f172a" text-anchor="start">(เคยติดตั้งแล้ว: Requirement already</text>
+<text x="76" y="1162" font-size="15" fill="#0f172a" text-anchor="start"> satisfied ก็ถือว่าผ่าน)</text>
+<rect x="426" y="1070" width="350" height="128" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6"/>
+<text x="442" y="1094" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">ถ้าไม่ผ่าน → แก้</text>
+<text x="442" y="1118" font-size="15" fill="#dc2626" text-anchor="start" xml:space="preserve">✗ ERROR: Could not find a version that</text>
+<text x="442" y="1140" font-size="15" fill="#dc2626" text-anchor="start" xml:space="preserve">   satisfies the requirement pygame</text>
+<text x="442" y="1162" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">✓ ใช้ Python 3.12 (รุ่นที่ทดสอบแล้ว) หรือ</text>
+<text x="442" y="1184" font-size="15" fill="#059669" text-anchor="start" xml:space="preserve">   python -m pip install pygame-ce</text>
+<rect x="60" y="1220" width="716" height="50" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<circle cx="38" cy="1245" r="13" fill="#d97706"/>
+<text x="38" y="1250" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="78" y="1251" font-size="15" fill="#0f172a" text-anchor="start">เคล็ดลับ: ใช้ python -m pip เสมอ ไม่ใช่ pip เฉย ๆ — บังคับให้ติดตั้งลงไพทอนตัวที่ใช้รันโค้ด</text>
+</svg>

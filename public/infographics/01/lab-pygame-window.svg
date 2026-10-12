@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" width="800" height="960" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="หน้าต่าง Pygame 800x600 พื้นดำวาดสเกล 1 ต่อ 2 พิกัดมุม สี RGB ที่ทดลอง วงวนเกม 6 ขั้น และอาการ Not Responding">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>หน้าต่าง Pygame 800x600 พื้นดำวาดสเกล 1 ต่อ 2 พิกัดมุม สี RGB ที่ทดลอง วงวนเกม 6 ขั้น และอาการ Not Responding</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 7: หน้าต่าง Pygame สีดำ 800×600 ที่ควรเห็น</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: รัน first_window.py แล้วจอควรเป็นอย่างไร และวงวนเกมทำอะไรทุกเฟรม</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">มีในไฟล์นี้</text>
+<rect x="198.6" y="84" width="18" height="18" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="224.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">จะเติมในบทที่ 5</text>
+<rect x="336.9" y="84" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="362.9" y="97" font-size="15" fill="#0f172a" text-anchor="start">จุดที่มักผิด</text>
+<rect x="439.5" y="84" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="465.5" y="97" font-size="15" fill="#0f172a" text-anchor="start">ลำดับอ่าน</text>
+<circle cx="38" cy="136" r="13" fill="#d97706"/>
+<text x="38" y="141" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="142" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">หน้าจอที่ควรเห็น (วาดสเกล 1 : 2 — 1 ช่องตาราง = 100 พิกเซลจริง)</text>
+<rect x="98" y="158" width="404.0" height="334.0" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="110" y="179" font-size="14" fill="#0f172a" text-anchor="start" font-weight="bold">Lab01 - My First Window</text>
+<text x="440.0" y="179" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">—</text>
+<text x="464.0" y="179" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">☐</text>
+<text x="488.0" y="179" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">✕</text>
+<rect x="100" y="190" width="400.0" height="300.0" fill="#000000"/>
+<line x1="150.0" y1="190" x2="150.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="200.0" y1="190" x2="200.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="250.0" y1="190" x2="250.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="300.0" y1="190" x2="300.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="350.0" y1="190" x2="350.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="400.0" y1="190" x2="400.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="450.0" y1="190" x2="450.0" y2="490.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="100" y1="240.0" x2="500.0" y2="240.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="100" y1="290.0" x2="500.0" y2="290.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="100" y1="340.0" x2="500.0" y2="340.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="100" y1="390.0" x2="500.0" y2="390.0" stroke="#1e293b" stroke-width="1"/>
+<line x1="100" y1="440.0" x2="500.0" y2="440.0" stroke="#1e293b" stroke-width="1"/>
+<text x="100.0" y="510.0" font-size="13" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<text x="200.0" y="510.0" font-size="13" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">200</text>
+<text x="300.0" y="510.0" font-size="13" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">400</text>
+<text x="400.0" y="510.0" font-size="13" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">600</text>
+<text x="500.0" y="510.0" font-size="13" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">800</text>
+<text x="92" y="195.0" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">0</text>
+<text x="92" y="295.0" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">200</text>
+<text x="92" y="395.0" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">400</text>
+<text x="92" y="495.0" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">600</text>
+<text x="300.0" y="530.0" font-size="14" fill="#475569" text-anchor="middle">x → (กว้าง 800 พิกเซล)</text>
+<text x="50" y="332.0" font-size="14" fill="#475569" text-anchor="middle">y ↓</text>
+<circle cx="100" cy="190" r="4" fill="#d97706"/>
+<text x="108" y="210" font-size="14" fill="#fde68a" text-anchor="start">(0, 0) มุมซ้ายบน</text>
+<circle cx="500.0" cy="490.0" r="4" fill="#d97706"/>
+<text x="492.0" y="480.0" font-size="14" fill="#fde68a" text-anchor="end">(800, 600)</text>
+<text x="300.0" y="345.0" font-size="15" fill="#94a3b8" text-anchor="middle">screen.fill((0, 0, 0)) → ดำล้วน</text>
+<line x1="492.0" y1="164" x2="560" y2="164.01" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="560" cy="164" r="13" fill="#d97706"/>
+<text x="560" y="169" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="580" y="170" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">กด ✕ = เหตุการณ์ QUIT</text>
+<text x="550" y="192" font-size="14" fill="#0f172a" text-anchor="start">running = False → ออกลูป</text>
+<rect x="548" y="208" width="228" height="67" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="548" y="208" width="228" height="26" rx="10" fill="#334155"/>
+<rect x="548" y="224" width="228" height="10" fill="#334155"/>
+<circle cx="564" cy="221" r="5" fill="#ef4444"/>
+<circle cx="580" cy="221" r="5" fill="#f59e0b"/>
+<circle cx="596" cy="221" r="5" fill="#22c55e"/>
+<text x="618" y="226" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal หลังปิด</text>
+<text x="562" y="256" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">window closed</text>
+<circle cx="560" cy="306" r="13" fill="#d97706"/>
+<text x="560" y="311" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="580" y="312" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 20: ลองเปลี่ยนสี</text>
+<rect x="548" y="326" width="40" height="34" rx="4" fill="#000000" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="596" y="341" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">fill((0, 0, 0))</text>
+<text x="596" y="358" font-size="14" fill="#475569" text-anchor="start">ดำ (ค่าเริ่มต้น)</text>
+<rect x="548" y="370" width="40" height="34" rx="4" fill="#0000ff" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="596" y="385" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">fill((0, 0, 255))</text>
+<text x="596" y="402" font-size="14" fill="#475569" text-anchor="start">น้ำเงิน</text>
+<rect x="548" y="414" width="40" height="34" rx="4" fill="#ffff00" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="596" y="429" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">fill((255, 255, 0))</text>
+<text x="596" y="446" font-size="14" fill="#475569" text-anchor="start">เหลือง</text>
+<text x="548" y="474" font-size="14" fill="#475569" text-anchor="start">(R, G, B) แต่ละค่า 0–255</text>
+<circle cx="38" cy="558.0" r="13" fill="#d97706"/>
+<text x="38" y="563.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="60" y="564.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">วงวนเกม 6 ขั้น ทำซ้ำทุกเฟรม (ไม่เกิน 60 เฟรม/วินาที)</text>
+<rect x="60.0" y="582.0" width="108" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="114.0" y="604.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้น 1</text>
+<text x="114.0" y="624.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">event.get()</text>
+<text x="114.0" y="643.0" font-size="13" fill="#475569" text-anchor="middle">รับเหตุการณ์</text>
+<line x1="169.0" y1="617.0" x2="180.6" y2="617.0" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="181.6" y="582.0" width="108" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="235.6" y="604.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้น 2</text>
+<text x="235.6" y="624.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">fill()</text>
+<text x="235.6" y="643.0" font-size="13" fill="#475569" text-anchor="middle">ล้างจอ</text>
+<line x1="290.6" y1="617.0" x2="302.20000000000005" y2="617.0" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="303.2" y="582.0" width="108" height="70" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="357.2" y="604.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ขั้น 3</text>
+<text x="357.2" y="624.0" font-size="14" fill="#475569" text-anchor="middle">อัปเดต</text>
+<text x="357.2" y="643.0" font-size="13" fill="#475569" text-anchor="middle">ตำแหน่ง</text>
+<line x1="412.2" y1="617.0" x2="423.8" y2="617.0" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="424.79999999999995" y="582.0" width="108" height="70" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="478.79999999999995" y="604.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ขั้น 4</text>
+<text x="478.79999999999995" y="624.0" font-size="14" fill="#475569" text-anchor="middle">วาด</text>
+<text x="478.79999999999995" y="643.0" font-size="13" fill="#475569" text-anchor="middle">วัตถุ</text>
+<line x1="533.8" y1="617.0" x2="545.4" y2="617.0" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="546.4" y="582.0" width="108" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="600.4" y="604.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้น 5</text>
+<text x="600.4" y="624.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">flip()</text>
+<text x="600.4" y="643.0" font-size="13" fill="#475569" text-anchor="middle">แสดงภาพ</text>
+<line x1="655.4" y1="617.0" x2="667.0" y2="617.0" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="668.0" y="582.0" width="108" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="722.0" y="604.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">ขั้น 6</text>
+<text x="722.0" y="624.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">tick(60)</text>
+<text x="722.0" y="643.0" font-size="13" fill="#475569" text-anchor="middle">คุมความเร็ว</text>
+<path d="M 722.0 652.0 v 24 H 114.0 v -22" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrB)"/>
+<text x="400" y="696.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">วนกลับไปขั้น 1 จนกว่า running = False</text>
+<text x="400" y="720.0" font-size="14" fill="#475569" text-anchor="middle">ขั้น 3–4 (เส้นประ) ยังไม่มีในไฟล์นี้ — บทที่ 5 จะเติมลูกบอลเด้งลงในโครงเดียวกัน</text>
+<circle cx="38" cy="752.0" r="13" fill="#d97706"/>
+<text x="38" y="757.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="60" y="758.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 21: คอมเมนต์ 3 บรรทัดของ for event ... แล้วรัน</text>
+<rect x="60" y="774.0" width="350" height="112" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="76" y="800.0" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ไม่มี event.get() ในลูป</text>
+<text x="76" y="828.0" font-size="15" fill="#0f172a" text-anchor="start">หน้าต่าง &quot;ไม่ตอบสนอง (Not Responding)&quot;</text>
+<text x="76" y="850.0" font-size="15" fill="#0f172a" text-anchor="start">กด ✕ ไม่ได้ เพราะไม่มีใครอ่าน QUIT</text>
+<text x="76" y="872.0" font-size="15" fill="#0f172a" text-anchor="start">ปิดด้วย Ctrl+C ในเทอร์มินัล</text>
+<rect x="426" y="774.0" width="350" height="112" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442" y="800.0" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ เอาคอมเมนต์ออก</text>
+<text x="442" y="828.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">for event in pygame.event.get():</text>
+<text x="442" y="850.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    if event.type == pygame.QUIT:</text>
+<text x="442" y="872.0" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">        running = False</text>
+<rect x="60" y="902.0" width="716" height="34" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="76" y="925.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">คำถาม 3.1: ลบ flip() → fill() วาดลงบัฟเฟอร์หลังจอแต่ไม่ถูกสลับขึ้นมาแสดง ภาพจึงไม่อัปเดต</text>
+</svg>

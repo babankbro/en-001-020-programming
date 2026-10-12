@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 998" width="800" height="998" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เซลล์แรกของใบงานที่ 2 จับคู่ print กับ output 4 บรรทัด ผลของ f-string และตารางค่าเฉลี่ยให้กรอก">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>เซลล์แรกของใบงานที่ 2 จับคู่ print กับ output 4 บรรทัด ผลของ f-string และตารางค่าเฉลี่ยให้กรอก</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ส่วนที่ 1: เซลล์แรก f-string และค่าเฉลี่ย 3 จำนวน</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: print แต่ละบรรทัดได้ output บรรทัดไหน และ f ตัวเดียวเปลี่ยนผลอย่างไร</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">print → output</text>
+<rect x="242.99999999999997" y="84" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="269.0" y="97" font-size="15" fill="#0f172a" text-anchor="start">ไม่มี f</text>
+<rect x="326.69999999999993" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="352.69999999999993" y="97" font-size="15" fill="#0f172a" text-anchor="start">มี f / ผลถูก</text>
+<rect x="442.79999999999995" y="84" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="468.79999999999995" y="97" font-size="15" fill="#0f172a" text-anchor="start">ช่องให้กรอก</text>
+<circle cx="38" cy="136" r="13" fill="#d97706"/>
+<text x="38" y="141" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="142" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ขั้นตอนที่ 1: ทุก print ได้ output 1 บรรทัด (บรรทัด a = 5, b = 2 ไม่พิมพ์อะไร)</text>
+<rect x="60" y="158" width="370" height="168" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="66" y="154" font-size="1" fill="#0f172a" text-anchor="start"></text>
+<text x="84" y="183" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="94" y="183" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;Hello, my name is &lt;ชื่อของคุณ&gt;.&quot;)</text>
+<text x="84" y="209" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="94" y="209" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a = 5</text>
+<text x="84" y="235" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="94" y="235" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b = 2</text>
+<text x="84" y="261" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="94" y="261" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;a x b =&quot;, a*b)</text>
+<rect x="64" y="270" width="362" height="24" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1"/>
+<text x="84" y="287" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">5</text>
+<text x="94" y="287" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f&quot;a x b = {a*b}&quot;)</text>
+<rect x="64" y="296" width="362" height="24" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+<text x="84" y="313" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">6</text>
+<text x="94" y="313" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;a x b = {a*b}&quot;)</text>
+<rect x="490" y="158" width="286" height="168" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="502" y="180" font-size="13" fill="#94a3b8" text-anchor="start">Output</text>
+<text x="502" y="204" font-size="12" fill="#64748b" text-anchor="start" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="518" y="204" font-size="13.5" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Hello, my name is &lt;ชื่อของคุณ&gt;.</text>
+<text x="502" y="238" font-size="12" fill="#64748b" text-anchor="start" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="518" y="238" font-size="13.5" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a x b = 10</text>
+<text x="502" y="272" font-size="12" fill="#64748b" text-anchor="start" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="518" y="272" font-size="13.5" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a x b = 10</text>
+<text x="502" y="306" font-size="12" fill="#64748b" text-anchor="start" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="518" y="306" font-size="13.5" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a x b = {a*b}</text>
+<line x1="430" y1="178" x2="494" y2="199" stroke="#2563eb" stroke-width="1.6" marker-end="url(#arrB)"/>
+<line x1="430" y1="256" x2="494" y2="233" stroke="#2563eb" stroke-width="1.6" marker-end="url(#arrB)"/>
+<line x1="430" y1="282" x2="494" y2="267" stroke="#059669" stroke-width="1.6" marker-end="url(#arrG)"/>
+<line x1="430" y1="308" x2="494" y2="301" stroke="#dc2626" stroke-width="1.6" marker-end="url(#arrR)"/>
+<rect x="60" y="340" width="350" height="112" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="76" y="366" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">✗ บรรทัดที่ 4 ของ output: ไม่มี f</text>
+<text x="76" y="394" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">&quot;a x b = {a*b}&quot;</text>
+<text x="76" y="416" font-size="15" fill="#0f172a" text-anchor="start">→ ปีกกาเป็นข้อความธรรมดา</text>
+<text x="76" y="438" font-size="15" fill="#0f172a" text-anchor="start">→ พิมพ์ {a*b} ออกมาตรง ๆ ไม่ error</text>
+<rect x="426" y="340" width="350" height="112" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442" y="366" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ บรรทัดที่ 3 ของ output: มี f</text>
+<text x="442" y="394" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">f&quot;a x b = {a*b}&quot;</text>
+<text x="442" y="416" font-size="15" fill="#0f172a" text-anchor="start">→ คำนวณ a*b = 5 × 2 = 10</text>
+<text x="442" y="438" font-size="15" fill="#0f172a" text-anchor="start">→ แทนค่าในปีกกาได้ a x b = 10</text>
+<circle cx="38" cy="486" r="13" fill="#d97706"/>
+<text x="38" y="491" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60" y="492" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ขั้นตอนที่ 2: ค่าเฉลี่ย — / ได้ float เสมอ และ :.2f จัดทศนิยม 2 ตำแหน่ง</text>
+<rect x="60" y="508" width="440" height="152" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="72" y="534" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1, n2, n3 = 5, 10, 15</text>
+<text x="72" y="556" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">total = n1 + n2 + n3</text>
+<text x="72" y="578" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = total / 3</text>
+<text x="72" y="600" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f&quot;average of {n1} {n2} and {n3} is {avg}.&quot;)</text>
+<text x="72" y="622" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f&quot;average (2 decimals) = {avg:.2f}&quot;)</text>
+<text x="72" y="644" font-size="13" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(type(total), type(avg))</text>
+<rect x="516" y="508" width="260" height="166" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="516" y="508" width="260" height="26" rx="10" fill="#334155"/>
+<rect x="516" y="524" width="260" height="10" fill="#334155"/>
+<circle cx="532" cy="521" r="5" fill="#ef4444"/>
+<circle cx="548" cy="521" r="5" fill="#f59e0b"/>
+<circle cx="564" cy="521" r="5" fill="#22c55e"/>
+<text x="586" y="526" font-size="13" fill="#cbd5e1" text-anchor="start">Output (ตัดบรรทัดให้พอดีภาพ)</text>
+<text x="530" y="556" font-size="13" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">average of 5 10 and 15</text>
+<text x="530" y="576" font-size="13" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  is 10.0.</text>
+<text x="530" y="596" font-size="13" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">average (2 decimals)</text>
+<text x="530" y="616" font-size="13" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  = 10.00</text>
+<text x="530" y="636" font-size="13" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&lt;class &#x27;int&#x27;&gt;</text>
+<text x="530" y="656" font-size="13" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  &lt;class &#x27;float&#x27;&gt;</text>
+<rect x="60" y="686" width="230" height="56" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="175.0" y="709" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">total = 5 + 10 + 15</text>
+<text x="175.0" y="731" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">= 30 (int)</text>
+<line x1="291" y1="714" x2="302" y2="714" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="303" y="686" width="230" height="56" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="418.0" y="709" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">avg = 30 / 3</text>
+<text x="418.0" y="731" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">= 10.0 (float)</text>
+<line x1="534" y1="714" x2="545" y2="714" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="546" y="686" width="230" height="56" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="661.0" y="709" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">{avg:.2f}</text>
+<text x="661.0" y="731" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold">→ 10.00</text>
+<circle cx="38" cy="776" r="13" fill="#d97706"/>
+<text x="38" y="781" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="60" y="782" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 3–4: ตารางบันทึกผล (แถวแรกเป็นตัวอย่าง แถวที่สองให้กรอกเองหลังรัน)</text>
+<rect x="60" y="798" width="146" height="32" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="133.0" y="819" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">n1, n2, n3</text>
+<rect x="210" y="798" width="96" height="32" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="258.0" y="819" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">total</text>
+<rect x="310" y="798" width="186" height="32" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="403.0" y="819" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">total / 3</text>
+<rect x="500" y="798" width="116" height="32" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="819" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">:.2f</text>
+<rect x="620" y="798" width="146" height="32" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="693.0" y="819" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">total // 3</text>
+<rect x="60" y="834" width="146" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="133.0" y="857" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">5, 10, 15</text>
+<rect x="210" y="834" width="96" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="258.0" y="857" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">30</text>
+<rect x="310" y="834" width="186" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="403.0" y="857" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10.0</text>
+<rect x="500" y="834" width="116" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="857" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10.00</text>
+<rect x="620" y="834" width="146" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="693.0" y="857" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="60" y="872" width="146" height="34" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="133.0" y="895" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">7, 8, 10</text>
+<rect x="210" y="872" width="96" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="258.0" y="895" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">?</text>
+<rect x="310" y="872" width="186" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="403.0" y="895" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">?</text>
+<rect x="500" y="872" width="116" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="558.0" y="895" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">?</text>
+<rect x="620" y="872" width="146" height="34" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="693.0" y="895" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">?</text>
+<rect x="60" y="916" width="716" height="58" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.4"/>
+<text x="76" y="940" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold">ข้อสังเกต: / หารได้ float เสมอ (30 / 3 = 10.0 ไม่ใช่ 10) ส่วน // หารปัดเศษทิ้งได้ int</text>
+<text x="76" y="962" font-size="15" fill="#0f172a" text-anchor="start">แถว 5, 10, 15 หารลงตัวจึงดูเหมือนกัน — แถว 7, 8, 10 จะเห็นความต่างชัด</text>
+</svg>

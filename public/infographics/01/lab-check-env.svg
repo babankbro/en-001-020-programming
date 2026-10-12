@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1162" width="800" height="1162" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="สคริปต์ check_env.py ผลลัพธ์ 7 บรรทัด ลำดับการ import และการเลือก interpreter ใน VS Code">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>สคริปต์ check_env.py ผลลัพธ์ 7 บรรทัด ลำดับการ import และการเลือก interpreter ใน VS Code</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 4: check_env.py และผลลัพธ์ที่ควรเห็น</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: ผลรันที่ถูกต้องหน้าตาเป็นอย่างไร และถ้า import ไม่ผ่านต้องดูตรงไหน</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">โค้ดที่พิมพ์</text>
+<rect x="198.6" y="84" width="18" height="18" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="224.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">ข้อความทักทาย pygame</text>
+<rect x="386.0999999999999" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="412.0999999999999" y="97" font-size="15" fill="#0f172a" text-anchor="start">บรรทัดที่ต้องส่ง</text>
+<rect x="519.8999999999999" y="84" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="545.8999999999999" y="97" font-size="15" fill="#0f172a" text-anchor="start">ข้อผิดพลาด</text>
+<circle cx="38" cy="138" r="13" fill="#d97706"/>
+<text x="38" y="143" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="144" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">พิมพ์ไฟล์ check_env.py ในโฟลเดอร์ ps-course (VS Code)</text>
+<rect x="60" y="160" width="716" height="188" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="84" y="186" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="98" y="186" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">import sys</text>
+<text x="84" y="207" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="98" y="207" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">import pygame, numpy, matplotlib, pandas</text>
+<text x="84" y="228" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="98" y="228" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"></text>
+<text x="84" y="249" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="98" y="249" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;Python    :&quot;, sys.version.split()[0])</text>
+<text x="84" y="270" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">5</text>
+<text x="98" y="270" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;pygame    :&quot;, pygame.version.ver)</text>
+<text x="84" y="291" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">6</text>
+<text x="98" y="291" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;numpy     :&quot;, numpy.__version__)</text>
+<text x="84" y="312" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">7</text>
+<text x="98" y="312" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;matplotlib:&quot;, matplotlib.__version__)</text>
+<text x="84" y="333" font-size="14" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">8</text>
+<text x="98" y="333" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;pandas    :&quot;, pandas.__version__)</text>
+<path d="M 520 239 h 20 v 99 h -20" stroke="#059669" stroke-width="2" fill="none"/>
+<text x="550" y="287" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">print 5 บรรทัด</text>
+<text x="550" y="308" font-size="15" fill="#059669" text-anchor="start">→ output 5 บรรทัดล่าง</text>
+<circle cx="38" cy="380" r="13" fill="#d97706"/>
+<text x="38" y="385" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60" y="386" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">รัน: กด ▶ มุมขวาบน หรือพิมพ์  python check_env.py</text>
+<rect x="60" y="400" width="716" height="222" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="400" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="416" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="413" r="5" fill="#ef4444"/>
+<circle cx="92" cy="413" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="413" r="5" fill="#22c55e"/>
+<text x="130" y="418" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal — ps-course</text>
+<text x="74" y="448" font-size="14" fill="#fde68a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python check_env.py</text>
+<text x="74" y="470" font-size="14" fill="#94a3b8" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pygame 2.6.1 (SDL 2.28.4, Python 3.12.8)</text>
+<text x="74" y="492" font-size="14" fill="#94a3b8" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Hello from the pygame community. https://www.pygame.org/contribute.html</text>
+<text x="74" y="514" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Python    : 3.12.8</text>
+<text x="74" y="536" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pygame    : 2.6.1</text>
+<text x="74" y="558" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">numpy     : 1.26.2</text>
+<text x="74" y="580" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">matplotlib: 3.8.2</text>
+<text x="74" y="602" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pandas    : 2.2.0</text>
+<circle cx="38" cy="474" r="13" fill="#d97706"/>
+<text x="38" y="479" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<path d="M 330 502 h 14 v 106 h -14" stroke="#86efac" stroke-width="2" fill="none"/>
+<text x="356" y="546" font-size="15" fill="#86efac" text-anchor="start" font-weight="bold">บรรทัด 3–7 = เวอร์ชันครบ 5 ตัว</text>
+<text x="356" y="568" font-size="15" fill="#86efac" text-anchor="start">→ แคปหน้าจอส่ง (จากเครื่องตนเอง)</text>
+<rect x="60" y="632" width="716" height="34" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="76" y="655" font-size="15" fill="#475569" text-anchor="start">บรรทัด 1–2 สีเทา: pygame พิมพ์ทักทายเองตอน import — ไม่ใช่ error (เลขรุ่นต่างเล็กน้อยได้)</text>
+<circle cx="38" cy="702" r="13" fill="#d97706"/>
+<text x="38" y="707" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="60" y="708" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ถ้าหยุดที่บรรทัด 2: ไพทอน import จากซ้ายไปขวา และหยุดที่ตัวแรกที่หาไม่พบ</text>
+<rect x="60" y="728" width="150" height="56" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="135.0" y="752" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pygame</text>
+<text x="135.0" y="773" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">✓ นำเข้าแล้ว</text>
+<line x1="212" y1="756" x2="246" y2="756" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="248" y="728" width="150" height="56" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="323.0" y="752" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">numpy</text>
+<text x="323.0" y="773" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">✓ นำเข้าแล้ว</text>
+<line x1="400" y1="756" x2="434" y2="756" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="436" y="728" width="150" height="56" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="511.0" y="752" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">matplotlib</text>
+<text x="511.0" y="773" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold">✓ นำเข้าแล้ว</text>
+<line x1="588" y1="756" x2="622" y2="756" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<rect x="624" y="728" width="150" height="56" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="699.0" y="752" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">pandas</text>
+<text x="699.0" y="773" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold">✗ หาไม่พบ</text>
+<rect x="60" y="798" width="716" height="68" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="798" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="814" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="811" r="5" fill="#ef4444"/>
+<circle cx="92" cy="811" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="811" r="5" fill="#22c55e"/>
+<text x="130" y="816" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal</text>
+<text x="74" y="846" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ModuleNotFoundError: No module named &#x27;pandas&#x27;</text>
+<rect x="60" y="876" width="716" height="36" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="76" y="900" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ แก้: python -m pip install pandas  (ติดตั้งเฉพาะตัวที่ขาด แล้วรันใหม่)</text>
+<circle cx="38" cy="946" r="13" fill="#d97706"/>
+<text x="38" y="951" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="60" y="952" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">สาเหตุอันดับหนึ่งของ ModuleNotFoundError: VS Code รันด้วยไพทอนคนละตัว</text>
+<rect x="60" y="970" width="350" height="168" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="76" y="996" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ไม่ตรงกับที่ติดตั้ง</text>
+<text x="76" y="1022" font-size="15" fill="#0f172a" text-anchor="start">ติดตั้งไลบรารีลง .venv แล้ว</text>
+<text x="76" y="1044" font-size="15" fill="#0f172a" text-anchor="start">แต่ VS Code รันด้วยไพทอนอื่น</text>
+<text x="76" y="1066" font-size="15" fill="#0f172a" text-anchor="start">→ import ไม่เจอ</text>
+<rect x="74" y="1094" width="322" height="30" rx="4" fill="#334155" stroke="none" stroke-width="0"/>
+<text x="84" y="1114" font-size="13" fill="#e2e8f0" text-anchor="start">แถบสถานะ VS Code มุมล่างขวา</text>
+<text x="386" y="1114" font-size="14" fill="#ffffff" text-anchor="end" font-weight="bold">ไพทอนตัวอื่น</text>
+<rect x="426" y="970" width="350" height="168" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442" y="996" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ตรงกับที่ติดตั้ง</text>
+<text x="442" y="1022" font-size="15" fill="#0f172a" text-anchor="start">Ctrl+Shift+P → Python: Select</text>
+<text x="442" y="1044" font-size="15" fill="#0f172a" text-anchor="start">Interpreter แล้วเลือกตัวที่</text>
+<text x="442" y="1066" font-size="15" fill="#0f172a" text-anchor="start">ติดตั้งไลบรารีไว้</text>
+<rect x="440" y="1094" width="322" height="30" rx="4" fill="#2563eb" stroke="none" stroke-width="0"/>
+<text x="450" y="1114" font-size="13" fill="#e2e8f0" text-anchor="start">แถบสถานะ VS Code มุมล่างขวา</text>
+<text x="752" y="1114" font-size="14" fill="#ffffff" text-anchor="end" font-weight="bold">3.12.8 (&#x27;.venv&#x27;)</text>
+</svg>

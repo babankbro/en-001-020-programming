@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1241" width="800" height="1241" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เปรียบเทียบ SyntaxError ที่ไม่รันเลยกับ TypeError ที่รันบรรทัด 1-5 แล้วล้มที่บรรทัด 6 พร้อมวิธีอ่าน Traceback">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>เปรียบเทียบ SyntaxError ที่ไม่รันเลยกับ TypeError ที่รันบรรทัด 1-5 แล้วล้มที่บรรทัด 6 พร้อมวิธีอ่าน Traceback</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 6: first.py — SyntaxError กับ TypeError ต่างกันอย่างไร</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: โปรแกรมเริ่มทำงานแล้วหรือยังตอนเกิด error และอ่าน Traceback อย่างไร</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">บรรทัดที่รันแล้ว</text>
+<rect x="229.79999999999998" y="84" width="18" height="18" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="255.79999999999998" y="97" font-size="15" fill="#0f172a" text-anchor="start">ไม่ได้รัน</text>
+<rect x="324.6" y="84" width="18" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="350.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">จุดที่ผิด</text>
+<rect x="411.6" y="84" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="437.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">ลำดับอ่าน</text>
+<circle cx="38" cy="136" r="13" fill="#d97706"/>
+<text x="38" y="141" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="142" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 14: ลืม ) ท้ายบรรทัด 5 → SyntaxError (ตรวจไวยากรณ์ก่อนรัน)</text>
+<rect x="60" y="156" width="500" height="126" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="64" y="166" width="492" height="20" rx="3" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="84" y="181" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="96" y="181" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;start&quot;)</text>
+<rect x="574" y="166" width="104" height="20" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="626" y="181" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ไม่ได้รัน</text>
+<rect x="64" y="188" width="492" height="20" rx="3" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="84" y="203" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="96" y="203" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1, n2, n3 = 5, 10, 15</text>
+<rect x="574" y="188" width="104" height="20" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="626" y="203" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ไม่ได้รัน</text>
+<rect x="64" y="210" width="492" height="20" rx="3" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="84" y="225" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="96" y="225" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">total = n1 + n2 + n3</text>
+<rect x="574" y="210" width="104" height="20" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="626" y="225" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ไม่ได้รัน</text>
+<rect x="64" y="232" width="492" height="20" rx="3" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="84" y="247" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="96" y="247" font-size="13.5" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = total / 3</text>
+<rect x="574" y="232" width="104" height="20" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="626" y="247" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold">ไม่ได้รัน</text>
+<rect x="64" y="254" width="492" height="20" rx="3" fill="#fef2f2" stroke="none" stroke-width="0"/>
+<text x="84" y="269" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">5</text>
+<text x="96" y="269" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f&quot;average of {n1} {n2} and {n3} is {avg}.&quot;</text>
+<rect x="574" y="254" width="104" height="20" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="626" y="269" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">✗ ผิดที่นี่</text>
+<rect x="690" y="160" width="86" height="114" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="733" y="174" font-size="13" fill="#d97706" text-anchor="middle">ตรวจทั้งไฟล์</text>
+<text x="733" y="198" font-size="13" fill="#d97706" text-anchor="middle">ก่อนรัน</text>
+<text x="733" y="222" font-size="13" fill="#d97706" text-anchor="middle">เจอ ( ไม่ปิด</text>
+<text x="733" y="246" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">→ หยุดเลย</text>
+<rect x="60" y="292" width="716" height="130" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="292" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="308" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="305" r="5" fill="#ef4444"/>
+<circle cx="92" cy="305" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="305" r="5" fill="#22c55e"/>
+<text x="130" y="310" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal — python first.py</text>
+<text x="74" y="340" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  File &quot;first.py&quot;, line 5</text>
+<text x="74" y="361" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print(f&quot;average of {n1} {n2} and {n3} is {avg}.&quot;</text>
+<text x="74" y="382" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">         ^</text>
+<text x="74" y="403" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">SyntaxError: &#x27;(&#x27; was never closed</text>
+<text x="560" y="372" font-size="15" fill="#fde68a" text-anchor="start" font-weight="bold">← ไม่มีคำว่า start เลย</text>
+<circle cx="38" cy="458" r="13" fill="#d97706"/>
+<text x="38" y="463" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60" y="464" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 15: เติม ) ให้ครบแล้วรันใหม่</text>
+<rect x="60" y="478" width="716" height="88" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="478" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="494" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="491" r="5" fill="#ef4444"/>
+<circle cx="92" cy="491" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="491" r="5" fill="#22c55e"/>
+<text x="130" y="496" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal — python first.py</text>
+<text x="74" y="526" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">start</text>
+<text x="74" y="547" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">average of 5 10 and 15 is 10.0.</text>
+<text x="560" y="536" font-size="14" fill="#86efac" text-anchor="start">total = 30, avg = 30 / 3</text>
+<circle cx="38" cy="602" r="13" fill="#d97706"/>
+<text x="38" y="607" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="60" y="608" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ข้อ 16: เพิ่มบรรทัด 6 → TypeError (ล้มระหว่างรัน)</text>
+<rect x="60" y="622" width="500" height="148" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="64" y="632" width="492" height="20" rx="3" fill="#ecfdf5" stroke="none" stroke-width="0"/>
+<text x="84" y="647" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="96" y="647" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;start&quot;)</text>
+<rect x="574" y="632" width="104" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="626" y="647" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">✓ รันแล้ว</text>
+<rect x="64" y="654" width="492" height="20" rx="3" fill="#ecfdf5" stroke="none" stroke-width="0"/>
+<text x="84" y="669" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="96" y="669" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1, n2, n3 = 5, 10, 15</text>
+<rect x="574" y="654" width="104" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="626" y="669" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">✓ รันแล้ว</text>
+<rect x="64" y="676" width="492" height="20" rx="3" fill="#ecfdf5" stroke="none" stroke-width="0"/>
+<text x="84" y="691" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="96" y="691" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">total = n1 + n2 + n3</text>
+<rect x="574" y="676" width="104" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="626" y="691" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">✓ รันแล้ว</text>
+<rect x="64" y="698" width="492" height="20" rx="3" fill="#ecfdf5" stroke="none" stroke-width="0"/>
+<text x="84" y="713" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="96" y="713" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = total / 3</text>
+<rect x="574" y="698" width="104" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="626" y="713" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">✓ รันแล้ว</text>
+<rect x="64" y="720" width="492" height="20" rx="3" fill="#ecfdf5" stroke="none" stroke-width="0"/>
+<text x="84" y="735" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">5</text>
+<text x="96" y="735" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f&quot;average of {n1} {n2} and {n3} is {avg}.&quot;)</text>
+<rect x="574" y="720" width="104" height="20" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="626" y="735" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">✓ รันแล้ว</text>
+<rect x="64" y="742" width="492" height="20" rx="3" fill="#fef2f2" stroke="none" stroke-width="0"/>
+<text x="84" y="757" font-size="13" fill="#94a3b8" text-anchor="end" font-family="Consolas, 'Courier New', monospace">6</text>
+<text x="96" y="757" font-size="13.5" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(&quot;sum = &quot; + total)</text>
+<rect x="574" y="742" width="104" height="20" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="626" y="757" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">✗ ผิดที่นี่</text>
+<rect x="60" y="780" width="716" height="193" rx="10" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<rect x="60" y="780" width="716" height="26" rx="10" fill="#334155"/>
+<rect x="60" y="796" width="716" height="10" fill="#334155"/>
+<circle cx="76" cy="793" r="5" fill="#ef4444"/>
+<circle cx="92" cy="793" r="5" fill="#f59e0b"/>
+<circle cx="108" cy="793" r="5" fill="#22c55e"/>
+<text x="130" y="798" font-size="13" fill="#cbd5e1" text-anchor="start">Terminal — python first.py</text>
+<text x="74" y="828" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">start</text>
+<text x="74" y="849" font-size="14" fill="#86efac" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">average of 5 10 and 15 is 10.0.</text>
+<text x="74" y="870" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Traceback (most recent call last):</text>
+<text x="74" y="891" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  File &quot;first.py&quot;, line 6, in &lt;module&gt;</text>
+<text x="74" y="912" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print(&quot;sum = &quot; + total)</text>
+<text x="74" y="933" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">          ~~~~~~~~~^~~~~~~</text>
+<text x="74" y="954" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">TypeError: can only concatenate str (not &quot;int&quot;) to str</text>
+<text x="560" y="837" font-size="14" fill="#86efac" text-anchor="start" font-weight="bold">← 2 บรรทัดแรกพิมพ์ออกมาแล้ว</text>
+<circle cx="38" cy="950" r="13" fill="#d97706"/>
+<text x="38" y="955" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="764" y="955" font-size="14" fill="#fde68a" text-anchor="end" font-weight="bold">(ก) ชนิด + สาเหตุ</text>
+<text x="764" y="892" font-size="14" fill="#fde68a" text-anchor="end" font-weight="bold">(ข) ตำแหน่ง: line 6</text>
+<text x="764" y="934" font-size="14" fill="#fde68a" text-anchor="end" font-weight="bold">(ค) ^ ชี้ตัว + ที่มีปัญหา</text>
+<rect x="560" y="938" width="0.1" height="0.1" rx="0" fill="none" stroke="none" stroke-width="0"/>
+<rect x="60" y="983" width="716" height="34" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="76" y="1006" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">อ่าน Traceback จากล่างขึ้นบน: (ก) บรรทัดสุดท้าย → (ข) บรรทัดที่บอก line → (ค) เครื่องหมาย ^</text>
+<circle cx="38" cy="1069" r="13" fill="#d97706"/>
+<text x="38" y="1074" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<rect x="60" y="1039" width="350" height="100" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="76" y="1065" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ต่อ str กับ int ด้วย +</text>
+<text x="76" y="1093" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">print(&quot;sum = &quot; + total)</text>
+<text x="76" y="1121" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">→ TypeError</text>
+<rect x="426" y="1039" width="350" height="100" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442" y="1065" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ข้อ 17: ใช้ f-string</text>
+<text x="442" y="1093" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">print(f&quot;sum = {total}&quot;)</text>
+<text x="442" y="1121" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">→ sum = 30</text>
+<rect x="60" y="1159" width="716" height="58" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="76" y="1183" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">สรุป: SyntaxError = โปรแกรมไม่เริ่มทำงานเลย (ไม่มี start)</text>
+<text x="76" y="1205" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">        TypeError = runtime error รันบรรทัด 1–5 สำเร็จแล้วจึงล้มที่บรรทัด 6</text>
+</svg>
