@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนภูมิแท่ง checks 80000 1649 5688 และ hits 181 129 181 ของการตรวจทุกคู่ กริด และกริดพร้อมช่องข้างเคียง">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>แผนภูมิแท่ง checks 80000 1649 5688 และ hits 181 129 181 ของการตรวจทุกคู่ กริด และกริดพร้อมช่องข้างเคียง</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ผลการทดลอง: จำนวนการเปรียบเทียบและจำนวนการชน 3 วิธี</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า output ของขั้นตอนที่ 10–11 เทียบกันอย่างไรเมื่อวาดเป็นแท่งตามสเกล</text>
+<circle cx="52" cy="103" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="108" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="74" y="108" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จำนวนการเปรียบเทียบ (checks) — 1 px = 160 ครั้ง (แกนเริ่มที่ 0)</text>
+<text x="200" y="156" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">ตรวจทุกคู่</text>
+<rect x="210" y="136" width="500" height="32" rx="4" fill="#475569" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="700" y="158" font-size="15" fill="#ffffff" text-anchor="end" font-weight="bold">80,000</text>
+<text x="200" y="212" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">กริด (ช่องเดียว)</text>
+<rect x="210" y="192" width="10.31" height="32" rx="4" fill="#dc2626" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="230.31" y="214" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">1,649  (น้อยกว่า 48.5 เท่า)</text>
+<text x="200" y="268" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">กริด + ช่องข้างเคียง</text>
+<rect x="210" y="248" width="35.55" height="32" rx="4" fill="#059669" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="255.55" y="270" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">5,688  (น้อยกว่า 14.1 เท่า)</text>
+<text x="210" y="316" font-size="14" fill="#475569" text-anchor="start">80000/1649 = 48.5 (ตรงกับ ratio ใน output) · ประมาณการบทเรียน 80,000/48 ≈ 1,667</text>
+<circle cx="52" cy="363" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="368" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="74" y="368" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จำนวนการชน (hits) — 1 คู่ = 2.5 px</text>
+<text x="200" y="416" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">ตรวจทุกคู่</text>
+<rect x="210" y="396" width="452.5" height="32" rx="4" fill="#475569" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="672.5" y="418" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">181  ✓ ครบ</text>
+<text x="200" y="472" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">กริด (ช่องเดียว)</text>
+<rect x="210" y="452" width="322.5" height="32" rx="4" fill="#dc2626" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="542.5" y="474" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">129  ✗ ขาด 52</text>
+<text x="200" y="528" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold">กริด + ช่องข้างเคียง</text>
+<rect x="210" y="508" width="452.5" height="32" rx="4" fill="#059669" stroke="none" stroke-width="0" fill-opacity="0.85"/>
+<text x="672.5" y="530" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">181  ✓ ครบ</text>
+<line x1="662.5" y1="386" x2="662.5" y2="560" stroke="#059669" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="662.5" y="576" font-size="13" fill="#059669" text-anchor="middle" font-weight="bold">181 = ค่าจริง</text>
+<rect x="40" y="600" width="720" height="82" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="52" y="627" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">สรุป: </tspan><tspan fill="#0f172a" font-weight="bold">กริด + ช่องข้างเคียงได้ผลถูกต้องเท่าการตรวจทุกคู่ (181) ด้วยงานน้อยกว่า </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">≈ 14 เท่า</tspan></text>
+<text x="52" y="655" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#0f172a" font-weight="bold">   (80000/5688 ≈ 14.1) ส่วนกริดช่องเดียวเร็วที่สุดแต่ </tspan><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">ผิด</tspan><tspan fill="#0f172a" font-weight="bold"> — เร็วแต่ผิดใช้ไม่ได้</tspan></text>
+<rect x="40" y="700" width="352" height="84" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="54" y="729" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ วัดแค่ checks</text>
+<text x="54" y="753" font-size="15" fill="#0f172a" text-anchor="start">สรุปว่ากริดช่องเดียวดีที่สุด (1649)</text>
+<rect x="408" y="700" width="352" height="84" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="422" y="729" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ตรวจ hits คู่กันเสมอ</text>
+<text x="422" y="753" font-size="15" fill="#0f172a" text-anchor="start">ต้องได้ 181 เท่าวิธีตรวจทุกคู่ก่อน</text>
+</svg>

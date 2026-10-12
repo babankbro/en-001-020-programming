@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1190" width="800" height="1190" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 1: เข้าถึงตาราง scores ด้วย [i][j] (ขั้นตอนที่ 1–2)</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: scores[i][j] ชี้ช่องไหน และลูปซ้อนเดินผ่านช่องในลำดับใด</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ขั้นตอนที่ 1 (รันแล้ว)</text>
+<rect x="285.6" y="110.0" width="20.0" height="18.0" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="312.6" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ข้อ 3 ทายเองก่อนรัน</text>
+<rect x="460.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="487.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">IndexError</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ตาราง 3 แถว × 4 คอลัมน์: i = แถว (นักศึกษา), j = คอลัมน์ (วิชา)</text>
+<text x="205.0" y="210.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">Math</text>
+<text x="205.0" y="228.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">j=0</text>
+<text x="275.0" y="210.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">Science</text>
+<text x="275.0" y="228.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">j=1</text>
+<text x="345.0" y="210.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">English</text>
+<text x="345.0" y="228.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">j=2</text>
+<text x="415.0" y="210.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">Computer</text>
+<text x="415.0" y="228.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">j=3</text>
+<text x="110.0" y="262.0" font-size="14" fill="#475569" text-anchor="end" xml:space="preserve">Somchai</text>
+<text x="160.0" y="262.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=0</text>
+<rect x="170.0" y="236.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="205.0" y="261.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">55</text>
+<rect x="240.0" y="236.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="275.0" y="261.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">63</text>
+<rect x="310.0" y="236.0" width="70.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+<text x="345.0" y="261.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">77</text>
+<rect x="380.0" y="236.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="415.0" y="261.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">81</text>
+<text x="110.0" y="302.0" font-size="14" fill="#475569" text-anchor="end" xml:space="preserve">Somsri</text>
+<text x="160.0" y="302.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=1</text>
+<rect x="170.0" y="276.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="205.0" y="301.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">65</text>
+<rect x="240.0" y="276.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="275.0" y="301.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">61</text>
+<rect x="310.0" y="276.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="301.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">67</text>
+<rect x="380.0" y="276.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="415.0" y="301.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">72</text>
+<text x="110.0" y="342.0" font-size="14" fill="#475569" text-anchor="end" xml:space="preserve">Sompong</text>
+<text x="160.0" y="342.0" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=2</text>
+<rect x="170.0" y="316.0" width="70.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+<text x="205.0" y="341.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">97</text>
+<rect x="240.0" y="316.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="275.0" y="341.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">95</text>
+<rect x="310.0" y="316.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="341.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">92</text>
+<rect x="380.0" y="316.0" width="70.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="415.0" y="341.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">88</text>
+<rect x="167.0" y="233.0" width="286.0" height="46.0" rx="4" fill="none" stroke="#059669" stroke-width="2.5" stroke-dasharray="7 4"/>
+<rect x="170.0" y="356.0" width="280.0" height="40.0" rx="0" fill="#fef2f2" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="160.0" y="382.0" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i=3 ?</text>
+<text x="310.0" y="382.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" xml:space="preserve">ไม่มีแถวนี้</text>
+<text x="490.0" y="214.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[0]</text>
+<text x="770.0" y="214.0" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[55, 63, 77, 81]</text>
+<text x="490.0" y="244.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[0][2]</text>
+<text x="770.0" y="244.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">77</text>
+<text x="490.0" y="274.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[2][0]</text>
+<text x="770.0" y="274.0" font-size="15" fill="#2563eb" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">97</text>
+<text x="490.0" y="304.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">len(scores), len(scores[0])</text>
+<text x="770.0" y="304.0" font-size="15" fill="#0f172a" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3 4</text>
+<text x="490.0" y="334.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[1][3]</text>
+<text x="770.0" y="334.0" font-size="15" fill="#7c3aed" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">? ทายเอง</text>
+<text x="490.0" y="364.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[-1][-1]</text>
+<text x="770.0" y="364.0" font-size="15" fill="#7c3aed" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">? ทายเอง</text>
+<text x="490.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[3][0]</text>
+<text x="770.0" y="394.0" font-size="15" fill="#dc2626" text-anchor="end" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">IndexError</text>
+<text x="20.0" y="426.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">กรอบเขียวประ = ทั้งแถว scores[0] (ลิสต์ชั้นใน)  ·  scores[-1][-1] = แถวสุดท้าย คอลัมน์สุดท้าย</text>
+<circle cx="45.0" cy="474.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="479.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="480.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ 2: ลูปนอก i (แถว) · ลูปใน j (คอลัมน์) → เดินทีละแถว</text>
+<rect x="60.0" y="510.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="91.0" y="537.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">55</text>
+<circle cx="71.0" cy="521.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="71.0" y="526.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<rect x="122.0" y="510.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="153.0" y="537.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">63</text>
+<circle cx="133.0" cy="521.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="133.0" y="526.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<rect x="184.0" y="510.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="215.0" y="537.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">77</text>
+<circle cx="195.0" cy="521.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="195.0" y="526.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<rect x="246.0" y="510.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="277.0" y="537.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">81</text>
+<circle cx="257.0" cy="521.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="257.0" y="526.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">4</text>
+<line x1="64.0" y1="546.0" x2="302.0" y2="546.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ar-orange)"/>
+<text x="318.0" y="538.0" font-size="14" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">↵ print()</text>
+<rect x="60.0" y="554.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="91.0" y="581.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">65</text>
+<circle cx="71.0" cy="565.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="71.0" y="570.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">5</text>
+<rect x="122.0" y="554.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="153.0" y="581.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">61</text>
+<circle cx="133.0" cy="565.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="133.0" y="570.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">6</text>
+<rect x="184.0" y="554.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="215.0" y="581.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">67</text>
+<circle cx="195.0" cy="565.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="195.0" y="570.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">7</text>
+<rect x="246.0" y="554.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="277.0" y="581.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">72</text>
+<circle cx="257.0" cy="565.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="257.0" y="570.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">8</text>
+<line x1="64.0" y1="590.0" x2="302.0" y2="590.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ar-orange)"/>
+<text x="318.0" y="582.0" font-size="14" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">↵ print()</text>
+<rect x="60.0" y="598.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="91.0" y="625.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">97</text>
+<circle cx="71.0" cy="609.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="71.0" y="614.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">9</text>
+<rect x="122.0" y="598.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="153.0" y="625.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">95</text>
+<circle cx="133.0" cy="609.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="133.0" y="614.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">10</text>
+<rect x="184.0" y="598.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="215.0" y="625.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">92</text>
+<circle cx="195.0" cy="609.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="195.0" y="614.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">11</text>
+<rect x="246.0" y="598.0" width="62.0" height="44.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="277.0" y="625.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">88</text>
+<circle cx="257.0" cy="609.0" r="9" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="257.0" y="614.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">12</text>
+<line x1="64.0" y1="634.0" x2="302.0" y2="634.0" stroke="#d97706" stroke-width="1.5" marker-end="url(#ar-orange)"/>
+<text x="318.0" y="626.0" font-size="14" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">↵ print()</text>
+<rect x="440.0" y="512.0" width="330.0" height="96.0" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="450.0" y="530.0" font-size="13" fill="#94a3b8" text-anchor="start" xml:space="preserve">output</text>
+<text x="450.0" y="552.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">55 63 77 81 </text>
+<text x="450.0" y="574.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">65 61 67 72 </text>
+<text x="450.0" y="596.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">97 95 92 88 </text>
+<text x="440.0" y="650.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">end=" " ต่อเลขบนบรรทัดเดียว แล้ว print() ปิดแถว</text>
+<circle cx="45.0" cy="694.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="699.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="700.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ข้อ 4: สลับเป็น scores[j][i] → กรอกตารางไล่ค่ารอบ i = 0</text>
+<rect x="36.0" y="720.0" width="734.0" height="32.0" rx="6" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="60.0" y="742.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">i</text>
+<text x="110.0" y="742.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">j</text>
+<text x="220.0" y="742.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[j][i]</text>
+<text x="400.0" y="742.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ได้ค่า</text>
+<text x="60.0" y="775.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="110.0" y="775.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="220.0" y="775.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[0][0]</text>
+<text x="400.0" y="775.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">?</text>
+<line x1="36.0" y1="786.0" x2="770.0" y2="786.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="60.0" y="809.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="110.0" y="809.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<text x="220.0" y="809.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[1][0]</text>
+<text x="400.0" y="809.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">?</text>
+<line x1="36.0" y1="820.0" x2="770.0" y2="820.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="60.0" y="843.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="110.0" y="843.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2</text>
+<text x="220.0" y="843.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[2][0]</text>
+<text x="400.0" y="843.0" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">?</text>
+<line x1="36.0" y1="854.0" x2="770.0" y2="854.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="60.0" y="877.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="110.0" y="877.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="220.0" y="877.0" font-size="15" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">scores[3][0]</text>
+<text x="400.0" y="877.0" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">IndexError (ไม่มีแถว 3)</text>
+<line x1="36.0" y1="888.0" x2="770.0" y2="888.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="44.0" y="912.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">เติมช่อง ? จากตารางในภาพ ① แล้วรันเทียบ — บรรทัด j = 3 คือจุดที่เกิด </tspan><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">IndexError</tspan></text>
+<text x="44.0" y="936.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">เหตุผล: j วิ่ง 0–3 ตามจำนวนคอลัมน์ แต่เมื่อ j ไปอยู่ตำแหน่งแถว จะมีแถวแค่ 0–2</text>
+<rect x="30.0" y="966.0" width="740.0" height="204.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="994.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="1010.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1035.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1034.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[2, 0]</tspan><tspan fill="#0f172a"> แบบ NumPy</tspan></text>
+<text x="84.0" y="1056.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ลิสต์ซ้อนไม่รองรับ → TypeError</tspan></text>
+<rect x="406.0" y="1010.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1035.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1034.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[2][0]</tspan><tspan fill="#0f172a"> วงเล็บสองคู่</tspan></text>
+<text x="446.0" y="1056.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">หยิบแถว 2 ก่อน แล้วหยิบคอลัมน์ 0 → 97</tspan></text>
+<rect x="44.0" y="1086.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1111.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1110.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">for j in range(len(scores))</tspan></text>
+<text x="84.0" y="1132.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ลูปในวิ่งแค่ 3 รอบ ขาดคอลัมน์ Computer</tspan></text>
+<rect x="406.0" y="1086.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1111.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1110.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">for j in range(len(scores[i]))</tspan></text>
+<text x="446.0" y="1132.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ลูปในวิ่งตามความยาวแถว = 4 รอบ</tspan></text>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1090" width="800" height="1090" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 3: บั๊กใน stack_v2.py — pop สองครั้งต่อรอบ (ขั้นตอนที่ 8)</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: โค้ดนี้พิมพ์อะไร พังที่รอบใด เพราะอะไร และแก้ได้กี่แบบ</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ข้อมูลในสแตก</text>
+<rect x="245.5" y="110.0" width="20.0" height="18.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="272.5" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">การตรวจ is_empty()</text>
+<rect x="436.4" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="463.4" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">pop / error</text>
+<rect x="566.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="593.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ทางแก้</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">โค้ดท้ายไฟล์ที่ต้องทายผลก่อนรัน</text>
+<rect x="44.0" y="188.0" width="350.0" height="112.0" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="1.2"/>
+<text x="60.0" y="214.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">while </tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace">not m.is_empty():</tspan></text>
+<text x="60.0" y="240.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">    print(m.pop())</tspan></text>
+<text x="60.0" y="266.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace">    print(m.pop())</tspan><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">  ← ไม่มีใครตรวจ</tspan></text>
+<text x="60.0" y="290.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">push 'x', 'y', 'z' ไว้ก่อน (3 ตัว = เลขคี่)</text>
+<rect x="410.0" y="188.0" width="360.0" height="184.0" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="420.0" y="206.0" font-size="13" fill="#94a3b8" text-anchor="start" xml:space="preserve">output</text>
+<text x="420.0" y="228.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<text x="420.0" y="250.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<text x="420.0" y="272.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<text x="420.0" y="294.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Traceback (most recent call last):</text>
+<text x="420.0" y="316.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  ...</text>
+<text x="420.0" y="338.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    raise IndexError("pop from empty stack")</text>
+<text x="420.0" y="360.0" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">IndexError: pop from empty stack</text>
+<circle cx="45.0" cy="406.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="411.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="412.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ไล่ทีละรอบ: เงื่อนไข while ตรวจแค่ต้นรอบ</text>
+<text x="44.0" y="476.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">รอบ 1</text>
+<text x="44.0" y="496.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">ต้นรอบ</text>
+<path d="M113.0,440 L113.0,522 L167.0,522 L167.0,440" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="118.0" y="494.0" width="44.0" height="22.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="140.0" y="510.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="118.0" y="470.0" width="44.0" height="22.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="140.0" y="486.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<rect x="118.0" y="446.0" width="44.0" height="22.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="140.0" y="462.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<path d="M232,456 L272,478 L232,500 L192,478 Z" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="232.0" y="483.0" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">ว่าง?</text>
+<text x="232.0" y="518.0" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">False → เข้า</text>
+<line x1="176.0" y1="478.0" x2="190.0" y2="478.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<line x1="274.0" y1="478.0" x2="292.0" y2="478.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<rect x="296.0" y="460.0" width="116.0" height="34.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="354.0" y="482.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop → z</text>
+<text x="354.0" y="514.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">ครั้งที่ 1</text>
+<path d="M437.0,440 L437.0,522 L491.0,522 L491.0,440" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="442.0" y="494.0" width="44.0" height="22.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="464.0" y="510.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="442.0" y="470.0" width="44.0" height="22.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="464.0" y="486.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<line x1="414.0" y1="478.0" x2="436.0" y2="478.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<line x1="510.0" y1="478.0" x2="528.0" y2="478.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<rect x="532.0" y="460.0" width="116.0" height="34.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="590.0" y="482.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop → y</text>
+<text x="590.0" y="514.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">ครั้งที่ 2</text>
+<path d="M673.0,440 L673.0,522 L727.0,522 L727.0,440" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="678.0" y="494.0" width="44.0" height="22.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="700.0" y="510.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<line x1="650.0" y1="478.0" x2="672.0" y2="478.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="44.0" y="576.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">รอบ 2</text>
+<text x="44.0" y="596.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">ต้นรอบ</text>
+<path d="M113.0,540 L113.0,622 L167.0,622 L167.0,540" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="118.0" y="594.0" width="44.0" height="22.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="140.0" y="610.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<path d="M232,556 L272,578 L232,600 L192,578 Z" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="232.0" y="583.0" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">ว่าง?</text>
+<text x="232.0" y="618.0" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">False → เข้า</text>
+<line x1="176.0" y1="578.0" x2="190.0" y2="578.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<line x1="274.0" y1="578.0" x2="292.0" y2="578.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<rect x="296.0" y="560.0" width="116.0" height="34.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="354.0" y="582.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop → x</text>
+<text x="354.0" y="614.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">ครั้งที่ 1</text>
+<path d="M437.0,540 L437.0,622 L491.0,622 L491.0,540" fill="none" stroke="#475569" stroke-width="2.2"/>
+<line x1="414.0" y1="578.0" x2="436.0" y2="578.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<line x1="510.0" y1="578.0" x2="528.0" y2="578.0" stroke="#475569" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<rect x="532.0" y="546.0" width="200.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2.5"/>
+<text x="632.0" y="570.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" xml:space="preserve">pop ครั้งที่ 2</text>
+<text x="632.0" y="594.0" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">IndexError!</text>
+<text x="44.0" y="658.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">รอบ 2 เริ่มด้วย ['x'] ซึ่งไม่ว่าง จึงเข้าลูป pop ครั้งแรกได้ x แต่ pop ครั้งที่สองเจอสแตกว่างโดยไม่มีการตรวจซ้ำ</text>
+<circle cx="45.0" cy="700.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="705.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="706.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ข้อ 19: แก้ได้ 2 แบบ — ทั้งคู่ต้องได้ z, y, x ไม่มี error</text>
+<rect x="44.0" y="724.0" width="350.0" height="118.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="60.0" y="748.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">(ก) pop บรรทัดเดียวต่อรอบ</text>
+<text x="60.0" y="776.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">while not m.is_empty():</text>
+<text x="60.0" y="800.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print(m.pop())</text>
+<rect x="406.0" y="724.0" width="364.0" height="118.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="422.0" y="748.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">(ข) ตรวจก่อน pop ครั้งที่สอง</text>
+<text x="422.0" y="774.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">while not m.is_empty():</text>
+<text x="422.0" y="792.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    print(m.pop())</text>
+<text x="422.0" y="810.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    if not m.is_empty():</text>
+<text x="422.0" y="828.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">        print(m.pop())</text>
+<text x="60.0" y="830.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">output: </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">z  y  x</tspan></text>
+<rect x="30.0" y="866.0" width="740.0" height="204.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="894.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="910.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="935.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="934.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">คิดว่า </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">while not m.is_empty()</tspan></text>
+<text x="84.0" y="956.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">คุ้มครองทุก pop ในลูป</tspan></text>
+<rect x="406.0" y="910.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="935.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="934.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">เงื่อนไขตรวจแค่ต้นรอบ</tspan></text>
+<text x="446.0" y="956.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ตรวจ is_empty() ก่อน pop() ทุกครั้ง</tspan></text>
+<rect x="44.0" y="986.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1011.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1010.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ตอบว่า "พังรอบที่ 4" (นับ pop ทีละครั้งเป็นรอบ)</tspan></text>
+<text x="84.0" y="1032.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ปนกันระหว่างรอบ while กับครั้งที่ pop</tspan></text>
+<rect x="406.0" y="986.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1011.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1010.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">1 รอบ while มี pop 2 ครั้ง</tspan></text>
+<text x="446.0" y="1032.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">→ พังรอบที่ 2 (pop ครั้งที่ 4 โดยรวม)</tspan></text>
+</svg>

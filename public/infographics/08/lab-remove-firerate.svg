@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930" width="800" height="930" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ไล่รอบการวนลบ 2 ออกจาก 1 2 2 3 ที่ข้ามสมาชิก เทียบวนบนสำเนา และแถบเฟรม 0 ถึง 59 ที่ยิง 6 นัด">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>ไล่รอบการวนลบ 2 ออกจาก 1 2 2 3 ที่ข้ามสมาชิก เทียบวนบนสำเนา และแถบเฟรม 0 ถึง 59 ที่ยิง 6 นัด</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">กับดักการลบระหว่างวน และอัตราการยิง</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า ทำไม [1, 2, 2, 3] จึงเหลือ [1, 2, 3] และยิงทุก 10 เฟรมได้กี่นัดใน 1 วินาที</text>
+<circle cx="52" cy="103" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="52" y="108" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="74" y="108" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">✗ for x in xs: แล้ว xs.remove(x) — ช่องหนา = index ที่ for ชี้ (เลขเล็กใต้ช่อง)</text>
+<rect x="60" y="130" width="48" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+<text x="84" y="157" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="84" y="186" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="116" y="130" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="140" y="157" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="140" y="186" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="172" y="130" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="196" y="157" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="196" y="186" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="228" y="130" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="252" y="157" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="252" y="186" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="300" y="156" font-size="15" fill="#0f172a" text-anchor="start">รอบที่ 1: ชี้ index 0 → x = 1 ไม่ลบ</text>
+<rect x="60" y="202" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="84" y="229" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="84" y="258" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="116" y="202" width="48" height="40" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+<text x="140" y="229" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="140" y="258" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="172" y="202" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="196" y="229" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="196" y="258" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="228" y="202" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="252" y="229" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="252" y="258" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="300" y="228" font-size="15" fill="#dc2626" text-anchor="start">รอบที่ 2: ชี้ index 1 → x = 2 ลบ!</text>
+<rect x="60" y="274" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="84" y="301" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="84" y="330" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="116" y="274" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="140" y="301" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="140" y="330" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="172" y="274" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="196" y="301" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="196" y="330" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<line x1="196" y1="264" x2="146" y2="272" stroke="#d97706" stroke-width="2" marker-end="url(#smO)"/>
+<line x1="252" y1="264" x2="202" y2="272" stroke="#d97706" stroke-width="2" marker-end="url(#smO)"/>
+<text x="300" y="300" font-size="15" fill="#0f172a" text-anchor="start">หลังลบ: ตัวที่อยู่หลังเลื่อนมาทางซ้าย 1 ช่อง</text>
+<rect x="60" y="346" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="84" y="373" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="84" y="402" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="116" y="346" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="140" y="373" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="140" y="402" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="172" y="346" width="48" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+<text x="196" y="373" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="196" y="402" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="300" y="372" font-size="15" fill="#0f172a" text-anchor="start">รอบที่ 3: ชี้ index 2 → x = 3 (ข้าม 2 ที่ index 1)</text>
+<rect x="60" y="418" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="84" y="445" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="84" y="474" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="116" y="418" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="140" y="445" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="140" y="474" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="172" y="418" width="48" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="196" y="445" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="196" y="474" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="300" y="444" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">ไม่มี index 3 → จบวน ผลลัพธ์ [1, 2, 3] ✗</text>
+<circle cx="52" cy="499" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="52" y="504" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="74" y="504" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">✓ วิธีที่ถูก (ได้ [1, 3] ทั้งคู่)</text>
+<rect x="40" y="518" width="350" height="96" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="52" y="545" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">for x in xs[:]:</tspan></text>
+<text x="52" y="569" font-size="15" fill="#0f172a" text-anchor="start">วนบนสำเนา → index ของสำเนาไม่เลื่อน</text>
+<text x="52" y="593" font-size="15" fill="#0f172a" text-anchor="start">ลบจากต้นฉบับได้ครบ → [1, 3]</text>
+<rect x="410" y="518" width="350" height="96" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="422" y="545" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">xs = [x for x in xs if x != 2]</tspan></text>
+<text x="422" y="569" font-size="15" fill="#0f172a" text-anchor="start">สร้างลิสต์ใหม่รอบเดียว</text>
+<text x="422" y="593" font-size="15" fill="#0f172a" text-anchor="start">ไม่แก้ลิสต์ระหว่างวน → [1, 3]</text>
+<rect x="40" y="644" width="720" height="52" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="50" y="669" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace">ในเกม: </tspan><tspan fill="#2563eb" font-family="Consolas, 'Courier New', monospace">for bullet in bullets[:]:</tspan><tspan fill="#0f172a" font-weight="bold"> แล้ว </tspan><tspan fill="#2563eb" font-family="Consolas, 'Courier New', monospace">bullets.remove(bullet)</tspan><tspan fill="#0f172a" font-weight="bold"> — หลุดพร้อมกันก็ไม่ข้าม</tspan></text>
+<circle cx="52" cy="725" r="13" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="52" y="730" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="74" y="730" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ยิงเมื่อ time_steps % 10 == 0 ในเฟรม 0–59 (1 วินาทีที่ 60 FPS) — 1 เฟรม = 11 px</text>
+<rect x="70" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="81" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="92" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="103" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="114" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="125" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="136" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="147" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="158" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="169" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="180" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="191" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="202" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="213" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="224" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="235" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="246" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="257" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="268" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="279" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="290" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="301" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="312" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="323" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="334" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="345" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="356" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="367" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="378" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="389" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="400" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="411" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="422" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="433" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="444" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="455" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="466" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="477" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="488" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="499" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="510" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="521" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="532" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="543" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="554" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="565" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="576" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="587" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="598" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="609" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="620" y="756" width="9" height="26" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<rect x="631" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="642" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="653" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="664" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="675" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="686" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="697" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="708" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="719" y="756" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<text x="74.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">0</text>
+<text x="184.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">10</text>
+<text x="294.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">20</text>
+<text x="404.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">30</text>
+<text x="514.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">40</text>
+<text x="624.5" y="800" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">50</text>
+<text x="736" y="774" font-size="18" fill="#d97706" text-anchor="start" font-weight="bold">6</text>
+<text x="70" y="820" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold">% 10 → 6 นัด (เฟรม 0, 10, 20, 30, 40, 50)</text>
+<rect x="70" y="834" width="9" height="26" rx="2" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<rect x="81" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="92" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="103" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="114" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="125" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="136" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="147" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="158" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="169" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="180" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="191" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="202" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="213" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="224" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="235" y="834" width="9" height="26" rx="2" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<rect x="246" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="257" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="268" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="279" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="290" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="301" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="312" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="323" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="334" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="345" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="356" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="367" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="378" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="389" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="400" y="834" width="9" height="26" rx="2" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<rect x="411" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="422" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="433" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="444" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="455" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="466" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="477" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="488" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="499" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="510" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="521" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="532" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="543" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="554" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="565" y="834" width="9" height="26" rx="2" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<rect x="576" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="587" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="598" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="609" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="620" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="631" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="642" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="653" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="664" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="675" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="686" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="697" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="708" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<rect x="719" y="834" width="9" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="0"/>
+<text x="74.5" y="878" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">0</text>
+<text x="239.5" y="878" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">15</text>
+<text x="404.5" y="878" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">30</text>
+<text x="569.5" y="878" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">45</text>
+<text x="736" y="852" font-size="18" fill="#7c3aed" text-anchor="start" font-weight="bold">4</text>
+<text x="70" y="898" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="bold">% 15 → 4 นัด (คำถาม 1.3) (เฟรม 0, 15, 30, 45)</text>
+</svg>

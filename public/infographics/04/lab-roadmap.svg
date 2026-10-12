@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1134" width="800" height="1134" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">แผนที่ใบงาน Lab 04: ตาราง 2 มิติ · print_table · สแตก</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: ใบงานนี้แบ่งกี่ส่วน แต่ละส่วนทำขั้นตอนไหน ได้ผลงานอะไร และต้องส่งอะไร</text>
+<text x="40.0" y="132.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">เวลา 2 ชั่วโมง (ความยาวแถบตามสเกลเวลา 1 นาที = 6 px)</text>
+<rect x="40.0" y="146.0" width="210.0" height="30.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="145.0" y="167.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 1 · 35 นาที</text>
+<text x="40.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">0</text>
+<rect x="250.0" y="146.0" width="270.0" height="30.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="385.0" y="167.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 2 · 45 นาที</text>
+<text x="250.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">35</text>
+<rect x="520.0" y="146.0" width="240.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="640.0" y="167.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 3 · 40 นาที</text>
+<text x="520.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">80</text>
+<text x="760.0" y="196.0" font-size="14" fill="#475569" text-anchor="end" xml:space="preserve">120 นาที</text>
+<text x="40.0" y="220.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">กรอบสีทึบที่มีตัวเลข = ขั้นตอนที่ N ในใบงาน (เลขต่อเนื่องทั้งใบงาน)</text>
+<rect x="30.0" y="238.0" width="740.0" height="268.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="58.0" cy="264.0" r="15" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="269.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="84.0" y="270.0" font-size="18" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 1: ตารางคะแนนและค่าเฉลี่ย</text>
+<text x="752.0" y="270.0" font-size="16" fill="#2563eb" text-anchor="end" font-weight="bold" xml:space="preserve">35 นาที</text>
+<line x1="44.0" y1="284.0" x2="756.0" y2="284.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="306.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="306.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="292.0" x2="478.0" y2="496.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="312.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="329.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="88.0" y="330.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">สร้างตารางและเข้าถึงข้อมูล</text>
+<rect x="50.0" y="344.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="361.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="88.0" y="362.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">วนซ้ำทุกช่องด้วยลูปซ้อน</text>
+<rect x="50.0" y="376.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="393.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="88.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ค่าเฉลี่ยแถวและคอลัมน์</text>
+<text x="494.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="330.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Lab04_&lt;รหัส&gt;.ipynb</tspan></text>
+<text x="494.0" y="362.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="362.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">(หรือ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">list_of_list.py</tspan><tspan fill="#0f172a">)</tspan></text>
+<text x="494.0" y="394.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="394.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores[0][2]</tspan><tspan fill="#0f172a"> → </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">77</tspan></text>
+<text x="494.0" y="426.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="426.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">แถว </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">69.00 66.25 93.00</tspan></text>
+<text x="494.0" y="458.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="458.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">คอลัมน์ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">72.33 73.00 78.67 80.33</tspan></text>
+<text x="494.0" y="490.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="490.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำถาม 1.1, 1.2</text>
+<line x1="400.0" y1="506.0" x2="400.0" y2="520.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="30.0" y="522.0" width="740.0" height="204.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="58.0" cy="548.0" r="15" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="553.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="84.0" y="554.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 2: พิมพ์ตารางและแทรกหัวตาราง</text>
+<text x="752.0" y="554.0" font-size="16" fill="#059669" text-anchor="end" font-weight="bold" xml:space="preserve">45 นาที</text>
+<line x1="44.0" y1="568.0" x2="756.0" y2="568.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="590.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="590.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="576.0" x2="478.0" y2="716.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="596.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="613.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">4</text>
+<text x="88.0" y="614.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ฟังก์ชัน print_table</text>
+<rect x="50.0" y="628.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="645.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">5</text>
+<text x="88.0" y="646.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">แทรกหัวตารางและสังเกตสำเนาตื้น</text>
+<rect x="50.0" y="660.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="677.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">6</text>
+<text x="88.0" y="678.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">เพิ่มคอลัมน์ค่าเฉลี่ย</text>
+<text x="494.0" y="614.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="614.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ตารางเส้นประ 20 → 48 → 58 ตัว</tspan></text>
+<text x="494.0" y="646.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="646.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">scores</tspan><tspan fill="#0f172a"> ก่อน/หลังแก้สำเนาตื้น</tspan></text>
+<text x="494.0" y="678.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="678.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ตารางมีคอลัมน์ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Average</tspan></text>
+<text x="494.0" y="710.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="710.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">exam_table.py</tspan><tspan fill="#0f172a"> · คำถาม 2.1, 2.2</tspan></text>
+<line x1="400.0" y1="726.0" x2="400.0" y2="740.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="30.0" y="742.0" width="740.0" height="204.0" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<circle cx="58.0" cy="768.0" r="15" fill="#d97706" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="773.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="84.0" y="774.0" font-size="18" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 3: สแตก</text>
+<text x="752.0" y="774.0" font-size="16" fill="#d97706" text-anchor="end" font-weight="bold" xml:space="preserve">40 นาที</text>
+<line x1="44.0" y1="788.0" x2="756.0" y2="788.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="810.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="810.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="796.0" x2="478.0" y2="936.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="816.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="833.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">7</text>
+<text x="88.0" y="834.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คลาส Stack และการไล่ลำดับ</text>
+<rect x="50.0" y="848.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="865.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">8</text>
+<text x="88.0" y="866.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">อธิบายข้อผิดพลาดใน stack_v2.py</text>
+<rect x="50.0" y="880.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="897.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">9</text>
+<text x="88.0" y="898.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">กลับลำดับและตรวจวงเล็บ</text>
+<text x="494.0" y="834.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="834.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">stack_v2.py</tspan><tspan fill="#0f172a"> (คลาส Stack)</tspan></text>
+<text x="494.0" y="866.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="866.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ตารางไล่ลำดับ + โค้ดแก้ 2 แบบ</text>
+<text x="494.0" y="898.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="898.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">nohtyP</tspan><tspan fill="#0f172a"> · </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">True False False True</tspan></text>
+<text x="494.0" y="930.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="930.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำถาม 3.1, 3.2</text>
+<rect x="30.0" y="968.0" width="740.0" height="142.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="52.0" y="1000.0" font-size="18" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">สิ่งที่ต้องส่ง (ท้ายใบงาน)</text>
+<text x="56.0" y="1032.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1032.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ไฟล์ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Lab04_&lt;รหัส&gt;.ipynb</tspan><tspan fill="#0f172a"> (หรือ .py ทั้ง 3 ไฟล์) รันครบ มี scores ก่อน/หลังแก้</tspan></text>
+<text x="56.0" y="1060.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1060.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ตารางไล่ลำดับสแตกขั้นตอนที่ 8 + เหตุผลว่าพังรอบใด + โค้ดที่แก้แล้วทั้ง 2 แบบ</text>
+<text x="56.0" y="1088.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1088.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำตอบคำถาม 1.1, 1.2, 2.1, 2.2, 3.1, 3.2 และคำถามท้ายใบงาน 1–3 (Markdown)</text>
+</svg>

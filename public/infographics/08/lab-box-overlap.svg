@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 802" width="800" height="802" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กล่อง A 10 10 ขนาด 40 กับกล่อง B 20 คูณ 20 ที่ 45 30 ชน 50 30 แตะขอบไม่ชน 20 60 ไม่ชน และตาราง 4 กระสุนคูณ 3 ศัตรู">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>กล่อง A 10 10 ขนาด 40 กับกล่อง B 20 คูณ 20 ที่ 45 30 ชน 50 30 แตะขอบไม่ชน 20 60 ไม่ชน และตาราง 4 กระสุนคูณ 3 ศัตรู</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">กล่องซ้อนกล่อง (AABB) 3 กรณี และการตรวจทุกคู่</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า boxes_overlap ตรวจ 4 เงื่อนไขอย่างไร และ checks = 12 มาจากไหน</text>
+<rect x="40" y="100" width="230" height="414" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<circle cx="58" cy="117" r="11" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="58" y="122" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="162" y="122" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">กรณี 1: B ที่ (45, 30)</text>
+<rect x="48" y="130" width="213" height="246" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="78" y="160" width="120" height="120" rx="0" fill="#2563eb" stroke="#2563eb" stroke-width="2" fill-opacity="0.25"/>
+<rect x="183" y="220" width="60" height="60" rx="0" fill="#d97706" stroke="#d97706" stroke-width="2" fill-opacity="0.35"/>
+<text x="84" y="178" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">A</text>
+<text x="189" y="238" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">B</text>
+<text x="54" y="422" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ax &lt; bx+bw: 10 &lt; 65</text>
+<text x="54" y="442" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ax+aw &gt; bx: 50 &gt; 45</text>
+<text x="54" y="462" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ay &lt; by+bh: 10 &lt; 50</text>
+<text x="54" y="482" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ay+ah &gt; by: 50 &gt; 30</text>
+<text x="155" y="398" font-size="14" fill="#475569" text-anchor="middle">ซ้อนกันทั้งสองแกน</text>
+<text x="155" y="504" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">→ True</text>
+<rect x="285" y="100" width="230" height="414" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<circle cx="303" cy="117" r="11" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="303" y="122" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="407" y="122" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">กรณี 2: B ที่ (50, 30)</text>
+<rect x="293" y="130" width="213" height="246" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="323" y="160" width="120" height="120" rx="0" fill="#2563eb" stroke="#2563eb" stroke-width="2" fill-opacity="0.25"/>
+<rect x="443" y="220" width="60" height="60" rx="0" fill="#d97706" stroke="#d97706" stroke-width="2" fill-opacity="0.35"/>
+<text x="329" y="178" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">A</text>
+<text x="449" y="238" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">B</text>
+<text x="299" y="422" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ax &lt; bx+bw: 10 &lt; 70</text>
+<text x="299" y="442" font-size="14" fill="#dc2626" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✗ ax+aw &gt; bx: 50 &gt; 50</text>
+<text x="299" y="462" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ay &lt; by+bh: 10 &lt; 50</text>
+<text x="299" y="482" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ay+ah &gt; by: 50 &gt; 30</text>
+<text x="400" y="398" font-size="14" fill="#475569" text-anchor="middle">ขอบแตะกันพอดี</text>
+<text x="400" y="504" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">→ False</text>
+<rect x="530" y="100" width="230" height="414" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<circle cx="548" cy="117" r="11" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="548" y="122" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="652" y="122" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">กรณี 3: B ที่ (20, 60)</text>
+<rect x="538" y="130" width="213" height="246" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="568" y="160" width="120" height="120" rx="0" fill="#2563eb" stroke="#2563eb" stroke-width="2" fill-opacity="0.25"/>
+<rect x="598" y="310" width="60" height="60" rx="0" fill="#d97706" stroke="#d97706" stroke-width="2" fill-opacity="0.35"/>
+<text x="574" y="178" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">A</text>
+<text x="604" y="328" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">B</text>
+<text x="544" y="422" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ax &lt; bx+bw: 10 &lt; 40</text>
+<text x="544" y="442" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ax+aw &gt; bx: 50 &gt; 20</text>
+<text x="544" y="462" font-size="14" fill="#059669" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✓ ay &lt; by+bh: 10 &lt; 80</text>
+<text x="544" y="482" font-size="14" fill="#dc2626" text-anchor="start" font-family="Consolas, 'Courier New', monospace">✗ ay+ah &gt; by: 50 &gt; 60</text>
+<text x="645" y="398" font-size="14" fill="#475569" text-anchor="middle">ซ้อนแกน x แต่ไม่ซ้อนแกน y</text>
+<text x="645" y="504" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">→ False</text>
+<text x="400" y="536" font-size="13" fill="#475569" text-anchor="middle">สเกล 1 หน่วย = 3 px · ต้องจริงครบทั้ง 4 ข้อ (and) จึงซ้อน · กรณี 2: 50 &gt; 50 เป็นเท็จ ขอบแตะกันไม่นับ (colliderect ก็ให้ False)</text>
+<circle cx="52" cy="567" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="52" y="572" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="74" y="572" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ขั้นตอนที่ 8: ตรวจทุกคู่ — ทุกช่องคือ 1 ครั้งที่เรียก point_in_box</text>
+<rect x="40" y="588" width="170" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="610.25" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">กระสุน \ ศัตรู</text>
+<rect x="210" y="588" width="130" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="275" y="610.25" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(100, 100)</text>
+<rect x="340" y="588" width="130" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="405" y="610.25" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(300, 100)</text>
+<rect x="470" y="588" width="130" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="535" y="610.25" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold">(500, 400)</text>
+<rect x="40" y="622" width="170" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="644.25" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(120, 130)</text>
+<rect x="210" y="622" width="130" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="275" y="644.25" font-size="15" fill="#059669" text-anchor="middle">ชน ✓</text>
+<rect x="340" y="622" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="405" y="644.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="470" y="622" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="535" y="644.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="40" y="656" width="170" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="678.25" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(330, 90)</text>
+<rect x="210" y="656" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="275" y="678.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="340" y="656" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="405" y="678.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="470" y="656" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="535" y="678.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="40" y="690" width="170" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="712.25" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(540, 440)</text>
+<rect x="210" y="690" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="275" y="712.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="340" y="690" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="405" y="712.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="470" y="690" width="130" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="535" y="712.25" font-size="15" fill="#059669" text-anchor="middle">ชน ✓</text>
+<rect x="40" y="724" width="170" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="746.25" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(700, 700)</text>
+<rect x="210" y="724" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="275" y="746.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="340" y="724" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="405" y="746.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="470" y="724" width="130" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="535" y="746.25" font-size="15" fill="#475569" text-anchor="middle">–</text>
+<rect x="620" y="588" width="140" height="170" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="632" y="615" font-size="15" fill="#0f172a" text-anchor="start">checks</text>
+<text x="632" y="645" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">= 4 × 3</text>
+<text x="632" y="675" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold">= 12</text>
+<text x="632" y="705" font-size="15" fill="#0f172a" text-anchor="start">hits = 2</text>
+<text x="40" y="780" font-size="14" fill="#475569" text-anchor="start">(330, 90) อยู่เหนือศัตรู (300, 100) เพราะ 90 &lt; 100 จึงไม่ชน · B = 40, E = 2000 → 80,000 ครั้งต่อเฟรม (ส่วนที่ 3)</text>
+</svg>

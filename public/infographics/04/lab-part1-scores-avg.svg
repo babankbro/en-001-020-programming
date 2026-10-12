@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1088" width="800" height="1088" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 1: ค่าเฉลี่ยแถวและคอลัมน์ (ขั้นตอนที่ 3)</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: ค่าเฉลี่ยของนักศึกษาแต่ละคนและแต่ละวิชาได้มาอย่างไร หารด้วยอะไร</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ทางแถว (หาร 4)</text>
+<rect x="269.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="296.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ทางคอลัมน์ (หาร 3)</text>
+<rect x="442.6" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="469.6" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ผิด</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ตารางคะแนนพร้อมผลรวมและค่าเฉลี่ยทั้งสองทิศ</text>
+<text x="190.0" y="220.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">Math</text>
+<text x="270.0" y="220.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">Science</text>
+<text x="350.0" y="220.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">English</text>
+<text x="430.0" y="220.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">Computer</text>
+<text x="520.0" y="220.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">total</text>
+<text x="610.0" y="220.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">÷ 4 = avg</text>
+<text x="138.0" y="256.0" font-size="15" fill="#475569" text-anchor="end" font-weight="bold" xml:space="preserve">Somchai</text>
+<rect x="150.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="190.0" y="255.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">55</text>
+<rect x="230.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="270.0" y="255.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">63</text>
+<rect x="310.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="350.0" y="255.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">77</text>
+<rect x="390.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="430.0" y="255.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">81</text>
+<rect x="480.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="520.0" y="255.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">276</text>
+<rect x="570.0" y="230.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+<text x="610.0" y="255.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">69.00</text>
+<text x="138.0" y="296.0" font-size="15" fill="#475569" text-anchor="end" font-weight="bold" xml:space="preserve">Somsri</text>
+<rect x="150.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="190.0" y="295.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">65</text>
+<rect x="230.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="270.0" y="295.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">61</text>
+<rect x="310.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="350.0" y="295.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">67</text>
+<rect x="390.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="430.0" y="295.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">72</text>
+<rect x="480.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="520.0" y="295.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">265</text>
+<rect x="570.0" y="270.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+<text x="610.0" y="295.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">66.25</text>
+<text x="138.0" y="336.0" font-size="15" fill="#475569" text-anchor="end" font-weight="bold" xml:space="preserve">Sompong</text>
+<rect x="150.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="190.0" y="335.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">97</text>
+<rect x="230.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="270.0" y="335.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">95</text>
+<rect x="310.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="350.0" y="335.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">92</text>
+<rect x="390.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="430.0" y="335.6" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">88</text>
+<rect x="480.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="520.0" y="335.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">372</text>
+<rect x="570.0" y="310.0" width="80.0" height="40.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+<text x="610.0" y="335.6" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">93.00</text>
+<text x="138.0" y="386.0" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" xml:space="preserve">total</text>
+<text x="138.0" y="426.0" font-size="15" fill="#059669" text-anchor="end" font-weight="bold" xml:space="preserve">÷ 3 = avg</text>
+<rect x="150.0" y="360.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="190.0" y="385.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">217</text>
+<rect x="150.0" y="400.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2.2"/>
+<text x="190.0" y="425.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">72.33</text>
+<rect x="230.0" y="360.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="270.0" y="385.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">219</text>
+<rect x="230.0" y="400.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2.2"/>
+<text x="270.0" y="425.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">73.00</text>
+<rect x="310.0" y="360.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="350.0" y="385.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">236</text>
+<rect x="310.0" y="400.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2.2"/>
+<text x="350.0" y="425.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">78.67</text>
+<rect x="390.0" y="360.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="430.0" y="385.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">241</text>
+<rect x="390.0" y="400.0" width="80.0" height="40.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2.2"/>
+<text x="430.0" y="425.6" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">80.33</text>
+<text x="570.0" y="384.0" font-size="14" fill="#2563eb" text-anchor="middle" xml:space="preserve">เช่น 276 ÷ 4 = 69.00</text>
+<text x="570.0" y="404.0" font-size="14" fill="#2563eb" text-anchor="middle" xml:space="preserve">265 ÷ 4 = 66.25</text>
+<circle cx="45.0" cy="494.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="499.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="500.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ไล่ลูปคอลัมน์ j = 0 (Math): total ต้องรีเซ็ตเป็น 0 ทุกคอลัมน์</text>
+<rect x="44.0" y="520.0" width="110.0" height="40.0" rx="8" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+<text x="99.0" y="545.4" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">total = 0</text>
+<line x1="156.0" y1="540.0" x2="168.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="172.0" y="520.0" width="120.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="232.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+ 55 → 55</text>
+<line x1="294.0" y1="540.0" x2="306.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="310.0" y="520.0" width="130.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="375.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+ 65 → 120</text>
+<line x1="442.0" y1="540.0" x2="454.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="458.0" y="520.0" width="130.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="523.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+ 97 → 217</text>
+<line x1="590.0" y1="540.0" x2="602.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="606.0" y="520.0" width="170.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="691.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">217 / 3 = 72.33</text>
+<text x="44.0" y="588.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">i = 0, 1, 2 คือแถวของ Somchai, Somsri, Sompong · ตัวหารคือ len(scores) = 3 แถว</text>
+<circle cx="45.0" cy="624.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="629.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="630.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">output ที่ต้องได้ (ลูป และ List Comprehension)</text>
+<rect x="44.0" y="650.0" width="400.0" height="184.0" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="54.0" y="668.0" font-size="13" fill="#94a3b8" text-anchor="start" xml:space="preserve">output</text>
+<text x="54.0" y="690.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Somchai: total = 276, average = 69.00</text>
+<text x="54.0" y="712.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Somsri: total = 265, average = 66.25</text>
+<text x="54.0" y="734.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Sompong: total = 372, average = 93.00</text>
+<text x="54.0" y="756.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Math: total = 217, average = 72.33</text>
+<text x="54.0" y="778.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Science: total = 219, average = 73.00</text>
+<text x="54.0" y="800.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">English: total = 236, average = 78.67</text>
+<text x="54.0" y="822.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Computer: total = 241, average = 80.33</text>
+<rect x="460.0" y="650.0" width="310.0" height="184.0" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="1.2"/>
+<text x="474.0" y="676.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">row_avgs</text>
+<text x="474.0" y="700.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[69.0, 66.25, 93.0]</text>
+<text x="474.0" y="734.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">col_avgs</text>
+<text x="474.0" y="758.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[72.33333333333333,</text>
+<text x="474.0" y="780.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"> 73.0,</text>
+<text x="474.0" y="802.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"> 78.66666666666667,</text>
+<text x="474.0" y="824.0" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"> 80.33333333333333]</text>
+<text x="474.0" y="860.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">ทศนิยมยาวเพราะไม่ได้จัดรูปแบบ :.2f</text>
+<rect x="30.0" y="864.0" width="740.0" height="204.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="892.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="908.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="933.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="932.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">หารคอลัมน์ด้วย </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores[0])</tspan></text>
+<text x="84.0" y="954.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">217 / 4 = 54.25 (ผิด)</tspan></text>
+<rect x="406.0" y="908.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="933.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="932.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">หารคอลัมน์ด้วย </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">len(scores)</tspan></text>
+<text x="446.0" y="954.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">217 / 3 = 72.33 (จำนวนแถว)</tspan></text>
+<rect x="44.0" y="984.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1009.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1008.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">total = 0</tspan><tspan fill="#0f172a"> ไว้นอกลูป j</tspan></text>
+<text x="84.0" y="1030.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">Science สะสมต่อเป็น 436 → 145.33</tspan></text>
+<rect x="406.0" y="984.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1009.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1008.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">total = 0</tspan><tspan fill="#0f172a"> ในลูป j ก่อนลูป i</tspan></text>
+<text x="446.0" y="1030.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">เริ่มนับใหม่ทุกวิชา → 219 → 73.00</tspan></text>
+</svg>

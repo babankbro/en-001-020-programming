@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1052" width="800" height="1052" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เวกเตอร์ทิศจากศัตรู 200 500 ไปผู้เล่น 500 100 เท่ากับ 300 ลบ 400 ขนาด 500 หน่วย 0.6 ลบ 0.8 และความเร็ว 3 เฟรม">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>เวกเตอร์ทิศจากศัตรู 200 500 ไปผู้เล่น 500 100 เท่ากับ 300 ลบ 400 ขนาด 500 หน่วย 0.6 ลบ 0.8 และความเร็ว 3 เฟรม</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ศัตรูแดงไล่ตาม: จากเวกเตอร์ทิศสู่ความเร็วทีละเฟรม</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า seek.py คำนวณ direction → unit → accel อย่างไร และความเร็วเปลี่ยนอย่างไรใน 3 เฟรม</text>
+<text x="40" y="108" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ภาพตามสเกล (1 หน่วยจอ = 0.6 px) และขั้นคำนวณ ①–⑤ ของ seek.py</text>
+<rect x="70" y="130" width="240" height="312" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="100" y1="130" x2="100" y2="442" stroke="#e2e8f0" stroke-width="1"/>
+<text x="100" y="460" font-size="14" fill="#475569" text-anchor="middle">200</text>
+<line x1="160" y1="130" x2="160" y2="442" stroke="#e2e8f0" stroke-width="1"/>
+<text x="160" y="460" font-size="14" fill="#475569" text-anchor="middle">300</text>
+<line x1="220" y1="130" x2="220" y2="442" stroke="#e2e8f0" stroke-width="1"/>
+<text x="220" y="460" font-size="14" fill="#475569" text-anchor="middle">400</text>
+<line x1="280" y1="130" x2="280" y2="442" stroke="#e2e8f0" stroke-width="1"/>
+<text x="280" y="460" font-size="14" fill="#475569" text-anchor="middle">500</text>
+<line x1="70" y1="160" x2="310" y2="160" stroke="#e2e8f0" stroke-width="1"/>
+<text x="64" y="165" font-size="14" fill="#475569" text-anchor="end">100</text>
+<line x1="70" y1="220" x2="310" y2="220" stroke="#e2e8f0" stroke-width="1"/>
+<text x="64" y="225" font-size="14" fill="#475569" text-anchor="end">200</text>
+<line x1="70" y1="280" x2="310" y2="280" stroke="#e2e8f0" stroke-width="1"/>
+<text x="64" y="285" font-size="14" fill="#475569" text-anchor="end">300</text>
+<line x1="70" y1="340" x2="310" y2="340" stroke="#e2e8f0" stroke-width="1"/>
+<text x="64" y="345" font-size="14" fill="#475569" text-anchor="end">400</text>
+<line x1="70" y1="400" x2="310" y2="400" stroke="#e2e8f0" stroke-width="1"/>
+<text x="64" y="405" font-size="14" fill="#475569" text-anchor="end">500</text>
+<line x1="100" y1="400" x2="280" y2="400" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="280" y1="400" x2="280" y2="160" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="190" y="422" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold">dx = 300</text>
+<text x="288" y="280" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold">dy = −400</text>
+<line x1="100" y1="400" x2="273" y2="169" stroke="#d97706" stroke-width="3" marker-end="url(#arrO)"/>
+<text x="180" y="274" font-size="15" fill="#d97706" text-anchor="end" font-weight="bold">|d| = 500</text>
+<line x1="100" y1="400" x2="154" y2="328" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrP)"/>
+<text x="164" y="354" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="bold">unit (0.6, −0.8)</text>
+<text x="164" y="372" font-size="14" fill="#7c3aed" text-anchor="start">(ยาว 1 วาดเป็น 90 px)</text>
+<rect x="93" y="393" width="14" height="14" rx="3" fill="#dc2626" stroke="none" stroke-width="0"/>
+<text x="98" y="444" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">ศัตรู (200, 500)</text>
+<polygon points="280,150 289,168 271,168" fill="#2563eb" stroke="#2563eb" stroke-width="1" stroke-linejoin="round"/>
+<text x="268" y="154" font-size="14" fill="#2563eb" text-anchor="end" font-weight="bold">ผู้เล่น (500, 100)</text>
+<rect x="410" y="130" width="350" height="56" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="430" cy="158" r="12" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="430" y="163" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="450" y="153" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">direction = player − enemy_pos</text>
+<text x="450" y="175" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (500 − 200, 100 − 500) = (300, −400)</text>
+<rect x="410" y="196" width="350" height="56" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="430" cy="224" r="12" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="430" y="229" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="450" y="219" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">length = √(300² + 400²)</text>
+<text x="450" y="241" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= √250000 = 500.0</text>
+<rect x="410" y="262" width="350" height="56" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="430" cy="290" r="12" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="430" y="295" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="450" y="285" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">unit = direction / length</text>
+<text x="450" y="307" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (300/500, −400/500) = (0.6, −0.8)</text>
+<rect x="410" y="328" width="350" height="56" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
+<circle cx="430" cy="356" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="430" y="361" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="450" y="351" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">accel = unit × 0.1</text>
+<text x="450" y="373" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (0.06, −0.08)  ขนาด 0.1</text>
+<rect x="410" y="394" width="350" height="56" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<circle cx="430" cy="422" r="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="430" y="427" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="450" y="417" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">vel (−9, 12) มี speed 15 &gt; 5</text>
+<text x="450" y="439" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">scale_to_length(vel, 5) = (−3.0, 4.0)</text>
+<text x="585" y="470" font-size="14" fill="#475569" text-anchor="middle">y ติดลบ = ผู้เล่นอยู่ด้านบนของจอ</text>
+<circle cx="52" cy="515" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="520" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="74" y="520" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ไล่ค่า 3 เฟรม: vel เดิม + accel (ม่วง) = vel ใหม่ (1 หน่วยความเร็ว = 140 px)</text>
+<line x1="80" y1="630" x2="360" y2="630" stroke="#475569" stroke-width="2" marker-end="url(#arrS)"/>
+<line x1="80" y1="630" x2="368.4" y2="618.8" stroke="#2563eb" stroke-width="2.2" marker-end="url(#arrB)"/>
+<line x1="80" y1="630" x2="376.76" y2="607.57" stroke="#059669" stroke-width="2.2" marker-end="url(#arrG)"/>
+<line x1="80" y1="630" x2="385.09" y2="596.32" stroke="#d97706" stroke-width="2.2" marker-end="url(#arrO)"/>
+<line x1="360" y1="630" x2="368.4" y2="618.8" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#smP)"/>
+<line x1="368.4" y1="618.8" x2="376.76" y2="607.57" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#smP)"/>
+<line x1="376.76" y1="607.57" x2="385.09" y2="596.32" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#smP)"/>
+<circle cx="80" cy="630" r="4" fill="#0f172a" stroke="none" stroke-width="1.5"/>
+<text x="74" y="652" font-size="14" fill="#475569" text-anchor="start">จุดเริ่มเวกเตอร์</text>
+<text x="394" y="636" font-size="14" fill="#475569" text-anchor="start" font-weight="bold">vel เริ่ม (2.0, 0.0)</text>
+<text x="402.4" y="624" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">เฟรม 1 (2.0600, −0.0800)</text>
+<text x="410.76" y="604" font-size="14" fill="#059669" text-anchor="start" font-weight="bold">เฟรม 2 (2.1197, −0.1602)</text>
+<text x="419.09" y="584" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold">เฟรม 3 (2.1792, −0.2406)</text>
+<text x="408" y="660" font-size="14" fill="#7c3aed" text-anchor="start">← ปลายลูกศรม่วงยาว 0.1 เท่ากันทุกเฟรม</text>
+<text x="408" y="680" font-size="14" fill="#7c3aed" text-anchor="start">   แต่ทิศหมุนขึ้นเล็กน้อยตามตำแหน่งใหม่</text>
+<circle cx="52" cy="709" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="52" y="714" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+<text x="74" y="714" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ตารางไล่ค่า (ปิดช่องเขียวแล้วทายก่อนรัน)</text>
+<rect x="40" y="730" width="60" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="70" y="751.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">เฟรม</text>
+<rect x="100" y="730" width="180" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="190" y="751.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">unit (ทิศไปผู้เล่น)</text>
+<rect x="280" y="730" width="180" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="370" y="751.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">vel ใหม่</text>
+<rect x="460" y="730" width="90" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="505" y="751.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">speed</text>
+<rect x="550" y="730" width="210" height="34" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="655" y="751.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">pos ใหม่</text>
+<rect x="40" y="764" width="60" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="70" y="785.9" font-size="14" fill="#0f172a" text-anchor="middle">1</text>
+<rect x="100" y="764" width="180" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="190" y="785.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0.6000, -0.8000)</text>
+<rect x="280" y="764" width="180" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="370" y="785.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(2.0600, -0.0800)</text>
+<rect x="460" y="764" width="90" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="505" y="785.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2.0616</text>
+<rect x="550" y="764" width="210" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="655" y="785.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(202.0600, 499.9200)</text>
+<rect x="40" y="798" width="60" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="70" y="819.9" font-size="14" fill="#0f172a" text-anchor="middle">2</text>
+<rect x="100" y="798" width="180" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="190" y="819.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0.5974, -0.8019)</text>
+<rect x="280" y="798" width="180" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="370" y="819.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(2.1197, -0.1602)</text>
+<rect x="460" y="798" width="90" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="505" y="819.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2.1258</text>
+<rect x="550" y="798" width="210" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="655" y="819.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(204.1797, 499.7598)</text>
+<rect x="40" y="832" width="60" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="70" y="853.9" font-size="14" fill="#0f172a" text-anchor="middle">3</text>
+<rect x="100" y="832" width="180" height="34" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="190" y="853.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0.5948, -0.8038)</text>
+<rect x="280" y="832" width="180" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="370" y="853.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(2.1792, -0.2406)</text>
+<rect x="460" y="832" width="90" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="505" y="853.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2.1925</text>
+<rect x="550" y="832" width="210" height="34" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="655" y="853.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(206.3590, 499.5192)</text>
+<text x="40" y="886" font-size="14" fill="#475569" text-anchor="start">ช่องเขียว = ค่าจาก output (ปิดแล้วทายก่อน) · unit เฟรม 2–3 ไม่ใช่ (0.6, −0.8) แล้ว เพราะศัตรูขยับไป</text>
+<rect x="40" y="902" width="352" height="130" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="54" y="931" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ลำดับลบผิด / ไม่ตรวจความยาว</text>
+<text x="54" y="955" font-size="15" fill="#0f172a" text-anchor="start">enemy_pos − player = (−300, 400)</text>
+<text x="54" y="977" font-size="15" fill="#0f172a" text-anchor="start">→ ศัตรูหนีแทนไล่</text>
+<text x="54" y="999" font-size="15" fill="#0f172a" text-anchor="start">ตำแหน่งตรงกัน → length 0 → ZeroDivisionError</text>
+<rect x="408" y="902" width="352" height="130" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="422" y="931" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ที่ถูก</text>
+<text x="422" y="955" font-size="15" fill="#0f172a" text-anchor="start">player − enemy_pos (ปลาย − ต้น)</text>
+<text x="422" y="977" font-size="15" fill="#0f172a" text-anchor="start">if length(direction) &gt; 0: ก่อน normalize</text>
+<text x="422" y="999" font-size="15" fill="#0f172a" text-anchor="start">คำนวณ direction ใหม่ทุกเฟรม</text>
+</svg>

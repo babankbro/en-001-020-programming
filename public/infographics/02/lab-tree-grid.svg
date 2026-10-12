@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1040" width="800" height="1040" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="ต้นไม้ 8 แถว กว้าง 7 ช่อง แยกสีตาม top_leaf bottom_leaf clone พร้อมตารางค่า s และ n และแผนภาพการเรียกฟังก์ชัน Top-Down">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>ต้นไม้ 8 แถว กว้าง 7 ช่อง แยกสีตาม top_leaf bottom_leaf clone พร้อมตารางค่า s และ n และแผนภาพการเรียกฟังก์ชัน Top-Down</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ขั้นตอนที่ 7 (การบ้าน): ต้นไม้จาก linespace(s, n)</text>
+<text x="400" y="66" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า: แต่ละแถวของต้นไม้มาจากฟังก์ชันไหน และมีช่องว่าง s กับ # n กี่ตัว</text>
+<text x="24" y="97" font-size="15" fill="#475569" text-anchor="start" font-weight="bold">สีในภาพ:</text>
+<rect x="96" y="84" width="18" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="122" y="97" font-size="15" fill="#0f172a" text-anchor="start">top_leaf()</text>
+<rect x="218.4" y="84" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="244.4" y="97" font-size="15" fill="#0f172a" text-anchor="start">bottom_leaf()</text>
+<rect x="366.6" y="84" width="18" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="392.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">clone()</text>
+<rect x="465.6" y="84" width="18" height="18" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.8"/>
+<text x="491.6" y="97" font-size="15" fill="#0f172a" text-anchor="start">ช่องว่าง</text>
+<circle cx="38" cy="136" r="13" fill="#d97706"/>
+<text x="38" y="141" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="60" y="142" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">แผนภาพการเรียก (Top-Down): ออกแบบจากบนลงล่าง</text>
+<rect x="325" y="160" width="150" height="38" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="400" y="185" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">tree()</text>
+<line x1="400" y1="198" x2="120" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="35" y="238" width="170" height="38" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="120" y="263" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">top_leaf()</text>
+<line x1="120" y1="276" x2="302.0" y2="310" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<line x1="400" y1="198" x2="400" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="315" y="238" width="170" height="38" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="400" y="263" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">bottom_leaf()</text>
+<line x1="400" y1="276" x2="400.0" y2="310" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<line x1="400" y1="198" x2="680" y2="236" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="595" y="238" width="170" height="38" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="680" y="263" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">clone()</text>
+<line x1="680" y1="276" x2="498.0" y2="310" stroke="#475569" stroke-width="1.6" marker-end="url(#arrS)"/>
+<rect x="310" y="312" width="180" height="38" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="400" y="337" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">linespace(s, n)</text>
+<text x="400" y="372" font-size="15" fill="#475569" text-anchor="middle">พิมพ์ช่องว่าง s ตัว แล้ว # n ตัว แล้วขึ้นบรรทัด</text>
+<circle cx="38" cy="410" r="13" fill="#d97706"/>
+<text x="38" y="415" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="60" y="416" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ภาพต้นไม้เป็นตารางตัวอักษร 8 แถว × 7 ช่อง คู่กับค่า s, n ของแต่ละแถว</text>
+<text x="106" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<text x="136" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<text x="166" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<text x="196" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3</text>
+<text x="226" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">4</text>
+<text x="256" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">5</text>
+<text x="286" y="460" font-size="12" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">6</text>
+<rect x="360" y="436" width="46" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="454" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="bold">แถว</text>
+<rect x="410" y="436" width="126" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="454" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="bold">ฟังก์ชัน</text>
+<rect x="540" y="436" width="36" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="454" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="bold">i</text>
+<rect x="580" y="436" width="146" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="454" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="bold">linespace(s, n)</text>
+<rect x="730" y="436" width="42" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="454" font-size="13.5" fill="#0f172a" text-anchor="middle" font-weight="bold">ผล</text>
+<text x="82" y="488" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="92" y="468" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="487" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="468" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="136" y="487" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="152" y="468" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="166" y="487" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="182" y="468" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="196" y="488" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="468" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="487" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="410" y="468" width="126" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="487" font-size="13.5" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">top_leaf</text>
+<rect x="540" y="468" width="36" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="487" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="580" y="468" width="146" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="487" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(3, 1)</text>
+<rect x="730" y="468" width="42" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="487" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3+1</text>
+<text x="82" y="518" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="92" y="498" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="517" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="498" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="136" y="517" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="152" y="498" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="166" y="518" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="182" y="498" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="196" y="518" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="212" y="498" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="226" y="518" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="498" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="517" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="410" y="498" width="126" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="517" font-size="13.5" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">top_leaf</text>
+<rect x="540" y="498" width="36" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="517" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="580" y="498" width="146" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="517" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(2, 3)</text>
+<rect x="730" y="498" width="42" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="517" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2+3</text>
+<text x="82" y="548" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">3</text>
+<rect x="92" y="528" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="547" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="528" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="136" y="548" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="152" y="528" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="166" y="548" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="182" y="528" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="196" y="548" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="212" y="528" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="226" y="548" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="242" y="528" width="28" height="28" rx="3" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="256" y="548" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="528" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="547" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3</text>
+<rect x="410" y="528" width="126" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="547" font-size="13.5" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">top_leaf</text>
+<rect x="540" y="528" width="36" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="547" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="580" y="528" width="146" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="547" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(1, 5)</text>
+<rect x="730" y="528" width="42" height="28" rx="3" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="547" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1+5</text>
+<text x="82" y="578" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">4</text>
+<rect x="92" y="558" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="577" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="558" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="136" y="577" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="152" y="558" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="166" y="578" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="182" y="558" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="196" y="578" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="212" y="558" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="226" y="578" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="558" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="577" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">4</text>
+<rect x="410" y="558" width="126" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="577" font-size="13.5" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">bottom_leaf</text>
+<rect x="540" y="558" width="36" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="577" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="580" y="558" width="146" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="577" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(2, 3)</text>
+<rect x="730" y="558" width="42" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="577" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2+3</text>
+<text x="82" y="608" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">5</text>
+<rect x="92" y="588" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="607" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="588" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="136" y="608" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="152" y="588" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="166" y="608" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="182" y="588" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="196" y="608" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="212" y="588" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="226" y="608" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="242" y="588" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="256" y="608" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="588" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="607" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">5</text>
+<rect x="410" y="588" width="126" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="607" font-size="13.5" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">bottom_leaf</text>
+<rect x="540" y="588" width="36" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="607" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="580" y="588" width="146" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="607" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(1, 5)</text>
+<rect x="730" y="588" width="42" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="607" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1+5</text>
+<text x="82" y="638" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">6</text>
+<rect x="92" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="106" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="122" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="136" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="152" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="166" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="182" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="196" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="212" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="226" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="242" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="256" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="272" y="618" width="28" height="28" rx="3" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+<text x="286" y="638" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="618" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="637" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">6</text>
+<rect x="410" y="618" width="126" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="637" font-size="13.5" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">bottom_leaf</text>
+<rect x="540" y="618" width="36" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="637" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">2</text>
+<rect x="580" y="618" width="146" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="637" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(0, 7)</text>
+<rect x="730" y="618" width="42" height="28" rx="3" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="637" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0+7</text>
+<text x="82" y="668" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">7</text>
+<rect x="92" y="648" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="667" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="648" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="136" y="667" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="152" y="648" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="166" y="667" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="182" y="648" width="28" height="28" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="196" y="668" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="648" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="667" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">7</text>
+<rect x="410" y="648" width="126" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="667" font-size="13.5" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">clone</text>
+<rect x="540" y="648" width="36" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="667" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="580" y="648" width="146" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="667" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(3, 1)</text>
+<rect x="730" y="648" width="42" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="667" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3+1</text>
+<text x="82" y="698" font-size="13" fill="#475569" text-anchor="end" font-family="Consolas, 'Courier New', monospace">8</text>
+<rect x="92" y="678" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="106" y="697" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="122" y="678" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="136" y="697" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="152" y="678" width="28" height="28" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="166" y="697" font-size="14" fill="#94a3b8" text-anchor="middle">·</text>
+<rect x="182" y="678" width="28" height="28" rx="3" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="196" y="698" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">#</text>
+<rect x="360" y="678" width="46" height="28" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="383.0" y="697" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">8</text>
+<rect x="410" y="678" width="126" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="473.0" y="697" font-size="13.5" fill="#d97706" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">clone</text>
+<rect x="540" y="678" width="36" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="558.0" y="697" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">1</text>
+<rect x="580" y="678" width="146" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="653.0" y="697" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">linespace(3, 1)</text>
+<rect x="730" y="678" width="42" height="28" rx="3" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="751.0" y="697" font-size="13.5" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">3+1</text>
+<text x="92" y="730" font-size="14" fill="#475569" text-anchor="start">· = ช่องว่าง   # = ตัวที่พิมพ์</text>
+<text x="360" y="730" font-size="14" fill="#475569" text-anchor="start">ผล = ช่องว่าง + จำนวน #</text>
+<circle cx="38" cy="762" r="13" fill="#d97706"/>
+<text x="38" y="767" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="60" y="768" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">หาสูตรจากตาราง: i เพิ่ม 1 → ช่องว่างลด 1, # เพิ่ม 2</text>
+<rect x="60" y="782" width="230" height="70" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="175" y="804" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">top_leaf()</text>
+<text x="175" y="824" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">s = 3 - i</text>
+<text x="175" y="843" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n = 2*i + 1</text>
+<rect x="303" y="782" width="230" height="70" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.6"/>
+<text x="418" y="804" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">bottom_leaf()</text>
+<text x="418" y="824" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">s = 2 - i</text>
+<text x="418" y="843" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n = 2*i + 3</text>
+<rect x="546" y="782" width="230" height="70" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+<text x="661" y="804" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">clone()</text>
+<text x="661" y="824" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">s = 3</text>
+<text x="661" y="843" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">n = 1 (2 ครั้ง)</text>
+<circle cx="38" cy="884" r="13" fill="#d97706"/>
+<text x="38" y="889" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="60" y="890" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">จุดที่มักผิดตอนทำการบ้าน</text>
+<rect x="60" y="904" width="350" height="112" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="76" y="930" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ใช้ line(n) แทน linespace(s, n)</text>
+<text x="76" y="958" font-size="15" fill="#0f172a" text-anchor="start">ไม่มีช่องว่างนำหน้า ทุกแถวชิดซ้าย</text>
+<text x="76" y="980" font-size="15" fill="#0f172a" text-anchor="start">ได้รูปสามเหลี่ยมเบี้ยว ไม่ใช่ต้นไม้</text>
+<text x="76" y="1002" font-size="15" fill="#0f172a" text-anchor="start">กลาง # ไม่ตรงกับลำต้นที่ช่อง 3</text>
+<rect x="426" y="904" width="350" height="112" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442" y="930" font-size="15" fill="#059669" text-anchor="start" font-weight="bold">✓ จัดกึ่งกลางที่ช่อง 3</text>
+<text x="442" y="958" font-size="15" fill="#0f172a" text-anchor="start">ทุกแถว: s + n // 2 = 3</text>
+<text x="442" y="980" font-size="15" fill="#0f172a" text-anchor="start">เช่น แถว 6: 0 + 7 // 2 = 3</text>
+<text x="442" y="1002" font-size="15" fill="#0f172a" text-anchor="start">ลำต้น linespace(3, 1) จึงตรงกลางพอดี</text>
+</svg>

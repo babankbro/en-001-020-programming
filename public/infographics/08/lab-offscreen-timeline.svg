@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 812" width="800" height="812" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="จอ 800 คูณ 600 ย่อสเกล 0.5 กระสุนสามนัดจาก 400 300 ออกจอที่เฟรม 11 26 38 และเส้นเวลาจำนวนกระสุนที่เหลือ">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>จอ 800 คูณ 600 ย่อสเกล 0.5 กระสุนสามนัดจาก 400 300 ออกจอที่เฟรม 11 26 38 และเส้นเวลาจำนวนกระสุนที่เหลือ</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">กระสุน 3 นัดออกนอกจอเมื่อใด: ภาพจอและเส้นเวลา</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า ทำไม output จึงเป็นเฟรม 11, 26, 38 และกระสุนอยู่ที่ใดตอนถูกลบ</text>
+<text x="40" y="98" font-size="14" fill="#475569" text-anchor="start">จอ 800 × 600 ย่อสเกล 0.5 (กรอบดำ = ขอบจอ) · จุดเล็ก = ตำแหน่งทุกเฟรม</text>
+<rect x="110" y="120" width="460" height="360" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="140" y="135" width="400" height="300" rx="0" fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
+<polyline points="340,285 343,289 346,293 349,297 352,301 355,305 358,309 361,313 364,317 367,321 370,325 373,329 376,333 379,337 382,341 385,345 388,349 391,353 394,357 397,361 400,365 403,369 406,373 409,377 412,381 415,385 418,389 421,393 424,397 427,401 430,405 433,409 436,413 439,417 442,421 445,425 448,429 451,433 454,437" fill="none" stroke="#059669" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="343" cy="289" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="346" cy="293" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="349" cy="297" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="352" cy="301" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="355" cy="305" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="358" cy="309" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="361" cy="313" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="364" cy="317" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="367" cy="321" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="370" cy="325" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="373" cy="329" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="376" cy="333" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="379" cy="337" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="382" cy="341" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="385" cy="345" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="388" cy="349" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="391" cy="353" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="394" cy="357" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="397" cy="361" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="400" cy="365" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="403" cy="369" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="406" cy="373" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="409" cy="377" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="412" cy="381" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="415" cy="385" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="418" cy="389" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="421" cy="393" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="424" cy="397" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="427" cy="401" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="430" cy="405" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="433" cy="409" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="436" cy="413" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="439" cy="417" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="442" cy="421" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="445" cy="425" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="448" cy="429" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="451" cy="433" r="1.8" fill="#059669" stroke="none" stroke-width="1.5"/>
+<circle cx="454" cy="437" r="5" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+<polyline points="340,285 335.5,291 331,297 326.5,303 322,309 317.5,315 313,321 308.5,327 304,333 299.5,339 295,345 290.5,351 286,357 281.5,363 277,369 272.5,375 268,381 263.5,387 259,393 254.5,399 250,405 245.5,411 241,417 236.5,423 232,429 227.5,435 223,441" fill="none" stroke="#d97706" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="335.5" cy="291" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="331" cy="297" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="326.5" cy="303" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="322" cy="309" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="317.5" cy="315" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="313" cy="321" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="308.5" cy="327" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="304" cy="333" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="299.5" cy="339" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="295" cy="345" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="290.5" cy="351" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="286" cy="357" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="281.5" cy="363" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="277" cy="369" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="272.5" cy="375" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="268" cy="381" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="263.5" cy="387" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="259" cy="393" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="254.5" cy="399" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="250" cy="405" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="245.5" cy="411" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="241" cy="417" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="236.5" cy="423" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="232" cy="429" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="227.5" cy="435" r="1.8" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<circle cx="223" cy="441" r="5" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+<polyline points="340,285 340,270 340,255 340,240 340,225 340,210 340,195 340,180 340,165 340,150 340,135 340,120" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="340" cy="270" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="255" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="240" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="225" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="210" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="195" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="180" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="165" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="150" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="135" r="1.8" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<circle cx="340" cy="120" r="5" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="340" cy="285" r="6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="350" y="289" font-size="13" fill="#2563eb" text-anchor="start" font-weight="bold">(400, 300)</text>
+<text x="350" y="125" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="bold">เฟรม 11 (400, −30)</text>
+<text x="215" y="461" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold">เฟรม 26 (166, 612)</text>
+<text x="462" y="457" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">เฟรม 38 (628, 604)</text>
+<rect x="60" y="520" width="22" height="6" rx="2" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="92" y="528" font-size="15" fill="#0f172a" text-anchor="start">(6, 8): y = 300 + 8n &gt; 600 → n &gt; 37.5 → เฟรม 38</text>
+<rect x="60" y="546" width="22" height="6" rx="2" fill="#d97706" stroke="none" stroke-width="0"/>
+<text x="92" y="554" font-size="15" fill="#0f172a" text-anchor="start">(−9, 12): y = 300 + 12n &gt; 600 → n &gt; 25 → เฟรม 26</text>
+<rect x="60" y="572" width="22" height="6" rx="2" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<text x="92" y="580" font-size="15" fill="#0f172a" text-anchor="start">(0, −30): y = 300 − 30n &lt; 0 → n &gt; 10 → เฟรม 11</text>
+<circle cx="52" cy="495" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="500" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="74" y="500" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold">ตรวจด้วยมือ (ออกนอกจอเมื่อเงื่อนไขเป็นจริงครั้งแรก)</text>
+<circle cx="52" cy="631" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="636" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="74" y="636" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">เส้นเวลา (1 เฟรม = 16 px): len(bullets) ก่อน/หลังถูกลบ</text>
+<line x1="70" y1="706" x2="710" y2="706" stroke="#475569" stroke-width="2"/>
+<line x1="70" y1="700" x2="70" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="70" y="730" font-size="13" fill="#475569" text-anchor="middle">0</text>
+<line x1="150" y1="700" x2="150" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="150" y="730" font-size="13" fill="#475569" text-anchor="middle">5</text>
+<line x1="230" y1="700" x2="230" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="230" y="730" font-size="13" fill="#475569" text-anchor="middle">10</text>
+<line x1="310" y1="700" x2="310" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="310" y="730" font-size="13" fill="#475569" text-anchor="middle">15</text>
+<line x1="390" y1="700" x2="390" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="390" y="730" font-size="13" fill="#475569" text-anchor="middle">20</text>
+<line x1="470" y1="700" x2="470" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="470" y="730" font-size="13" fill="#475569" text-anchor="middle">25</text>
+<line x1="550" y1="700" x2="550" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="550" y="730" font-size="13" fill="#475569" text-anchor="middle">30</text>
+<line x1="630" y1="700" x2="630" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="630" y="730" font-size="13" fill="#475569" text-anchor="middle">35</text>
+<line x1="710" y1="700" x2="710" y2="712" stroke="#475569" stroke-width="1.5"/>
+<text x="710" y="730" font-size="13" fill="#475569" text-anchor="middle">40</text>
+<rect x="70" y="666" width="174" height="26" rx="4" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="158" y="684" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">เหลือ 3 นัด</text>
+<rect x="246" y="666" width="238" height="26" rx="4" fill="#fffbeb" stroke="#cbd5e1" stroke-width="1"/>
+<text x="366" y="684" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">เหลือ 2 นัด</text>
+<rect x="486" y="666" width="190" height="26" rx="4" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="582" y="684" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">เหลือ 1 นัด</text>
+<circle cx="246" cy="706" r="6" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="246" y="754" font-size="14" fill="#7c3aed" text-anchor="middle" font-weight="bold">เฟรม 11 → left 2</text>
+<circle cx="486" cy="706" r="6" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="486" y="754" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold">เฟรม 26 → left 1</text>
+<circle cx="678" cy="706" r="6" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="678" y="754" font-size="14" fill="#059669" text-anchor="middle" font-weight="bold">เฟรม 38 → left 0</text>
+<text x="688" y="684" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold">หมด → จบ while</text>
+<text x="400" y="786" font-size="14" fill="#475569" text-anchor="middle">while len(bullets) &gt; 0 วนต่อจนเฟรม 38 ที่ลิสต์ว่าง · ทุกเฟรมวนบนสำเนา bullets[:] แล้ว remove จากต้นฉบับ</text>
+</svg>

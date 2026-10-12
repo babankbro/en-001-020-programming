@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" width="800" height="1130" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">แผนที่ใบงาน Lab 03: input · ลิสต์ · การสุ่ม</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: ใบงานนี้แบ่งกี่ส่วน แต่ละส่วนทำขั้นตอนไหน ได้ผลงานอะไร และต้องส่งอะไร</text>
+<text x="40.0" y="132.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">เวลา 2 ชั่วโมง (ความยาวแถบตามสเกลเวลา 1 นาที = 6 px)</text>
+<rect x="40.0" y="146.0" width="180.0" height="30.0" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="130.0" y="167.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 1 · 30 นาที</text>
+<text x="40.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">0</text>
+<rect x="220.0" y="146.0" width="240.0" height="30.0" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="340.0" y="167.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 2 · 40 นาที</text>
+<text x="220.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">30</text>
+<rect x="460.0" y="146.0" width="300.0" height="30.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="610.0" y="167.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 3 · 50 นาที</text>
+<text x="460.0" y="196.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">70</text>
+<text x="760.0" y="196.0" font-size="14" fill="#475569" text-anchor="end" xml:space="preserve">120 นาที</text>
+<text x="40.0" y="220.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">กรอบสีทึบที่มีตัวเลข = ขั้นตอนที่ N ในใบงาน (เลขต่อเนื่องทั้งใบงาน)</text>
+<rect x="30.0" y="238.0" width="740.0" height="204.0" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="58.0" cy="264.0" r="15" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="269.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="84.0" y="270.0" font-size="18" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 1: รับข้อมูลและหาค่าเฉลี่ย</text>
+<text x="752.0" y="270.0" font-size="16" fill="#2563eb" text-anchor="end" font-weight="bold" xml:space="preserve">30 นาที</text>
+<line x1="44.0" y1="284.0" x2="756.0" y2="284.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="306.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="306.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="292.0" x2="478.0" y2="432.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="312.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="329.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="88.0" y="330.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">บั๊ก "155" — input() คืน str เสมอ</text>
+<rect x="50.0" y="344.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="361.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="88.0" y="362.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">แปลงชนิดด้วย int() แล้วหาค่าเฉลี่ย</text>
+<rect x="50.0" y="376.0" width="28.0" height="24.0" rx="6" fill="#2563eb" stroke="#2563eb" stroke-width="1"/>
+<text x="64.0" y="393.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="88.0" y="394.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คูณสายอักขระ vs คูณตัวเลข</text>
+<text x="494.0" y="330.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="330.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Lab03_&lt;รหัส&gt;.ipynb</tspan></text>
+<text x="494.0" y="362.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="362.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">155</tspan><tspan fill="#0f172a"> (บั๊ก) → </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">10.0</tspan><tspan fill="#0f172a"> (แก้แล้ว)</tspan></text>
+<text x="494.0" y="394.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="394.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">8.333333333333334</tspan><tspan fill="#0f172a"> / </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">8.33</tspan></text>
+<text x="494.0" y="426.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="426.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">77 21</tspan><tspan fill="#0f172a">  · คำถาม 1.1</tspan></text>
+<line x1="400.0" y1="442.0" x2="400.0" y2="456.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="30.0" y="458.0" width="740.0" height="204.0" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="58.0" cy="484.0" r="15" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="489.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="84.0" y="490.0" font-size="18" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 2: ลิสต์</text>
+<text x="752.0" y="490.0" font-size="16" fill="#059669" text-anchor="end" font-weight="bold" xml:space="preserve">40 นาที</text>
+<line x1="44.0" y1="504.0" x2="756.0" y2="504.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="526.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="526.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="512.0" x2="478.0" y2="652.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="532.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="549.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">4</text>
+<text x="88.0" y="550.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">สร้างลิสต์ 5 ค่า + sum / max / min</text>
+<rect x="50.0" y="564.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="581.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">5</text>
+<text x="88.0" y="582.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">append / insert / pop ไล่ค่าทีละคำสั่ง</text>
+<rect x="50.0" y="596.0" width="28.0" height="24.0" rx="6" fill="#059669" stroke="#059669" stroke-width="1"/>
+<text x="64.0" y="613.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">6</text>
+<text x="88.0" y="614.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">รับ 5 ค่าในลูป หา max / min / ค่าเฉลี่ย</text>
+<text x="494.0" y="550.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="550.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">16.0</tspan><tspan fill="#0f172a"> (ค่าเฉลี่ยลิสต์ตั้งต้น)</tspan></text>
+<text x="494.0" y="582.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="582.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">กระดาษไล่ค่าลิสต์ ขั้นตอนที่ 5</text>
+<text x="494.0" y="614.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="614.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">12 → 51</tspan><tspan fill="#0f172a"> ผลรวมสะสม, </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">10.2</tspan></text>
+<text x="494.0" y="646.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="646.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำถาม 2.1, 2.2</text>
+<line x1="400.0" y1="662.0" x2="400.0" y2="676.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="30.0" y="678.0" width="740.0" height="236.0" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<circle cx="58.0" cy="704.0" r="15" fill="#d97706" stroke="#ffffff" stroke-width="2"/>
+<text x="58.0" y="709.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="84.0" y="710.0" font-size="18" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">ส่วนที่ 3: การสุ่ม แผนภาพการกระจาย สามเหลี่ยม</text>
+<text x="752.0" y="710.0" font-size="16" fill="#d97706" text-anchor="end" font-weight="bold" xml:space="preserve">50 นาที</text>
+<line x1="44.0" y1="724.0" x2="756.0" y2="724.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="50.0" y="746.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ทำ</text>
+<text x="492.0" y="746.0" font-size="14" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ไฟล์ / ผลงานที่ได้</text>
+<line x1="478.0" y1="732.0" x2="478.0" y2="904.0" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="50.0" y="752.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="769.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">7</text>
+<text x="88.0" y="770.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">สุ่ม 100 ค่า uniform / normal (seed 2)</text>
+<rect x="50.0" y="784.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="801.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">8</text>
+<text x="88.0" y="802.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">scatter กับ plot</text>
+<rect x="50.0" y="816.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="833.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">9</text>
+<text x="88.0" y="834.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">เปรียบเทียบสองการแจกแจงด้วย subplots</text>
+<rect x="50.0" y="848.0" width="28.0" height="24.0" rx="6" fill="#d97706" stroke="#d97706" stroke-width="1"/>
+<text x="64.0" y="865.0" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">10</text>
+<text x="88.0" y="866.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">สามเหลี่ยมชิดขวาด้วย linespace</text>
+<text x="494.0" y="770.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="770.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">รูป scatter + รูป plot (2 รูป)</text>
+<text x="494.0" y="802.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="802.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">รูป subplots และ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">100 96 64</tspan></text>
+<text x="494.0" y="834.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="834.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">triangle(4)</tspan><tspan fill="#0f172a"> สูง 4 แถว</tspan></text>
+<text x="494.0" y="866.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="866.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">pyramid(n)</tspan><tspan fill="#0f172a"> การบ้าน</tspan></text>
+<text x="494.0" y="898.0" font-size="15" fill="#d97706" text-anchor="start" font-weight="bold" xml:space="preserve">▸</text>
+<text x="510.0" y="898.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำถาม 3.1, 3.2</text>
+<rect x="30.0" y="936.0" width="740.0" height="170.0" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="52.0" y="968.0" font-size="18" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">สิ่งที่ต้องส่ง (ท้ายใบงาน)</text>
+<text x="56.0" y="1000.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1000.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ไฟล์ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">Lab03_&lt;รหัสนักศึกษา&gt;.ipynb</tspan><tspan fill="#0f172a"> รันครบทุกเซลล์ มีรูป scatter 2 รูป + subplots</tspan></text>
+<text x="56.0" y="1028.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1028.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">คำตอบคำถาม 1.1, 2.1, 2.2, 3.1, 3.2 และคำถามท้ายใบงาน 1–3 (เซลล์ Markdown)</text>
+<text x="56.0" y="1056.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1056.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">กระดาษไล่ค่าลิสต์ของขั้นตอนที่ 5 (ถ่ายรูปแนบ หรือพิมพ์ใน Markdown)</text>
+<text x="56.0" y="1084.0" font-size="16" fill="#7c3aed" text-anchor="start" font-weight="bold" xml:space="preserve">☐</text>
+<text x="80.0" y="1084.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">โค้ด </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">pyramid(n)</tspan><tspan fill="#0f172a"> พร้อมผลลัพธ์ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">pyramid(5)</tspan></text>
+</svg>

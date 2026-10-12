@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1192" width="800" height="1192" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 2: รับ 5 ค่าเข้าลิสต์ แล้วไล่ผลรวมสะสม (ขั้นตอนที่ 6)</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: ลูปแรกสร้างลิสต์อย่างไร และลูปที่สองได้ 10.2 มาอย่างไร</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">สิ่งที่ผู้ใช้พิมพ์</text>
+<rect x="237.2" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="264.2" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ค่าในลิสต์ / total</text>
+<rect x="401.2" y="110.0" width="20.0" height="18.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="428.2" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ผลลัพธ์</text>
+<rect x="493.4" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="520.5" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ผิด</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ลูปที่ 1: for i in range(5) → ns.append(int(input(...)))</text>
+<text x="46.0" y="206.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">i</text>
+<text x="90.0" y="206.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ข้อความถาม</text>
+<text x="210.0" y="206.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ผู้ใช้พิมพ์</text>
+<text x="320.0" y="206.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">ns หลัง append</text>
+<text x="52.0" y="244.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="90.0" y="244.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1: </text>
+<rect x="214.0" y="222.0" width="52.0" height="34.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="240.0" y="244.4" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<line x1="270.0" y1="239.0" x2="312.0" y2="239.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="320.0" y="220.0" width="46.0" height="38.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="343.0" y="245.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<text x="52.0" y="288.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<text x="90.0" y="288.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n2: </text>
+<rect x="214.0" y="266.0" width="52.0" height="34.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="240.0" y="288.4" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<line x1="270.0" y1="283.0" x2="312.0" y2="283.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="320.0" y="264.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="343.0" y="289.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="366.0" y="264.0" width="46.0" height="38.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="389.0" y="289.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<text x="52.0" y="332.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2</text>
+<text x="90.0" y="332.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n3: </text>
+<rect x="214.0" y="310.0" width="52.0" height="34.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="240.0" y="332.4" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<line x1="270.0" y1="327.0" x2="312.0" y2="327.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="320.0" y="308.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="343.0" y="333.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="366.0" y="308.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="389.0" y="333.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<rect x="412.0" y="308.0" width="46.0" height="38.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="435.0" y="333.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<text x="52.0" y="376.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="90.0" y="376.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n4: </text>
+<rect x="214.0" y="354.0" width="52.0" height="34.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="240.0" y="376.4" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<line x1="270.0" y1="371.0" x2="312.0" y2="371.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="320.0" y="352.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="343.0" y="377.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="366.0" y="352.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="389.0" y="377.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<rect x="412.0" y="352.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="435.0" y="377.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<rect x="458.0" y="352.0" width="46.0" height="38.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="481.0" y="377.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="52.0" y="420.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4</text>
+<text x="90.0" y="420.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n5: </text>
+<rect x="214.0" y="398.0" width="52.0" height="34.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="240.0" y="420.4" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">9</text>
+<line x1="270.0" y1="415.0" x2="312.0" y2="415.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<rect x="320.0" y="396.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="343.0" y="421.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="366.0" y="396.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="389.0" y="421.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<rect x="412.0" y="396.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="435.0" y="421.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<rect x="458.0" y="396.0" width="46.0" height="38.0" rx="0" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="481.0" y="421.0" font-size="16" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<rect x="504.0" y="396.0" width="46.0" height="38.0" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="527.0" y="421.0" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">9</text>
+<text x="564.0" y="420.0" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" xml:space="preserve">← ns ครบ 5 ตัว</text>
+<text x="46.0" y="450.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">ช่องสีเขียว = ค่าที่ append เข้าไปในรอบนั้น  ·  เปลี่ยนเป็น range(3) ลูปรับแค่ 3 ค่า บรรทัดอื่นไม่ต้องแก้</text>
+<circle cx="45.0" cy="488.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="493.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="494.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ฟังก์ชันในตัวบอกคำตอบได้ทันที</text>
+<rect x="44.0" y="512.0" width="726.0" height="50.0" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="1.2"/>
+<text x="60.0" y="543.0" font-size="16" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">max = </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">20</tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">   min = </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">3</tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">   avg = sum(ns) / len(ns) = 51 / 5 = </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">10.2</tspan></text>
+<circle cx="45.0" cy="598.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="603.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="604.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ลูปที่ 2: for x in ns → total += x (ไล่ค่าทีละรอบ)</text>
+<text x="60.0" y="640.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">รอบ</text>
+<text x="130.0" y="640.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">x</text>
+<text x="210.0" y="640.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">total ก่อน</text>
+<text x="330.0" y="640.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">total += x</text>
+<text x="480.0" y="640.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">print(x, total)</text>
+<rect x="36.0" y="652.0" width="734.0" height="36.0" rx="4" fill="#f8fafc" stroke="none" stroke-width="0"/>
+<text x="60.0" y="676.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<text x="130.0" y="676.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<text x="210.0" y="676.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="330.0" y="676.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0 + 12 = 12</text>
+<text x="480.0" y="676.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12 12</text>
+<text x="60.0" y="712.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2</text>
+<text x="130.0" y="712.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
+<text x="210.0" y="712.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<text x="330.0" y="712.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12 + 7 = 19</text>
+<text x="480.0" y="712.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7 19</text>
+<rect x="36.0" y="724.0" width="734.0" height="36.0" rx="4" fill="#f8fafc" stroke="none" stroke-width="0"/>
+<text x="60.0" y="748.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="130.0" y="748.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<text x="210.0" y="748.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">19</text>
+<text x="330.0" y="748.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">19 + 20 = 39</text>
+<text x="480.0" y="748.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20 39</text>
+<text x="60.0" y="784.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">4</text>
+<text x="130.0" y="784.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="210.0" y="784.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">39</text>
+<text x="330.0" y="784.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">39 + 3 = 42</text>
+<text x="480.0" y="784.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3 42</text>
+<rect x="36.0" y="796.0" width="734.0" height="36.0" rx="4" fill="#f8fafc" stroke="none" stroke-width="0"/>
+<text x="60.0" y="820.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5</text>
+<text x="130.0" y="820.0" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">9</text>
+<text x="210.0" y="820.0" font-size="16" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">42</text>
+<text x="330.0" y="820.0" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">42 + 9 = 51</text>
+<text x="480.0" y="820.0" font-size="16" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">9 51</text>
+<text x="46.0" y="862.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ผลรวมสะสมวาดตามสเกล (1 หน่วย = 12 px)</text>
+<rect x="46.0" y="876.0" width="144.0" height="36.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="118.0" y="900.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+12</text>
+<line x1="190.0" y1="912.0" x2="190.0" y2="922.0" stroke="#475569" stroke-width="1.2"/>
+<text x="190.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="190.0" y="876.0" width="84.0" height="36.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="232.0" y="900.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+7</text>
+<line x1="274.0" y1="912.0" x2="274.0" y2="922.0" stroke="#475569" stroke-width="1.2"/>
+<text x="274.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">19</text>
+<rect x="274.0" y="876.0" width="240.0" height="36.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="394.0" y="900.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+20</text>
+<line x1="514.0" y1="912.0" x2="514.0" y2="922.0" stroke="#475569" stroke-width="1.2"/>
+<text x="514.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">39</text>
+<rect x="514.0" y="876.0" width="36.0" height="36.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="532.0" y="900.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+3</text>
+<line x1="550.0" y1="912.0" x2="550.0" y2="922.0" stroke="#475569" stroke-width="1.2"/>
+<text x="550.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">42</text>
+<rect x="550.0" y="876.0" width="108.0" height="36.0" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="604.0" y="900.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">+9</text>
+<line x1="658.0" y1="912.0" x2="658.0" y2="922.0" stroke="#475569" stroke-width="1.2"/>
+<text x="658.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">51</text>
+<text x="46.0" y="938.0" font-size="15" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<line x1="668.0" y1="894.0" x2="692.0" y2="894.0" stroke="#059669" stroke-width="1.8" marker-end="url(#ar-green)"/>
+<rect x="696.0" y="870.0" width="82.0" height="48.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2.5"/>
+<text x="737.0" y="890.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">51 / 5</text>
+<text x="737.0" y="910.0" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">= 10.2</text>
+<rect x="30.0" y="968.0" width="740.0" height="204.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="996.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="1012.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1037.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1036.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">total = 0</tspan><tspan fill="#0f172a"> ไว้ในลูป (รีเซ็ตทุกรอบ)</tspan></text>
+<text x="84.0" y="1058.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">total สุดท้าย = 9 → 9 / 5 = 1.8</tspan></text>
+<rect x="406.0" y="1012.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1037.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1036.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">total = 0</tspan><tspan fill="#0f172a"> ก่อนเข้าลูปครั้งเดียว</tspan></text>
+<text x="446.0" y="1058.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">สะสมได้ 51 → 10.2</tspan></text>
+<rect x="44.0" y="1088.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1113.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1112.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">ns.append(input(...))</tspan><tspan fill="#0f172a"> ลืม int()</tspan></text>
+<text x="84.0" y="1134.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">max(ns) ได้ '9' และ sum() → TypeError</tspan></text>
+<rect x="406.0" y="1088.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1113.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1112.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">ns.append(int(input(...)))</tspan></text>
+<text x="446.0" y="1134.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">เก็บเป็นตัวเลข max = 20 ถูกต้อง</tspan></text>
+</svg>

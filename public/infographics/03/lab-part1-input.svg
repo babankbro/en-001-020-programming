@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1058" width="800" height="1058" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 1: จากบั๊ก "155" สู่ค่าเฉลี่ยที่ถูกต้อง</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: ป้อน 15 กับ 5 แล้วทำไมได้ 155 และแก้อย่างไรให้ได้ค่าเฉลี่ย</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">str (ข้อความ)</text>
+<rect x="255.7" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="282.7" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">int (จำนวนเต็ม)</text>
+<rect x="415.9" y="110.0" width="20.0" height="18.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="442.9" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">float / ผลที่ถูก</text>
+<rect x="563.3" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="590.3" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ผิด / error</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ 1: พิมพ์ 15 และ 5 → input() ให้ str ทั้งคู่</text>
+<rect x="44.0" y="196.0" width="56.0" height="40.0" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<rect x="47.0" y="199.0" width="50.0" height="30.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="72.0" y="220.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15</text>
+<rect x="44.0" y="250.0" width="56.0" height="40.0" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<rect x="47.0" y="253.0" width="50.0" height="30.0" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="72.0" y="274.0" font-size="16" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5</text>
+<text x="72.0" y="310.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">คีย์บอร์ด</text>
+<line x1="102.0" y1="216.0" x2="130.0" y2="216.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<text x="134.0" y="221.0" font-size="15" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">input()</text>
+<line x1="196.0" y1="216.0" x2="222.0" y2="216.0" stroke="#d97706" stroke-width="1.8" marker-end="url(#ar-orange)"/>
+<line x1="102.0" y1="270.0" x2="130.0" y2="270.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<text x="134.0" y="275.0" font-size="15" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">input()</text>
+<line x1="196.0" y1="270.0" x2="222.0" y2="270.0" stroke="#d97706" stroke-width="1.8" marker-end="url(#ar-orange)"/>
+<rect x="226.0" y="196.0" width="70.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="261.0" y="221.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"15"</text>
+<rect x="226.0" y="250.0" width="70.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="261.0" y="275.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"5"</text>
+<text x="232.0" y="310.0" font-size="14" fill="#475569" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1    n2</text>
+<path d="M300,216 C330,216 330,243 352,243" fill="none" stroke="#d97706" stroke-width="1.8"/>
+<path d="M300,270 C330,270 330,243 352,243" fill="none" stroke="#d97706" stroke-width="1.8"/>
+<text x="358.0" y="249.0" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1 + n2</text>
+<line x1="430.0" y1="243.0" x2="468.0" y2="243.0" stroke="#dc2626" stroke-width="1.8" marker-end="url(#ar-red)"/>
+<rect x="472.0" y="222.0" width="86.0" height="44.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="515.0" y="250.5" font-size="18" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"155"</text>
+<text x="515.0" y="290.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" xml:space="preserve">ต่อสายอักขระ</text>
+<text x="515.0" y="308.0" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold" xml:space="preserve">ไม่ใช่ 20</text>
+<rect x="590.0" y="186.0" width="180.0" height="118.0" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="600.0" y="204.0" font-size="13" fill="#94a3b8" text-anchor="start" xml:space="preserve">output</text>
+<text x="600.0" y="226.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Enter n1:15</text>
+<text x="600.0" y="248.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Enter n2:5</text>
+<text x="600.0" y="270.0" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">155</text>
+<text x="600.0" y="292.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&lt;class 'str'&gt;</text>
+<circle cx="45.0" cy="354.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="359.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="360.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ 2: int(input()) — วงเล็บข้างในทำก่อน</text>
+<text x="60.0" y="410.0" font-size="20" text-anchor="start" xml:space="preserve"><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">int(</tspan><tspan fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace"> input("Enter n1:") </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">)</tspan></text>
+<path d="M104,420 L104,430 L318,430 L318,420" fill="none" stroke="#d97706" stroke-width="1.6"/>
+<text x="211.0" y="452.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">ก. รอผู้ใช้พิมพ์ → "15"</text>
+<path d="M60,420 L60,470 L344,470 L344,420" fill="none" stroke="#2563eb" stroke-width="1.6"/>
+<text x="202.0" y="492.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">ข. int("15") → 15</text>
+<rect x="400.0" y="388.0" width="370.0" height="108.0" rx="12" fill="#f8fafc" stroke="#475569" stroke-width="1.2"/>
+<text x="414.0" y="412.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ไล่ค่าเมื่อป้อน 15, 5, 10</text>
+<text x="414.0" y="438.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">total = 15 + 5 + 10 = </tspan><tspan fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace">30</tspan></text>
+<text x="414.0" y="462.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">avg = 30 / 3 = </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">10.0</tspan><tspan fill="#0f172a">  (float)</tspan></text>
+<text x="414.0" y="486.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">f"{avg:.2f}" → </tspan><tspan fill="#059669" font-weight="bold" font-family="Consolas, 'Courier New', monospace">10.00</tspan></text>
+<text x="44.0" y="546.0" font-size="15" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">รันครั้งที่ 2 (ข้อ 4):</text>
+<rect x="190.0" y="520.0" width="120.0" height="40.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="250.0" y="545.4" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7 + 8 + 10</text>
+<rect x="350.0" y="520.0" width="56.0" height="40.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="378.0" y="545.4" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">25</text>
+<rect x="450.0" y="520.0" width="190.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="545.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">8.333333333333334</text>
+<rect x="680.0" y="520.0" width="80.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="720.0" y="545.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">8.33</text>
+<line x1="312.0" y1="540.0" x2="346.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<text x="330.0" y="514.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">รวม</text>
+<line x1="408.0" y1="540.0" x2="446.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<text x="428.0" y="514.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">÷ 3</text>
+<line x1="642.0" y1="540.0" x2="676.0" y2="540.0" stroke="#475569" stroke-width="1.8" marker-end="url(#ar-sub)"/>
+<text x="660.0" y="514.0" font-size="14" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">:.2f</text>
+<circle cx="45.0" cy="604.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="609.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="610.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ข้อ 5: ป้อน 2.5 → int() รับไม่ได้ ต้องใช้ float()</text>
+<rect x="44.0" y="634.0" width="70.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="79.0" y="659.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"2.5"</text>
+<line x1="116.0" y1="654.0" x2="176.0" y2="654.0" stroke="#dc2626" stroke-width="1.8" marker-end="url(#ar-red)"/>
+<text x="146.0" y="644.0" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int()</text>
+<rect x="180.0" y="630.0" width="250.0" height="48.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="192.0" y="650.0" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ValueError: invalid literal</text>
+<text x="192.0" y="670.0" font-size="14" fill="#dc2626" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">for int() with base 10: '2.5'</text>
+<rect x="462.0" y="634.0" width="70.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="497.0" y="659.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"2.5"</text>
+<line x1="534.0" y1="654.0" x2="604.0" y2="654.0" stroke="#059669" stroke-width="1.8" marker-end="url(#ar-green)"/>
+<text x="569.0" y="644.0" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">float()</text>
+<rect x="608.0" y="634.0" width="64.0" height="40.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="640.0" y="659.8" font-size="16" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2.5</text>
+<text x="684.0" y="660.0" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓ รันผ่าน</text>
+<circle cx="45.0" cy="718.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="723.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">4</text>
+<text x="68.0" y="724.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ขั้นตอนที่ 3: ป้อน 7 และ 3 → * ทำงานต่างกันตามชนิด</text>
+<rect x="44.0" y="748.0" width="120.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="104.0" y="773.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">a * 2</text>
+<line x1="166.0" y1="768.0" x2="210.0" y2="768.0" stroke="#d97706" stroke-width="1.8" marker-end="url(#ar-orange)"/>
+<rect x="214.0" y="748.0" width="66.0" height="40.0" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="247.0" y="773.8" font-size="16" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"77"</text>
+<text x="122.0" y="808.0" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold" xml:space="preserve">str × 2 = ทำซ้ำข้อความ</text>
+<rect x="330.0" y="748.0" width="190.0" height="40.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="425.0" y="773.8" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int(a) * int(b)</text>
+<line x1="522.0" y1="768.0" x2="566.0" y2="768.0" stroke="#2563eb" stroke-width="1.8" marker-end="url(#ar-blue)"/>
+<rect x="570.0" y="748.0" width="56.0" height="40.0" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="598.0" y="773.8" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">21</text>
+<text x="478.0" y="808.0" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold" xml:space="preserve">int × int = คูณจริง 7 × 3</text>
+<text x="640.0" y="766.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">output:</text>
+<text x="640.0" y="788.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">77 21</text>
+<rect x="30.0" y="838.0" width="740.0" height="200.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="866.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="882.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="907.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="906.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">print(n1 + n2)</tspan><tspan fill="#0f172a"> ทั้งที่ยังไม่แปลง</tspan></text>
+<text x="84.0" y="928.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">→ ได้ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">"155"</tspan><tspan fill="#0f172a"> ไม่ error แต่ผิด</tspan></text>
+<rect x="406.0" y="882.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="907.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="906.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">int(input(...))</tspan><tspan fill="#0f172a"> แปลงทันที</tspan></text>
+<text x="446.0" y="928.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ในบรรทัดเดียวกับ input()</tspan></text>
+<rect x="44.0" y="958.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="983.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="982.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">input(int("Enter n1:"))</tspan></text>
+<text x="84.0" y="1004.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">สลับวงเล็บ → แปลงข้อความถาม</tspan></text>
+<rect x="406.0" y="958.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="983.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="982.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">int(input("Enter n1:"))</tspan></text>
+<text x="446.0" y="1004.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">input() อยู่ข้างใน ทำก่อน</tspan></text>
+</svg>

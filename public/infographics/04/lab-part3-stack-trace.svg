@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1236" width="800" height="1236" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs><marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker><marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<text x="400.0" y="46.0" font-size="22" fill="#0f172a" text-anchor="middle" font-weight="bold" xml:space="preserve">ส่วนที่ 3: ไล่ลำดับสแตก m ทีละคำสั่ง (ขั้นตอนที่ 7)</text>
+<rect x="30.0" y="60.0" width="740.0" height="34.0" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="400.0" y="83.0" font-size="15" fill="#475569" text-anchor="middle" font-weight="bold" xml:space="preserve">ภาพนี้ตอบคำถามว่า: หลัง push / peek / pop แต่ละครั้ง items เป็นอย่างไร และคำสั่งคืนค่าอะไร</text>
+<text x="40.0" y="124.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="112.0" y="110.0" width="20.0" height="18.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="139.0" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ข้อมูลในสแตก</text>
+<rect x="245.5" y="110.0" width="20.0" height="18.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.8"/>
+<text x="272.5" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">ตัวบนสุด items[-1]</text>
+<rect x="420.4" y="110.0" width="20.0" height="18.0" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+<text x="447.4" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">peek คืน (ไม่หยิบ)</text>
+<rect x="584.3" y="110.0" width="20.0" height="18.0" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="611.3" y="124.0" font-size="15" fill="#0f172a" text-anchor="start" xml:space="preserve">pop หยิบออก</text>
+<circle cx="45.0" cy="164.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="169.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">1</text>
+<text x="68.0" y="170.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">push 3 ครั้ง → ดูด้วย peek → pop 3 ครั้ง (อ่านซ้ายไปขวา)</text>
+<text x="76.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Stack()</text>
+<text x="76.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#1</text>
+<path d="M45.0,272 L45.0,360 L107.0,360 L107.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<text x="76.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 0</text>
+<line x1="108.0" y1="310.0" x2="123.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="157.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">push('x')</text>
+<text x="157.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#2</text>
+<path d="M126.0,272 L126.0,360 L188.0,360 L188.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="131.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="157.0" y="348.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<text x="157.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 1</text>
+<line x1="189.0" y1="310.0" x2="204.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="238.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">push('y')</text>
+<text x="238.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#3</text>
+<path d="M207.0,272 L207.0,360 L269.0,360 L269.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="212.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="238.0" y="348.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="212.0" y="304.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="238.0" y="322.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<text x="238.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 2</text>
+<line x1="270.0" y1="310.0" x2="285.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="319.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">push('z')</text>
+<text x="319.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#4</text>
+<path d="M288.0,272 L288.0,360 L350.0,360 L350.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="293.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="319.0" y="348.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="293.0" y="304.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="319.0" y="322.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<rect x="293.0" y="278.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="319.0" y="296.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<text x="319.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 3</text>
+<line x1="351.0" y1="310.0" x2="366.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="400.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">peek()</text>
+<text x="400.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#5</text>
+<path d="M369.0,272 L369.0,360 L431.0,360 L431.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="374.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="400.0" y="348.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="374.0" y="304.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="400.0" y="322.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<rect x="374.0" y="278.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="400.0" y="296.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<rect x="380.0" y="238.0" width="40.0" height="26.0" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="400.0" y="256.4" font-size="15" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<text x="400.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 3</text>
+<line x1="432.0" y1="310.0" x2="447.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="481.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop()</text>
+<text x="481.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#6</text>
+<path d="M450.0,272 L450.0,360 L512.0,360 L512.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="455.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="481.0" y="348.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="455.0" y="304.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="481.0" y="322.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<rect x="455.0" y="278.0" width="52.0" height="24.0" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="481.0" y="296.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<line x1="497.0" y1="278.0" x2="497.0" y2="262.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ar-red)"/>
+<rect x="461.0" y="238.0" width="40.0" height="26.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="481.0" y="256.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<text x="481.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 2</text>
+<line x1="513.0" y1="310.0" x2="528.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="562.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop()</text>
+<text x="562.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#7</text>
+<path d="M531.0,272 L531.0,360 L593.0,360 L593.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="536.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="562.0" y="348.0" font-size="15" fill="#d97706" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<rect x="536.0" y="304.0" width="52.0" height="24.0" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="562.0" y="322.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<line x1="578.0" y1="304.0" x2="578.0" y2="262.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ar-red)"/>
+<rect x="542.0" y="238.0" width="40.0" height="26.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="562.0" y="256.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<text x="562.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 1</text>
+<line x1="594.0" y1="310.0" x2="609.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="643.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pop()</text>
+<text x="643.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#8</text>
+<path d="M612.0,272 L612.0,360 L674.0,360 L674.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="617.0" y="330.0" width="52.0" height="24.0" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="643.0" y="348.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<line x1="659.0" y1="330.0" x2="659.0" y2="262.0" stroke="#dc2626" stroke-width="1.6" marker-end="url(#ar-red)"/>
+<rect x="623.0" y="238.0" width="40.0" height="26.0" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="643.0" y="256.4" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<text x="643.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 0</text>
+<line x1="675.0" y1="310.0" x2="690.0" y2="310.0" stroke="#cbd5e1" stroke-width="1.4" marker-end="url(#ar-sub)"/>
+<text x="724.0" y="214.0" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">is_empty()</text>
+<text x="724.0" y="232.0" font-size="13" fill="#475569" text-anchor="middle" xml:space="preserve">#9</text>
+<path d="M693.0,272 L693.0,360 L755.0,360 L755.0,272" fill="none" stroke="#475569" stroke-width="2.2"/>
+<text x="724.0" y="382.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">size 0</text>
+<text x="76.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True 0</text>
+<text x="400.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z 3</text>
+<text x="481.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z</text>
+<text x="562.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y</text>
+<text x="643.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x</text>
+<text x="724.0" y="406.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<text x="36.0" y="406.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve"></text>
+<path d="M127,394 L127,400 L349,400 L349,394" fill="none" stroke="#475569" stroke-width="1.2"/>
+<text x="238.0" y="420.0" font-size="15" fill="#0f172a" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x', 'y', 'z'] 3</text>
+<text x="400.0" y="452.0" font-size="14" fill="#475569" text-anchor="middle" xml:space="preserve">แถวล่าง = สิ่งที่ print พิมพ์ · peek คืน z แต่ size ยัง 3 · pop คืน z แล้ว items สั้นลงเหลือ ['x', 'y']</text>
+<circle cx="45.0" cy="488.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="493.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">2</text>
+<text x="68.0" y="494.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ตารางไล่ลำดับที่ต้องวาดบนกระดาษก่อนรัน (เทียบกับ output)</text>
+<rect x="36.0" y="512.0" width="734.0" height="32.0" rx="6" fill="#f1f5f9" stroke="none" stroke-width="0"/>
+<text x="46.0" y="534.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">บรรทัด print</text>
+<text x="330.0" y="534.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">items ตอนพิมพ์</text>
+<text x="520.0" y="534.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">size</text>
+<text x="600.0" y="534.0" font-size="15" fill="#475569" text-anchor="start" font-weight="bold" xml:space="preserve">output</text>
+<text x="46.0" y="566.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.is_empty(), m.size())</text>
+<text x="330.0" y="566.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[]</text>
+<text x="530.0" y="566.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="600.0" y="566.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True 0</text>
+<line x1="36.0" y1="576.0" x2="770.0" y2="576.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="598.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.items, m.size())</text>
+<text x="330.0" y="598.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x', 'y', 'z']</text>
+<text x="530.0" y="598.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="600.0" y="598.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x', 'y', 'z'] 3</text>
+<line x1="36.0" y1="608.0" x2="770.0" y2="608.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="630.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.peek(), m.size())</text>
+<text x="330.0" y="630.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x', 'y', 'z']</text>
+<text x="530.0" y="630.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="600.0" y="630.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z 3</text>
+<line x1="36.0" y1="640.0" x2="770.0" y2="640.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="662.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.pop(), m.items)</text>
+<text x="330.0" y="662.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x', 'y']</text>
+<text x="530.0" y="662.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2</text>
+<text x="600.0" y="662.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">z ['x', 'y']</text>
+<line x1="36.0" y1="672.0" x2="770.0" y2="672.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="694.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.pop(), m.items)</text>
+<text x="330.0" y="694.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">['x']</text>
+<text x="530.0" y="694.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">1</text>
+<text x="600.0" y="694.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y ['x']</text>
+<line x1="36.0" y1="704.0" x2="770.0" y2="704.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="726.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.pop(), m.items)</text>
+<text x="330.0" y="726.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[]</text>
+<text x="530.0" y="726.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="600.0" y="726.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x []</text>
+<line x1="36.0" y1="736.0" x2="770.0" y2="736.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="758.0" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(m.is_empty())</text>
+<text x="330.0" y="758.0" font-size="14" fill="#2563eb" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">[]</text>
+<text x="530.0" y="758.0" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="600.0" y="758.0" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">True</text>
+<line x1="36.0" y1="768.0" x2="770.0" y2="768.0" stroke="#cbd5e1" stroke-width="1"/>
+<text x="46.0" y="792.0" font-size="14" fill="#475569" text-anchor="start" xml:space="preserve">สังเกต: pop() ถูกเรียกก่อน m.items ในบรรทัดเดียวกัน items ที่พิมพ์จึงเป็นค่าหลัง pop แล้ว</text>
+<circle cx="45.0" cy="824.0" r="14" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="45.0" y="829.5" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold" xml:space="preserve">3</text>
+<text x="68.0" y="830.0" font-size="18" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">ข้อ 17: เติม print(m.pop()) อีกบรรทัด ขณะที่สแตกว่าง</text>
+<path d="M49.0,858 L49.0,946 L111.0,946 L111.0,858" fill="none" stroke="#475569" stroke-width="2.2"/>
+<rect x="54.0" y="916.0" width="52.0" height="24.0" rx="4" fill="#ffffff" stroke="#dc2626" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="80.0" y="934.0" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">?</text>
+<text x="80.0" y="966.0" font-size="14" fill="#475569" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">items = []</text>
+<rect x="150.0" y="848.0" width="620.0" height="118.0" rx="8" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+<text x="160.0" y="866.0" font-size="13" fill="#94a3b8" text-anchor="start" xml:space="preserve">output</text>
+<text x="160.0" y="888.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Traceback (most recent call last):</text>
+<text x="160.0" y="910.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">  ...</text>
+<text x="160.0" y="932.0" font-size="14" fill="#e2e8f0" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    raise IndexError("pop from empty stack")</text>
+<text x="160.0" y="954.0" font-size="14" fill="#fca5a5" text-anchor="start" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">IndexError: pop from empty stack</text>
+<text x="150.0" y="986.0" font-size="14" fill="#0f172a" text-anchor="start" xml:space="preserve">traceback ชี้ไปที่บรรทัด raise ในเมท็อด pop — เป็นข้อผิดพลาดที่เราเขียนดักไว้เอง</text>
+<rect x="30.0" y="1012.0" width="740.0" height="204.0" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="48.0" y="1040.0" font-size="17" fill="#0f172a" text-anchor="start" font-weight="bold" xml:space="preserve">จุดที่มักผิดระหว่างทำแลบ</text>
+<rect x="44.0" y="1056.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1081.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1080.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">self.items.pop(0)</tspan><tspan fill="#0f172a"> ใน pop()</tspan></text>
+<text x="84.0" y="1102.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">หยิบตัวล่างสุด x ก่อน → กลายเป็นคิว</tspan></text>
+<rect x="406.0" y="1056.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1081.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1080.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">self.items.pop()</tspan><tspan fill="#0f172a"> ไม่ใส่ดัชนี</tspan></text>
+<text x="446.0" y="1102.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">หยิบตัวท้าย = ตัวบนสุด (LIFO)</tspan></text>
+<rect x="44.0" y="1132.0" width="350.0" height="64.0" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="58.0" y="1157.0" font-size="20" fill="#dc2626" text-anchor="start" font-weight="bold" xml:space="preserve">✗</text>
+<text x="84.0" y="1156.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">peek() ใช้ </tspan><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">self.items.pop()</tspan></text>
+<text x="84.0" y="1178.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">แค่ดูแต่สแตกสั้นลง size เหลือ 2</tspan></text>
+<rect x="406.0" y="1132.0" width="350.0" height="64.0" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="420.0" y="1157.0" font-size="20" fill="#059669" text-anchor="start" font-weight="bold" xml:space="preserve">✓</text>
+<text x="446.0" y="1156.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a" font-family="Consolas, 'Courier New', monospace">return self.items[-1]</tspan></text>
+<text x="446.0" y="1178.0" font-size="15" text-anchor="start" xml:space="preserve"><tspan fill="#0f172a">ดูตัวบนสุดโดยไม่หยิบออก size ยัง 3</tspan></text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1006" width="800" height="1006" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="กริด 6 แถว 8 คอลัมน์ 48 ช่อง จุด get_cell 1000 820 ได้ 5 6, 0 0 ได้ 0 0, 1199 899 ได้ 5 7, 150 149 ได้ 0 1">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>กริด 6 แถว 8 คอลัมน์ 48 ช่อง จุด get_cell 1000 820 ได้ 5 6, 0 0 ได้ 0 0, 1199 899 ได้ 5 7, 150 149 ได้ 0 1</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">คลาส Grid: จอ 1200×900 แบ่งช่องละ 150 ได้ 6 แถว × 8 คอลัมน์</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า get_cell(x, y) คืน (row, col) ช่องใด และทำไมลำดับจึงสลับกับ (x, y)</text>
+<text x="700" y="100" font-size="14" fill="#475569" text-anchor="end">ย่อสเกล 0.5 (1 ช่อง 150 px จริง = 75 px ในภาพ)</text>
+<rect x="100" y="130" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="130" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="130" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="130" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="130" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="130" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="130" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="130" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="100" y="205" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="205" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="205" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="205" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="205" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="205" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="205" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="205" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="100" y="280" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="280" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="280" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="280" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="280" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="280" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="280" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="280" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="100" y="355" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="355" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="355" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="355" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="355" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="355" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="355" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="355" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="100" y="430" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="430" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="430" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="430" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="430" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="430" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="430" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="430" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="100" y="505" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="175" y="505" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="250" y="505" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="325" y="505" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="400" y="505" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="475" y="505" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="550" y="505" width="75" height="75" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="625" y="505" width="75" height="75" rx="0" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="137.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 0</text>
+<text x="100" y="600" font-size="12" fill="#475569" text-anchor="middle">0</text>
+<text x="212.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 1</text>
+<text x="175" y="600" font-size="12" fill="#475569" text-anchor="middle">150</text>
+<text x="287.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 2</text>
+<text x="250" y="600" font-size="12" fill="#475569" text-anchor="middle">300</text>
+<text x="362.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 3</text>
+<text x="325" y="600" font-size="12" fill="#475569" text-anchor="middle">450</text>
+<text x="437.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 4</text>
+<text x="400" y="600" font-size="12" fill="#475569" text-anchor="middle">600</text>
+<text x="512.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 5</text>
+<text x="475" y="600" font-size="12" fill="#475569" text-anchor="middle">750</text>
+<text x="587.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 6</text>
+<text x="550" y="600" font-size="12" fill="#475569" text-anchor="middle">900</text>
+<text x="662.5" y="122" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold">col 7</text>
+<text x="625" y="600" font-size="12" fill="#475569" text-anchor="middle">1050</text>
+<text x="92" y="172" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 0</text>
+<text x="92" y="247" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 1</text>
+<text x="92" y="322" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 2</text>
+<text x="92" y="397" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 3</text>
+<text x="92" y="472" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 4</text>
+<text x="92" y="547" font-size="13" fill="#d97706" text-anchor="end" font-weight="bold">row 5</text>
+<text x="700" y="600" font-size="12" fill="#475569" text-anchor="middle">1200</text>
+<text x="400" y="620" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">x → col = x // 150</text>
+<text x="40" y="100" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold">y ↓ row = y // 150</text>
+<rect x="550" y="505" width="75" height="75" rx="0" fill="#7c3aed" stroke="#7c3aed" stroke-width="2.5" fill-opacity="0.15"/>
+<circle cx="600" cy="540" r="6" fill="#7c3aed" stroke="#ffffff" stroke-width="2"/>
+<circle cx="616" cy="522" r="11" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="616" y="527" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<rect x="100" y="130" width="75" height="75" rx="0" fill="#059669" stroke="#059669" stroke-width="2.5" fill-opacity="0.15"/>
+<circle cx="100" cy="130" r="6" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+<circle cx="116" cy="148" r="11" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="116" y="153" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<rect x="625" y="505" width="75" height="75" rx="0" fill="#dc2626" stroke="#dc2626" stroke-width="2.5" fill-opacity="0.15"/>
+<circle cx="699.5" cy="579.5" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+<circle cx="683.5" cy="561.5" r="11" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="683.5" y="566.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<rect x="175" y="130" width="75" height="75" rx="0" fill="#2563eb" stroke="#2563eb" stroke-width="2.5" fill-opacity="0.15"/>
+<circle cx="175" cy="204.5" r="6" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<circle cx="191" cy="222.5" r="11" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="191" y="227.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="56" cy="645" r="12" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="56" y="650" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="78" y="650" font-size="15" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">get_cell(1000, 820)</text>
+<text x="300" y="650" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">820//150, 1000//150 = (5, 6)</text>
+<circle cx="56" cy="695" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="56" y="700" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="78" y="700" font-size="15" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">get_cell(0, 0)</text>
+<text x="300" y="700" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (0, 0) มุมบนซ้าย</text>
+<circle cx="56" cy="745" r="12" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="56" y="750" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="78" y="750" font-size="15" fill="#dc2626" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">get_cell(1199, 899)</text>
+<text x="300" y="750" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (5, 7) ช่องสุดท้าย</text>
+<circle cx="56" cy="795" r="12" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="56" y="800" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="78" y="800" font-size="15" fill="#2563eb" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">get_cell(150, 149)</text>
+<text x="300" y="800" font-size="15" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">149//150, 150//150 = (0, 1)</text>
+<text x="78" y="860" font-size="14" fill="#475569" text-anchor="start">rows = 900 // 150 = 6 · cols = 1200 // 150 = 8 · ช่องทั้งหมด 6 × 8 = 48 (บรรทัดแรกของ output: 6 8 48)</text>
+<rect x="40" y="880" width="352" height="110" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="54" y="909" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ คิดว่าได้ (x, y)</text>
+<text x="54" y="933" font-size="15" fill="#0f172a" text-anchor="start">get_cell(150, 149) = (1, 0)</text>
+<text x="54" y="955" font-size="15" fill="#0f172a" text-anchor="start">(สลับแกน → ใส่ผิดช่อง)</text>
+<rect x="408" y="880" width="352" height="110" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="422" y="909" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ ได้ (row, col)</text>
+<text x="422" y="933" font-size="15" fill="#0f172a" text-anchor="start">row มาจาก y = 149 // 150 = 0</text>
+<text x="422" y="955" font-size="15" fill="#0f172a" text-anchor="start">col มาจาก x = 150 // 150 = 1 → (0, 1)</text>
+</svg>

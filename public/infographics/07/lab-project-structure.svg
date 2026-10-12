@@ -86,7 +86,7 @@
 <text x="54" y="803" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">import config</tspan></text>
 <text x="54" y="825" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#dc2626" font-family="Consolas, 'Courier New', monospace">print(SCREEN_WIDTH)</tspan></text>
 <text x="54" y="847" font-size="15" fill="#0f172a" text-anchor="start">→ NameError: name 'SCREEN_WIDTH'</text>
-<text x="54" y="869" font-size="15" fill="#0f172a" text-anchor="start">   is not defined</text>
+<text x="54" y="869" font-size="15" fill="#0f172a" text-anchor="start">   is not defined</text>
 <rect x="408" y="750" width="352" height="160" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
 <text x="422" y="779" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ แก้ได้ 2 แบบ</text>
 <text x="422" y="803" font-size="15" text-anchor="start" fill="#0f172a"><tspan fill="#059669" font-family="Consolas, 'Courier New', monospace">print(config.SCREEN_WIDTH)</tspan></text>

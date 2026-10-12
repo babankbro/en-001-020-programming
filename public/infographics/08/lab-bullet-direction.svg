@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 940" width="800" height="940" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="การคำนวณความเร็วกระสุน ยาน 400 300 เมาส์ 460 380 ได้ 6 8 และยาน 100 100 เมาส์ ลบ 20 260 ได้ ลบ 9 12">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<title>การคำนวณความเร็วกระสุน ยาน 400 300 เมาส์ 460 380 ได้ 6 8 และยาน 100 100 เมาส์ ลบ 20 260 ได้ ลบ 9 12</title>
+<defs><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="smB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="smG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="smO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="smR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="smP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="smS" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="38" font-size="21" fill="#0f172a" text-anchor="middle" font-weight="bold">ทิศทางกระสุน: จากตำแหน่งเมาส์สู่ความเร็ว (vx, vy)</text>
+<text x="400" y="65" font-size="15" fill="#475569" text-anchor="middle">ภาพนี้ตอบคำถามว่า bullet_velocity คำนวณอย่างไร และทำไมต้องหารด้วยความยาวก่อนคูณ speed</text>
+<text x="40" y="104" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ตัวอย่างที่ 1 ตามสเกล (1 หน่วยจอ = 2.5 px): bullet_velocity(400, 300, 460, 380, 10)</text>
+<rect x="80" y="130" width="225" height="275" rx="0" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="105" y1="130" x2="105" y2="405" stroke="#e2e8f0" stroke-width="1"/>
+<text x="105" y="423" font-size="13" fill="#475569" text-anchor="middle">400</text>
+<line x1="155" y1="130" x2="155" y2="405" stroke="#e2e8f0" stroke-width="1"/>
+<text x="155" y="423" font-size="13" fill="#475569" text-anchor="middle">420</text>
+<line x1="205" y1="130" x2="205" y2="405" stroke="#e2e8f0" stroke-width="1"/>
+<text x="205" y="423" font-size="13" fill="#475569" text-anchor="middle">440</text>
+<line x1="255" y1="130" x2="255" y2="405" stroke="#e2e8f0" stroke-width="1"/>
+<text x="255" y="423" font-size="13" fill="#475569" text-anchor="middle">460</text>
+<line x1="305" y1="130" x2="305" y2="405" stroke="#e2e8f0" stroke-width="1"/>
+<text x="305" y="423" font-size="13" fill="#475569" text-anchor="middle">480</text>
+<line x1="80" y1="180" x2="305" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="185" font-size="13" fill="#475569" text-anchor="end">300</text>
+<line x1="80" y1="230" x2="305" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="235" font-size="13" fill="#475569" text-anchor="end">320</text>
+<line x1="80" y1="280" x2="305" y2="280" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="285" font-size="13" fill="#475569" text-anchor="end">340</text>
+<line x1="80" y1="330" x2="305" y2="330" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="335" font-size="13" fill="#475569" text-anchor="end">360</text>
+<line x1="80" y1="380" x2="305" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+<text x="74" y="385" font-size="13" fill="#475569" text-anchor="end">380</text>
+<line x1="105" y1="180" x2="255" y2="180" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="255" y1="180" x2="255" y2="380" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="200" y="198" font-size="14" fill="#d97706" text-anchor="middle" font-weight="bold">dx = 60</text>
+<text x="261" y="280" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold">dy = 80</text>
+<line x1="105" y1="180" x2="250" y2="373" stroke="#d97706" stroke-width="2.5" marker-end="url(#arrO)"/>
+<text x="147" y="305" font-size="14" fill="#d97706" text-anchor="end" font-weight="bold">length 100</text>
+<line x1="105" y1="180" x2="120" y2="200" stroke="#059669" stroke-width="3.5" marker-end="url(#arrG)"/>
+<text x="128" y="218" font-size="14" fill="#059669" text-anchor="start" font-weight="bold">ความเร็ว (6, 8) ยาว 10</text>
+<circle cx="105" cy="180" r="6" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="115" y="172" font-size="14" fill="#2563eb" text-anchor="start" font-weight="bold">ยาน (400, 300)</text>
+<line x1="249" y1="380" x2="261" y2="380" stroke="#dc2626" stroke-width="2"/>
+<line x1="255" y1="374" x2="255" y2="386" stroke="#dc2626" stroke-width="2"/>
+<text x="245" y="402" font-size="14" fill="#dc2626" text-anchor="end" font-weight="bold">เมาส์ (460, 380)</text>
+<rect x="370" y="126" width="390" height="54" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="390" cy="153" r="12" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="390" y="158" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="410" y="148" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">dx, dy = mx − sx, my − sy</text>
+<text x="410" y="169" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (60, 80)</text>
+<rect x="370" y="188" width="390" height="54" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<circle cx="390" cy="215" r="12" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="390" y="220" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="410" y="210" font-size="14" fill="#d97706" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">length = √(60² + 80²)</text>
+<text x="410" y="231" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= √10000 = 100</text>
+<rect x="370" y="250" width="390" height="54" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="390" cy="277" r="12" fill="#7c3aed" stroke="none" stroke-width="1.5"/>
+<text x="390" y="282" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="410" y="272" font-size="14" fill="#7c3aed" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">ux, uy = dx/length, dy/length</text>
+<text x="410" y="293" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (0.6, 0.8)  ยาว 1</text>
+<rect x="370" y="312" width="390" height="54" rx="8" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
+<circle cx="390" cy="339" r="12" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="390" y="344" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="410" y="334" font-size="14" fill="#059669" text-anchor="start" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(ux, uy) × speed 10</text>
+<text x="410" y="355" font-size="14" fill="#0f172a" text-anchor="start" font-family="Consolas, 'Courier New', monospace">= (6.0, 8.0)  ยาว 10 ✓</text>
+<circle cx="52" cy="445" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="450" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="74" y="450" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ไล่ค่าทั้ง 3 บรรทัดของขั้นตอนที่ 1 (ปิดช่องเขียวแล้วทาย)</text>
+<rect x="40" y="464" width="170" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">ยาน → เมาส์</text>
+<rect x="210" y="464" width="110" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="265" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">(dx, dy)</text>
+<rect x="320" y="464" width="80" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="360" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">length</text>
+<rect x="400" y="464" width="120" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="460" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">หนึ่งหน่วย</text>
+<rect x="520" y="464" width="70" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="555" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">speed</text>
+<rect x="590" y="464" width="170" height="36" fill="#eff6ff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="675" y="486.9" font-size="14" fill="#0f172a" text-anchor="middle" font-weight="bold">ผลลัพธ์</text>
+<rect x="40" y="500" width="170" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="522.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(400,300)→(460,380)</text>
+<rect x="210" y="500" width="110" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="265" y="522.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(60, 80)</text>
+<rect x="320" y="500" width="80" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="360" y="522.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">100</text>
+<rect x="400" y="500" width="120" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="460" y="522.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0.6, 0.8)</text>
+<rect x="520" y="500" width="70" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="555" y="522.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="590" y="500" width="170" height="36" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="675" y="522.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(6.0, 8.0)</text>
+<rect x="40" y="536" width="170" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="558.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(100,100)→(−20,260)</text>
+<rect x="210" y="536" width="110" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="265" y="558.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(−120, 160)</text>
+<rect x="320" y="536" width="80" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="360" y="558.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">200</text>
+<rect x="400" y="536" width="120" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="460" y="558.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(−0.6, 0.8)</text>
+<rect x="520" y="536" width="70" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="555" y="558.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">15</text>
+<rect x="590" y="536" width="170" height="36" fill="#ecfdf5" stroke="#cbd5e1" stroke-width="1"/>
+<text x="675" y="558.9" font-size="14" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(−9.0, 12.0)</text>
+<rect x="40" y="572" width="170" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="125" y="594.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(400,300)→(400,300)</text>
+<rect x="210" y="572" width="110" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="265" y="594.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0, 0)</text>
+<rect x="320" y="572" width="80" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="360" y="594.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">0</text>
+<rect x="400" y="572" width="120" height="36" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="460" y="594.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">หาไม่ได้</text>
+<rect x="520" y="572" width="70" height="36" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="555" y="594.9" font-size="14" fill="#0f172a" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">10</text>
+<rect x="590" y="572" width="170" height="36" fill="#fef2f2" stroke="#cbd5e1" stroke-width="1"/>
+<text x="675" y="594.9" font-size="14" fill="#dc2626" text-anchor="middle" font-family="Consolas, 'Courier New', monospace">(0, 0)</text>
+<text x="40" y="630" font-size="14" fill="#475569" text-anchor="start">แถวสุดท้าย: length == 0 จึง return (0, 0) ทันที ก่อนถึงการหาร</text>
+<circle cx="52" cy="675" r="13" fill="#2563eb" stroke="none" stroke-width="1.5"/>
+<text x="52" y="680" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+<text x="74" y="680" font-size="16" fill="#0f172a" text-anchor="start" font-weight="bold">ขั้นตอนที่ 2: Bullet(400, 300, 6, 8).update() 3 ครั้ง — บวกความเร็วเดิมทุกเฟรม</text>
+<rect x="90" y="698" width="140" height="48" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="160" y="718" font-size="14" fill="#475569" text-anchor="middle">เริ่ม</text>
+<text x="160" y="738" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(400, 300)</text>
+<line x1="232" y1="722" x2="258" y2="722" stroke="#059669" stroke-width="2" marker-end="url(#smG)"/>
+<text x="245" y="766" font-size="13" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">+(6, 8)</text>
+<rect x="260" y="698" width="140" height="48" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="330" y="718" font-size="14" fill="#475569" text-anchor="middle">เฟรม 1</text>
+<text x="330" y="738" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(406, 308)</text>
+<line x1="402" y1="722" x2="428" y2="722" stroke="#059669" stroke-width="2" marker-end="url(#smG)"/>
+<text x="415" y="766" font-size="13" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">+(6, 8)</text>
+<rect x="430" y="698" width="140" height="48" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="500" y="718" font-size="14" fill="#475569" text-anchor="middle">เฟรม 2</text>
+<text x="500" y="738" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(412, 316)</text>
+<line x1="572" y1="722" x2="598" y2="722" stroke="#059669" stroke-width="2" marker-end="url(#smG)"/>
+<text x="585" y="766" font-size="13" fill="#059669" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">+(6, 8)</text>
+<rect x="600" y="698" width="140" height="48" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="670" y="718" font-size="14" fill="#475569" text-anchor="middle">เฟรม 3</text>
+<text x="670" y="738" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" font-family="Consolas, 'Courier New', monospace">(418, 324)</text>
+<rect x="40" y="790" width="352" height="130" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="54" y="819" font-size="16" fill="#dc2626" text-anchor="start" font-weight="bold">✗ ลืม normalize</text>
+<text x="54" y="843" font-size="15" fill="#0f172a" text-anchor="start">ใช้ (dx, dy) × speed ตรง ๆ = (600, 800)</text>
+<text x="54" y="865" font-size="15" fill="#0f172a" text-anchor="start">→ กระสุนเร็วตามระยะเมาส์ (ยาว 1000)</text>
+<text x="54" y="887" font-size="15" fill="#0f172a" text-anchor="start">ไม่มีเช็ก length == 0 → ZeroDivisionError</text>
+<rect x="408" y="790" width="352" height="130" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="422" y="819" font-size="16" fill="#059669" text-anchor="start" font-weight="bold">✓ หารด้วย length ก่อน</text>
+<text x="422" y="843" font-size="15" fill="#0f172a" text-anchor="start">ได้ทิศยาว 1 แล้วคูณ speed → ยาว 10 เสมอ</text>
+<text x="422" y="865" font-size="15" fill="#0f172a" text-anchor="start">ไม่ว่าเมาส์ใกล้หรือไกล</text>
+<text x="422" y="887" font-size="15" fill="#0f172a" text-anchor="start">เช็ก length == 0 แล้ว return (0, 0)</text>
+</svg>
