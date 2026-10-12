@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1024" width="800" height="1024" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">เส้นทาง 8 บท: จากไพทอนล้วนสู่เกมยิงยานอวกาศ</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า แต่ละบทเพิ่มชิ้นส่วนอะไรให้เกม และมีคณิตศาสตร์อะไรอยู่เบื้องหลัง</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ไพทอนล้วน (Notebook/Colab)</text>
+<rect x="359.5" y="111" width="20" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="386.5" y="125" font-size="15" fill="#0f172a" xml:space="preserve">Pygame (รันบนเครื่องตนเอง)</text>
+<circle cx="612" cy="120" r="6" fill="#d97706" stroke="none" stroke-width="1.5"/>
+<text x="629" y="125" font-size="15" fill="#0f172a" xml:space="preserve">∑ คณิตศาสตร์</text>
+<rect x="30" y="156" width="740" height="332" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="56" cy="182" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="56" y="188" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="82" y="188" font-size="18" fill="#2563eb" font-weight="bold" xml:space="preserve">ช่วงที่ 1: สร้าง “สมอง” ของเกม (บท 1–4)</text>
+<text x="760" y="188" font-size="15" fill="#475569" text-anchor="end" xml:space="preserve">Notebook / Colab ก็ได้</text>
+<rect x="46" y="210" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="219" width="40" height="40" rx="8" fill="#2563eb" stroke="none" stroke-width="0"/>
+<text x="78" y="246" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="112" y="235" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 1  แนะนำรายวิชาและเครื่องมือ</text>
+<text x="112" y="257" font-size="15" fill="#475569" xml:space="preserve">+ เครื่องมือพร้อม รันโปรแกรมแรกได้</text>
+<line x1="546" y1="220" x2="546" y2="260" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="246" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ ตารางไล่ค่า</text>
+<rect x="46" y="278" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="287" width="40" height="40" rx="8" fill="#2563eb" stroke="none" stroke-width="0"/>
+<text x="78" y="314" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="112" y="303" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 2  พื้นฐานไพทอนและเวกเตอร์</text>
+<text x="112" y="325" font-size="15" fill="#475569" xml:space="preserve">+ dotv, lenv, วาดรูปด้วย #</text>
+<line x1="546" y1="288" x2="546" y2="328" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="303" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ ผลคูณจุด</text>
+<text x="576" y="325" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">ขนาดเวกเตอร์</text>
+<rect x="46" y="346" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="355" width="40" height="40" rx="8" fill="#2563eb" stroke="none" stroke-width="0"/>
+<text x="78" y="382" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="112" y="371" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 3  การรับข้อมูล ลิสต์ และแผนภูมิ</text>
+<text x="112" y="393" font-size="15" fill="#475569" xml:space="preserve">+ input(), ลิสต์, สุ่มข้อมูล, Matplotlib</text>
+<line x1="546" y1="356" x2="546" y2="396" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="371" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ ค่าเฉลี่ย</text>
+<text x="576" y="393" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">การแจกแจง</text>
+<rect x="46" y="414" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="423" width="40" height="40" rx="8" fill="#2563eb" stroke="none" stroke-width="0"/>
+<text x="78" y="450" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="112" y="439" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 4  ลิสต์ซ้อนลิสต์ ตาราง และสแตก</text>
+<text x="112" y="461" font-size="15" fill="#475569" xml:space="preserve">+ ตาราง 2 มิติ, คลาส Stack</text>
+<line x1="546" y1="424" x2="546" y2="464" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="439" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ การหารปัดลง</text>
+<text x="576" y="461" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">มอดุโล</text>
+<line x1="78" y1="488" x2="78" y2="552" stroke="#0f172a" stroke-width="2.5" marker-end="url(#ar-ink)"/>
+<circle cx="122" cy="520" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="122" y="526" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="146" y="516" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ย้ายมารันบนเครื่องตนเอง (Python + VS Code)</text>
+<text x="146" y="538" font-size="15" fill="#475569" xml:space="preserve">เพราะ Google Colab ไม่มีจอ จึงเปิดหน้าต่าง Pygame ไม่ได้</text>
+<rect x="30" y="558" width="740" height="332" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="56" cy="584" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="56" y="590" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="82" y="590" font-size="18" fill="#059669" font-weight="bold" xml:space="preserve">ช่วงที่ 2: เกมมีภาพและเคลื่อนไหว (บท 5–8)</text>
+<text x="760" y="590" font-size="15" fill="#475569" text-anchor="end" xml:space="preserve">ต้องรันบนเครื่องตนเอง</text>
+<rect x="46" y="612" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="621" width="40" height="40" rx="8" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="78" y="648" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">5</text>
+<text x="112" y="637" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 5  Pygame และการจำลองฟิสิกส์</text>
+<text x="112" y="659" font-size="15" fill="#475569" xml:space="preserve">+ หน้าต่างเกม, วงวนเกม, ลูกบอลเด้ง</text>
+<line x1="546" y1="622" x2="546" y2="662" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="637" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ ความเร็ว ความโน้มถ่วง</text>
+<text x="576" y="659" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">การสะท้อน</text>
+<rect x="46" y="680" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="689" width="40" height="40" rx="8" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="78" y="716" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">6</text>
+<text x="112" y="705" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 6  เวกเตอร์ เมทริกซ์ และการหมุน</text>
+<text x="112" y="727" font-size="15" fill="#475569" xml:space="preserve">+ ยานอวกาศหมุนและเร่ง</text>
+<line x1="546" y1="690" x2="546" y2="730" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="705" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ เมทริกซ์การหมุน</text>
+<text x="576" y="727" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">องศา/เรเดียน</text>
+<rect x="46" y="748" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="757" width="40" height="40" rx="8" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="78" y="784" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">7</text>
+<text x="112" y="773" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 7  การเคลื่อนที่และพฤติกรรมศัตรู</text>
+<text x="112" y="795" font-size="15" fill="#475569" xml:space="preserve">+ แรงเสียดทาน, ศัตรูสุ่ม/ไล่ตาม</text>
+<line x1="546" y1="758" x2="546" y2="798" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="773" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ ลดลงแบบเรขาคณิต</text>
+<text x="576" y="795" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">มุมที่สั้นที่สุด</text>
+<rect x="46" y="816" width="708" height="58" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="58" y="825" width="40" height="40" rx="8" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="78" y="852" font-size="18" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">8</text>
+<text x="112" y="841" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">บท 8  การตรวจจับการชนและกริด</text>
+<text x="112" y="863" font-size="15" fill="#475569" xml:space="preserve">+ กระสุน, ตรวจชน, กริด</text>
+<line x1="546" y1="826" x2="546" y2="866" stroke="#cbd5e1" stroke-width="1"/>
+<text x="560" y="841" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">∑ AABB</text>
+<text x="576" y="863" font-size="15" fill="#d97706" font-weight="bold" xml:space="preserve">ความซับซ้อน</text>
+<line x1="78" y1="890" x2="78" y2="924" stroke="#0f172a" stroke-width="2.5" marker-end="url(#ar-ink)"/>
+<rect x="30" y="930" width="740" height="70" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<circle cx="56" cy="965" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="56" y="971" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="82" y="960" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ปลายทาง: เกมยิงยานอวกาศสมบูรณ์</text>
+<text x="82" y="984" font-size="15" fill="#475569" xml:space="preserve">ยานหมุนและเร่ง (บท 6) + ศัตรูไล่ตาม (บท 7) + กระสุนและการชน (บท 8)</text>
+</svg>

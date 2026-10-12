@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 868" width="800" height="868" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">วงจรแก้ปัญหา 4 ขั้น: ตัวอย่างค่าเฉลี่ยของ 5, 10, 15</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า ก่อนพิมพ์โค้ดต้องคิดอะไร และรู้ได้อย่างไรว่าโปรแกรมถูกจริง</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ผ่านการทดสอบ</text>
+<rect x="255.1" y="111" width="20" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="282.1" y="125" font-size="15" fill="#0f172a" xml:space="preserve">จุดที่มักผิด</text>
+<line x1="365" y1="120" x2="385" y2="120" stroke="#dc2626" stroke-width="3"/>
+<text x="392" y="125" font-size="15" fill="#0f172a" xml:space="preserve">วนกลับไปแก้</text>
+<rect x="300" y="156" width="470" height="112" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="316" y="186" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">อินพุต: </tspan><tspan font-family="Consolas, 'Courier New', monospace">n1, n2, n3 = 5, 10, 15</tspan></text>
+<text x="316" y="216" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">เอาต์พุต: </tspan>ค่าเฉลี่ยของ 3 จำนวน</text>
+<text x="316" y="246" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">ข้อจำกัด: </tspan>หารด้วย / ไม่ใช่ // (เศษต้องไม่หาย)</text>
+<rect x="70" y="168" width="200" height="88" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="96" cy="198" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="96" y="204" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="120" y="204" font-size="18" fill="#2563eb" font-weight="bold" xml:space="preserve">วิเคราะห์โจทย์</text>
+<text x="120" y="226" font-size="15" fill="#475569" xml:space="preserve">Analyze</text>
+<text x="86" y="246" font-size="15" fill="#0f172a" xml:space="preserve">อินพุต/เอาต์พุตคืออะไร?</text>
+<line x1="274" y1="212" x2="294" y2="212" stroke="#2563eb" stroke-width="2" marker-end="url(#ar-blue)"/>
+<line x1="170" y1="256" x2="170" y2="290" stroke="#0f172a" stroke-width="2" marker-end="url(#ar-ink)"/>
+<rect x="300" y="294" width="470" height="126" rx="10" fill="#f5f3ff" stroke="none" stroke-width="0"/>
+<text x="316" y="324" font-size="16" fill="#0f172a" xml:space="preserve">1. กำหนด n1, n2, n3</text>
+<text x="316" y="350" font-size="16" fill="#0f172a" xml:space="preserve">2. total ← n1 + n2 + n3</text>
+<text x="316" y="376" font-size="16" fill="#0f172a" xml:space="preserve">3. avg ← total / 3</text>
+<text x="316" y="402" font-size="16" fill="#0f172a" xml:space="preserve">4. แสดง avg</text>
+<rect x="300" y="294" width="470" height="126" rx="10" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+<rect x="70" y="313" width="200" height="88" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="96" cy="343" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="96" y="349" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="120" y="349" font-size="18" fill="#7c3aed" font-weight="bold" xml:space="preserve">ออกแบบ</text>
+<text x="120" y="371" font-size="15" fill="#475569" xml:space="preserve">Design</text>
+<text x="86" y="391" font-size="15" fill="#0f172a" xml:space="preserve">ทำทีละขั้นอย่างไร?</text>
+<line x1="274" y1="357" x2="294" y2="357" stroke="#7c3aed" stroke-width="2" marker-end="url(#ar-purple)"/>
+<line x1="170" y1="401" x2="170" y2="442" stroke="#0f172a" stroke-width="2" marker-end="url(#ar-ink)"/>
+<rect x="300" y="446" width="470" height="126" rx="10" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="316" y="476" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">n1, n2, n3 = 5, 10, 15</text>
+<text x="316" y="502" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">total = n1 + n2 + n3</text>
+<text x="316" y="528" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">avg = total / 3</text>
+<text x="316" y="554" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(f"average ... is {avg}.")</text>
+<rect x="70" y="465" width="200" height="88" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<circle cx="96" cy="495" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="96" y="501" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="120" y="501" font-size="18" fill="#d97706" font-weight="bold" xml:space="preserve">เขียนโค้ด</text>
+<text x="120" y="523" font-size="15" fill="#475569" xml:space="preserve">Code</text>
+<text x="86" y="543" font-size="15" fill="#0f172a" xml:space="preserve">แปลงทีละบรรทัด</text>
+<line x1="274" y1="509" x2="294" y2="509" stroke="#d97706" stroke-width="2" marker-end="url(#ar-orange)"/>
+<line x1="170" y1="553" x2="170" y2="594" stroke="#0f172a" stroke-width="2" marker-end="url(#ar-ink)"/>
+<rect x="300" y="598" width="470" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="316" y="628" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">คำนวณมือ: </tspan><tspan font-family="Consolas, 'Courier New', monospace">(5 + 10 + 15) / 3 = 30 / 3 = 10</tspan></text>
+<text x="316" y="656" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">ผลรัน: </tspan><tspan font-family="Consolas, 'Courier New', monospace">average of 5 10 and 15 is 10.0.</tspan></text>
+<rect x="312" y="670" width="446" height="36" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2.5"/>
+<text x="535" y="694" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" xml:space="preserve">✓ 10 = 10.0 ตรงกัน → ผ่าน (เป็น 10.0 เพราะใช้ /)</text>
+<rect x="70" y="613" width="200" height="88" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="96" cy="643" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="96" y="649" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="120" y="649" font-size="18" fill="#059669" font-weight="bold" xml:space="preserve">ทดสอบ</text>
+<text x="120" y="671" font-size="15" fill="#475569" xml:space="preserve">Test</text>
+<text x="86" y="691" font-size="15" fill="#0f172a" xml:space="preserve">ตรงกับคำนวณมือไหม?</text>
+<line x1="274" y1="657" x2="294" y2="657" stroke="#059669" stroke-width="2" marker-end="url(#ar-green)"/>
+<path d="M70,657.0 H44 V212.0 H66" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#ar-red)"/>
+<rect x="4" y="370.5" width="36" height="128" rx="6" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="22" y="394.5" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">ไม่</text>
+<text x="22" y="416.5" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">ตรง</text>
+<text x="22" y="438.5" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">→</text>
+<text x="22" y="460.5" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">แก้</text>
+<text x="22" y="482.5" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">ใหม่</text>
+<rect x="30" y="740" width="362" height="104" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="54" cy="766" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="54" y="772" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="76" y="772" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">รันได้ ไม่มี error = ถูกแล้ว</text>
+<text x="48" y="796" font-size="15" fill="#0f172a" xml:space="preserve">โค้ด “รันได้แต่ผิด” อันตรายกว่า error</text>
+<text x="48" y="820" font-size="15" fill="#0f172a" xml:space="preserve">เพราะโปรแกรมไม่เตือนอะไรเลย</text>
+<rect x="408" y="740" width="362" height="104" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="766" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="772" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="772" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">เทียบกับค่าที่คำนวณมือทุกครั้ง</text>
+<text x="426" y="796" font-size="15" fill="#0f172a" xml:space="preserve">30 / 3 = 10 ตรงกับผลรัน 10.0 → ผ่าน</text>
+<text x="426" y="820" font-size="15" fill="#0f172a" xml:space="preserve">ถ้าไม่ตรง ให้วนกลับไปขั้น ① หรือ ②</text>
+</svg>

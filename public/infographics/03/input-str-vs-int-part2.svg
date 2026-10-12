@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 924" width="800" height="924" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">ชนิดข้อมูลกำหนดความหมายของ + และวิธีแปลงชนิด</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า + ทำอะไรกับชนิดแต่ละคู่ และ int(input()) ทำงานตามลำดับใด</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">str</text>
+<rect x="182.8" y="111" width="20" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="209.8" y="125" font-size="15" fill="#0f172a" xml:space="preserve">int / float</text>
+<rect x="303.8" y="111" width="20" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="330.8" y="125" font-size="15" fill="#0f172a" xml:space="preserve">คำตอบ</text>
+<rect x="396.3" y="111" width="20" height="18" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="423.3" y="125" font-size="15" fill="#0f172a" xml:space="preserve">error</text>
+<circle cx="55" cy="166" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="172" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="80" y="172" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ไพทอนดูชนิดของทั้งสองฝั่งของ + ก่อนเลือกว่าจะทำอะไร</text>
+<rect x="40" y="194" width="720" height="38" rx="8" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="110" y="219" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">ซ้าย</text>
+<text x="250" y="219" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">ขวา</text>
+<text x="405" y="219" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">+ ทำอะไร</text>
+<text x="625" y="219" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">ตัวอย่าง → ผลลัพธ์</text>
+<rect x="40" y="236" width="720" height="46" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="70" y="243" width="80" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="110" y="264.8" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int</text>
+<rect x="210" y="243" width="80" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="250" y="264.8" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int</text>
+<text x="405" y="265" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">บวกเลข</text>
+<text x="505" y="265" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15 + 5</text>
+<rect x="640" y="243" width="110" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="695" y="264.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<rect x="40" y="286" width="720" height="46" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="70" y="293" width="80" height="32" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="110" y="314.8" font-size="16" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">str</text>
+<rect x="210" y="293" width="80" height="32" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="250" y="314.8" font-size="16" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">str</text>
+<text x="405" y="315" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">ต่อสายอักขระ</text>
+<text x="505" y="315" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"15" + "5"</text>
+<rect x="640" y="293" width="110" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="695" y="314.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"155"</text>
+<rect x="40" y="336" width="720" height="46" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="70" y="343" width="80" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="110" y="364.8" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int</text>
+<rect x="210" y="343" width="80" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="250" y="364.8" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">float</text>
+<text x="405" y="365" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">บวกเลข (ได้ float)</text>
+<text x="505" y="365" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15 + 0.5</text>
+<rect x="640" y="343" width="110" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="695" y="364.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15.5</text>
+<rect x="40" y="386" width="720" height="46" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="70" y="393" width="80" height="32" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="110" y="414.8" font-size="16" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">str</text>
+<rect x="210" y="393" width="80" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="250" y="414.8" font-size="16" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int</text>
+<text x="405" y="415" font-size="15" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">ไม่รู้จะทำอะไร</text>
+<text x="505" y="415" font-size="16" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"10" + 20</text>
+<rect x="640" y="393" width="110" height="32" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="695" y="414.4" font-size="15" fill="#7c3aed" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">TypeError</text>
+<circle cx="55" cy="456" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="462" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="80" y="462" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">int(input("Enter n1:")) ทำงานจากวงเล็บในสุดออกมา</text>
+<rect x="40" y="484" width="206.4" height="34" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="143.2" y="506.4" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">input() แสดง Enter n1: รอ</text>
+<line x1="249.4" y1="501" x2="267.4" y2="501" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="270.4" y="484" width="57" height="34" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="298.9" y="506.4" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"15"</text>
+<line x1="330.4" y1="501" x2="348.4" y2="501" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="351.4" y="484" width="98.2" height="34" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="400.5" y="506.4" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int("15")</text>
+<line x1="452.6" y1="501" x2="470.6" y2="501" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="473.6" y="484" width="40.5" height="34" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="493.9" y="506.4" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15</text>
+<line x1="517.1" y1="501" x2="535.1" y2="501" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="538.1" y="484" width="87.6" height="34" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="581.9" y="506.4" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">เก็บใน n1</text>
+<rect x="40" y="536" width="720" height="58" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<rect x="40" y="536" width="6" height="58" rx="3" fill="#059669" stroke="none" stroke-width="0"/>
+<text x="56" y="559" font-size="15" fill="#0f172a" xml:space="preserve">ป้อน 15, 5, 10 ในโปรแกรมที่ใช้ int(input()) ทั้ง 3 บรรทัด:</text>
+<text x="56" y="581" font-size="15" fill="#0f172a" xml:space="preserve">total = 15 + 5 + 10 = 30  →  avg = 30 / 3 = 10.0</text>
+<circle cx="55" cy="614" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="620" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">5</text>
+<text x="80" y="620" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ฟังก์ชันแปลงชนิดที่ใช้บ่อย</text>
+<text x="40" y="666" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int("15")</text>
+<text x="160" y="666" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="186" y="644" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="218" y="665.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15</text>
+<text x="260" y="666" font-size="15" fill="#475569" xml:space="preserve"></text>
+<text x="410" y="666" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int(3.9)</text>
+<text x="530" y="666" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="556" y="644" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="588" y="665.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">3</text>
+<text x="630" y="666" font-size="15" fill="#475569" xml:space="preserve">ตัดทศนิยมทิ้ง ไม่ปัดเศษ</text>
+<text x="40" y="712" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int(-3.7)</text>
+<text x="160" y="712" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="186" y="690" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="218" y="711.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">-3</text>
+<text x="260" y="712" font-size="15" fill="#475569" xml:space="preserve">ตัดทิ้งเข้าหา 0</text>
+<text x="410" y="712" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">float("2.5")</text>
+<text x="530" y="712" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="556" y="690" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="588" y="711.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">2.5</text>
+<text x="630" y="712" font-size="15" fill="#475569" xml:space="preserve"></text>
+<text x="40" y="758" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">str(55)</text>
+<text x="160" y="758" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="186" y="736" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="218" y="757.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"55"</text>
+<text x="260" y="758" font-size="15" fill="#475569" xml:space="preserve">ได้สายอักขระ</text>
+<text x="410" y="758" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"7" * 2</text>
+<text x="530" y="758" font-size="16" fill="#64748b" xml:space="preserve">→</text>
+<rect x="556" y="736" width="64" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="588" y="757.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"77"</text>
+<text x="630" y="758" font-size="15" fill="#475569" xml:space="preserve">ทำซ้ำ ไม่ใช่ 14</text>
+<rect x="40" y="796" width="352" height="104" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="64" cy="822" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="64" y="828" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="86" y="828" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">ผู้ใช้พิมพ์ 3.5 แล้วใช้ int()</text>
+<text x="58" y="852" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">int("3.5")</text>
+<text x="58" y="876" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ ValueError</text>
+<rect x="408" y="796" width="352" height="104" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="822" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="828" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="828" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">ข้อมูลทศนิยมใช้ float()</text>
+<text x="426" y="852" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">float("3.5")</text>
+<text x="426" y="876" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ 3.5</text>
+</svg>

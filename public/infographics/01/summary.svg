@@ -1,55 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 622" width="800" height="622" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="แผนที่แนวคิด 5 หัวข้อของบทที่ 1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1220" width="800" height="1220" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>แผนที่แนวคิด 5 หัวข้อของบทที่ 1</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">แผนที่แนวคิด บทที่ 1 แนะนำรายวิชาและเครื่องมือ</text>
-<line x1="400" y1="318" x2="142" y2="232" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="400" y2="232" stroke="#059669" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="658" y2="232" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="240" y2="404" stroke="#d97706" stroke-width="2.5" stroke-dasharray="6 4"/>
-<line x1="400" y1="318" x2="560" y2="404" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 4"/>
-<ellipse cx="400" cy="318" rx="170" ry="40" fill="#0f172a"/>
-<text x="400" y="314" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">บท 01 เริ่มต้นรายวิชา</text>
-<text x="400" y="338" font-size="14" fill="#cbd5e1" text-anchor="middle">แผนที่ · วิธีคิด · เครื่องมือ · error · พื้นฐาน</text>
-<rect x="24" y="64" width="236" height="168" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<rect x="24" y="64" width="236" height="34" rx="10" fill="#2563eb"/>
-<rect x="24" y="84" width="236" height="14" rx="0" fill="#2563eb"/>
-<text x="36" y="87" font-size="15" fill="#ffffff" font-weight="bold">1. เส้นทาง 8 บท</text>
-<text x="38" y="124" font-size="14" fill="#0f172a">• บท 1–4 ไพทอนบน Notebook</text>
-<text x="38" y="150" font-size="14" fill="#0f172a">• บท 5–8 Pygame บนเครื่อง</text>
-<text x="38" y="176" font-size="14" fill="#0f172a">• จบที่เกมยิงยานอวกาศ</text>
-<text x="38" y="202" font-size="14" fill="#0f172a">• สอบ: อัตนัย 60 + ปรนัย 40</text>
-<rect x="282" y="64" width="236" height="168" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
-<rect x="282" y="64" width="236" height="34" rx="10" fill="#059669"/>
-<rect x="282" y="84" width="236" height="14" rx="0" fill="#059669"/>
-<text x="294" y="87" font-size="15" fill="#ffffff" font-weight="bold">2. วงจรแก้ปัญหา 4 ขั้น</text>
-<text x="296" y="124" font-size="14" fill="#0f172a">• วิเคราะห์ → ออกแบบ</text>
-<text x="296" y="150" font-size="14" fill="#0f172a">• → เขียนโค้ด → ทดสอบ</text>
-<text x="296" y="176" font-size="14" fill="#0f172a">• trace table ตามลำดับบรรทัด</text>
-<text x="296" y="202" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">y: 100 → 101.0 (5 เฟรม)</text>
-<rect x="540" y="64" width="236" height="168" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-<rect x="540" y="64" width="236" height="34" rx="10" fill="#7c3aed"/>
-<rect x="540" y="84" width="236" height="14" rx="0" fill="#7c3aed"/>
-<text x="552" y="87" font-size="15" fill="#ffffff" font-weight="bold">3. เครื่องมือ &amp; pip</text>
-<text x="554" y="124" font-size="14" fill="#0f172a">• Python 3.10+ ติ๊ก Add to PATH</text>
-<text x="554" y="150" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">python -m pip install ...</text>
-<text x="554" y="176" font-size="14" fill="#0f172a">• VS Code: เลือก interpreter</text>
-<text x="554" y="202" font-size="14" fill="#0f172a">• Colab เปิด Pygame ไม่ได้</text>
-<rect x="90" y="404" width="300" height="168" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<rect x="90" y="404" width="300" height="34" rx="10" fill="#d97706"/>
-<rect x="90" y="424" width="300" height="14" rx="0" fill="#d97706"/>
-<text x="102" y="427" font-size="15" fill="#ffffff" font-weight="bold">4. .py / .ipynb &amp; error</text>
-<text x="104" y="464" font-size="14" fill="#0f172a">• .py รันใหม่ทุกครั้ง บนลงล่าง</text>
-<text x="104" y="490" font-size="14" fill="#0f172a">• .ipynb ตัวแปรค้างใน kernel</text>
-<text x="104" y="516" font-size="14" fill="#0f172a">• อ่าน Traceback จากบรรทัดล่าง</text>
-<text x="104" y="542" font-size="14" fill="#0f172a">• SyntaxError ตรวจก่อนรัน</text>
-<rect x="410" y="404" width="300" height="168" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
-<rect x="410" y="404" width="300" height="34" rx="10" fill="#dc2626"/>
-<rect x="410" y="424" width="300" height="14" rx="0" fill="#dc2626"/>
-<text x="422" y="427" font-size="15" fill="#ffffff" font-weight="bold">5. ทบทวน EN-001-002</text>
-<text x="424" y="464" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">/ // % ** · if/elif · range</text>
-<text x="424" y="490" font-size="14" fill="#0f172a">• ฟังก์ชัน · ตัวแปร local</text>
-<text x="424" y="516" font-size="14" fill="#0f172a">• ลิสต์ · dict.get · slice</text>
-<text x="424" y="542" font-size="14" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">class · __init__ · self</text>
-<text x="400" y="604" font-size="14" fill="#475569" text-anchor="middle">ต่อยอดกัน: รู้เส้นทาง → มีวิธีคิด → เครื่องมือพร้อม → รันและแก้ error ได้ → พื้นฐานพร้อมสำหรับบทที่ 2</text>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">สรุปบทที่ 1: เตรียมพร้อมก่อนสร้างเกม</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า บทนี้มี 5 เรื่องอะไร แต่ละเรื่องต้องจำอะไร และต่อยอดกันอย่างไร</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">แนวคิดหลักของหัวข้อ</text>
+<rect x="289.9" y="111" width="20" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="316.9" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ตัวอย่างตัวเลขที่ต้องจำ</text>
+<line x1="486.8" y1="120" x2="506.8" y2="120" stroke="#64748b" stroke-width="3"/>
+<text x="513.8" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ต่อยอดไปหัวข้อถัดไป</text>
+<rect x="40" y="156" width="720" height="144" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="68" cy="184" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="68" y="190" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="94" y="190" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ภาพรวมรายวิชาและเส้นทาง 8 บท</text>
+<text x="70" y="218" font-size="15" fill="#0f172a" xml:space="preserve">• บท 1–4 ไพทอนล้วนบน Notebook · บท 5–8 Pygame บนเครื่องตนเอง</text>
+<text x="70" y="242" font-size="15" fill="#0f172a" xml:space="preserve">• แต่ละบทใช้ของจากบทก่อน จึงต้องเรียนตามลำดับ</text>
+<rect x="64" y="254" width="680" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="78" y="277" font-size="15" fill="#0f172a" xml:space="preserve"><tspan fill="#d97706" font-weight="bold">ตัวอย่าง: </tspan><tspan font-family="Consolas, 'Courier New', monospace">(3, 4) → ยาว 5 → (0.6, 0.8) ใช้ซ้ำบท 2, 6, 7, 8</tspan></text>
+<line x1="68" y1="302" x2="68" y2="334" stroke="#64748b" stroke-width="2" marker-end="url(#ar-gray)"/>
+<text x="90" y="324" font-size="15" fill="#475569" xml:space="preserve">รู้เส้นทางแล้ว ต้องมีวิธีคิดก่อนลงมือ</text>
+<rect x="40" y="338" width="720" height="144" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="68" cy="366" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="68" y="372" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="94" y="372" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">วงจรแก้ปัญหา: วิเคราะห์ → ออกแบบ → เขียน → ทดสอบ</text>
+<text x="70" y="400" font-size="15" fill="#0f172a" xml:space="preserve">• ทดสอบ = เทียบผลรันกับค่าที่คำนวณมือ</text>
+<text x="70" y="424" font-size="15" fill="#0f172a" xml:space="preserve">• ตารางไล่ค่าต้องทำตามลำดับบรรทัดจริง (y += vy ก่อน vy += 0.1)</text>
+<rect x="64" y="436" width="680" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="78" y="459" font-size="15" fill="#0f172a" xml:space="preserve"><tspan fill="#d97706" font-weight="bold">ตัวอย่าง: </tspan><tspan font-family="Consolas, 'Courier New', monospace">y: 100 → 101.0 ใน 5 เฟรม (GRAVITY = 0.1)</tspan></text>
+<line x1="68" y1="484" x2="68" y2="516" stroke="#64748b" stroke-width="2" marker-end="url(#ar-gray)"/>
+<text x="90" y="506" font-size="15" fill="#475569" xml:space="preserve">มีวิธีคิดแล้ว ต้องมีเครื่องมือไว้รันโค้ด</text>
+<rect x="40" y="520" width="720" height="144" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="68" cy="548" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="68" y="554" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="94" y="554" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ติดตั้งเครื่องมือ: Python 3, VS Code, Jupyter/Colab, pip</text>
+<text x="70" y="582" font-size="15" fill="#0f172a" xml:space="preserve">• Colab เปิดหน้าต่าง Pygame ไม่ได้ → บท 5–8 ต้องรันบนเครื่อง</text>
+<text x="70" y="606" font-size="15" fill="#0f172a" xml:space="preserve">• pip ต้องติดตั้งให้ไพทอนตัวเดียวกับที่รันโค้ด</text>
+<rect x="64" y="618" width="680" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="78" y="641" font-size="15" fill="#0f172a" xml:space="preserve"><tspan fill="#d97706" font-weight="bold">ตัวอย่าง: </tspan><tspan font-family="Consolas, 'Courier New', monospace">python -m pip install pygame</tspan></text>
+<line x1="68" y1="666" x2="68" y2="698" stroke="#64748b" stroke-width="2" marker-end="url(#ar-gray)"/>
+<text x="90" y="688" font-size="15" fill="#475569" xml:space="preserve">เครื่องมือพร้อมแล้ว ลองรันและแก้ error</text>
+<rect x="40" y="702" width="720" height="144" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="68" cy="730" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="68" y="736" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="94" y="736" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">โปรแกรมแรก .py กับ .ipynb และการอ่าน Traceback</text>
+<text x="70" y="764" font-size="15" fill="#0f172a" xml:space="preserve">• Notebook จำตัวแปรใน kernel จนกว่าจะ Restart</text>
+<text x="70" y="788" font-size="15" fill="#0f172a" xml:space="preserve">• อ่าน Traceback จากบรรทัดสุดท้ายก่อน แล้วไล่ขึ้นไปหาผู้เรียก</text>
+<rect x="64" y="800" width="680" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="78" y="823" font-size="15" fill="#0f172a" xml:space="preserve"><tspan fill="#d97706" font-weight="bold">ตัวอย่าง: </tspan><tspan font-family="Consolas, 'Courier New', monospace">รันเซลล์ x = x + 1 ซ้ำ: 6 → 7</tspan></text>
+<line x1="68" y1="848" x2="68" y2="880" stroke="#64748b" stroke-width="2" marker-end="url(#ar-gray)"/>
+<text x="90" y="870" font-size="15" fill="#475569" xml:space="preserve">รันเป็นแล้ว ทบทวนพื้นฐานที่ใช้ทุกบท</text>
+<rect x="40" y="884" width="720" height="144" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+<circle cx="68" cy="912" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="68" y="918" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">5</text>
+<text x="94" y="918" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ทบทวนพื้นฐานจาก EN-001-002</text>
+<text x="70" y="946" font-size="15" fill="#0f172a" xml:space="preserve">• ชนิดข้อมูล เงื่อนไข ลูป ฟังก์ชัน ลิสต์ พจนานุกรม คลาส</text>
+<text x="70" y="970" font-size="15" fill="#0f172a" xml:space="preserve">• ทายผลก่อนรัน ถ้าผิดให้กลับไปอ่านบทที่ลิงก์ไว้</text>
+<rect x="64" y="982" width="680" height="36" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="78" y="1005" font-size="15" fill="#0f172a" xml:space="preserve"><tspan fill="#d97706" font-weight="bold">ตัวอย่าง: </tspan><tspan font-family="Consolas, 'Courier New', monospace">7 / 2 = 3.5,  7 // 2 = 3,  7 % 2 = 1</tspan></text>
+<rect x="40" y="1044" width="720" height="52" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+<text x="58" y="1076" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ปลายทางของบทนี้</text>
+<text x="742" y="1076.3" font-size="18" fill="#059669" font-weight="bold" text-anchor="end" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">พร้อมเข้าบทที่ 2 ✓</text>
+<rect x="40" y="1116" width="352" height="80" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="64" cy="1142" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="64" y="1148" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="86" y="1148" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">รันได้ ไม่ error = ถูกแล้ว</text>
+<text x="58" y="1172" font-size="15" fill="#0f172a" xml:space="preserve">โค้ดรันได้แต่ผิดอันตรายที่สุด</text>
+<rect x="408" y="1116" width="352" height="80" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="1142" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="1148" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="1148" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">ทดสอบด้วยค่าที่คำนวณมือเสมอ</text>
+<text x="426" y="1172" font-size="15" fill="#0f172a" xml:space="preserve">เช่น (5 + 10 + 15) / 3 = 10 ตรงกับ 10.0</text>
 </svg>

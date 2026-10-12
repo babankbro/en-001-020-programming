@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 984" width="800" height="984" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">pip install สำเร็จ แต่รันแล้วยัง ModuleNotFoundError</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า ทำไมติดตั้งไลบรารีแล้วโปรแกรมยังหาไม่เจอ และไล่หาสาเหตุ 5 ขั้นอย่างไร</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">Python 3.12 (VS Code ใช้รัน)</text>
+<rect x="358.6" y="111" width="20" height="18" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="385.6" y="125" font-size="15" fill="#0f172a" xml:space="preserve">Python 3.13 (pip ติดตั้งให้)</text>
+<rect x="585.5" y="111" width="20" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="612.5" y="125" font-size="15" fill="#0f172a" xml:space="preserve">error</text>
+<rect x="673.5" y="111" width="20" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="700.5" y="125" font-size="15" fill="#0f172a" xml:space="preserve">แก้แล้ว</text>
+<text x="40" y="168" font-size="17" fill="#0f172a" font-weight="bold" xml:space="preserve">สาเหตุ: เครื่องเดียวมีไพทอน 2 ตัว แต่ละตัวมีชั้นวางไลบรารีของตัวเอง</text>
+<rect x="40" y="184" width="340" height="110" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="56" y="214" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">C:\...\Python312\python.exe</text>
+<rect x="56" y="228" width="308" height="30" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="68" y="249" font-size="15" fill="#dc2626" font-weight="bold" xml:space="preserve">ไลบรารี: ไม่มี pygame</text>
+<text x="56" y="282" font-size="15" fill="#0f172a" xml:space="preserve">VS Code ▶ Run ใช้ตัวนี้</text>
+<rect x="420" y="184" width="340" height="110" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="436" y="214" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">C:\...\Python313\python.exe</text>
+<rect x="436" y="228" width="308" height="30" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="448" y="249" font-size="15" fill="#059669" font-weight="bold" xml:space="preserve">ไลบรารี: pygame 2.6.1</text>
+<text x="436" y="282" font-size="15" fill="#0f172a" xml:space="preserve">pip install ติดตั้งให้ตัวนี้</text>
+<line x1="210" y1="294" x2="210" y2="324" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ar-red)"/>
+<rect x="40" y="328" width="340" height="34" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="210" y="351" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">No module named 'pygame'</text>
+<text x="600" y="346" font-size="16" fill="#7c3aed" font-weight="bold" text-anchor="middle" xml:space="preserve">ติดตั้งสำเร็จจริง แต่ “ผิดตัว”</text>
+<text x="40" y="396" font-size="17" fill="#0f172a" font-weight="bold" xml:space="preserve">ไล่ตรวจทีละขั้น (ตั้งสมมติฐานแล้วตรวจ — หลักเดียวกับวงจรแก้ปัญหา)</text>
+<rect x="40" y="412" width="720" height="86" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="40" y="412" width="6" height="86" rx="3" fill="#2563eb" stroke="none" stroke-width="0"/>
+<circle cx="72" cy="440" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="72" y="446" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="98" y="446" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ดูว่าไพทอนตัวไหน “รันโค้ด”</text>
+<text x="98" y="478" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">import sys; print(sys.executable)</text>
+<rect x="432" y="424" width="316" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="590" y="445" font-size="15" fill="#2563eb" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">C:\...\Python312\python.exe</text>
+<rect x="40" y="510" width="720" height="86" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="40" y="510" width="6" height="86" rx="3" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<circle cx="72" cy="538" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="72" y="544" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="98" y="544" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ดูว่า pip “ติดตั้งให้” ตัวไหน</text>
+<text x="98" y="576" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">python -m pip --version</text>
+<rect x="432" y="522" width="316" height="32" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="590" y="543" font-size="15" fill="#7c3aed" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">pip ... from C:\...\Python313\...</text>
+<rect x="40" y="608" width="720" height="60" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="40" y="608" width="6" height="60" rx="3" fill="#dc2626" stroke="none" stroke-width="0"/>
+<circle cx="72" cy="636" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="72" y="642" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="98" y="642" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">เทียบโฟลเดอร์ขั้น ① กับ ②</text>
+<rect x="432" y="622" width="316" height="32" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="590" y="643" font-size="16" fill="#dc2626" font-weight="bold" text-anchor="middle" xml:space="preserve">312 ≠ 313  →  ติดตั้งผิดตัว</text>
+<rect x="40" y="680" width="720" height="86" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<rect x="40" y="680" width="6" height="86" rx="3" fill="#059669" stroke="none" stroke-width="0"/>
+<circle cx="72" cy="708" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="72" y="714" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="98" y="714" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ติดตั้งให้ตัวที่ใช้รัน</text>
+<text x="98" y="746" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">"C:\...\Python312\python.exe" -m pip install pygame</text>
+<rect x="432" y="692" width="316" height="32" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+<text x="590" y="713" font-size="15" fill="#059669" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Successfully installed pygame-...</text>
+<circle cx="55" cy="808" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="814" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">5</text>
+<rect x="80" y="782" width="680" height="52" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+<text x="98" y="814" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">รันไฟล์ซ้ำ</text>
+<text x="742" y="815" font-size="20" fill="#059669" font-weight="bold" text-anchor="end" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ไม่มี error ✓</text>
+<rect x="40" y="856" width="352" height="104" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="64" cy="882" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="64" y="888" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="86" y="888" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">พิมพ์ pip install pygame เฉย ๆ</text>
+<text x="58" y="912" font-size="15" fill="#0f172a" xml:space="preserve">คำสั่ง pip ผูกกับไพทอนตัวใดตัวหนึ่ง</text>
+<text x="58" y="936" font-size="15" fill="#0f172a" xml:space="preserve">อาจไปลงตัวที่ VS Code ไม่ได้ใช้</text>
+<rect x="408" y="856" width="352" height="104" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="882" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="888" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="888" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">ใช้ python -m pip install pygame</text>
+<text x="426" y="912" font-size="15" fill="#0f172a" xml:space="preserve">ให้ไพทอน “ตัวนี้” เรียก pip ของตัวเอง</text>
+<text x="426" y="936" font-size="15" fill="#0f172a" xml:space="preserve">ไลบรารีจึงอยู่ตัวเดียวกับที่รันแน่นอน</text>
+</svg>

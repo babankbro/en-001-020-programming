@@ -1,57 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif" role="img" aria-label="เปรียบเทียบการรันไฟล์ .py กับ Notebook .ipynb">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1088" width="800" height="1088" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
 <rect width="100%" height="100%" rx="16" fill="#ffffff"/>
-<title>เปรียบเทียบการรันไฟล์ .py กับ Notebook .ipynb</title>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker><marker id="arrO" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker><marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
-<text x="400" y="38" font-size="21" fill="#0f172a" font-weight="bold" text-anchor="middle">ไฟล์ .py กับ .ipynb: โค้ดเดียวกัน รันซ้ำแล้วได้ผลต่างกัน</text>
-<rect x="24" y="58" width="368" height="470" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
-<text x="208" y="88" font-size="16" fill="#2563eb" font-weight="bold" text-anchor="middle">สคริปต์ .py (VS Code / เทอร์มินัล)</text>
-<rect x="40" y="104" width="336" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-<text x="52" y="126" font-size="14" fill="#475569" font-weight="bold">lab01.py</text>
-<text x="70" y="152" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">1</text>
-<text x="82" y="152" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
-<text x="70" y="174" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">2</text>
-<text x="82" y="174" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1</text>
-<text x="70" y="196" font-size="14" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">3</text>
-<text x="82" y="196" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(x)</text>
-<path d="M354,140 V198" stroke="#2563eb" stroke-width="2.5" fill="none" marker-end="url(#arrB)"/>
-<text x="344" y="172" font-size="13.5" fill="#2563eb" text-anchor="end">บนลงล่าง</text>
-<rect x="40" y="230" width="336" height="112" rx="8" fill="#0f172a"/>
-<text x="54" y="256" font-size="15" fill="#93c5fd" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python lab01.py</text>
-<text x="54" y="279" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
-<text x="54" y="302" font-size="15" fill="#93c5fd" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">&gt; python lab01.py</text>
-<text x="54" y="325" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
-<text x="364" y="279" font-size="14" fill="#fcd34d" text-anchor="end">ครั้งที่ 1 → 6</text>
-<text x="364" y="325" font-size="14" fill="#fcd34d" text-anchor="end">ครั้งที่ 2 → 6</text>
-<text x="46" y="378" font-size="15" fill="#0f172a">✓ เริ่มจากศูนย์ทุกครั้ง ตัวแปรไม่ค้าง</text>
-<text x="46" y="408" font-size="15" fill="#0f172a">✓ รันทั้งไฟล์ตามลำดับเสมอ</text>
-<text x="46" y="438" font-size="15" fill="#0f172a">✓ ผลแสดงในเทอร์มินัล ต้องใช้ print()</text>
-<text x="46" y="468" font-size="15" fill="#0f172a">✓ เหมาะกับเกม Pygame และหลายไฟล์</text>
-<text x="208" y="510" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle">ผลลัพธ์คาดเดาได้: 6 ทุกครั้ง</text>
-<rect x="408" y="58" width="368" height="470" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-<text x="592" y="88" font-size="16" fill="#d97706" font-weight="bold" text-anchor="middle">สมุดบันทึก .ipynb (Jupyter / Colab)</text>
-<text x="466" y="126" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[1]</text>
-<rect x="472" y="104" width="288" height="34" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
-<text x="484" y="126" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
-<text x="466" y="172" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[2]</text>
-<rect x="472" y="150" width="288" height="34" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-<text x="484" y="172" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1; x</text>
-<text x="466" y="206" font-size="14" fill="#dc2626" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">Out[2]</text>
-<text x="484" y="206" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
-<text x="760" y="228" font-size="13.5" fill="#d97706" text-anchor="end">รันเซลล์เดิมซ้ำ (Shift+Enter)</text>
-<text x="466" y="258" font-size="14" fill="#475569" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">In[3]</text>
-<rect x="472" y="236" width="288" height="34" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
-<text x="484" y="258" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1; x</text>
-<text x="466" y="292" font-size="14" fill="#dc2626" font-family="Consolas, 'Courier New', monospace" text-anchor="end" xml:space="preserve">Out[3]</text>
-<text x="484" y="292" font-size="15" fill="#dc2626" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">7</text>
-<rect x="424" y="318" width="336" height="46" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
-<text x="438" y="347" font-size="14" fill="#7c3aed" font-weight="bold">หน่วยความจำ kernel:</text>
-<text x="638" y="347" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 7</text>
-<text x="430" y="394" font-size="15" fill="#0f172a">✓ รันทีละเซลล์ ลำดับใดก็ได้</text>
-<text x="430" y="422" font-size="15" fill="#dc2626">! ตัวแปรค้างใน kernel จน Restart</text>
-<text x="430" y="450" font-size="15" fill="#0f172a">✓ บรรทัดสุดท้ายแสดงค่าเองโดยไม่ต้อง print</text>
-<text x="430" y="478" font-size="15" fill="#0f172a">✓ เหมาะกับทดลองสูตร แผนภูมิ (บท 2–4)</text>
-<rect x="424" y="494" width="336" height="26" rx="6" fill="#fef2f2"/>
-<text x="592" y="512" font-size="14" fill="#dc2626" font-weight="bold" text-anchor="middle">Restart แล้วรัน In[2] ก่อน In[1] → NameError</text>
-<rect x="24" y="542" width="752" height="44" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
-<text x="400" y="570" font-size="15" fill="#0f172a" text-anchor="middle">สับสนเมื่อไร ให้ Restart and run all เพื่อให้ Notebook ทำงานเหมือนไฟล์ .py (บนลงล่าง เริ่มใหม่)</text>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">.py กับ .ipynb: โค้ดเดียวกัน แต่รันซ้ำได้ผลต่างกัน</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า ทำไมรันเซลล์เดิมซ้ำใน Notebook แล้วค่าเปลี่ยน แต่รันไฟล์ .py ซ้ำได้ค่าเดิม</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ค่าในหน่วยความจำ</text>
+<rect x="281.2" y="111" width="20" height="18" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="308.2" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ผลที่แสดง</text>
+<rect x="391.1" y="111" width="20" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="418.1" y="125" font-size="15" fill="#0f172a" xml:space="preserve">error</text>
+<rect x="479.1" y="111" width="20" height="18" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="506.1" y="125" font-size="15" fill="#0f172a" xml:space="preserve">หน่วยความจำว่าง</text>
+<rect x="30" y="152" width="740" height="214" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<circle cx="56" cy="180" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="56" y="186" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="82" y="186" font-size="17" fill="#2563eb" font-weight="bold" xml:space="preserve">ไฟล์ lab01.py — รันทั้งไฟล์จากบนลงล่าง เริ่มจากหน่วยความจำว่างทุกครั้ง</text>
+<rect x="50" y="206" width="190" height="100" rx="10" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="66" y="236" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<text x="66" y="262" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = x + 1</text>
+<text x="66" y="288" font-size="16" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(x)</text>
+<text x="262" y="235" font-size="15" fill="#0f172a" font-weight="bold" xml:space="preserve">รันครั้งที่ 1</text>
+<rect x="350" y="214" width="50.1" height="32" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="375.1" y="235" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">ว่าง</text>
+<line x1="404.1" y1="230" x2="422.1" y2="230" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="426.1" y="214" width="65.2" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="458.7" y="235" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<line x1="495.4" y1="230" x2="513.4" y2="230" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="517.4" y="214" width="65.2" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="550" y="235" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 6</text>
+<line x1="586.6" y1="230" x2="604.6" y2="230" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="608.6" y="214" width="52" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="634.6" y="235" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<text x="262" y="287" font-size="15" fill="#0f172a" font-weight="bold" xml:space="preserve">รันครั้งที่ 2</text>
+<rect x="350" y="266" width="50.1" height="32" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="375.1" y="287" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">ว่าง</text>
+<line x1="404.1" y1="282" x2="422.1" y2="282" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="426.1" y="266" width="65.2" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="458.7" y="287" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<line x1="495.4" y1="282" x2="513.4" y2="282" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="517.4" y="266" width="65.2" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="550" y="287" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 6</text>
+<line x1="586.6" y1="282" x2="604.6" y2="282" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="608.6" y="266" width="52" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="634.6" y="287" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<rect x="262" y="320" width="488" height="36" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+<text x="280" y="344" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ผลทุกครั้งที่รัน</text>
+<text x="732" y="344.3" font-size="18" fill="#2563eb" font-weight="bold" text-anchor="end" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6 เสมอ</text>
+<text x="40" y="396" font-size="17" fill="#7c3aed" font-weight="bold" xml:space="preserve">Notebook (.ipynb) — ตัวแปรค้างอยู่ใน kernel จนกว่าจะ Restart</text>
+<rect x="40" y="412" width="340" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="52" y="440" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">เซลล์ A: </tspan><tspan font-family="Consolas, 'Courier New', monospace">x = 5</tspan></text>
+<rect x="410" y="412" width="350" height="44" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+<text x="422" y="440" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold">เซลล์ B: </tspan><tspan font-family="Consolas, 'Courier New', monospace">x = x + 1; x</tspan></text>
+<rect x="40" y="472" width="720" height="38" rx="8" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="54" y="497" font-size="15" fill="#ffffff" font-weight="bold" xml:space="preserve">ลำดับที่ทำจริง</text>
+<text x="344" y="497" font-size="15" fill="#ffffff" font-weight="bold" xml:space="preserve">In[ ]</text>
+<text x="434" y="497" font-size="15" fill="#ffffff" font-weight="bold" xml:space="preserve">x ใน kernel</text>
+<text x="614" y="497" font-size="15" fill="#ffffff" font-weight="bold" xml:space="preserve">ผลที่แสดง</text>
+<rect x="40" y="516" width="720" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<circle cx="64" cy="541" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="64" y="547" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="90" y="547" font-size="16" fill="#0f172a" xml:space="preserve">รันเซลล์ A</text>
+<text x="344" y="547" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">In[1]</text>
+<rect x="434" y="525" width="120" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="494" y="546" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 5</text>
+<text x="680" y="547" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">—</text>
+<rect x="40" y="574" width="720" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<circle cx="64" cy="599" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="64" y="605" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="90" y="605" font-size="16" fill="#0f172a" xml:space="preserve">รันเซลล์ B</text>
+<text x="344" y="605" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">In[2]</text>
+<rect x="434" y="583" width="120" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="494" y="604" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 6</text>
+<rect x="614" y="583" width="132" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="680" y="604" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Out[2]: 6</text>
+<rect x="40" y="632" width="720" height="50" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="64" cy="657" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="64" y="663" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="90" y="663" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">รันเซลล์ B ซ้ำ</text>
+<text x="344" y="663" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">In[3]</text>
+<rect x="434" y="641" width="120" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="494" y="662" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">x = 7</text>
+<rect x="614" y="641" width="132" height="32" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="680" y="662" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">Out[3]: 7</text>
+<rect x="40" y="690" width="720" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<circle cx="64" cy="715" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="64" y="721" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">5</text>
+<text x="90" y="721" font-size="16" fill="#0f172a" xml:space="preserve">Restart kernel</text>
+<text x="344" y="721" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">—</text>
+<rect x="434" y="699" width="120" height="32" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="494" y="720" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">ว่าง</text>
+<text x="680" y="721" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">—</text>
+<rect x="40" y="748" width="720" height="50" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<circle cx="64" cy="773" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="64" y="779" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">6</text>
+<text x="90" y="779" font-size="16" fill="#0f172a" xml:space="preserve">รันเซลล์ B ก่อน A</text>
+<text x="344" y="779" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">In[1]</text>
+<rect x="434" y="757" width="120" height="32" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="494" y="778" font-size="15" fill="#475569" font-weight="bold" text-anchor="middle" xml:space="preserve">ว่าง</text>
+<rect x="614" y="757" width="132" height="32" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="680" y="778" font-size="15" fill="#dc2626" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">NameError</text>
+<rect x="40" y="810" width="720" height="58" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<rect x="40" y="810" width="6" height="58" rx="3" fill="#7c3aed" stroke="none" stroke-width="0"/>
+<text x="56" y="833" font-size="15" fill="#0f172a" xml:space="preserve">แถว ④ คือหัวใจ: เซลล์ B ไม่ได้เปลี่ยน แต่ x เพิ่มจาก 6 เป็น 7 เพราะ kernel ยังจำ x ของรอบก่อน</text>
+<text x="56" y="855" font-size="15" fill="#0f172a" xml:space="preserve">หมายเลขใน In[ ] บอกลำดับที่รันจริง (อาจไม่ตรงกับลำดับเซลล์บนจอ)</text>
+<rect x="40" y="886" width="720" height="52" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="58" y="918" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">ถ้ารันเซลล์ A ครั้งเดียว แล้วรัน B 3 ครั้ง</text>
+<text x="742" y="919" font-size="20" fill="#d97706" font-weight="bold" text-anchor="end" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6 → 7 → 8</text>
+<rect x="40" y="960" width="352" height="104" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="64" cy="986" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="64" y="992" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="86" y="992" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">นับตามจำนวนเซลล์ที่เห็นบนจอ</text>
+<text x="58" y="1016" font-size="15" fill="#0f172a" xml:space="preserve">เห็นเซลล์ B หนึ่งเซลล์ → ตอบ 6</text>
+<text x="58" y="1040" font-size="15" fill="#0f172a" xml:space="preserve">ทั้งที่รัน B ไปแล้ว 2 ครั้ง (In[2], In[3])</text>
+<rect x="408" y="960" width="352" height="104" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="986" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="992" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="992" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">นับจำนวนครั้งที่รันจริงจาก In[ ]</text>
+<text x="426" y="1016" font-size="15" fill="#0f172a" xml:space="preserve">รัน B 2 ครั้ง → x = 7</text>
+<text x="426" y="1040" font-size="15" fill="#0f172a" xml:space="preserve">สับสนเมื่อไร: Restart and run all</text>
 </svg>

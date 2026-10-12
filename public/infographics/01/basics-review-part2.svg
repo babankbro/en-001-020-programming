@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1244" width="800" height="1244" font-family="Sarabun, Tahoma, 'Segoe UI', sans-serif">
+<rect width="100%" height="100%" rx="16" fill="#ffffff"/>
+<defs>
+<marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+<marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker>
+<marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+<marker id="ar-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0f172a"/></marker>
+<marker id="ar-sub" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+<marker id="ar-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cbd5e1"/></marker>
+<marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+<marker id="ar-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/></marker>
+</defs>
+<text x="400" y="46" font-size="22" fill="#0f172a" font-weight="bold" text-anchor="middle" xml:space="preserve">ทายผลก่อนรัน (2): ฟังก์ชัน ลิสต์ พจนานุกรม และคลาส</text>
+<text x="400" y="78" font-size="16" fill="#475569" text-anchor="middle" xml:space="preserve">ภาพนี้ตอบคำถามว่า ค่าปริยาย ตัวแปร local ดัชนีลิสต์ get() และ self ทำงานอย่างไร</text>
+<text x="40" y="125" font-size="15" fill="#475569" font-weight="bold" xml:space="preserve">สีในภาพ:</text>
+<rect x="110.4" y="111" width="20" height="18" rx="4" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="137.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ค่า/ตัวแปร</text>
+<rect x="228.1" y="111" width="20" height="18" rx="4" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="255.1" y="125" font-size="15" fill="#0f172a" xml:space="preserve">ภายในฟังก์ชัน/เมธอด</text>
+<rect x="415.4" y="111" width="20" height="18" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="442.4" y="125" font-size="15" fill="#0f172a" xml:space="preserve">คำตอบ</text>
+<rect x="507.9" y="111" width="20" height="18" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="534.9" y="125" font-size="15" fill="#0f172a" xml:space="preserve">error</text>
+<circle cx="55" cy="166" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="172" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="80" y="172" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ฟังก์ชัน: ค่าปริยาย และตัวแปรภายใน (local)</text>
+<rect x="40" y="190" width="300" height="119" rx="10" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="56" y="219" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">def area(w, h=2):</text>
+<text x="56" y="243" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    return w * h</text>
+<text x="56" y="267" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve"></text>
+<text x="56" y="291" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">print(area(3), area(3, 4))</text>
+<text x="370" y="214" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">area(3)</text>
+<text x="450" y="214" font-size="15" fill="#0f172a" xml:space="preserve">→ h ใช้ค่าปริยาย 2 → 3 × 2 =</text>
+<rect x="700" y="194" width="50" height="30" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="725" y="214.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">6</text>
+<text x="370" y="256" font-size="16" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">area(3, 4)</text>
+<text x="474" y="256" font-size="15" fill="#0f172a" xml:space="preserve">→ h = 4 แทนค่าปริยาย → 3 × 4 =</text>
+<rect x="700" y="236" width="50" height="30" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="725" y="256.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">12</text>
+<rect x="40" y="336" width="720" height="130" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="56" y="362" font-size="16" fill="#2563eb" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ภายนอก:  x = 5</text>
+<rect x="330" y="348" width="410" height="70" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="346" y="374" font-size="16" fill="#7c3aed" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ภายใน change():  x = 10</text>
+<text x="346" y="400" font-size="15" fill="#475569" xml:space="preserve">คนละตัวกับ x ข้างนอก และหายไปเมื่อจบฟังก์ชัน</text>
+<text x="56" y="400" font-size="15" fill="#0f172a" xml:space="preserve">เรียก change()</text>
+<text x="56" y="448" font-size="16" fill="#0f172a" xml:space="preserve"><tspan font-weight="bold" font-family="Consolas, 'Courier New', monospace">print(x)</tspan>  ใช้ x ข้างนอก → </text>
+<rect x="250" y="426" width="50" height="30" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="275" y="446.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5</text>
+<circle cx="55" cy="490" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="496" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="80" y="496" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">ลิสต์: ns = [5, 10, 15] แล้ว ns.append(20)</text>
+<rect x="120" y="548" width="90" height="48" rx="0" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="165" y="580" font-size="18" fill="#0f172a" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">5</text>
+<text x="165" y="538" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" xml:space="preserve">0</text>
+<text x="165" y="618" font-size="15" fill="#64748b" text-anchor="middle" xml:space="preserve">-4</text>
+<rect x="210" y="548" width="90" height="48" rx="0" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="255" y="580" font-size="18" fill="#0f172a" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">10</text>
+<text x="255" y="538" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" xml:space="preserve">1</text>
+<text x="255" y="618" font-size="15" fill="#64748b" text-anchor="middle" xml:space="preserve">-3</text>
+<rect x="300" y="548" width="90" height="48" rx="0" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="345" y="580" font-size="18" fill="#0f172a" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">15</text>
+<text x="345" y="538" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" xml:space="preserve">2</text>
+<text x="345" y="618" font-size="15" fill="#64748b" text-anchor="middle" xml:space="preserve">-2</text>
+<rect x="390" y="548" width="90" height="48" rx="0" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="435" y="580" font-size="18" fill="#0f172a" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">20</text>
+<text x="435" y="538" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="435" y="618" font-size="15" fill="#64748b" text-anchor="middle" xml:space="preserve">-1</text>
+<text x="106" y="538" font-size="15" fill="#2563eb" text-anchor="end" xml:space="preserve">ดัชนี</text>
+<text x="106" y="618" font-size="15" fill="#64748b" text-anchor="end" xml:space="preserve">ดัชนีลบ</text>
+<text x="435" y="666" font-size="15" fill="#059669" font-weight="bold" text-anchor="middle" xml:space="preserve">↑ append ต่อท้าย</text>
+<text x="300" y="642" font-size="15" fill="#7c3aed" font-weight="bold" text-anchor="middle" xml:space="preserve">ns[1:3] = ดัชนี 1–2</text>
+<text x="520" y="538" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ns[0]</text>
+<text x="604" y="538" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ 5</text>
+<text x="520" y="566" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ns[-1]</text>
+<text x="604" y="566" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ 20</text>
+<text x="520" y="594" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">len(ns)</text>
+<text x="604" y="594" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ 4</text>
+<text x="520" y="622" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">sum/len</text>
+<text x="604" y="622" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ 50 / 4 = 12.5</text>
+<text x="520" y="650" font-size="15" fill="#0f172a" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ns[1:3]</text>
+<text x="604" y="650" font-size="15" fill="#d97706" font-weight="bold" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">→ [10, 15]</text>
+<circle cx="55" cy="692" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="698" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">3</text>
+<text x="80" y="698" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">พจนานุกรม: ค้นด้วยคีย์ และ get() กันคีย์ที่ไม่มี</text>
+<rect x="40" y="718" width="180.8" height="34" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130.4" y="740.4" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">{"x": 400, "vx": 3}</text>
+<line x1="223.8" y1="735" x2="241.8" y2="735" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="244.8" y="718" width="213.8" height="34" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="351.6" y="740.4" font-size="15" fill="#7c3aed" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ball["x"] += ball["vx"]</text>
+<line x1="461.5" y1="735" x2="479.5" y2="735" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="482.5" y="718" width="131.2" height="34" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="548.1" y="740.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">400 + 3 = 403</text>
+<rect x="40" y="764" width="164.2" height="34" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="122.1" y="786.4" font-size="15" fill="#7c3aed" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ball.get("vy", 0)</text>
+<line x1="207.2" y1="781" x2="225.2" y2="781" stroke="#64748b" stroke-width="1.8" marker-end="url(#ar-gray)"/>
+<rect x="228.2" y="764" width="50" height="34" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="253.2" y="786.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">0</text>
+<text x="294.2" y="786" font-size="15" fill="#475569" xml:space="preserve">ไม่มีคีย์ "vy" จึงคืนค่าปริยาย (ball["vy"] → KeyError)</text>
+<circle cx="55" cy="828" r="15" fill="#0f172a" stroke="#ffffff" stroke-width="2"/>
+<text x="55" y="834" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">4</text>
+<text x="80" y="834" font-size="18" fill="#0f172a" font-weight="bold" xml:space="preserve">คลาส: b = Ball(400, 3) แล้วเรียก b.move() 2 ครั้ง</text>
+<rect x="40" y="854" width="330" height="162" rx="10" fill="#0f172a" stroke="none" stroke-width="0"/>
+<text x="56" y="883" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">class Ball:</text>
+<text x="56" y="906" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    def __init__(self, x, vx):</text>
+<text x="56" y="929" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">        self.x = x</text>
+<text x="56" y="952" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">        self.vx = vx</text>
+<text x="56" y="975" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">    def move(self):</text>
+<text x="56" y="998" font-size="15" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">        self.x += self.vx</text>
+<text x="400" y="876" font-size="15" fill="#0f172a" font-weight="bold" xml:space="preserve">Ball(400, 3)</text>
+<rect x="590" y="856" width="170" height="32" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="675" y="877.4" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">b.x = 400</text>
+<text x="400" y="926" font-size="15" fill="#0f172a" font-weight="bold" xml:space="preserve">b.move() ครั้งที่ 1</text>
+<rect x="590" y="906" width="170" height="32" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="675" y="927.4" font-size="15" fill="#2563eb" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">400 + 3 = 403</text>
+<text x="400" y="976" font-size="15" fill="#0f172a" font-weight="bold" xml:space="preserve">b.move() ครั้งที่ 2</text>
+<rect x="590" y="956" width="170" height="32" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="675" y="977.4" font-size="15" fill="#d97706" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">403 + 3 = 406</text>
+<text x="400" y="1022" font-size="15" fill="#475569" xml:space="preserve">self คือวัตถุ b ที่ถูกเรียก (b.move() = Ball.move(b))</text>
+<rect x="40" y="1046" width="720" height="50" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="3"/>
+<text x="58" y="1077" font-size="16" fill="#0f172a" font-weight="bold" xml:space="preserve">print(b.x)</text>
+<text x="742" y="1079.4" font-size="24" fill="#d97706" font-weight="bold" text-anchor="end" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">406</text>
+<rect x="40" y="1116" width="352" height="104" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<circle cx="64" cy="1142" r="13" fill="#dc2626" stroke="none" stroke-width="1.5"/>
+<text x="64" y="1148" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✗</text>
+<text x="86" y="1148" font-size="16" fill="#dc2626" font-weight="bold" xml:space="preserve">เรียก ns[4] กับลิสต์ 4 ตัว</text>
+<text x="58" y="1172" font-size="15" fill="#0f172a" xml:space="preserve">ดัชนีมีแค่ 0–3</text>
+<text x="58" y="1196" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">IndexError: list index out of range</text>
+<rect x="408" y="1116" width="352" height="104" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<circle cx="432" cy="1142" r="13" fill="#059669" stroke="none" stroke-width="1.5"/>
+<text x="432" y="1148" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" xml:space="preserve">✓</text>
+<text x="454" y="1148" font-size="16" fill="#059669" font-weight="bold" xml:space="preserve">ดัชนีสุดท้าย = len(ns) − 1 = 3</text>
+<text x="426" y="1172" font-size="15" fill="#0f172a" xml:space="preserve">หรือใช้ ns[-1] ได้ตัวสุดท้ายเสมอ</text>
+<text x="426" y="1196" font-size="15" fill="#0f172a" font-family="Consolas, 'Courier New', monospace" xml:space="preserve">ns[3] → 20,  ns[-1] → 20</text>
+</svg>
